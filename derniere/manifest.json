@@ -1,7 +1,7 @@
 {
- "version": "0.4.0",
+ "version": "0.4.1",
  "mineure": true,
- "notes": "Mises à jour automatiques, création d'agents, benchmarks, connecteurs, n'importe quelle IA.",
- "fichier": "programme-0.4.0.zip",
- "sha256": "2cd63e3be499935b693103012c6d92e212cc119fb9145f4bc3d723d38936eeba"
+ "notes": "Comme Cursor : vue en direct des agents, « Retirer » un fichier avant de valider, commandes pour les agents par clé API, @ pour citer un fichier au Superviseur.",
+ "fichier": "programme-0.4.1.zip",
+ "sha256": "322e39fa0eeece6c7ff72814c13b641d33276cc7a9d2ec3af4e5e1965b727be8"
 }
