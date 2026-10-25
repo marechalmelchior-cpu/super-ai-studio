@@ -1,7 +1,7 @@
 {
- "version": "0.4.1",
+ "version": "0.4.2",
  "mineure": true,
- "notes": "Comme Cursor : vue en direct des agents, « Retirer » un fichier avant de valider, commandes pour les agents par clé API, @ pour citer un fichier au Superviseur.",
- "fichier": "programme-0.4.1.zip",
- "sha256": "322e39fa0eeece6c7ff72814c13b641d33276cc7a9d2ec3af4e5e1965b727be8"
+ "notes": "Mise en page vérifiée sur téléphone, tablette et PC : Gestion lisible sur tablette, boutons plus grands au doigt.",
+ "fichier": "programme-0.4.2.zip",
+ "sha256": "638739a3959ab9bcbf082440039f66dc23b4f8ecebe1b62f3e011518e67c09d4"
 }
