@@ -1,7 +1,7 @@
 {
- "version": "0.4.11",
+ "version": "0.4.12",
  "mineure": true,
- "notes": "Extensions (ex-Personnalisation) : Découvrir, Connecteurs, Skills, Installé ; connexion des modèles cloud en un clic ; liste Connectés et installés ; désinstaller un modèle local ; réglages qui s'enregistrent de nouveau ; doublons retirés ; studio plus léger.",
- "fichier": "programme-0.4.11.zip",
- "sha256": "71290e8c839b3122d2403740d83c39721072664004824626a63c6c9ee9695a5e"
+ "notes": "Skills, mémoire, serveurs MCP et fichiers d'instructions pour tous les modèles (clé API, OpenRouter, Ollama, Claude Code, Codex) ; ressources du PC dans l'en-tête ; usage et coût de toutes les IA.",
+ "fichier": "programme-0.4.12.zip",
+ "sha256": "b761e96b95797784a5781dd5a51ecc7a06ed538c869d65b9b8a82a5c8badaa7b"
 }
