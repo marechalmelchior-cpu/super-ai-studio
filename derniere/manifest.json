@@ -1,7 +1,7 @@
 {
- "version": "0.4.9",
+ "version": "0.4.10",
  "mineure": true,
- "notes": "Équipe par projet (modèle, effort, consignes, MCP), tableau des agents par projet, benchmarks cloud et local réunis.",
- "fichier": "programme-0.4.9.zip",
- "sha256": "54c9d5bef2bcabd01b77169d942db018ff57f14714835969e74b194c08cb94dc"
+ "notes": "Classement global et 12 classements (cloud et local classés ensemble) ; Modèles et benchmarks de retour dans Agents et outils ; modes Rapide/Normal/Performance par projet ; Ollama s'ouvre tout seul quand il sert.",
+ "fichier": "programme-0.4.10.zip",
+ "sha256": "ef3102714723a46ce40ad53b0803b8a0d31550dcd7c6b933b851bf0942ceba07"
 }
