@@ -1,7 +1,7 @@
 {
- "version": "0.4.21",
+ "version": "0.4.22",
  "mineure": true,
- "notes": "Le Superviseur compose l'équipe, chaque rôle sur la meilleure IA disponible, réglages allégés, Extensions vérifiées",
- "fichier": "programme-0.4.21.zip",
- "sha256": "d80089fdd1da103bf34b367567f7f8e49be7f649bd44074f1f87bc7885939a2b"
+ "notes": "Skills de partout (adresse GitHub, SKILL.md, zip) avec licence et version figée, 15 skills vérifiées, le Superviseur propose les extensions utiles",
+ "fichier": "programme-0.4.22.zip",
+ "sha256": "c034187615f4a49828cc65f30e7691231e2ca3c4c9ebaff03e8b587edccbe832"
 }

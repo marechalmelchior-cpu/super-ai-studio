@@ -1,5 +1,5 @@
 {
- "version": "2026-10-26",
+ "version": "2026-10-27",
  "categories": {
   "jeu": "Jeu vidéo",
   "3d": "3D et animation",
@@ -18,1005 +18,19 @@
  "nouveaux": [
   "game-design-document",
   "level-design",
-  "equilibrage-jeu",
-  "pipeline-assets-3d",
-  "veille-et-synthese",
+  "game-balancing",
+  "3d-asset-pipeline",
+  "research-digest",
   "notion",
   "figma",
   "ableton",
-  "tavily"
+  "tavily",
+  "office-documents",
+  "debugging-and-error-recovery",
+  "web-quality-audit",
+  "handoff"
  ],
  "elements": [
-  {
-   "id": "pdf",
-   "type": "skill",
-   "nom": "PDF",
-   "description": "Lire, extraire, fusionner, découper, remplir et créer des PDF.",
-   "auteur": "Anthropic",
-   "verifie": true,
-   "categorie": "documents",
-   "essai": "Fais un PDF d'une page qui résume l'état du projet.",
-   "licence": "Licence Anthropic (source disponible, usage personnel)",
-   "taille": 58692,
-   "source": {
-    "type": "github",
-    "depot": "anthropics/skills",
-    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
-    "dossier": "skills/pdf",
-    "fichiers": [
-     {
-      "chemin": "LICENSE.txt",
-      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
-      "taille": 1467
-     },
-     {
-      "chemin": "SKILL.md",
-      "sha256": "9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c",
-      "taille": 8072
-     },
-     {
-      "chemin": "forms.md",
-      "sha256": "9530b3f57034792e0242a3abfe8b3c296466329551916f2ff6c5a70db78f7e44",
-      "taille": 11854
-     },
-     {
-      "chemin": "reference.md",
-      "sha256": "03a5f964f8abecbbe156f363356e927e864d7ee964f1012c84ee1bfc8acbeb95",
-      "taille": 16692
-     },
-     {
-      "chemin": "scripts/check_bounding_boxes.py",
-      "sha256": "0ced522402dd7b3c82a0be9518cf4e485fa9cc0467d7beab6ddb04cb36fcc3e1",
-      "taille": 2774
-     },
-     {
-      "chemin": "scripts/check_fillable_fields.py",
-      "sha256": "1fe10b9980a5493c9bbec8c20630c603eaa475b45403751c08f26738736647b8",
-      "taille": 268
-     },
-     {
-      "chemin": "scripts/convert_pdf_to_images.py",
-      "sha256": "7f58e292a67e18a8ff000d30bad2469389546731f7e8a698cc1d0aed001ea15d",
-      "taille": 1008
-     },
-     {
-      "chemin": "scripts/create_validation_image.py",
-      "sha256": "8fa9fd7962c9f940045b81cf6b991e7c1057c1838e3f9cc6d305007a222ffebf",
-      "taille": 1258
-     },
-     {
-      "chemin": "scripts/extract_form_field_info.py",
-      "sha256": "bb235b36f497bbb1c7c6821cecf527bbba7213520de11219da99f7b13a38c109",
-      "taille": 4300
-     },
-     {
-      "chemin": "scripts/extract_form_structure.py",
-      "sha256": "6814e3fe8f78c2b16d766c132b5a727ff7a31b71d76a7d46bd6e40fe50bc97c5",
-      "taille": 3945
-     },
-     {
-      "chemin": "scripts/fill_fillable_fields.py",
-      "sha256": "d140872c2e92e41b1e05370ae8d270c5b7f5ebdf55d9905f03bc974a9c708ff5",
-      "taille": 3819
-     },
-     {
-      "chemin": "scripts/fill_pdf_form_with_annotations.py",
-      "sha256": "8a56e063a49ed53c0b0e1d312ecf8023af76816ed139486ec3b539873de202fd",
-      "taille": 3235
-     }
-    ]
-   }
-  },
-  {
-   "id": "docx",
-   "type": "skill",
-   "nom": "Word",
-   "description": "Créer et modifier des documents Word (.docx) avec mise en forme, tableaux et suivi des modifications.",
-   "auteur": "Anthropic",
-   "verifie": true,
-   "categorie": "documents",
-   "essai": "Écris le cahier des charges du projet en document Word.",
-   "licence": "Licence Anthropic (source disponible, usage personnel)",
-   "taille": 1128695,
-   "source": {
-    "type": "github",
-    "depot": "anthropics/skills",
-    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
-    "dossier": "skills/docx",
-    "fichiers": [
-     {
-      "chemin": "LICENSE.txt",
-      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
-      "taille": 1467
-     },
-     {
-      "chemin": "SKILL.md",
-      "sha256": "8017469ea95fb7d28225c62daf8e2f3492a7b516fc64c18c28977cbf8980b7fe",
-      "taille": 6911
-     },
-     {
-      "chemin": "scripts/__init__.py",
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "taille": 1
-     },
-     {
-      "chemin": "scripts/accept_changes.py",
-      "sha256": "0c991d2bc7304a1248e9f3bf9b1498f0b6e76641fc457e7cbd73c99b4eef3a74",
-      "taille": 4051
-     },
-     {
-      "chemin": "scripts/comment.py",
-      "sha256": "37d116e5f56bb142b208c6c6a4bbcf960495abf470ddb7c6675ccfac864ba3d7",
-      "taille": 14054
-     },
-     {
-      "chemin": "scripts/merge_runs.py",
-      "sha256": "3ab367fd7fba4647943d0aa5e65203b15458551410f5ffc821d902616a4b9f40",
-      "taille": 9398
-     },
-     {
-      "chemin": "scripts/office/helpers/__init__.py",
-      "sha256": "678e42456d9e10923c8b9a93691cdd993de3433448a184fa72a0c31f4ae086d5",
-      "taille": 3358
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_chart.py",
-      "sha256": "47ac266f7d39d11ede6bb0d1f3a19d801394fd2964636f1b48beb701f1832964",
-      "taille": 5862
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_slide.py",
-      "sha256": "7b9f69b4a5bd6a2d9eabf9e0e3e796d7a421373145f6a8cd11f60b7ba2d6a5d0",
-      "taille": 1675
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_theme.py",
-      "sha256": "ebb54c56e9c13807f5f98f0cae22d47cdd0162da8525eaa664e3f2c8c8d6bb03",
-      "taille": 3510
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
-      "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
-      "taille": 74984
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
-      "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
-      "taille": 6956
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
-      "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
-      "taille": 51302
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
-      "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
-      "taille": 624
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
-      "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
-      "taille": 152039
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
-      "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
-      "taille": 1231
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
-      "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
-      "taille": 8862
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
-      "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
-      "taille": 14795
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
-      "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
-      "taille": 83612
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
-      "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
-      "taille": 1269
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
-      "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
-      "taille": 7328
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
-      "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
-      "taille": 6382
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
-      "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
-      "taille": 1248
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
-      "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
-      "taille": 880
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
-      "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
-      "taille": 2608
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
-      "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
-      "taille": 3507
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
-      "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
-      "taille": 7507
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
-      "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
-      "taille": 23313
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
-      "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
-      "taille": 1367
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
-      "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
-      "taille": 242277
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
-      "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
-      "taille": 26148
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
-      "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
-      "taille": 25279
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
-      "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
-      "taille": 535
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
-      "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
-      "taille": 5712
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
-      "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
-      "taille": 4010
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
-      "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
-      "taille": 171367
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
-      "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
-      "taille": 4646
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
-      "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
-      "taille": 1963
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
-      "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
-      "taille": 2515
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
-      "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
-      "taille": 2856
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
-      "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
-      "taille": 1344
-     },
-     {
-      "chemin": "scripts/office/schemas/mce/mc.xsd",
-      "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
-      "taille": 3127
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2010.xsd",
-      "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
-      "taille": 26549
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2012.xsd",
-      "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
-      "taille": 3745
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2018.xsd",
-      "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
-      "taille": 901
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
-      "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
-      "taille": 1778
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
-      "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
-      "taille": 1002
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
-      "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
-      "taille": 600
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
-      "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
-      "taille": 745
-     },
-     {
-      "chemin": "scripts/office/soffice.py",
-      "sha256": "df2c8d7249c132a4512d744482e4b5ed0ecbe885f0bcfb1295e7e6a7ced0432c",
-      "taille": 5927
-     },
-     {
-      "chemin": "scripts/office/validate.py",
-      "sha256": "346a4c89d92fff55e610f11efda48c30228815b29bdb10b987e48f7af70acf1e",
-      "taille": 6142
-     },
-     {
-      "chemin": "scripts/office/validators/__init__.py",
-      "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
-      "taille": 336
-     },
-     {
-      "chemin": "scripts/office/validators/base.py",
-      "sha256": "f818ea28c793ba42960fa4498265e2632a62c86f7b5d6aff6fa89dacc02d59ea",
-      "taille": 33756
-     },
-     {
-      "chemin": "scripts/office/validators/docx.py",
-      "sha256": "93d3444c0ef3f043d21a2285c46d2cda478426b930dc33dcf3b11265935517b5",
-      "taille": 17482
-     },
-     {
-      "chemin": "scripts/office/validators/pptx.py",
-      "sha256": "17eadad2b7a8374ccbe4cda45693bcd6a36f9d61a7d60f9c9ceef9464dec8299",
-      "taille": 15966
-     },
-     {
-      "chemin": "scripts/office/validators/redlining.py",
-      "sha256": "ed50d0885eee4b9c387f546b059bcaed64086815880a5167336244f93e305123",
-      "taille": 11231
-     },
-     {
-      "chemin": "scripts/templates/comments.xml",
-      "sha256": "a08ba83ee8790ac9e3dc61921f4988f19edd7e06ac09d6f1897a877c1581818d",
-      "taille": 2603
-     },
-     {
-      "chemin": "scripts/templates/commentsExtended.xml",
-      "sha256": "544eeecfeceed4b468fff163cd9c366d33641c8b8ab691ce002576197846afe8",
-      "taille": 2611
-     },
-     {
-      "chemin": "scripts/templates/commentsExtensible.xml",
-      "sha256": "bad10b3283e6ad6e7ef6d1ca5169683721ed690ee331282c65df04017e080631",
-      "taille": 2707
-     },
-     {
-      "chemin": "scripts/templates/commentsIds.xml",
-      "sha256": "db20f9616e004ec42ef736e80c2384e45db0f8d1194d31dc8b37c7d6ecdd6420",
-      "taille": 2619
-     },
-     {
-      "chemin": "scripts/templates/people.xml",
-      "sha256": "056f63aa1197fd8c9dda980c9f1b9ff016fd5fa4a462df8aec5f384f39d23e37",
-      "taille": 115
-     }
-    ]
-   }
-  },
-  {
-   "id": "xlsx",
-   "type": "skill",
-   "nom": "Excel",
-   "description": "Créer et modifier des tableurs (.xlsx) : formules, mise en forme, graphiques.",
-   "auteur": "Anthropic",
-   "verifie": true,
-   "categorie": "documents",
-   "essai": "Fais un tableur du budget du projet avec totaux par poste.",
-   "licence": "Licence Anthropic (source disponible, usage personnel)",
-   "taille": 1102893,
-   "source": {
-    "type": "github",
-    "depot": "anthropics/skills",
-    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
-    "dossier": "skills/xlsx",
-    "fichiers": [
-     {
-      "chemin": "LICENSE.txt",
-      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
-      "taille": 1467
-     },
-     {
-      "chemin": "SKILL.md",
-      "sha256": "6712b39718fe815054abca9c3ee72f989613e6f771c8a5c58f30a65a6c905622",
-      "taille": 8598
-     },
-     {
-      "chemin": "scripts/office/helpers/__init__.py",
-      "sha256": "678e42456d9e10923c8b9a93691cdd993de3433448a184fa72a0c31f4ae086d5",
-      "taille": 3358
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_chart.py",
-      "sha256": "47ac266f7d39d11ede6bb0d1f3a19d801394fd2964636f1b48beb701f1832964",
-      "taille": 5862
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_slide.py",
-      "sha256": "7b9f69b4a5bd6a2d9eabf9e0e3e796d7a421373145f6a8cd11f60b7ba2d6a5d0",
-      "taille": 1675
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_theme.py",
-      "sha256": "ebb54c56e9c13807f5f98f0cae22d47cdd0162da8525eaa664e3f2c8c8d6bb03",
-      "taille": 3510
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
-      "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
-      "taille": 74984
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
-      "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
-      "taille": 6956
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
-      "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
-      "taille": 51302
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
-      "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
-      "taille": 624
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
-      "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
-      "taille": 152039
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
-      "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
-      "taille": 1231
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
-      "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
-      "taille": 8862
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
-      "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
-      "taille": 14795
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
-      "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
-      "taille": 83612
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
-      "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
-      "taille": 1269
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
-      "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
-      "taille": 7328
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
-      "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
-      "taille": 6382
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
-      "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
-      "taille": 1248
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
-      "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
-      "taille": 880
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
-      "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
-      "taille": 2608
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
-      "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
-      "taille": 3507
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
-      "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
-      "taille": 7507
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
-      "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
-      "taille": 23313
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
-      "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
-      "taille": 1367
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
-      "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
-      "taille": 242277
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
-      "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
-      "taille": 26148
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
-      "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
-      "taille": 25279
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
-      "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
-      "taille": 535
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
-      "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
-      "taille": 5712
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
-      "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
-      "taille": 4010
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
-      "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
-      "taille": 171367
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
-      "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
-      "taille": 4646
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
-      "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
-      "taille": 1963
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
-      "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
-      "taille": 2515
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
-      "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
-      "taille": 2856
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
-      "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
-      "taille": 1344
-     },
-     {
-      "chemin": "scripts/office/schemas/mce/mc.xsd",
-      "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
-      "taille": 3127
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2010.xsd",
-      "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
-      "taille": 26549
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2012.xsd",
-      "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
-      "taille": 3745
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2018.xsd",
-      "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
-      "taille": 901
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
-      "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
-      "taille": 1778
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
-      "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
-      "taille": 1002
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
-      "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
-      "taille": 600
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
-      "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
-      "taille": 745
-     },
-     {
-      "chemin": "scripts/office/soffice.py",
-      "sha256": "df2c8d7249c132a4512d744482e4b5ed0ecbe885f0bcfb1295e7e6a7ced0432c",
-      "taille": 5927
-     },
-     {
-      "chemin": "scripts/office/validate.py",
-      "sha256": "346a4c89d92fff55e610f11efda48c30228815b29bdb10b987e48f7af70acf1e",
-      "taille": 6142
-     },
-     {
-      "chemin": "scripts/office/validators/__init__.py",
-      "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
-      "taille": 336
-     },
-     {
-      "chemin": "scripts/office/validators/base.py",
-      "sha256": "f818ea28c793ba42960fa4498265e2632a62c86f7b5d6aff6fa89dacc02d59ea",
-      "taille": 33756
-     },
-     {
-      "chemin": "scripts/office/validators/docx.py",
-      "sha256": "93d3444c0ef3f043d21a2285c46d2cda478426b930dc33dcf3b11265935517b5",
-      "taille": 17482
-     },
-     {
-      "chemin": "scripts/office/validators/pptx.py",
-      "sha256": "17eadad2b7a8374ccbe4cda45693bcd6a36f9d61a7d60f9c9ceef9464dec8299",
-      "taille": 15966
-     },
-     {
-      "chemin": "scripts/office/validators/redlining.py",
-      "sha256": "ed50d0885eee4b9c387f546b059bcaed64086815880a5167336244f93e305123",
-      "taille": 11231
-     },
-     {
-      "chemin": "scripts/recalc.py",
-      "sha256": "66f6e726d5a53cfabea0b6471d6669deb95e54e96cb7913b687e4388da1bb3d9",
-      "taille": 10670
-     }
-    ]
-   }
-  },
-  {
-   "id": "pptx",
-   "type": "skill",
-   "nom": "PowerPoint",
-   "description": "Créer et modifier des présentations (.pptx) propres et lisibles.",
-   "auteur": "Anthropic",
-   "verifie": true,
-   "categorie": "documents",
-   "essai": "Fais une présentation de 6 diapositives qui présente le jeu.",
-   "licence": "Licence Anthropic (source disponible, usage personnel)",
-   "taille": 1139175,
-   "source": {
-    "type": "github",
-    "depot": "anthropics/skills",
-    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
-    "dossier": "skills/pptx",
-    "fichiers": [
-     {
-      "chemin": "LICENSE.txt",
-      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
-      "taille": 1467
-     },
-     {
-      "chemin": "SKILL.md",
-      "sha256": "a7ff03e2c85b636f55232a6b1555f5dd90216b7a1a359ab289d8364e6acbc6a0",
-      "taille": 20796
-     },
-     {
-      "chemin": "scripts/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "taille": 0
-     },
-     {
-      "chemin": "scripts/add_slide.py",
-      "sha256": "3922f819ee1f6b8bdc6aa146d1a86de70640f5f919321fe3f01a764482ff69c9",
-      "taille": 14537
-     },
-     {
-      "chemin": "scripts/clean.py",
-      "sha256": "5c808cd4dff7e02661ef3c68b5917f4e25097cc6610c92a3a7df4a6366a5c3c1",
-      "taille": 10415
-     },
-     {
-      "chemin": "scripts/office/helpers/__init__.py",
-      "sha256": "678e42456d9e10923c8b9a93691cdd993de3433448a184fa72a0c31f4ae086d5",
-      "taille": 3358
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_chart.py",
-      "sha256": "47ac266f7d39d11ede6bb0d1f3a19d801394fd2964636f1b48beb701f1832964",
-      "taille": 5862
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_slide.py",
-      "sha256": "7b9f69b4a5bd6a2d9eabf9e0e3e796d7a421373145f6a8cd11f60b7ba2d6a5d0",
-      "taille": 1675
-     },
-     {
-      "chemin": "scripts/office/helpers/pptx_theme.py",
-      "sha256": "ebb54c56e9c13807f5f98f0cae22d47cdd0162da8525eaa664e3f2c8c8d6bb03",
-      "taille": 3510
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
-      "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
-      "taille": 74984
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
-      "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
-      "taille": 6956
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
-      "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
-      "taille": 51302
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
-      "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
-      "taille": 624
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
-      "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
-      "taille": 152039
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
-      "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
-      "taille": 1231
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
-      "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
-      "taille": 8862
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
-      "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
-      "taille": 14795
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
-      "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
-      "taille": 83612
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
-      "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
-      "taille": 1269
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
-      "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
-      "taille": 7328
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
-      "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
-      "taille": 6382
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
-      "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
-      "taille": 1248
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
-      "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
-      "taille": 880
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
-      "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
-      "taille": 2608
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
-      "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
-      "taille": 3507
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
-      "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
-      "taille": 7507
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
-      "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
-      "taille": 23313
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
-      "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
-      "taille": 1367
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
-      "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
-      "taille": 242277
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
-      "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
-      "taille": 26148
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
-      "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
-      "taille": 25279
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
-      "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
-      "taille": 535
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
-      "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
-      "taille": 5712
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
-      "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
-      "taille": 4010
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
-      "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
-      "taille": 171367
-     },
-     {
-      "chemin": "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
-      "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
-      "taille": 4646
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
-      "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
-      "taille": 1963
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
-      "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
-      "taille": 2515
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
-      "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
-      "taille": 2856
-     },
-     {
-      "chemin": "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
-      "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
-      "taille": 1344
-     },
-     {
-      "chemin": "scripts/office/schemas/mce/mc.xsd",
-      "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
-      "taille": 3127
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2010.xsd",
-      "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
-      "taille": 26549
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2012.xsd",
-      "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
-      "taille": 3745
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-2018.xsd",
-      "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
-      "taille": 901
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
-      "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
-      "taille": 1778
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
-      "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
-      "taille": 1002
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
-      "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
-      "taille": 600
-     },
-     {
-      "chemin": "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
-      "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
-      "taille": 745
-     },
-     {
-      "chemin": "scripts/office/soffice.py",
-      "sha256": "df2c8d7249c132a4512d744482e4b5ed0ecbe885f0bcfb1295e7e6a7ced0432c",
-      "taille": 5927
-     },
-     {
-      "chemin": "scripts/office/validate.py",
-      "sha256": "346a4c89d92fff55e610f11efda48c30228815b29bdb10b987e48f7af70acf1e",
-      "taille": 6142
-     },
-     {
-      "chemin": "scripts/office/validators/__init__.py",
-      "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
-      "taille": 336
-     },
-     {
-      "chemin": "scripts/office/validators/base.py",
-      "sha256": "f818ea28c793ba42960fa4498265e2632a62c86f7b5d6aff6fa89dacc02d59ea",
-      "taille": 33756
-     },
-     {
-      "chemin": "scripts/office/validators/docx.py",
-      "sha256": "93d3444c0ef3f043d21a2285c46d2cda478426b930dc33dcf3b11265935517b5",
-      "taille": 17482
-     },
-     {
-      "chemin": "scripts/office/validators/pptx.py",
-      "sha256": "17eadad2b7a8374ccbe4cda45693bcd6a36f9d61a7d60f9c9ceef9464dec8299",
-      "taille": 15966
-     },
-     {
-      "chemin": "scripts/office/validators/redlining.py",
-      "sha256": "ed50d0885eee4b9c387f546b059bcaed64086815880a5167336244f93e305123",
-      "taille": 11231
-     },
-     {
-      "chemin": "scripts/thumbnail.py",
-      "sha256": "94ef83a84346aa2d63913de0d42bb2fe902ccdc17bfac6130096ca758381793c",
-      "taille": 9802
-     }
-    ]
-   }
-  },
   {
    "id": "frontend-design",
    "type": "skill",
@@ -1043,51 +57,6 @@
       "chemin": "SKILL.md",
       "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
       "taille": 9390
-     }
-    ]
-   }
-  },
-  {
-   "id": "web-artifacts-builder",
-   "type": "skill",
-   "nom": "Pages web complexes",
-   "description": "Pages HTML riches en plusieurs composants (React, Tailwind, shadcn/ui).",
-   "auteur": "Anthropic",
-   "verifie": true,
-   "categorie": "web",
-   "essai": "Fais un tableau de bord HTML des tâches du projet.",
-   "licence": "Apache 2.0",
-   "taille": 45840,
-   "source": {
-    "type": "github",
-    "depot": "anthropics/skills",
-    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
-    "dossier": "skills/web-artifacts-builder",
-    "fichiers": [
-     {
-      "chemin": "LICENSE.txt",
-      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-      "taille": 11345
-     },
-     {
-      "chemin": "SKILL.md",
-      "sha256": "81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8",
-      "taille": 3087
-     },
-     {
-      "chemin": "scripts/bundle-artifact.sh",
-      "sha256": "abf0e480bf6585b56fab8526a407dfb7dc740812bddd70c636e1e8f3df5f9618",
-      "taille": 1517
-     },
-     {
-      "chemin": "scripts/init-artifact.sh",
-      "sha256": "355e5dd4382aaaee91f01f1627eaeab30b2676ffa8d9b3ec328a1ae450ebccaa",
-      "taille": 9924
-     },
-     {
-      "chemin": "scripts/shadcn-components.tar.gz",
-      "sha256": "1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f",
-      "taille": 19967
      }
     ]
    }
@@ -1908,507 +877,807 @@
    }
   },
   {
-   "id": "claude-api",
+   "id": "debugging-and-error-recovery",
    "type": "skill",
-   "nom": "API Claude",
-   "description": "Construire des applications avec l'API Claude et le SDK (outils, cache, streaming).",
-   "auteur": "Anthropic",
+   "nom": "Débogage méthodique",
+   "description": "Reproduire, isoler, trouver la cause racine, corriger et prouver le correctif.",
+   "auteur": "Addy Osmani",
    "verifie": true,
-   "categorie": "outils-ia",
-   "essai": "Ajoute un PNJ qui parle grâce à l'API Claude.",
-   "licence": "Apache 2.0",
-   "taille": 2079868,
+   "categorie": "code",
+   "essai": "Ce bouton plante une fois sur deux : trouve la cause.",
+   "licence": "MIT",
+   "taille": 10913,
    "source": {
     "type": "github",
-    "depot": "anthropics/skills",
-    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
-    "dossier": "skills/claude-api",
+    "depot": "addyosmani/agent-skills",
+    "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+    "dossier": "skills/debugging-and-error-recovery",
     "fichiers": [
      {
-      "chemin": "LICENSE.txt",
-      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-      "taille": 11345
-     },
-     {
       "chemin": "SKILL.md",
-      "sha256": "40537cca17c4aa86e4ce83ced39efcbfb1204905e3cf4c4ff98f2eab011e4b7f",
-      "taille": 105146
-     },
-     {
-      "chemin": "csharp/claude-api/README.md",
-      "sha256": "87a2cc5c6e670e0bf34120f9a592d321567eea57c716c06791f6d2dcaba08b00",
-      "taille": 18933
-     },
-     {
-      "chemin": "csharp/claude-api/batches.md",
-      "sha256": "ec276fccf21757ed00803dfa4bc35f14f334138629fa53c77a025d718eda96a1",
-      "taille": 413
-     },
-     {
-      "chemin": "csharp/claude-api/files-api.md",
-      "sha256": "766ccf5dca9ef3caba8cefeddde10f6d171a7bd2ff4c97689462fad2d0d18e4b",
-      "taille": 900
-     },
-     {
-      "chemin": "csharp/claude-api/streaming.md",
-      "sha256": "bc0100e50b3495e869901bcfb231870cb3483b936534af5fd3dddb5d07e4531e",
-      "taille": 787
-     },
-     {
-      "chemin": "csharp/claude-api/tool-use.md",
-      "sha256": "18aa857c41e39eedb35815bfd8d50868a1bbc1f1a657f5e7233a3879baebc764",
-      "taille": 7623
-     },
-     {
-      "chemin": "curl/examples.md",
-      "sha256": "4520e447d37924e62fe982923f3eceea5338dbf3b3a0d25d0f914272c16b90a0",
-      "taille": 9714
-     },
-     {
-      "chemin": "curl/managed-agents.md",
-      "sha256": "faa7dd3d83cfd32d1faabb13fee5902e041285579b00256f17fd21681ed3ff2a",
-      "taille": 10788
-     },
-     {
-      "chemin": "go/claude-api/README.md",
-      "sha256": "c73ac644d8efe65a8d149e800267f98b0aa9d1e716ca38a22fd8803d5c35bfae",
-      "taille": 8477
-     },
-     {
-      "chemin": "go/claude-api/files-api.md",
-      "sha256": "7bf67ece5e4d18b1fb07085a55b680420cc7bd4de94a1fb2bb73cb23f39c20f0",
-      "taille": 936
-     },
-     {
-      "chemin": "go/claude-api/streaming.md",
-      "sha256": "a523e992e438309ca1bbc075ded2b652eb257242fd0ce521afd3b8ea024ed94d",
-      "taille": 1026
-     },
-     {
-      "chemin": "go/claude-api/tool-use.md",
-      "sha256": "18c6dc0cec151293b44697c340e0e0759f6081ad711ca34b06570c2450f243e9",
-      "taille": 10018
-     },
-     {
-      "chemin": "go/managed-agents/README.md",
-      "sha256": "0343be8d49f94687fe5e068ad69d9e05253b408e7bcd0e230b39924f6404facc",
-      "taille": 22460
-     },
-     {
-      "chemin": "java/claude-api/README.md",
-      "sha256": "cb6d395dc1d930371f828290132681541eff7f1a7e2739bb4c6655ebbb3b8c7f",
-      "taille": 11946
-     },
-     {
-      "chemin": "java/claude-api/files-api.md",
-      "sha256": "1c792f3421de32f42a56235327f87807a5579340726bba677ec13e05f9b493c7",
-      "taille": 1198
-     },
-     {
-      "chemin": "java/claude-api/streaming.md",
-      "sha256": "de13bc9573b37edb5af69606853c4fde3d494ee10ff47d1a030ecef9cc17463b",
-      "taille": 655
-     },
-     {
-      "chemin": "java/claude-api/tool-use.md",
-      "sha256": "1916b8d4e49b5d319a2d0c7e21b5a3d7a0f225e4a94d82139e769f66eb66f6d1",
-      "taille": 11134
-     },
-     {
-      "chemin": "java/managed-agents/README.md",
-      "sha256": "ba2a845898b302dc78b5354aa8f34ae4fc2c2ea41d12aa7d0440db59ee004e0c",
-      "taille": 20465
-     },
-     {
-      "chemin": "php/claude-api/README.md",
-      "sha256": "00e2e88f3ea9a6cce812d3e6ae9e035bc36f88828a09e518bb73af91097a9d66",
-      "taille": 6554
-     },
-     {
-      "chemin": "php/claude-api/batches.md",
-      "sha256": "6f82a29f718ff6e6b02aaaee3cfd6cda2feb82aca57d945f11a2c021214a699d",
-      "taille": 447
-     },
-     {
-      "chemin": "php/claude-api/files-api.md",
-      "sha256": "0715a0d4cce88fd885f57bd33b4654071a9068d5f8a892143b062c78fe51afc9",
-      "taille": 476
-     },
-     {
-      "chemin": "php/claude-api/streaming.md",
-      "sha256": "3b8ac667b21f17750eb3c1fc7dc166fd7b1f57a1d8b11e74489de4432e21d31d",
-      "taille": 682
-     },
-     {
-      "chemin": "php/claude-api/tool-use.md",
-      "sha256": "1d79c316ef608d8327da1ae7495ecc4a0c517bdd761037c886d8fc61a0eca7d0",
-      "taille": 9722
-     },
-     {
-      "chemin": "php/managed-agents/README.md",
-      "sha256": "2f9ada8a85098a7a4a7265c29fadb74d695a33bf19bc6d5df3a2c275b4a535b2",
-      "taille": 16555
-     },
-     {
-      "chemin": "python/claude-api/README.md",
-      "sha256": "284fbc6408809afd27288da95c5fb32daa48bd77518cd5fd4e973cc05363eaa8",
-      "taille": 20623
-     },
-     {
-      "chemin": "python/claude-api/batches.md",
-      "sha256": "7e4d07173845836617be3db70482c182311ad2d6d5ddf786482ca57c7c45776c",
-      "taille": 5723
-     },
-     {
-      "chemin": "python/claude-api/files-api.md",
-      "sha256": "2aa142978660d9ae3200d21a4d333531ca101898706f620834304e8a7d534580",
-      "taille": 4499
-     },
-     {
-      "chemin": "python/claude-api/sdk-upgrade.md",
-      "sha256": "f7c5651b21dd6fd5651935415d907fa0a369736f3055d50edb3d236ea016527c",
-      "taille": 28760
-     },
-     {
-      "chemin": "python/claude-api/streaming.md",
-      "sha256": "8f73a54dbbb5e82c2c7690d7d866f17ad8c72f662a2be6dd788b5c0956714026",
-      "taille": 11940
-     },
-     {
-      "chemin": "python/claude-api/tool-use.md",
-      "sha256": "548dcc4bd2a36e8b90cec446f9b0b7917d2d75a085c7c2603b28c840bd621621",
-      "taille": 21411
-     },
-     {
-      "chemin": "python/managed-agents/README.md",
-      "sha256": "82b6e5847027b0ffe5976116e5c249a58e9e2781eb09e914a81ee2f9eb970245",
-      "taille": 14823
-     },
-     {
-      "chemin": "ruby/claude-api/README.md",
-      "sha256": "c7de89d236f22bc0b44a091a45ee186ec057caa021a71acd4d3849599cbf3b36",
-      "taille": 4843
-     },
-     {
-      "chemin": "ruby/claude-api/streaming.md",
-      "sha256": "09b784f2ab0a5fd17e0589225408c618d26c6dd3cd601364ff92f409d5b104a0",
-      "taille": 235
-     },
-     {
-      "chemin": "ruby/claude-api/tool-use.md",
-      "sha256": "80cbb7c7fd4a01b816524eb54e0f8f4e5b4cc7643d393dfce6b9682e0f4d61b6",
-      "taille": 2688
-     },
-     {
-      "chemin": "ruby/managed-agents/README.md",
-      "sha256": "729ba22b8711a09192006d169098f16b933dd124ff36421772e4334d862306ab",
-      "taille": 12201
-     },
-     {
-      "chemin": "shared/admin-api.md",
-      "sha256": "a69c53817391fca50c0a1848f46de9debf71fa3681298fccb0a6435b760bac2d",
-      "taille": 11606
-     },
-     {
-      "chemin": "shared/agent-design.md",
-      "sha256": "9960728faf6976a2ddfceed02ed72af122d3b2558af573a9a0ea207b3adec2bc",
-      "taille": 8736
-     },
-     {
-      "chemin": "shared/anthropic-cli.md",
-      "sha256": "2baa725ea0248ab7d98dcb218f09e5eb22f768006ad28f4d5011b4975b4d500e",
-      "taille": 23999
-     },
-     {
-      "chemin": "shared/claude-platform-on-aws.md",
-      "sha256": "dec03193c61909167846c0526a4feacf011578b5e7ee29f76378141315cf97f5",
-      "taille": 4420
-     },
-     {
-      "chemin": "shared/cost-optimization.md",
-      "sha256": "d0107a954e9059f43c0aaac07ac1f8a9f5aa0a898834d3d983d623e5976e051b",
-      "taille": 58448
-     },
-     {
-      "chemin": "shared/error-codes.md",
-      "sha256": "1abf8dcc262732f7ee5e4c58d1909fbb0722ac12e1b957bffdf64f28fde9e4d2",
-      "taille": 20796
-     },
-     {
-      "chemin": "shared/evals/build-eval.md",
-      "sha256": "c8f6ae960867f6b3b35557aec75361553888ae7168f268365444bf6a4e09a5d7",
-      "taille": 54835
-     },
-     {
-      "chemin": "shared/evals/cost-hillclimb.md",
-      "sha256": "dd46a354fed24d96c7f9acf42f9da64f5cceaa797949662d82374fd2cf7a3515",
-      "taille": 31711
-     },
-     {
-      "chemin": "shared/evals/eval-audit.md",
-      "sha256": "a013f8eb0452c51c5a31860df0fb47219dcdb4da507092fc98867225095026ba",
-      "taille": 27892
-     },
-     {
-      "chemin": "shared/evals/eval-hillclimb.md",
-      "sha256": "315ae8540ebaeb9f1d7de5efa49625e6137ead255dc3a545b63393df89375588",
-      "taille": 69153
-     },
-     {
-      "chemin": "shared/evals/report/SCHEMA.md",
-      "sha256": "9a83404a9b3c413113df39d9bdf08e003ff4d6a75386f4010887da3298766687",
-      "taille": 16121
-     },
-     {
-      "chemin": "shared/evals/report/build-report-lite.mjs",
-      "sha256": "af79ca5fa5f06747dbcaa1d40017c8c8e81e0aa11cb8e32b848043893cdb03c7",
-      "taille": 27329
-     },
-     {
-      "chemin": "shared/evals/report/runner-scaffold.mjs",
-      "sha256": "c3a87ba4b94b3018b83c075d5148ba7760580aa447699d513d45ab55b82a531a",
-      "taille": 33142
-     },
-     {
-      "chemin": "shared/live-sources.md",
-      "sha256": "cc82c88587c861919557598df0421ea7e8cec683f63adead997a0170dc78732b",
-      "taille": 17732
-     },
-     {
-      "chemin": "shared/managed-agents-api-reference.md",
-      "sha256": "efd84dc8a17a2842965c775a905b17fa94cf762cc544df81e708f3aa7a89ae7b",
-      "taille": 35296
-     },
-     {
-      "chemin": "shared/managed-agents-client-patterns.md",
-      "sha256": "e9cf54ca98a9cdd7dba0f51acfedfc1b0f160bad243e39f338ff39d4bf5bf823",
-      "taille": 12095
-     },
-     {
-      "chemin": "shared/managed-agents-core.md",
-      "sha256": "b1e7f90f644ef3333bc2c8407ba17410cf672314868474c73242ac969e22007f",
-      "taille": 33515
-     },
-     {
-      "chemin": "shared/managed-agents-environments.md",
-      "sha256": "227e52e6a3d1c967c68912738ff184a97d1f4cd019c6a7bc7cd90c9b9857e5a5",
-      "taille": 14234
-     },
-     {
-      "chemin": "shared/managed-agents-events.md",
-      "sha256": "3c5edc1428bc4b9cff1ebf01cecffaff3ef1650c19afa48c616fcd05b9586e03",
-      "taille": 26015
-     },
-     {
-      "chemin": "shared/managed-agents-memory.md",
-      "sha256": "0dec5641630f97629ea75bbbe5c2bced861f9c16b0572a68c901849ea4d00bcb",
-      "taille": 11362
-     },
-     {
-      "chemin": "shared/managed-agents-multiagent.md",
-      "sha256": "f3d03cc910064cf419c80ce79c5fe62abde127467deea55491b447a07953a06b",
-      "taille": 66616
-     },
-     {
-      "chemin": "shared/managed-agents-onboarding-from-quickstart.md",
-      "sha256": "e37628c5639786a7868acfed4be0e25678b69b7d13a9aced03d74deebe042342",
-      "taille": 19798
-     },
-     {
-      "chemin": "shared/managed-agents-onboarding-from-url.md",
-      "sha256": "b6c49289186d7cc521c995ba88fa916b65433101b2b3e9bf3c9add94ad87fa34",
-      "taille": 32707
-     },
-     {
-      "chemin": "shared/managed-agents-onboarding.md",
-      "sha256": "025683a9ee3db081d8a6978980349ce68d1df316d0c5aea31ae12438907208c9",
-      "taille": 16787
-     },
-     {
-      "chemin": "shared/managed-agents-outcomes.md",
-      "sha256": "a516c6bf6a6a76f7f5ef83ec80895efd5de718e8f9418b57c705ce151afc5afe",
-      "taille": 8960
-     },
-     {
-      "chemin": "shared/managed-agents-overview.md",
-      "sha256": "abcbdc29435c07be4749e21f005ed51f45942af03fa0bdcdeb18ebfa38c6a6f8",
-      "taille": 14571
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/bug-hunter.md",
-      "sha256": "9afd40ef3e1bca9e1cc4c6655d314127cec0b4dcff0e12f6016508c134954248",
-      "taille": 8096
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/contract-tracker.md",
-      "sha256": "312ee5f886de59b6db4603d2df9766d66285db36973656c5b9ff0bcc1ed02279",
-      "taille": 1806
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/data-analyst.md",
-      "sha256": "c2116bac43972f2b40311104bd7cd4e084cca806dd40a1ddf8462845d785bd57",
-      "taille": 1561
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/deep-researcher.md",
-      "sha256": "a680856d874dff23cd3f016e36d0a58bc4db36c56d790d216743f236ee37a48c",
-      "taille": 2430
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/explainer-video-maker.md",
-      "sha256": "c2570c5e14d51c5caa77646ac417d18619d34a27cc94dc72cf020c698f2803f3",
-      "taille": 4886
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/field-monitor.md",
-      "sha256": "f17f26eee0109f4172134c5bea5761c52b8459e44ae03608c701cd3492f4a3af",
-      "taille": 2105
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/incident-commander.md",
-      "sha256": "badd3622ffab0798ab44a55189f47e95c107107ce57eda9fa5357b1aded8fb2a",
-      "taille": 1723
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/performance-tuner.md",
-      "sha256": "922396e14b569bc98a7bdde34d10890cc81c5184e81971e6c9be108d191dd639",
-      "taille": 11394
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/sprint-retro-facilitator.md",
-      "sha256": "8b5ed9895feb1ade54578a270493c63d0f57b3bb0fbc2eafcfa2e87d3130fa75",
-      "taille": 2091
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/structured-extractor.md",
-      "sha256": "c278074c8c48d35fc6c68ed32eaa8704cae73a8e74035fd1d4a6abdcb9bd0fbd",
-      "taille": 1541
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/support-agent.md",
-      "sha256": "da75c50edf207f5ef468fbbbfc2e77d56e7d906a6c2cda28756f896195e171c5",
-      "taille": 1481
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/support-to-eng-escalator.md",
-      "sha256": "46720e5341808a9938825be44f936c91f83739ebdef9e1d17d9f0ec22738346b",
-      "taille": 1842
-     },
-     {
-      "chemin": "shared/managed-agents-quickstarts/watchlist-scanner.md",
-      "sha256": "e67861c63b9d46b01c8d2784998b7f0de9a87aa6012b77127def1253c5ac13db",
-      "taille": 5642
-     },
-     {
-      "chemin": "shared/managed-agents-scheduled-deployments.md",
-      "sha256": "3fdf7bd691b4f798149d7ebdb933dcee7d14d5d47dd6bf8196c41b819223175e",
-      "taille": 9561
-     },
-     {
-      "chemin": "shared/managed-agents-self-hosted-sandboxes.md",
-      "sha256": "a0c0d98ee1921ee5856a9fd1c02931d724c7b7ffffe17f72c85bc90190399085",
-      "taille": 27926
-     },
-     {
-      "chemin": "shared/managed-agents-tools.md",
-      "sha256": "9a9fd54ebb5e81eb0c6b7505f1cadc420fed5696cdab3e0080dd00ccf2e37b6f",
-      "taille": 37869
-     },
-     {
-      "chemin": "shared/managed-agents-webhooks.md",
-      "sha256": "38746f77a3ee971f9b1f7d47cec9e753131bf271fd795aed5c3da1764c9a6ac1",
-      "taille": 11321
-     },
-     {
-      "chemin": "shared/model-migration.md",
-      "sha256": "b4fe96362b865a28726ab877c966624d5bfc2f86ff9b34940a34e3f8b6fc034e",
-      "taille": 346255
-     },
-     {
-      "chemin": "shared/models.md",
-      "sha256": "c1af1f093d46fd58e50ef3e8e28d339650f333059bfc49a63d01d0175675161b",
-      "taille": 17502
-     },
-     {
-      "chemin": "shared/platform-availability.md",
-      "sha256": "607997bc16de403970cb32c1dc1fa63e68f7f02328728be59397e7cefb2efed4",
-      "taille": 7415
-     },
-     {
-      "chemin": "shared/preserved-thinking-migration/causes.md",
-      "sha256": "c2dbadb0439806863723e5ef7279d626d731d8179fd39293ff26d226b94d3694",
-      "taille": 39705
-     },
-     {
-      "chemin": "shared/preserved-thinking-migration/drop_block_probe.py",
-      "sha256": "f23abb75bc079d835f57da7598ac5a1bee4318214ab803185feb94d8db8c4b88",
-      "taille": 66582
-     },
-     {
-      "chemin": "shared/preserved-thinking-migration/prefix_diff.py",
-      "sha256": "734934b81b5f26e9ed2f8f51f44fed6554233de4f37b22a8845ae4ffcb622ac0",
-      "taille": 94008
-     },
-     {
-      "chemin": "shared/preserved-thinking-migration.md",
-      "sha256": "29921d69fa8dc7e450e7bb793c9f59ae755262ccc933a52eb7116c207defb34c",
-      "taille": 64049
-     },
-     {
-      "chemin": "shared/prompt-audit.md",
-      "sha256": "1a50ec950f9c11bb4ad1a5032a26bb20cd52c9d358adf6add2cb1ceb1aaf6cc9",
-      "taille": 49344
-     },
-     {
-      "chemin": "shared/prompt-caching.md",
-      "sha256": "5800f883ff1babe24105e7e0e3fc7e9b03dfcce25bb2ccded4bb40d8c81d8464",
-      "taille": 33116
-     },
-     {
-      "chemin": "shared/token-counting.md",
-      "sha256": "8674e246c165decdc13106a4861a254ededb0421caf7fa4015ed0fb36e6c60dc",
-      "taille": 1603
-     },
-     {
-      "chemin": "shared/tool-use-concepts.md",
-      "sha256": "62293e7bb7763f7ae487d3b98ead6b733689b2fd7089784ad5859dd869a153f5",
-      "taille": 44359
-     },
-     {
-      "chemin": "typescript/claude-api/README.md",
-      "sha256": "b2a01ccbaa0d4406e400bcd8efc033759af5d646a97aab744aee55bf07d6ab16",
-      "taille": 15833
-     },
-     {
-      "chemin": "typescript/claude-api/batches.md",
-      "sha256": "acc33bb981acd48b6ee9a6b2c2afeef9487c42ef2b117225da3949dc61efb464",
-      "taille": 2594
-     },
-     {
-      "chemin": "typescript/claude-api/files-api.md",
-      "sha256": "df8e4e433a4ded6d4c3eb40de9bc0782cf77aaa8e3e331a539aec1cff55d1316",
-      "taille": 2384
-     },
-     {
-      "chemin": "typescript/claude-api/streaming.md",
-      "sha256": "09db982effb0b7d14e29eddd5425b00040debfedccf3dd0db9af73f7d2da3e79",
-      "taille": 9514
-     },
-     {
-      "chemin": "typescript/claude-api/tool-use.md",
-      "sha256": "d0c3e5da146c6da8a85ced14f964dc33de4c0153aa2748dee35c319752e8b725",
-      "taille": 24295
-     },
-     {
-      "chemin": "typescript/managed-agents/README.md",
-      "sha256": "5daf6b0c6a443e1ae720b0a7343e061ebdbaeb751dd674f37f9abf9d12efc66f",
-      "taille": 14013
+      "sha256": "21f3960f5d7ae2cc95c40896545004dbbcbbd752ea65fc2d53962554d4174220",
+      "taille": 10913
      }
     ]
    }
   },
   {
-   "id": "unreal-sans-interface",
+   "id": "code-review-and-quality",
+   "type": "skill",
+   "nom": "Revue de code complète",
+   "description": "Revue sur plusieurs axes avant fusion : justesse, lisibilité, sécurité, performance, tests.",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Relis les changements de la branche avant que je fusionne.",
+   "licence": "MIT",
+   "taille": 20976,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/agent-skills",
+    "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+    "dossier": "skills/code-review-and-quality",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "2db1e850379f255fd3091ef278cde24cd6c7d2ba23e360cc52ea522c40d4396e",
+      "taille": 20976
+     }
+    ]
+   }
+  },
+  {
+   "id": "test-driven-development",
+   "type": "skill",
+   "nom": "Développement piloté par les tests",
+   "description": "Rouge, vert, refactor : écrire le test d'abord, puis le code minimal qui le fait passer.",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Ajoute la remise en jeu avec des tests d'abord.",
+   "licence": "MIT",
+   "taille": 16676,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/agent-skills",
+    "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+    "dossier": "skills/test-driven-development",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "a3aa6ba95638497025577469eda10ed17918698209615aeafbc26f131bf2469d",
+      "taille": 16676
+     }
+    ]
+   }
+  },
+  {
+   "id": "git-workflow-and-versioning",
+   "type": "skill",
+   "nom": "Git propre",
+   "description": "Branches, commits atomiques, messages clairs, résolution de conflits.",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Range mes changements en commits propres.",
+   "licence": "MIT",
+   "taille": 14141,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/agent-skills",
+    "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+    "dossier": "skills/git-workflow-and-versioning",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "b7465d187935c52546d39fdc7bd6ac36d94eda25a9500ef8c18b767d2eb116ea",
+      "taille": 14141
+     }
+    ]
+   }
+  },
+  {
+   "id": "spec-driven-development",
+   "type": "skill",
+   "nom": "Spec avant le code",
+   "description": "Rédiger une spécification courte et vérifiable avant de coder une fonctionnalité.",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Écris la spec de l'inventaire avant de coder.",
+   "licence": "MIT",
+   "taille": 13096,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/agent-skills",
+    "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+    "dossier": "skills/spec-driven-development",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "c4b97ce3d7f24be0e67fd612c7595f65504872e3a9f8d338d098b2363fdb66ef",
+      "taille": 13096
+     }
+    ]
+   }
+  },
+  {
+   "id": "security-and-hardening",
+   "type": "skill",
+   "nom": "Sécurité et durcissement",
+   "description": "Repérer et corriger les failles courantes : entrées, secrets, dépendances, droits.",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Vérifie la sécurité du formulaire de contact.",
+   "licence": "MIT",
+   "taille": 30595,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/agent-skills",
+    "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+    "dossier": "skills/security-and-hardening",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "2e3fc60eed5aba97fe416f3f3c9317fdb014a682925ec70a733c3ff99e4b9858",
+      "taille": 17559
+     },
+     {
+      "chemin": "references/hardening-patterns.md",
+      "sha256": "2e1b93a502b4cdb0258404441f3aab029b0cce4003fbbcc61af9a2de18bab9ab",
+      "taille": 13036
+     }
+    ]
+   }
+  },
+  {
+   "id": "documentation-and-adrs",
+   "type": "skill",
+   "nom": "Documentation et décisions",
+   "description": "Documentation utile et décisions d'architecture tracées (ADR).",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "documents",
+   "essai": "Documente l'architecture du projet.",
+   "licence": "MIT",
+   "taille": 10910,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/agent-skills",
+    "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+    "dossier": "skills/documentation-and-adrs",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "b60d503925bbaacee7fd63935db70b9ced5b2514ff5a56a672130e01b9690bc5",
+      "taille": 10910
+     }
+    ]
+   }
+  },
+  {
+   "id": "web-quality-audit",
+   "type": "skill",
+   "nom": "Audit qualité d'un site",
+   "description": "Performance, accessibilité, SEO et bonnes pratiques en un audit chiffré.",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "web",
+   "essai": "Audite la page d'accueil du site.",
+   "licence": "MIT",
+   "taille": 14314,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/web-quality-skills",
+    "commit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+    "dossier": "skills/web-quality-audit",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "1903cfb4dcba987d50dc7a51f6c19ec43830ff924c2c8f78979d8775fbe20f91",
+      "taille": 10450
+     },
+     {
+      "chemin": "scripts/analyze.sh",
+      "sha256": "b1b28663af412f746baf5008618e3ae798e322b10ff5ab7ae1830826a6d8e4e2",
+      "taille": 3864
+     }
+    ]
+   }
+  },
+  {
+   "id": "accessibility",
+   "type": "skill",
+   "nom": "Accessibilité web (WCAG 2.2)",
+   "description": "Contrastes, clavier, lecteurs d'écran, formulaires : conforme WCAG 2.2.",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "web",
+   "essai": "Rends le formulaire accessible.",
+   "licence": "MIT",
+   "taille": 29473,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/web-quality-skills",
+    "commit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+    "dossier": "skills/accessibility",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "267fb2a0707d6142f2871f22688203a42ba21291a2aa200fb740936e41362b5d",
+      "taille": 14358
+     },
+     {
+      "chemin": "references/A11Y-PATTERNS.md",
+      "sha256": "f10e238dd4dd3c4f51134c2056bc02d3dd4f8fb6ccc9145c2c1ba7aab4d58140",
+      "taille": 6036
+     },
+     {
+      "chemin": "references/WCAG.md",
+      "sha256": "16683e025e3833d931c9d880645d98a448827f97e10189b6c8f12c832e7a2361",
+      "taille": 9079
+     }
+    ]
+   }
+  },
+  {
+   "id": "core-web-vitals",
+   "type": "skill",
+   "nom": "Vitesse des pages (Core Web Vitals)",
+   "description": "Améliorer LCP, INP et CLS, les indicateurs de vitesse suivis par Google.",
+   "auteur": "Addy Osmani",
+   "verifie": true,
+   "categorie": "web",
+   "essai": "Accélère le chargement de la page produit.",
+   "licence": "MIT",
+   "taille": 23310,
+   "source": {
+    "type": "github",
+    "depot": "addyosmani/web-quality-skills",
+    "commit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+    "dossier": "skills/core-web-vitals",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "731aa78c0347e8b3e191b75962175bee058ce73817278e610ac0fe546e685914",
+      "taille": 9776
+     },
+     {
+      "chemin": "references/CLS.md",
+      "sha256": "c4fa0cd6311720b413018471a6ac9240e87db52af3b6e306ffb6684491f15898",
+      "taille": 4011
+     },
+     {
+      "chemin": "references/INP.md",
+      "sha256": "7d40cf6053e9bb8a8a77e02da7c6b25aa8e6c1c092b48d8f9c8f30e9b25cf3a7",
+      "taille": 4445
+     },
+     {
+      "chemin": "references/LCP.md",
+      "sha256": "522054d44b7a55409cbde511e8d365f7fa52399dd1e72b8d6b44a92ecddca81f",
+      "taille": 5078
+     }
+    ]
+   }
+  },
+  {
+   "id": "verification-before-completion",
+   "type": "skill",
+   "nom": "Prouver avant d'annoncer",
+   "description": "Jamais « c'est fait » sans preuve : commande, sortie, fichier vérifié.",
+   "auteur": "Jesse Vincent (superpowers)",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Vérifie que la correction marche vraiment.",
+   "licence": "MIT",
+   "taille": 3646,
+   "source": {
+    "type": "github",
+    "depot": "obra/superpowers",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+    "dossier": "skills/verification-before-completion",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "taille": 3646
+     }
+    ]
+   }
+  },
+  {
+   "id": "handoff",
+   "type": "skill",
+   "nom": "Passation entre IA",
+   "description": "Résume la session en un document de passation qu'une autre IA reprend sans perte.",
+   "auteur": "Matt Pocock",
+   "verifie": true,
+   "categorie": "outils-ia",
+   "essai": "Prépare la passation de ce chantier.",
+   "licence": "MIT",
+   "taille": 940,
+   "source": {
+    "type": "github",
+    "depot": "mattpocock/skills",
+    "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+    "dossier": "skills/productivity/handoff",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "4cbb043950dad2ffd3662ff1a5a0b51ae676004b5cae10e3787e8ee7a4ee69d3",
+      "taille": 940
+     }
+    ]
+   }
+  },
+  {
+   "id": "security-threat-model",
+   "type": "skill",
+   "nom": "Modèle de menaces",
+   "description": "Cartographier ce qui peut être attaqué dans un projet et comment s'en protéger.",
+   "auteur": "OpenAI",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Fais le modèle de menaces du site.",
+   "licence": "Apache 2.0",
+   "taille": 30659,
+   "source": {
+    "type": "github",
+    "depot": "openai/skills",
+    "commit": "49f948faa9258a0c61caceaf225e179651397431",
+    "dossier": "skills/.curated/security-threat-model",
+    "fichiers": [
+     {
+      "chemin": "LICENSE.txt",
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "taille": 10776
+     },
+     {
+      "chemin": "SKILL.md",
+      "sha256": "1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2",
+      "taille": 5561
+     },
+     {
+      "chemin": "references/prompt-template.md",
+      "sha256": "81a59aa3fb3ac3a739d6a26ab38e4015965f215581ee54becef21a2b121ec29b",
+      "taille": 12642
+     },
+     {
+      "chemin": "references/security-controls-and-assets.md",
+      "sha256": "d536cfa9acad2523dc39134bcf33b9566c29dd9a57b407cbc9901637230c6b98",
+      "taille": 1680
+     }
+    ]
+   }
+  },
+  {
+   "id": "vercel-react-best-practices",
+   "type": "skill",
+   "nom": "React et Next.js performants",
+   "description": "70 règles de performance React et Next.js, classées par impact.",
+   "auteur": "Vercel",
+   "verifie": true,
+   "categorie": "web",
+   "essai": "Optimise les composants React du site.",
+   "licence": "MIT",
+   "taille": 230383,
+   "source": {
+    "type": "github",
+    "depot": "vercel-labs/agent-skills",
+    "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+    "dossier": "skills/react-best-practices",
+    "fichiers": [
+     {
+      "chemin": "AGENTS.md",
+      "sha256": "fc93e7421177bbf869cce892bc60a6c83a4517d974bc3bf65c4e2c1e58a6ccf6",
+      "taille": 108261
+     },
+     {
+      "chemin": "README.md",
+      "sha256": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
+      "taille": 3360
+     },
+     {
+      "chemin": "SKILL.md",
+      "sha256": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
+      "taille": 7251
+     },
+     {
+      "chemin": "metadata.json",
+      "sha256": "c4e18bac3290fbe1b471a605867d4df68b03144ea26b8befdbe8f9d8fd124354",
+      "taille": 921
+     },
+     {
+      "chemin": "rules/_sections.md",
+      "sha256": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+      "taille": 1554
+     },
+     {
+      "chemin": "rules/_template.md",
+      "sha256": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+      "taille": 631
+     },
+     {
+      "chemin": "rules/advanced-effect-event-deps.md",
+      "sha256": "55ed8f9f27a1bff803d6fa55828176207714b02123cbb97ddb8a90d88024a723",
+      "taille": 1802
+     },
+     {
+      "chemin": "rules/advanced-event-handler-refs.md",
+      "sha256": "a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc",
+      "taille": 1483
+     },
+     {
+      "chemin": "rules/advanced-init-once.md",
+      "sha256": "3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c",
+      "taille": 958
+     },
+     {
+      "chemin": "rules/advanced-use-latest.md",
+      "sha256": "8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a",
+      "taille": 1072
+     },
+     {
+      "chemin": "rules/async-api-routes.md",
+      "sha256": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+      "taille": 1125
+     },
+     {
+      "chemin": "rules/async-cheap-condition-before-await.md",
+      "sha256": "03107c1f70a293cd58a8abc5474c5548e20ea4efdf01b6d45aae7ad0ac1cb32c",
+      "taille": 1220
+     },
+     {
+      "chemin": "rules/async-defer-await.md",
+      "sha256": "f3c142d090615abdcc99d31c123be37b31f0f1ed8d9ec9f7789a3bc6883ae0fb",
+      "taille": 2208
+     },
+     {
+      "chemin": "rules/async-dependencies.md",
+      "sha256": "16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a",
+      "taille": 1293
+     },
+     {
+      "chemin": "rules/async-parallel.md",
+      "sha256": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+      "taille": 654
+     },
+     {
+      "chemin": "rules/async-suspense-boundaries.md",
+      "sha256": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+      "taille": 2510
+     },
+     {
+      "chemin": "rules/bundle-analyzable-paths.md",
+      "sha256": "62090b5c815fd71bf1133dce754f51abc16a9456d0ccd025fd627de27726e92a",
+      "taille": 2382
+     },
+     {
+      "chemin": "rules/bundle-barrel-imports.md",
+      "sha256": "e648f6d54525f07a691357040ca5bff6ea3424788a91ff63812adb29622a671b",
+      "taille": 2795
+     },
+     {
+      "chemin": "rules/bundle-conditional.md",
+      "sha256": "09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4",
+      "taille": 949
+     },
+     {
+      "chemin": "rules/bundle-defer-third-party.md",
+      "sha256": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+      "taille": 920
+     },
+     {
+      "chemin": "rules/bundle-dynamic-imports.md",
+      "sha256": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+      "taille": 791
+     },
+     {
+      "chemin": "rules/bundle-preload.md",
+      "sha256": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+      "taille": 1149
+     },
+     {
+      "chemin": "rules/client-event-listeners.md",
+      "sha256": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+      "taille": 1969
+     },
+     {
+      "chemin": "rules/client-localstorage-schema.md",
+      "sha256": "0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88",
+      "taille": 1950
+     },
+     {
+      "chemin": "rules/client-passive-event-listeners.md",
+      "sha256": "1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b",
+      "taille": 1644
+     },
+     {
+      "chemin": "rules/client-swr-dedup.md",
+      "sha256": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+      "taille": 1159
+     },
+     {
+      "chemin": "rules/js-batch-dom-css.md",
+      "sha256": "480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959",
+      "taille": 3266
+     },
+     {
+      "chemin": "rules/js-cache-function-results.md",
+      "sha256": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+      "taille": 1949
+     },
+     {
+      "chemin": "rules/js-cache-property-access.md",
+      "sha256": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+      "taille": 532
+     },
+     {
+      "chemin": "rules/js-cache-storage.md",
+      "sha256": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+      "taille": 1651
+     },
+     {
+      "chemin": "rules/js-combine-iterations.md",
+      "sha256": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+      "taille": 753
+     },
+     {
+      "chemin": "rules/js-early-exit.md",
+      "sha256": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+      "taille": 1133
+     },
+     {
+      "chemin": "rules/js-flatmap-filter.md",
+      "sha256": "9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0",
+      "taille": 1411
+     },
+     {
+      "chemin": "rules/js-hoist-regexp.md",
+      "sha256": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+      "taille": 1028
+     },
+     {
+      "chemin": "rules/js-index-maps.md",
+      "sha256": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+      "taille": 837
+     },
+     {
+      "chemin": "rules/js-length-check-first.md",
+      "sha256": "8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624",
+      "taille": 1747
+     },
+     {
+      "chemin": "rules/js-min-max-loop.md",
+      "sha256": "87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421",
+      "taille": 2290
+     },
+     {
+      "chemin": "rules/js-request-idle-callback.md",
+      "sha256": "ee08f83905b4011abbc33d594033157d77561b5bbd9b36b04f0f409581ffec32",
+      "taille": 2647
+     },
+     {
+      "chemin": "rules/js-set-map-lookups.md",
+      "sha256": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+      "taille": 532
+     },
+     {
+      "chemin": "rules/js-tosorted-immutable.md",
+      "sha256": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+      "taille": 1782
+     },
+     {
+      "chemin": "rules/rendering-activity.md",
+      "sha256": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+      "taille": 564
+     },
+     {
+      "chemin": "rules/rendering-animate-svg-wrapper.md",
+      "sha256": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+      "taille": 1185
+     },
+     {
+      "chemin": "rules/rendering-conditional-render.md",
+      "sha256": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+      "taille": 980
+     },
+     {
+      "chemin": "rules/rendering-content-visibility.md",
+      "sha256": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+      "taille": 815
+     },
+     {
+      "chemin": "rules/rendering-hoist-jsx.md",
+      "sha256": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+      "taille": 1039
+     },
+     {
+      "chemin": "rules/rendering-hydration-no-flicker.md",
+      "sha256": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+      "taille": 2308
+     },
+     {
+      "chemin": "rules/rendering-hydration-suppress-warning.md",
+      "sha256": "915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2",
+      "taille": 872
+     },
+     {
+      "chemin": "rules/rendering-resource-hints.md",
+      "sha256": "351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864",
+      "taille": 2549
+     },
+     {
+      "chemin": "rules/rendering-script-defer-async.md",
+      "sha256": "4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab",
+      "taille": 1868
+     },
+     {
+      "chemin": "rules/rendering-svg-precision.md",
+      "sha256": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+      "taille": 588
+     },
+     {
+      "chemin": "rules/rendering-usetransition-loading.md",
+      "sha256": "3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1",
+      "taille": 2074
+     },
+     {
+      "chemin": "rules/rerender-defer-reads.md",
+      "sha256": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+      "taille": 973
+     },
+     {
+      "chemin": "rules/rerender-dependencies.md",
+      "sha256": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+      "taille": 824
+     },
+     {
+      "chemin": "rules/rerender-derived-state-no-effect.md",
+      "sha256": "cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a",
+      "taille": 1201
+     },
+     {
+      "chemin": "rules/rerender-derived-state.md",
+      "sha256": "1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d",
+      "taille": 728
+     },
+     {
+      "chemin": "rules/rerender-functional-setstate.md",
+      "sha256": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+      "taille": 2968
+     },
+     {
+      "chemin": "rules/rerender-lazy-state-init.md",
+      "sha256": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+      "taille": 2016
+     },
+     {
+      "chemin": "rules/rerender-memo-with-default-value.md",
+      "sha256": "81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd",
+      "taille": 1173
+     },
+     {
+      "chemin": "rules/rerender-memo.md",
+      "sha256": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+      "taille": 1148
+     },
+     {
+      "chemin": "rules/rerender-move-effect-to-event.md",
+      "sha256": "abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029",
+      "taille": 1268
+     },
+     {
+      "chemin": "rules/rerender-no-inline-components.md",
+      "sha256": "1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3",
+      "taille": 2135
+     },
+     {
+      "chemin": "rules/rerender-simple-expression-in-memo.md",
+      "sha256": "5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800",
+      "taille": 1018
+     },
+     {
+      "chemin": "rules/rerender-split-combined-hooks.md",
+      "sha256": "6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c",
+      "taille": 1844
+     },
+     {
+      "chemin": "rules/rerender-transitions.md",
+      "sha256": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+      "taille": 1055
+     },
+     {
+      "chemin": "rules/rerender-use-deferred-value.md",
+      "sha256": "8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909",
+      "taille": 1846
+     },
+     {
+      "chemin": "rules/rerender-use-ref-transient-values.md",
+      "sha256": "f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54",
+      "taille": 1742
+     },
+     {
+      "chemin": "rules/server-after-nonblocking.md",
+      "sha256": "d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2",
+      "taille": 2012
+     },
+     {
+      "chemin": "rules/server-auth-actions.md",
+      "sha256": "a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23",
+      "taille": 2649
+     },
+     {
+      "chemin": "rules/server-cache-lru.md",
+      "sha256": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+      "taille": 1353
+     },
+     {
+      "chemin": "rules/server-cache-react.md",
+      "sha256": "fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c",
+      "taille": 2228
+     },
+     {
+      "chemin": "rules/server-dedup-props.md",
+      "sha256": "c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37",
+      "taille": 2060
+     },
+     {
+      "chemin": "rules/server-hoist-static-io.md",
+      "sha256": "5abea4dd882b13661bd5f7dfb93f9e547d5f08176c61c448ade91b210ed5d49f",
+      "taille": 4423
+     },
+     {
+      "chemin": "rules/server-no-shared-module-state.md",
+      "sha256": "4d869bf1cd2f1632e5ca4c0e64b1cf0e71c5f5a0f940bc8a22174d205e735ed7",
+      "taille": 1766
+     },
+     {
+      "chemin": "rules/server-parallel-fetching.md",
+      "sha256": "569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472",
+      "taille": 1554
+     },
+     {
+      "chemin": "rules/server-parallel-nested-fetching.md",
+      "sha256": "ad5d9656984d4a959997a2367bf59cc6632297b4634a1dd13a087939d83f30b3",
+      "taille": 992
+     },
+     {
+      "chemin": "rules/server-serialization.md",
+      "sha256": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f",
+      "taille": 996
+     }
+    ]
+   }
+  },
+  {
+   "id": "gsap-scrolltrigger",
+   "type": "skill",
+   "nom": "Animations au défilement (GSAP)",
+   "description": "Animations liées au défilement avec GSAP ScrollTrigger, propres et fluides.",
+   "auteur": "GreenSock (GSAP)",
+   "verifie": true,
+   "categorie": "web",
+   "essai": "Anime les sections au défilement.",
+   "licence": "MIT",
+   "taille": 18390,
+   "source": {
+    "type": "github",
+    "depot": "greensock/gsap-skills",
+    "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+    "dossier": "skills/gsap-scrolltrigger",
+    "fichiers": [
+     {
+      "chemin": "SKILL.md",
+      "sha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4",
+      "taille": 18390
+     }
+    ]
+   }
+  },
+  {
+   "id": "unreal-headless",
    "type": "skill",
    "nom": "Unreal sans interface",
    "description": "Lancer les tests et scripts Unreal sans ouvrir l'éditeur, avec preuve des résultats.",
@@ -2423,7 +1692,7 @@
    }
   },
   {
-   "id": "blender-arriere-plan",
+   "id": "blender-background",
    "type": "skill",
    "nom": "Blender en arrière-plan",
    "description": "Créer et modifier des modèles 3D par script Blender, sans fenêtre, avec preuve des fichiers.",
@@ -2453,7 +1722,7 @@
    }
   },
   {
-   "id": "retro-ingenierie",
+   "id": "reverse-engineering",
    "type": "skill",
    "nom": "Rétro-ingénierie",
    "description": "Comprendre un format ou un binaire, toujours sur des copies.",
@@ -2468,7 +1737,7 @@
    }
   },
   {
-   "id": "copier-coller",
+   "id": "copy-paste",
    "type": "skill",
    "nom": "Copier-coller avec une IA",
    "description": "Copier le contexte d'une tâche vers n'importe quelle IA, puis coller sa réponse comme proposition.",
@@ -2494,7 +1763,7 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/game-design-document"
+    "dossier": "library/Skills/game-design-document"
    }
   },
   {
@@ -2509,11 +1778,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/level-design"
+    "dossier": "library/Skills/level-design"
    }
   },
   {
-   "id": "equilibrage-jeu",
+   "id": "game-balancing",
    "type": "skill",
    "nom": "Équilibrage de jeu",
    "description": "Dégâts, vie, économie, progression : tableaux, formules et simulations.",
@@ -2524,11 +1793,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/equilibrage-jeu"
+    "dossier": "library/Skills/game-balancing"
    }
   },
   {
-   "id": "quetes-et-dialogues",
+   "id": "quests-and-dialogues",
    "type": "skill",
    "nom": "Quêtes et dialogues",
    "description": "Quêtes, dialogues ramifiés et textes de PNJ cohérents avec l'univers.",
@@ -2539,11 +1808,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/quetes-et-dialogues"
+    "dossier": "library/Skills/quests-and-dialogues"
    }
   },
   {
-   "id": "pipeline-assets-3d",
+   "id": "3d-asset-pipeline",
    "type": "skill",
    "nom": "Pipeline d'assets 3D",
    "description": "Échelle, origine, nommage, UV, LOD et export FBX/GLB vers Unreal, Godot ou Unity.",
@@ -2554,11 +1823,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/pipeline-assets-3d"
+    "dossier": "library/Skills/3d-asset-pipeline"
    }
   },
   {
-   "id": "charte-graphique",
+   "id": "brand-guidelines",
    "type": "skill",
    "nom": "Charte graphique",
    "description": "Couleurs, typographies, logo et déclinaisons, avec contrastes vérifiés.",
@@ -2569,11 +1838,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/charte-graphique"
+    "dossier": "library/Skills/brand-guidelines"
    }
   },
   {
-   "id": "seo-contenu-web",
+   "id": "seo-web-content",
    "type": "skill",
    "nom": "SEO et contenus web",
    "description": "Audit, titres, méta-descriptions, structure et pages qui répondent aux recherches.",
@@ -2584,11 +1853,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/seo-contenu-web"
+    "dossier": "library/Skills/seo-web-content"
    }
   },
   {
-   "id": "revue-de-code",
+   "id": "code-review",
    "type": "skill",
    "nom": "Revue de code",
    "description": "Bugs, sécurité, performance, lisibilité, tests : liste classée par gravité.",
@@ -2599,11 +1868,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/revue-de-code"
+    "dossier": "library/Skills/code-review"
    }
   },
   {
-   "id": "tests-automatises",
+   "id": "automated-tests",
    "type": "skill",
    "nom": "Tests automatisés",
    "description": "Tests unitaires, d'intégration et bout en bout avec l'outil du projet.",
@@ -2614,11 +1883,26 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/tests-automatises"
+    "dossier": "library/Skills/automated-tests"
    }
   },
   {
-   "id": "analyse-de-donnees",
+   "id": "office-documents",
+   "type": "skill",
+   "nom": "Documents bureautiques",
+   "description": "Word, Excel, PowerPoint et PDF : lire, créer et modifier par script, avec vérification du fichier produit.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "donnees",
+   "essai": "Fais un devis Word propre à partir de ces informations.",
+   "licence": "Le studio",
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/office-documents"
+   }
+  },
+  {
+   "id": "data-analysis",
    "type": "skill",
    "nom": "Analyse de données",
    "description": "Nettoyage, calculs, graphiques et conclusions chiffrées, avec un script reproductible.",
@@ -2629,11 +1913,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/analyse-de-donnees"
+    "dossier": "library/Skills/data-analysis"
    }
   },
   {
-   "id": "gestion-freelance",
+   "id": "freelance-management",
    "type": "skill",
    "nom": "Gestion freelance",
    "description": "Devis, factures, relances et suivi des clients, sans mention inventée.",
@@ -2644,11 +1928,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/gestion-freelance"
+    "dossier": "library/Skills/freelance-management"
    }
   },
   {
-   "id": "sons-et-musique",
+   "id": "sound-and-music",
    "type": "skill",
    "nom": "Sons et musique",
    "description": "Liste des sons, création, nettoyage, normalisation, formats et nommage.",
@@ -2659,11 +1943,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/sons-et-musique"
+    "dossier": "library/Skills/sound-and-music"
    }
   },
   {
-   "id": "montage-video-ffmpeg",
+   "id": "video-editing-ffmpeg",
    "type": "skill",
    "nom": "Montage vidéo (FFmpeg)",
    "description": "Découpe, assemblage, sous-titres, formats réseaux et GIF en ligne de commande.",
@@ -2674,11 +1958,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/montage-video-ffmpeg"
+    "dossier": "library/Skills/video-editing-ffmpeg"
    }
   },
   {
-   "id": "relecture-francais",
+   "id": "french-proofreading",
    "type": "skill",
    "nom": "Relecture en français",
    "description": "Orthographe, grammaire, typographie française et clarté, en gardant ta voix.",
@@ -2689,11 +1973,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/relecture-francais"
+    "dossier": "library/Skills/french-proofreading"
    }
   },
   {
-   "id": "reseaux-sociaux",
+   "id": "social-media",
    "type": "skill",
    "nom": "Réseaux sociaux",
    "description": "Calendrier éditorial, posts adaptés à chaque réseau, visuels à prévoir, suivi.",
@@ -2704,11 +1988,11 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/reseaux-sociaux"
+    "dossier": "library/Skills/social-media"
    }
   },
   {
-   "id": "veille-et-synthese",
+   "id": "research-digest",
    "type": "skill",
    "nom": "Veille et synthèse",
    "description": "Sources fiables, comparaison et synthèse courte et citée.",
@@ -2719,7 +2003,7 @@
    "licence": "Le studio",
    "source": {
     "type": "studio-skill",
-    "dossier": "bibliotheque/Skills/veille-et-synthese"
+    "dossier": "library/Skills/research-digest"
    }
   },
   {
@@ -2747,7 +2031,7 @@
    "id": "context7",
    "type": "mcp",
    "nom": "Docs à jour (Context7)",
-   "description": "Documentation à jour des bibliothèques et moteurs, lue par les agents au lieu de leur mémoire.",
+   "description": "Documentation à jour des bibliothèques et moteurs, lue par les agents au lieu de leur mémoire. Une clé gratuite est conseillée (quota sans clé réduit).",
    "auteur": "Upstash",
    "verifie": true,
    "categorie": "code",
@@ -2794,7 +2078,7 @@
    "id": "fetch",
    "type": "mcp",
    "nom": "Lire des pages web",
-   "description": "Les agents lisent une page web et la convertissent en texte.",
+   "description": "Les agents lisent une page web et la convertissent en texte. Peut aussi lire les adresses de ton réseau local : à réserver aux sites de confiance.",
    "auteur": "Anthropic (référence MCP)",
    "verifie": true,
    "categorie": "recherche",
@@ -2855,7 +2139,7 @@
    "id": "blender-mcp",
    "type": "mcp",
    "nom": "Blender (MCP)",
-   "description": "Les agents pilotent Blender ouvert : scène, objets, matériaux. Demande l'extension Blender MCP dans Blender.",
+   "description": "Les agents pilotent Blender ouvert : scène, objets, matériaux. Demande l'extension Blender MCP dans Blender. Exécute du code dans Blender : à n'activer que dans les projets 3D.",
    "auteur": "Communauté (ahujasid)",
    "verifie": false,
    "categorie": "3d",
@@ -2864,7 +2148,10 @@
     "command": "uvx",
     "args": [
      "blender-mcp==2.0.0"
-    ]
+    ],
+    "env": {
+     "DISABLE_TELEMETRY": "true"
+    }
    },
    "prerequis": [
     "uv"
@@ -2872,74 +2159,10 @@
    "variables": []
   },
   {
-   "id": "godot-mcp",
-   "type": "mcp",
-   "nom": "Godot",
-   "description": "Lancer, déboguer et modifier des projets Godot.",
-   "auteur": "Communauté (Coding-Solo)",
-   "verifie": false,
-   "categorie": "jeu",
-   "essai": "Lance le projet Godot et relève les erreurs.",
-   "config": {
-    "command": "npx",
-    "args": [
-     "-y",
-     "@coding-solo/godot-mcp@0.1.1"
-    ],
-    "env": {
-     "GODOT_PATH": "${GODOT_PATH}"
-    }
-   },
-   "prerequis": [
-    "node"
-   ],
-   "variables": [
-    {
-     "nom": "GODOT_PATH",
-     "libelle": "Chemin de Godot (facultatif)",
-     "secret": false,
-     "aide": "ex. C:\\Godot\\Godot_v4.exe"
-    }
-   ]
-  },
-  {
-   "id": "brave-search",
-   "type": "mcp",
-   "nom": "Recherche web (Brave)",
-   "description": "Recherche sur le web pour les agents, avec ta clé Brave Search.",
-   "auteur": "Brave",
-   "verifie": true,
-   "categorie": "recherche",
-   "essai": "Cherche les dernières nouveautés d'Unreal Engine.",
-   "config": {
-    "command": "npx",
-    "args": [
-     "-y",
-     "@brave/brave-search-mcp-server@2.1.4",
-     "--transport",
-     "stdio"
-    ],
-    "env": {
-     "BRAVE_API_KEY": "${BRAVE_API_KEY}"
-    }
-   },
-   "prerequis": [
-    "node"
-   ],
-   "variables": [
-    {
-     "nom": "BRAVE_API_KEY",
-     "libelle": "Clé API Brave Search",
-     "secret": true,
-     "aide": "brave.com/search/api"
-    }
-   ]
-  },
-  {
    "id": "elevenlabs",
    "type": "mcp",
    "nom": "Voix (ElevenLabs)",
-   "description": "Voix de personnages, narration et effets sonores avec ta clé ElevenLabs.",
+   "description": "Voix de personnages, narration et effets sonores avec ta clé ElevenLabs. Clé requise (quota gratuit limité, puis payant).",
    "auteur": "ElevenLabs",
    "verifie": true,
    "categorie": "son",
@@ -2969,7 +2192,7 @@
    "id": "firecrawl",
    "type": "mcp",
    "nom": "Extraire des sites (Firecrawl)",
-   "description": "Les agents lisent et extraient des sites entiers proprement, avec ta clé Firecrawl.",
+   "description": "Les agents lisent et extraient des sites entiers proprement, avec ta clé Firecrawl. Clé requise (quota gratuit limité, puis payant).",
    "auteur": "Firecrawl",
    "verifie": true,
    "categorie": "recherche",
@@ -3000,7 +2223,7 @@
    "id": "tavily",
    "type": "mcp",
    "nom": "Recherche web (Tavily)",
-   "description": "Recherche web pensée pour les agents, avec ta clé Tavily.",
+   "description": "Recherche web pensée pour les agents, avec ta clé Tavily. Clé requise (quota gratuit limité, puis payant).",
    "auteur": "Tavily",
    "verifie": true,
    "categorie": "recherche",
@@ -3031,7 +2254,7 @@
    "id": "notion",
    "type": "mcp",
    "nom": "Notion",
-   "description": "Lire et mettre à jour tes pages et bases Notion, avec un jeton d'intégration.",
+   "description": "Lire et mettre à jour tes pages et bases Notion, avec un jeton d'intégration. Le serveur local n'est plus maintenu par Notion : leur serveur hébergé est conseillé.",
    "auteur": "Notion",
    "verifie": true,
    "categorie": "documents",
@@ -3115,7 +2338,7 @@
    "id": "ableton",
    "type": "mcp",
    "nom": "Ableton Live",
-   "description": "Les agents pilotent Ableton Live ouvert : pistes, clips, instruments. Demande le script Ableton MCP dans Live.",
+   "description": "Les agents pilotent Ableton Live ouvert : pistes, clips, instruments. Demande le script Ableton MCP dans Live. Ableton Live est payant ; statistiques d'usage anonymes envoyées par défaut.",
    "auteur": "Communauté (ahujasid)",
    "verifie": false,
    "categorie": "son",
@@ -3559,13 +2782,12 @@
    "membres": [
     "game-design-document",
     "level-design",
-    "equilibrage-jeu",
-    "quetes-et-dialogues",
+    "game-balancing",
+    "quests-and-dialogues",
     "pack:unreal",
-    "pipeline-assets-3d",
+    "3d-asset-pipeline",
     "context7",
     "git",
-    "godot-mcp",
     "blender-mcp",
     "elevenlabs",
     "logiciel-unreal",
@@ -3578,8 +2800,8 @@
    "base": [
     "game-design-document",
     "level-design",
-    "equilibrage-jeu",
-    "quetes-et-dialogues",
+    "game-balancing",
+    "quests-and-dialogues",
     "context7",
     "git"
    ]
@@ -3593,7 +2815,7 @@
    "verifie": true,
    "categorie": "3d",
    "membres": [
-    "pipeline-assets-3d",
+    "3d-asset-pipeline",
     "pack:blender",
     "blender-mcp",
     "logiciel-blender",
@@ -3601,7 +2823,7 @@
     "logiciel-godot"
    ],
    "base": [
-    "pipeline-assets-3d",
+    "3d-asset-pipeline",
     "pack:blender"
    ]
   },
@@ -3614,7 +2836,7 @@
    "verifie": true,
    "categorie": "design",
    "membres": [
-    "charte-graphique",
+    "brand-guidelines",
     "pack:concept-art",
     "canvas-design",
     "theme-factory",
@@ -3627,7 +2849,7 @@
     "logiciel-figma"
    ],
    "base": [
-    "charte-graphique",
+    "brand-guidelines",
     "pack:concept-art",
     "canvas-design"
    ]
@@ -3642,21 +2864,25 @@
    "categorie": "web",
    "membres": [
     "frontend-design",
-    "web-artifacts-builder",
     "webapp-testing",
-    "seo-contenu-web",
+    "seo-web-content",
     "playwright",
     "context7",
     "github",
     "shopify-dev",
     "logiciel-vscode",
     "logiciel-node",
-    "logiciel-git"
+    "logiciel-git",
+    "web-quality-audit",
+    "accessibility",
+    "core-web-vitals",
+    "vercel-react-best-practices",
+    "gsap-scrolltrigger"
    ],
    "base": [
     "frontend-design",
     "webapp-testing",
-    "seo-contenu-web",
+    "seo-web-content",
     "playwright",
     "context7"
    ]
@@ -3670,9 +2896,8 @@
    "verifie": true,
    "categorie": "code",
    "membres": [
-    "revue-de-code",
-    "tests-automatises",
-    "claude-api",
+    "code-review",
+    "automated-tests",
     "mcp-builder",
     "pack:avance",
     "git",
@@ -3683,11 +2908,19 @@
     "logiciel-git",
     "logiciel-python",
     "logiciel-node",
-    "logiciel-docker"
+    "logiciel-docker",
+    "debugging-and-error-recovery",
+    "code-review-and-quality",
+    "test-driven-development",
+    "git-workflow-and-versioning",
+    "spec-driven-development",
+    "security-and-hardening",
+    "security-threat-model",
+    "documentation-and-adrs"
    ],
    "base": [
-    "revue-de-code",
-    "tests-automatises",
+    "code-review",
+    "automated-tests",
     "git",
     "context7"
    ]
@@ -3701,16 +2934,15 @@
    "verifie": true,
    "categorie": "donnees",
    "membres": [
-    "analyse-de-donnees",
-    "xlsx",
-    "pdf",
+    "data-analysis",
+    "office-documents",
     "fetch",
     "logiciel-python",
     "logiciel-libreoffice"
    ],
    "base": [
-    "analyse-de-donnees",
-    "xlsx"
+    "data-analysis",
+    "office-documents"
    ]
   },
   {
@@ -3722,20 +2954,14 @@
    "verifie": true,
    "categorie": "documents",
    "membres": [
-    "docx",
-    "xlsx",
-    "pptx",
-    "pdf",
+    "office-documents",
     "doc-coauthoring",
-    "gestion-freelance",
+    "freelance-management",
     "notion",
     "logiciel-libreoffice"
    ],
    "base": [
-    "docx",
-    "xlsx",
-    "pptx",
-    "pdf"
+    "office-documents"
    ]
   },
   {
@@ -3747,7 +2973,7 @@
    "verifie": true,
    "categorie": "son",
    "membres": [
-    "sons-et-musique",
+    "sound-and-music",
     "elevenlabs",
     "ableton",
     "logiciel-audacity",
@@ -3758,7 +2984,7 @@
     "logiciel-ffmpeg"
    ],
    "base": [
-    "sons-et-musique",
+    "sound-and-music",
     "logiciel-audacity"
    ]
   },
@@ -3771,14 +2997,14 @@
    "verifie": true,
    "categorie": "video",
    "membres": [
-    "montage-video-ffmpeg",
+    "video-editing-ffmpeg",
     "elevenlabs",
     "logiciel-ffmpeg",
     "logiciel-obs",
     "logiciel-davinci"
    ],
    "base": [
-    "montage-video-ffmpeg",
+    "video-editing-ffmpeg",
     "logiciel-ffmpeg"
    ]
   },
@@ -3791,13 +3017,13 @@
    "verifie": true,
    "categorie": "ecriture",
    "membres": [
-    "relecture-francais",
-    "quetes-et-dialogues",
+    "french-proofreading",
+    "quests-and-dialogues",
     "doc-coauthoring",
-    "docx"
+    "office-documents"
    ],
    "base": [
-    "relecture-francais",
+    "french-proofreading",
     "doc-coauthoring"
    ]
   },
@@ -3810,16 +3036,15 @@
    "verifie": true,
    "categorie": "marketing",
    "membres": [
-    "reseaux-sociaux",
-    "seo-contenu-web",
+    "social-media",
+    "seo-web-content",
     "canvas-design",
     "theme-factory",
-    "brave-search",
     "notion"
    ],
    "base": [
-    "reseaux-sociaux",
-    "seo-contenu-web"
+    "social-media",
+    "seo-web-content"
    ]
   },
   {
@@ -3831,14 +3056,13 @@
    "verifie": true,
    "categorie": "recherche",
    "membres": [
-    "veille-et-synthese",
+    "research-digest",
     "fetch",
-    "brave-search",
     "tavily",
     "firecrawl"
    ],
    "base": [
-    "veille-et-synthese",
+    "research-digest",
     "fetch"
    ]
   },
@@ -3853,12 +3077,13 @@
    "membres": [
     "skill-creator",
     "mcp-builder",
-    "claude-api",
     "context7",
     "sequential-thinking",
     "logiciel-ollama",
     "logiciel-uv",
-    "logiciel-node"
+    "logiciel-node",
+    "handoff",
+    "verification-before-completion"
    ],
    "base": [
     "skill-creator"
