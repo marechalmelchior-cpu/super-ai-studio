@@ -1,7 +1,7 @@
 {
- "version": "0.4.17",
+ "version": "0.4.18",
  "mineure": true,
- "notes": "Première ouverture en quelques clics (logos, Ollama avec modèle conseillé, GitHub), visite guidée, modèles de projet, Tes résultats, images et voix avec toute IA capable, Mac et Linux, anglais.",
- "fichier": "programme-0.4.17.zip",
- "sha256": "9705f30b123a75750b66fe4be942027b3bebe03f31c995a2397e51ff51182807"
+ "notes": "Ménage automatique au fil de l'eau (fin de tâche, sauvegardes, versions, caches), dossiers simplifiés : résultats des sujets rangés avec eux.",
+ "fichier": "programme-0.4.18.zip",
+ "sha256": "d9fecc9731d0788d0ef9dc0eecee3ca210eafa7fb0418052ecb96fbfe47c86b3"
 }
