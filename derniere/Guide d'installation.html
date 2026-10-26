@@ -5,39 +5,37 @@ main{max-width:760px;margin:0 auto;padding:32px 20px 60px}
 h1{font-size:26px;color:#fff;background:linear-gradient(90deg,#2ef2ff,#ff2fb4);-webkit-background-clip:text;background-clip:text;color:transparent}
 h2{font-size:18px;color:#2ef2ff;margin-top:30px;border-bottom:1px solid #16384d;padding-bottom:6px}
 code{background:#0b1d2b;padding:1px 6px;border-radius:3px;font-family:Consolas,monospace;color:#ffd6f0}
-.intro{font-size:17px;line-height:1.55;padding:12px 16px;border-left:3px solid #2ef2ff;background:#071624}
 a{color:#7fe9ff} li{margin:4px 0} b{color:#fff}
 </style><main><h1>Installer le studio IA</h1>
-<p class="intro"><b>Super AI Agent Pro Station Max 2000</b> est une plateforme IA tout-en-un : toutes tes IA (Claude, ChatGPT, Gemini, Grok, modèles gratuits sur ton PC…) réunies dans une seule application, avec une équipe d'agents, une mémoire et des compétences partagées par toutes. Fini les tutos et les réglages compliqués : tu installes en deux clics, tu connectes ton IA, et tu demandes ce que tu veux.</p>
-<p>Il te faut : Windows 10 ou 11, et une IA (clé API, IA locale ou abonnement).</p>
+<p><b>Super AI Agent Pro Station Max 2000</b> est une plateforme IA tout-en-un : toutes tes IA (Claude, ChatGPT, Gemini, Grok, modèles gratuits sur ton PC…) réunies dans une seule application, avec une équipe d'agents, une mémoire et des compétences partagées par toutes. Fini les tutos et les réglages compliqués : tu installes en deux clics, tu connectes ton IA, et tu demandes ce que tu veux.</p>
+<p>Il te faut : Windows 10 ou 11, un Mac ou un PC Linux, et une IA (abonnement, clé API ou IA gratuite sur ton PC).</p>
 <h2>1. Installer</h2>
+<p><b>Windows</b></p>
 <ol>
 <li>Double-clique sur <code>Super AI Agent Pro Station Max 2000 - Installation.exe</code>.
 <li>Message « Windows a protégé votre ordinateur » ? Clique <b>Informations complémentaires</b>, puis <b>Exécuter quand même</b>.
 <li>Clique <b>Installer</b>. Attends 2 à 5 minutes.
 </ol>
+<p><b>Mac et Linux</b> : ouvre un Terminal et colle cette ligne, puis Entrée :</p>
+<p><code>curl -fsSL <a href="https://raw.githubusercontent.com/marechalmelchior-cpu/super-ai-studio/main/derniere/installer.sh">https://raw.githubusercontent.com/marechalmelchior-cpu/super-ai-studio/main/derniere/installer.sh</a> | bash</code></p>
+<p>Il faut Python 3.11 ou plus (le Terminal te dit comment l'installer s'il manque). Raccourci créé : sur le Bureau (Mac) ou dans le menu des applications (Linux).</p>
 <p>Rien de ce que tu as déjà n'est modifié.</p>
 <h2>2. Premier lancement</h2>
 <ol>
-<li>Ouvre <b>Super AI Agent Pro Station Max 2000</b> (icône du bureau).
-<li>Tape ton prénom.
-<li>Garde le dossier proposé.
-<li>Coche des packs si tu veux.
-<li>Clique <b>Créer mon studio</b>.
+<li>Ouvre <b>Super AI Agent Pro Station Max 2000</b>.
+<li>Tape ton prénom (facultatif) et clique <b>Créer mon studio</b>.
+<li>Connecte une IA en un clic, avec son logo : - <b>abonnement</b> Claude ou ChatGPT : le studio installe l'outil puis ouvre la connexion ; - <b>clé API</b> (OpenRouter, OpenAI, Gemini, Mistral…) : colle ta clé ; - <b>gratuit sur ton PC</b> : installe Ollama, choisis un modèle adapté à ton PC (le studio te le conseille).
+<li>GitHub (facultatif) : installe Git et connecte ton compte pour sauvegarder tes projets en ligne.
+<li>Suis la visite guidée (1 minute). Bouton <b>Guide</b>, en haut, pour la revoir.
 </ol>
-<h2>3. Connecter ton IA</h2>
-<ol>
-<li>Clique <b>Connecter une IA</b>.
-<li>Choisis ton fournisseur et colle ta clé API.
-<li>IA locale (Ollama, LM Studio) : lance-la, puis clique <b>Connecter</b>.
-</ol>
-<h2>4. Travailler</h2>
+<h2>3. Travailler</h2>
 <ul>
-<li>Écris ta demande au Superviseur, à droite.
-<li>Ajoute un projet avec le bouton <b>+</b>.
-<li>Crée un agent : Gestion › <b>Créer un agent</b>.
+<li>Écris ta demande au Superviseur, à droite. Il propose une tâche : clique <b>Lancer</b>, puis <b>Valider</b> le résultat.
+<li>Ajoute un projet avec le bouton <b>+</b> : pars d'un modèle (site web, jeu vidéo, application, document, images) ou d'un projet vide.
+<li>Gestion › Usage › <b>Tes résultats</b> : quel modèle réussit le mieux chaque travail, d'après tes propres tâches.
+<li>Langue anglaise : Accueil › Réglages › <b>Langue · Language</b> › en.
 </ul>
-<h2>5. Téléphone (facultatif)</h2>
+<h2>4. Téléphone (facultatif)</h2>
 <ol>
 <li>Installe <b>Tailscale</b> sur le PC et le téléphone (même compte).
 <li>Studio : Accueil › Réglages › Téléphone › <b>Activé</b> › <b>Associer un téléphone</b>.
@@ -46,7 +44,7 @@ a{color:#7fe9ff} li{margin:4px 0} b{color:#fff}
 <h2>Bon à savoir</h2>
 <ul>
 <li>Tout reste sur ton PC.
-<li>Rien n'est supprimé ni publié sans ton clic.
+<li>Rien n'est installé, supprimé ni publié sans ton clic.
 <li>Fermer : bouton <b>Fermer</b>, en haut à droite.
-<li>Désinstaller : menu Démarrer › Super AI Agent Pro Station Max 2000 › Désinstaller. Ton dossier est gardé.
+<li>Désinstaller (Windows) : menu Démarrer › Super AI Agent Pro Station Max 2000 › Désinstaller. Mac et Linux : supprime le dossier « Super AI Studio » de ton dossier personnel. Ton dossier de travail est gardé.
 </ul></main></html>
