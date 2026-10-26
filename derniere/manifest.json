@@ -1,7 +1,7 @@
 {
- "version": "0.4.7",
+ "version": "0.4.8",
  "mineure": true,
- "notes": "Domaines de métier dans Personnalisation, nouvelles skills, benchmarks Cloud / Local, modèles locaux et Ollama mieux gérés.",
- "fichier": "programme-0.4.7.zip",
- "sha256": "e684cacfe97b57ae35ca61df8cc8b7cde34c9c796a4b67454b5086697c89f63f"
+ "notes": "Domaines de métier, nouvelles skills, benchmarks Cloud / Local, Ollama mieux géré, onglets réordonnés.",
+ "fichier": "programme-0.4.8.zip",
+ "sha256": "a4363fb5ebf94ed64783972519a349a6fb56caba421a25d212fbb4d6ff11b730"
 }
