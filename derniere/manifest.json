@@ -1,7 +1,7 @@
 {
- "version": "0.4.19",
+ "version": "0.4.20",
  "mineure": true,
- "notes": "N'importe quelle IA pour chaque agent (modèle et effort de cette IA), relecteur différent, copier-coller avec n'importe quelle IA.",
- "fichier": "programme-0.4.19.zip",
- "sha256": "53b74f97ad67011e2a96b673015cd55a0ef21649b3bc71b9162d53faceda2bb2"
+ "notes": "Mise en page (aperçus, suivi en direct, 3 colonnes, Résultats, notification « Voir »), studio en anglais, Superviseur sur n'importe quelle IA, audit du studio",
+ "fichier": "programme-0.4.20.zip",
+ "sha256": "932803f2e11c34b678b5b42c5a34853d62dea31f43020d4f3186b1d290a83eea"
 }

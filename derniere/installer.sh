@@ -67,7 +67,7 @@ Type=Application
 Name=$NOM
 Comment=Ton studio IA local
 Exec=/bin/sh "$APP/installeur/studio.sh"
-Icon=$APP/studio/ui/static/icone-512.png
+Icon=$APP/studio/ui/static/icon-512.png
 Terminal=false
 Categories=Development;
 DESK
