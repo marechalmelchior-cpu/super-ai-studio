@@ -1,7 +1,7 @@
 {
- "version": "0.4.15",
+ "version": "0.4.16",
  "mineure": true,
- "notes": "Toutes les IA (xAI, Moonshot, et n'importe quelle IA compatible OpenAI) ; modes Rapide/Max pour toutes ; skills reprises mises à jour sur place.",
- "fichier": "programme-0.4.15.zip",
- "sha256": "5995c8522f47eaf2af7aedc5958ecdc356fa6bfbe6567d7c88e45461b475f5c9"
+ "notes": "Skills et instructions modifiés hors du studio : mise à jour proposée, plus jamais remplacée toute seule.",
+ "fichier": "programme-0.4.16.zip",
+ "sha256": "65cf000ca1c640bb8e5ee3af776e17804e00a9687362b145d54fb721ef228c2b"
 }
