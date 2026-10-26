@@ -1,7 +1,7 @@
 {
- "version": "0.4.12",
+ "version": "0.4.13",
  "mineure": true,
- "notes": "Skills, mémoire, serveurs MCP et fichiers d'instructions pour tous les modèles (clé API, OpenRouter, Ollama, Claude Code, Codex) ; ressources du PC dans l'en-tête ; usage et coût de toutes les IA.",
- "fichier": "programme-0.4.12.zip",
- "sha256": "b761e96b95797784a5781dd5a51ecc7a06ed538c869d65b9b8a82a5c8badaa7b"
+ "notes": "Reprise des skills et instructions déjà présents sur le PC (copie dans le studio, originaux intacts).",
+ "fichier": "programme-0.4.13.zip",
+ "sha256": "0c3d18f95ac382ad0bc94b340b6210b5774f44d15722034f106b9958986ad31b"
 }
