@@ -1,7 +1,7 @@
 {
- "version": "0.4.10",
+ "version": "0.4.11",
  "mineure": true,
- "notes": "Classement global et 12 classements (cloud et local classés ensemble) ; Modèles et benchmarks de retour dans Agents et outils ; modes Rapide/Normal/Performance par projet ; Ollama s'ouvre tout seul quand il sert.",
- "fichier": "programme-0.4.10.zip",
- "sha256": "ef3102714723a46ce40ad53b0803b8a0d31550dcd7c6b933b851bf0942ceba07"
+ "notes": "Extensions (ex-Personnalisation) : Découvrir, Connecteurs, Skills, Installé ; connexion des modèles cloud en un clic ; liste Connectés et installés ; désinstaller un modèle local ; réglages qui s'enregistrent de nouveau ; doublons retirés ; studio plus léger.",
+ "fichier": "programme-0.4.11.zip",
+ "sha256": "71290e8c839b3122d2403740d83c39721072664004824626a63c6c9ee9695a5e"
 }
