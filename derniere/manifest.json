@@ -1,7 +1,7 @@
 {
- "version": "0.4.20",
+ "version": "0.4.21",
  "mineure": true,
- "notes": "Mise en page (aperçus, suivi en direct, 3 colonnes, Résultats, notification « Voir »), studio en anglais, Superviseur sur n'importe quelle IA, audit du studio",
- "fichier": "programme-0.4.20.zip",
- "sha256": "932803f2e11c34b678b5b42c5a34853d62dea31f43020d4f3186b1d290a83eea"
+ "notes": "Le Superviseur compose l'équipe, chaque rôle sur la meilleure IA disponible, réglages allégés, Extensions vérifiées",
+ "fichier": "programme-0.4.21.zip",
+ "sha256": "d80089fdd1da103bf34b367567f7f8e49be7f649bd44074f1f87bc7885939a2b"
 }
