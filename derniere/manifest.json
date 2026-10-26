@@ -1,7 +1,7 @@
 {
- "version": "0.4.24",
+ "version": "0.4.25",
  "mineure": true,
- "notes": "Logos des extensions, logiciels trouvés reconnus, bouton Appliquer les corrections des audits, jauge RAM réparée sous Windows",
- "fichier": "programme-0.4.24.zip",
- "sha256": "3449b678db16e3294aed7f78397e6a363ccd811328bbe32bc64bf9a283c95155"
+ "notes": "Tâches Claude Code réparées (garde des agents), équipe puis travail enchaînés par le Superviseur",
+ "fichier": "programme-0.4.25.zip",
+ "sha256": "a0e2f93ce2866d33b0aeb907530bd44647ba69ee00c2841c35aed1edb229bb78"
 }
