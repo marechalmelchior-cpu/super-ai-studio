@@ -1,7 +1,7 @@
 {
- "version": "0.4.8",
+ "version": "0.4.9",
  "mineure": true,
- "notes": "Domaines de métier, nouvelles skills, benchmarks Cloud / Local, Ollama mieux géré, onglets réordonnés.",
- "fichier": "programme-0.4.8.zip",
- "sha256": "a4363fb5ebf94ed64783972519a349a6fb56caba421a25d212fbb4d6ff11b730"
+ "notes": "Équipe par projet (modèle, effort, consignes, MCP), tableau des agents par projet, benchmarks cloud et local réunis.",
+ "fichier": "programme-0.4.9.zip",
+ "sha256": "54c9d5bef2bcabd01b77169d942db018ff57f14714835969e74b194c08cb94dc"
 }
