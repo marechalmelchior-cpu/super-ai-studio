@@ -1,7 +1,7 @@
 {
- "version": "0.4.3",
+ "version": "0.4.4",
  "mineure": true,
- "notes": "Téléphone : la page ne remonte plus toute seule, les liens de tâche du Superviseur ouvrent la tâche, plus de place. Nouveau : micro pour dicter.",
- "fichier": "programme-0.4.3.zip",
- "sha256": "5e454b306503f5d036149ee38880f51b29dd5237894d256d9ba627f0e9c60699"
+ "notes": "Notifications sur le téléphone avec Valider, raccourcis /, tâches de nuit, annuler une tâche appliquée, installer des modèles locaux, reconnexion Claude automatique.",
+ "fichier": "programme-0.4.4.zip",
+ "sha256": "8c074ef992f4e81ca9aceda87c6808cf8a40973c2a7e67b4d3350756ab925f71"
 }
