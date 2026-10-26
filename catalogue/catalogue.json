@@ -974,7 +974,8 @@
       "taille": 14141
      }
     ]
-   }
+   },
+   "logo": "git"
   },
   {
    "id": "spec-driven-development",
@@ -1649,7 +1650,8 @@
       "taille": 996
      }
     ]
-   }
+   },
+   "logo": "react"
   },
   {
    "id": "gsap-scrolltrigger",
@@ -1674,7 +1676,8 @@
       "taille": 18390
      }
     ]
-   }
+   },
+   "logo": "gsap"
   },
   {
    "id": "unreal-headless",
@@ -1689,7 +1692,8 @@
    "source": {
     "type": "studio",
     "pack": "unreal"
-   }
+   },
+   "logo": "unreal"
   },
   {
    "id": "blender-background",
@@ -1704,7 +1708,8 @@
    "source": {
     "type": "studio",
     "pack": "blender"
-   }
+   },
+   "logo": "blender"
   },
   {
    "id": "concept-art-production",
@@ -1959,7 +1964,8 @@
    "source": {
     "type": "studio-skill",
     "dossier": "library/Skills/video-editing-ffmpeg"
-   }
+   },
+   "logo": "ffmpeg"
   },
   {
    "id": "french-proofreading",
@@ -2046,7 +2052,8 @@
    "prerequis": [
     "node"
    ],
-   "variables": []
+   "variables": [],
+   "logo": "upstash"
   },
   {
    "id": "github",
@@ -2072,7 +2079,8 @@
      "secret": true,
      "aide": "github.com › Settings › Developer settings › Personal access tokens"
     }
-   ]
+   ],
+   "logo": "github"
   },
   {
    "id": "fetch",
@@ -2112,7 +2120,8 @@
    "prerequis": [
     "uv"
    ],
-   "variables": []
+   "variables": [],
+   "logo": "git"
   },
   {
    "id": "sequential-thinking",
@@ -2156,7 +2165,8 @@
    "prerequis": [
     "uv"
    ],
-   "variables": []
+   "variables": [],
+   "logo": "blender"
   },
   {
    "id": "elevenlabs",
@@ -2186,7 +2196,8 @@
      "secret": true,
      "aide": "elevenlabs.io › Profil › API keys"
     }
-   ]
+   ],
+   "logo": "elevenlabs"
   },
   {
    "id": "firecrawl",
@@ -2279,7 +2290,8 @@
      "secret": true,
      "aide": "notion.so/profile/integrations"
     }
-   ]
+   ],
+   "logo": "notion"
   },
   {
    "id": "figma",
@@ -2311,7 +2323,8 @@
      "secret": true,
      "aide": "figma.com › Settings › Personal access tokens"
     }
-   ]
+   ],
+   "logo": "figma"
   },
   {
    "id": "shopify-dev",
@@ -2332,7 +2345,8 @@
    "prerequis": [
     "node"
    ],
-   "variables": []
+   "variables": [],
+   "logo": "shopify"
   },
   {
    "id": "ableton",
@@ -2370,7 +2384,8 @@
     "C:/Program Files/Blender Foundation/*/blender.exe"
    ],
    "winget": "BlenderFoundation.Blender",
-   "site": "https://www.blender.org/download/"
+   "site": "https://www.blender.org/download/",
+   "logo": "blender"
   },
   {
    "id": "logiciel-godot",
@@ -2389,7 +2404,8 @@
     "~/AppData/Local/Programs/Godot*/Godot*.exe"
    ],
    "winget": "GodotEngine.GodotEngine",
-   "site": "https://godotengine.org/download/"
+   "site": "https://godotengine.org/download/",
+   "logo": "godot"
   },
   {
    "id": "logiciel-krita",
@@ -2407,7 +2423,8 @@
     "C:/Program Files/Krita (x64)/bin/krita.exe"
    ],
    "winget": "KDE.Krita",
-   "site": "https://krita.org/fr/download/"
+   "site": "https://krita.org/fr/download/",
+   "logo": "krita"
   },
   {
    "id": "logiciel-inkscape",
@@ -2425,7 +2442,8 @@
     "C:/Program Files/Inkscape/bin/inkscape.exe"
    ],
    "winget": "Inkscape.Inkscape",
-   "site": "https://inkscape.org/fr/release/"
+   "site": "https://inkscape.org/fr/release/",
+   "logo": "inkscape"
   },
   {
    "id": "logiciel-ffmpeg",
@@ -2441,7 +2459,8 @@
    ],
    "chemins": [],
    "winget": "Gyan.FFmpeg",
-   "site": "https://ffmpeg.org/download.html"
+   "site": "https://ffmpeg.org/download.html",
+   "logo": "ffmpeg"
   },
   {
    "id": "logiciel-obs",
@@ -2458,7 +2477,8 @@
     "C:/Program Files/obs-studio/bin/64bit/obs64.exe"
    ],
    "winget": "OBSProject.OBSStudio",
-   "site": "https://obsproject.com/fr/download"
+   "site": "https://obsproject.com/fr/download",
+   "logo": "obs"
   },
   {
    "id": "logiciel-audacity",
@@ -2476,7 +2496,8 @@
     "C:/Program Files/Audacity/Audacity.exe"
    ],
    "winget": "Audacity.Audacity",
-   "site": "https://www.audacityteam.org/download/"
+   "site": "https://www.audacityteam.org/download/",
+   "logo": "audacity"
   },
   {
    "id": "logiciel-unreal",
@@ -2493,7 +2514,8 @@
     "C:/Program Files/Epic Games/UE_*/Engine/Binaries/Win64/UnrealEditor.exe"
    ],
    "winget": "EpicGames.EpicGamesLauncher",
-   "site": "https://www.unrealengine.com/fr/download"
+   "site": "https://www.unrealengine.com/fr/download",
+   "logo": "unreal"
   },
   {
    "id": "logiciel-unity",
@@ -2510,7 +2532,8 @@
     "C:/Program Files/Unity/Hub/Editor/*/Editor/Unity.exe"
    ],
    "winget": "Unity.UnityHub",
-   "site": "https://unity.com/fr/download"
+   "site": "https://unity.com/fr/download",
+   "logo": "unity"
   },
   {
    "id": "logiciel-gimp",
@@ -2528,7 +2551,8 @@
     "C:/Program Files/GIMP*/bin/gimp-*.exe"
    ],
    "winget": "",
-   "site": "https://www.gimp.org/downloads/"
+   "site": "https://www.gimp.org/downloads/",
+   "logo": "gimp"
   },
   {
    "id": "logiciel-figma",
@@ -2543,7 +2567,8 @@
     "~/AppData/Local/Figma/Figma.exe"
    ],
    "winget": "Figma.Figma",
-   "site": "https://www.figma.com/fr-fr/downloads/"
+   "site": "https://www.figma.com/fr-fr/downloads/",
+   "logo": "figma"
   },
   {
    "id": "logiciel-vscode",
@@ -2579,7 +2604,8 @@
     "C:/Program Files/Git/cmd/git.exe"
    ],
    "winget": "Git.Git",
-   "site": "https://git-scm.com/download/win"
+   "site": "https://git-scm.com/download/win",
+   "logo": "git"
   },
   {
    "id": "logiciel-python",
@@ -2596,7 +2622,8 @@
    ],
    "chemins": [],
    "winget": "Python.Python.3.12",
-   "site": "https://www.python.org/downloads/"
+   "site": "https://www.python.org/downloads/",
+   "logo": "python"
   },
   {
    "id": "logiciel-node",
@@ -2614,7 +2641,8 @@
     "C:/Program Files/nodejs/node.exe"
    ],
    "winget": "OpenJS.NodeJS.LTS",
-   "site": "https://nodejs.org/fr/download"
+   "site": "https://nodejs.org/fr/download",
+   "logo": "nodejs"
   },
   {
    "id": "logiciel-uv",
@@ -2632,7 +2660,8 @@
     "~/.local/bin/uvx.exe"
    ],
    "winget": "astral-sh.uv",
-   "site": "https://docs.astral.sh/uv/getting-started/installation/"
+   "site": "https://docs.astral.sh/uv/getting-started/installation/",
+   "logo": "uv"
   },
   {
    "id": "logiciel-docker",
@@ -2650,7 +2679,8 @@
     "C:/Program Files/Docker/Docker/resources/bin/docker.exe"
    ],
    "winget": "Docker.DockerDesktop",
-   "site": "https://www.docker.com/products/docker-desktop/"
+   "site": "https://www.docker.com/products/docker-desktop/",
+   "logo": "docker"
   },
   {
    "id": "logiciel-ollama",
@@ -2668,7 +2698,8 @@
     "~/AppData/Local/Programs/Ollama/ollama.exe"
    ],
    "winget": "Ollama.Ollama",
-   "site": "https://ollama.com/download"
+   "site": "https://ollama.com/download",
+   "logo": "ollama"
   },
   {
    "id": "logiciel-libreoffice",
@@ -2686,7 +2717,8 @@
     "C:/Program Files/LibreOffice/program/soffice.exe"
    ],
    "winget": "TheDocumentFoundation.LibreOffice",
-   "site": "https://fr.libreoffice.org/download/telecharger-libreoffice/"
+   "site": "https://fr.libreoffice.org/download/telecharger-libreoffice/",
+   "logo": "libreoffice"
   },
   {
    "id": "logiciel-reaper",
@@ -2720,7 +2752,8 @@
     "C:/Program Files/LMMS/lmms.exe"
    ],
    "winget": "LMMS.LMMS",
-   "site": "https://lmms.io/download"
+   "site": "https://lmms.io/download",
+   "logo": "lmms"
   },
   {
    "id": "logiciel-musescore",
@@ -2737,7 +2770,8 @@
     "C:/Program Files/MuseScore 4/bin/MuseScore4.exe"
    ],
    "winget": "Musescore.Musescore",
-   "site": "https://musescore.org/fr/download"
+   "site": "https://musescore.org/fr/download",
+   "logo": "musescore"
   },
   {
    "id": "logiciel-ableton",
@@ -2769,7 +2803,8 @@
     "C:/Program Files/Blackmagic Design/DaVinci Resolve/Resolve.exe"
    ],
    "winget": "BlackmagicDesign.DaVinciResolve",
-   "site": "https://www.blackmagicdesign.com/fr/products/davinciresolve"
+   "site": "https://www.blackmagicdesign.com/fr/products/davinciresolve",
+   "logo": "davinci"
   },
   {
    "id": "domaine-jeu-video",

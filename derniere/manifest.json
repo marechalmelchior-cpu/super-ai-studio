@@ -1,7 +1,7 @@
 {
- "version": "0.4.22",
+ "version": "0.4.24",
  "mineure": true,
- "notes": "Skills de partout (adresse GitHub, SKILL.md, zip) avec licence et version figée, 15 skills vérifiées, le Superviseur propose les extensions utiles",
- "fichier": "programme-0.4.22.zip",
- "sha256": "c034187615f4a49828cc65f30e7691231e2ca3c4c9ebaff03e8b587edccbe832"
+ "notes": "Logos des extensions, logiciels trouvés reconnus, bouton Appliquer les corrections des audits, jauge RAM réparée sous Windows",
+ "fichier": "programme-0.4.24.zip",
+ "sha256": "3449b678db16e3294aed7f78397e6a363ccd811328bbe32bc64bf9a283c95155"
 }
