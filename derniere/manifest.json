@@ -1,7 +1,7 @@
 {
- "version": "0.4.14",
+ "version": "0.4.15",
  "mineure": true,
- "notes": "Missions adaptées à chaque modèle (Ollama sans coupure, petits modèles allégés, cache des fournisseurs) ; skills reprises du PC tenues à jour.",
- "fichier": "programme-0.4.14.zip",
- "sha256": "d7ceb8641a412f3f666df7807b7b20189f8d8aade4ae66ca23f749208d9fee47"
+ "notes": "Toutes les IA (xAI, Moonshot, et n'importe quelle IA compatible OpenAI) ; modes Rapide/Max pour toutes ; skills reprises mises à jour sur place.",
+ "fichier": "programme-0.4.15.zip",
+ "sha256": "5995c8522f47eaf2af7aedc5958ecdc356fa6bfbe6567d7c88e45461b475f5c9"
 }
