@@ -2468,14 +2468,14 @@
    }
   },
   {
-   "id": "chatgpt-aller-retour",
+   "id": "copier-coller",
    "type": "skill",
-   "nom": "Aller-retour ChatGPT",
-   "description": "Exporter un dossier de contexte vers ChatGPT et réimporter sa réponse.",
+   "nom": "Copier-coller avec une IA",
+   "description": "Copier le contexte d'une tâche vers n'importe quelle IA, puis coller sa réponse comme proposition.",
    "auteur": "Le studio",
    "verifie": true,
    "categorie": "outils-ia",
-   "essai": "Prépare un dossier de contexte pour ChatGPT.",
+   "essai": "Prépare le contexte d'une tâche à coller dans une IA.",
    "licence": "Le studio",
    "source": {
     "type": "studio",

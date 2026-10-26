@@ -1,7 +1,7 @@
 {
- "version": "0.4.18",
+ "version": "0.4.19",
  "mineure": true,
- "notes": "Ménage automatique au fil de l'eau (fin de tâche, sauvegardes, versions, caches), dossiers simplifiés : résultats des sujets rangés avec eux.",
- "fichier": "programme-0.4.18.zip",
- "sha256": "d9fecc9731d0788d0ef9dc0eecee3ca210eafa7fb0418052ecb96fbfe47c86b3"
+ "notes": "N'importe quelle IA pour chaque agent (modèle et effort de cette IA), relecteur différent, copier-coller avec n'importe quelle IA.",
+ "fichier": "programme-0.4.19.zip",
+ "sha256": "53b74f97ad67011e2a96b673015cd55a0ef21649b3bc71b9162d53faceda2bb2"
 }
