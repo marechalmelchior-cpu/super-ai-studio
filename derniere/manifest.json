@@ -1,7 +1,7 @@
 {
- "version": "0.4.5",
+ "version": "0.4.6",
  "mineure": true,
- "notes": "Nouvelle page Personnalisation : skills, connecteurs (MCP et logiciels) et packs à découvrir et installer en un clic.",
- "fichier": "programme-0.4.5.zip",
- "sha256": "c6b91ba28d1b230a75c1b48cf6e76a13d320e176ae86f9926364ada42fd85c27"
+ "notes": "Domaines de métier dans Personnalisation, 16 nouvelles skills, benchmarks Cloud / Local, modèles locaux et Ollama mieux gérés.",
+ "fichier": "programme-0.4.6.zip",
+ "sha256": "0793902431949e8031483ae6c1ea7f369d84cb1d91338c86965d88a5d9dff72a"
 }
