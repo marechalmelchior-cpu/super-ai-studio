@@ -1,7 +1,7 @@
 {
- "version": "0.4.25",
+ "version": "0.4.26",
  "mineure": true,
- "notes": "Tâches Claude Code réparées (garde des agents), équipe puis travail enchaînés par le Superviseur",
- "fichier": "programme-0.4.25.zip",
- "sha256": "a0e2f93ce2866d33b0aeb907530bd44647ba69ee00c2841c35aed1edb229bb78"
+ "notes": "Les tâches sur le studio (skills et règles) s'appliquent après validation",
+ "fichier": "programme-0.4.26.zip",
+ "sha256": "c6c5c18f1fb36f3511f80b6d125eb20e7b10d0cce381b499d59ad2c6cb96bd53"
 }
