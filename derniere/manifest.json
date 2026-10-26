@@ -1,7 +1,7 @@
 {
- "version": "0.4.13",
+ "version": "0.4.14",
  "mineure": true,
- "notes": "Reprise des skills et instructions déjà présents sur le PC (copie dans le studio, originaux intacts).",
- "fichier": "programme-0.4.13.zip",
- "sha256": "0c3d18f95ac382ad0bc94b340b6210b5774f44d15722034f106b9958986ad31b"
+ "notes": "Missions adaptées à chaque modèle (Ollama sans coupure, petits modèles allégés, cache des fournisseurs) ; skills reprises du PC tenues à jour.",
+ "fichier": "programme-0.4.14.zip",
+ "sha256": "d7ceb8641a412f3f666df7807b7b20189f8d8aade4ae66ca23f749208d9fee47"
 }
