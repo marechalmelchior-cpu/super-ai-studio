@@ -1,7 +1,7 @@
 {
- "version": "0.4.2",
+ "version": "0.4.3",
  "mineure": true,
- "notes": "Mise en page vérifiée sur téléphone, tablette et PC : Gestion lisible sur tablette, boutons plus grands au doigt.",
- "fichier": "programme-0.4.2.zip",
- "sha256": "638739a3959ab9bcbf082440039f66dc23b4f8ecebe1b62f3e011518e67c09d4"
+ "notes": "Téléphone : la page ne remonte plus toute seule, les liens de tâche du Superviseur ouvrent la tâche, plus de place. Nouveau : micro pour dicter.",
+ "fichier": "programme-0.4.3.zip",
+ "sha256": "5e454b306503f5d036149ee38880f51b29dd5237894d256d9ba627f0e9c60699"
 }
