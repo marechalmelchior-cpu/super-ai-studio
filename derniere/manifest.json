@@ -1,7 +1,7 @@
 {
- "version": "0.4.36",
+ "version": "0.4.37",
  "mineure": true,
- "notes": "Les chaînes vont jusqu'au bout toutes seules (branche sur branche) ; l'éditeur Unreal reste ouvert pour compiler la copie d'une tâche.",
- "fichier": "programme-0.4.36.zip",
- "sha256": "0333d5f3c0dd425cc702bffb013cc9eb1f0e99f264a3b2db1cc10774d39fbe7a"
+ "notes": "Page tâche et page projet revues, cartes d'agent réglables, actions du superviseur, extensions rangées ; Ollama ne s'ouvre plus tout seul ; l'installateur n'installe plus d'outil d'IA.",
+ "fichier": "programme-0.4.37.zip",
+ "sha256": "2452edbd00be6b54c4d2ba7292b05ffaee64c59762f91d408c5f27e899800144"
 }
