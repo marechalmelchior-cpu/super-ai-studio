@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "note": "Proposition documentée, consultation du 27 octobre 2026. Chaque catégorie conserve son échelle et sa source ; scores comparables seulement au sein de la même catégorie et du même protocole public. Les valeurs publiées ne sont pas des mesures du studio. Réglages, couvertures partielles et modèles retirés sont signalés dans les notes et RAPPORT.md. Aucun score manquant ou marqué Estimated n’a été complété. Les cle sont des identifiants natifs API, catalogue ou checkpoints officiels ; aucun identifiant Ollama supposé. Prix et vitesses repris de la version précédente quand la source n'en donnait pas ; les prix du jour remplacent ces valeurs lors de l'actualisation quotidienne.",
+ "note": "Proposition du 2026-10-27, à valider par Mel avant publication. Une source et une échelle par catégorie, valeurs publiées sans conversion. Couverture étendue aux scores admissibles retrouvés pour les identités déjà documentées, ainsi qu’à Step 5 Preview et Riverflow 2.0 Pro/Fast. Aucun score Estimated ni score absent complété. Prix, vitesse et ollama existants préservés ; aucun nouvel identifiant Ollama. Sources, réglages, exclusions et limites détaillés dans RAPPORT.md.",
  "sources": [
   {
    "nom": "G — Artificial Analysis Intelligence Index via modelgrep ; données 2026-10 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
@@ -417,6 +417,38 @@
   {
    "nom": "ID85 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
    "url": "https://huggingface.co/coqui/XTTS-v2"
+  },
+  {
+   "nom": "N1 — Identifiant officiel et poids de Step 5 Preview ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
+   "url": "https://huggingface.co/stepfun-ai/Step-5-Preview"
+  },
+  {
+   "nom": "N2 — Identifiant Replicate de Riverflow 2.0 Pro ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
+   "url": "https://replicate.com/sourceful/riverflow-2.0-pro/api"
+  },
+  {
+   "nom": "N3 — Identifiant Replicate de Riverflow 2.0 Fast ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
+   "url": "https://replicate.com/sourceful/riverflow-2.0-fast/api"
+  },
+  {
+   "nom": "N4 — Correspondance de Riverflow 2.0 Pro avec le fournisseur ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
+   "url": "https://llm-stats.com/models/riverflow-2.0-pro"
+  },
+  {
+   "nom": "N5 — Correspondance de Riverflow 2.0 Fast avec le fournisseur ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
+   "url": "https://llm-stats.com/models/riverflow-2.0-fast"
+  },
+  {
+   "nom": "QA7 — Contrôle de l’admissibilité de LFM2.5-VL-1.6B-Extract ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
+   "url": "https://benchlm.ai/models/lfm2-5-vl-1-6b-extract"
+  },
+  {
+   "nom": "QA8 — Contrôle de la mesure de vision Claude Sonnet 4.6 ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
+   "url": "https://benchlm.ai/models/claude-sonnet-4-6"
+  },
+  {
+   "nom": "QA9 — Contrôle de la mesure de vision MiniMax M3.1 Flash ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
+   "url": "https://benchlm.ai/models/minimax-m3-1-flash"
   }
  ],
  "categories": {
@@ -666,6 +698,18 @@
    "local": false,
    "cle": "grok-4.6",
    "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "Step 5 Preview",
+   "fournisseur": "stepfun",
+   "score": 43.7,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "stepfun-ai/Step-5-Preview",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Artificial Analysis Intelligence Index via modelgrep. Valeur publiée sans conversion. Ligne source : Step 5 Preview. Poids ouverts officiels, 600B paramètres totaux ; matériel du studio non vérifié. local=false selon la convention héritée pour les très gros modèles ouverts. Identifiant de checkpoint [N1], aucun nom Ollama ajouté."
   },
   {
    "categorie": "global",
@@ -1332,6 +1376,18 @@
   },
   {
    "categorie": "agents",
+   "nom": "Claude Opus 4.7",
+   "fournisseur": "anthropic",
+   "score": 54.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-opus-4-7",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Claude Opus 4.7. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "agents",
    "nom": "GPT-5.4",
    "fournisseur": "openai",
    "score": 53.8,
@@ -1392,6 +1448,54 @@
   },
   {
    "categorie": "agents",
+   "nom": "GPT-5.2",
+   "fournisseur": "openai",
+   "score": 44.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.2",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-5.2. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Gemini 3.1 Pro Preview",
+   "fournisseur": "gemini",
+   "score": 40.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-pro-preview",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Gemini 3.1 Pro Preview. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "agents",
+   "nom": "MiniMax M3",
+   "fournisseur": "minimax",
+   "score": 38.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": 88,
+   "prix": 0.3,
+   "local": false,
+   "cle": "MiniMax-M3",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : MiniMax M3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Inkling",
+   "fournisseur": "thinking machines",
+   "score": 37.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": 214,
+   "prix": 1.0,
+   "local": false,
+   "cle": "thinkingmachines/Inkling",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Inkling. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "agents",
    "nom": "GPT-5.4 mini",
    "fournisseur": "openai",
    "score": 35.8,
@@ -1438,6 +1542,18 @@
    "cle": "Qwen/Qwen3.6-27B",
    "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
    "ollama": "qwen3.6:27b"
+  },
+  {
+   "categorie": "agents",
+   "nom": "Grok 4.3",
+   "fournisseur": "xai",
+   "score": 27.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.3",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Grok 4.3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
   },
   {
    "categorie": "agents",
@@ -1729,6 +1845,42 @@
   },
   {
    "categorie": "code",
+   "nom": "Claude Opus 4.7",
+   "fournisseur": "anthropic",
+   "score": 55.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-opus-4-7",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Claude Opus 4.7. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "Grok 4.5",
+   "fournisseur": "xai",
+   "score": 55.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.5",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Grok 4.5. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "GPT-5.3 Codex",
+   "fournisseur": "openai",
+   "score": 53.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": 97,
+   "prix": 1.75,
+   "local": false,
+   "cle": "gpt-5.3-codex",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-5.3 Codex. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
    "nom": "GPT-6 Luna",
    "fournisseur": "openai",
    "score": 53.5,
@@ -1801,6 +1953,18 @@
   },
   {
    "categorie": "code",
+   "nom": "GPT-5.4",
+   "fournisseur": "openai",
+   "score": 48,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-5.4. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
    "nom": "GLM-5.3 Flash",
    "fournisseur": "zai",
    "score": 47.8,
@@ -1823,6 +1987,78 @@
    "cle": "Qwen/Qwen3.8-27B",
    "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
    "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "code",
+   "nom": "Claude Opus 4.6",
+   "fournisseur": "anthropic",
+   "score": 46.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-opus-4-6",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Claude Opus 4.6. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "Mistral Large 4",
+   "fournisseur": "mistral",
+   "score": 46.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "mistral-large-4",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Mistral Large 4. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "Claude Sonnet 4.6",
+   "fournisseur": "anthropic",
+   "score": 45,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-sonnet-4-6",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Claude Sonnet 4.6. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemini 3.1 Pro Preview",
+   "fournisseur": "gemini",
+   "score": 39.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-pro-preview",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Gemini 3.1 Pro Preview. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "MiniMax M3",
+   "fournisseur": "minimax",
+   "score": 37.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": 88,
+   "prix": 0.3,
+   "local": false,
+   "cle": "MiniMax-M3",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : MiniMax M3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "GPT-5.2",
+   "fournisseur": "openai",
+   "score": 37.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.2",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-5.2. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
   },
   {
    "categorie": "code",
@@ -1863,6 +2099,18 @@
   },
   {
    "categorie": "code",
+   "nom": "Inkling",
+   "fournisseur": "thinking machines",
+   "score": 33.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": 214,
+   "prix": 1.0,
+   "local": false,
+   "cle": "thinkingmachines/Inkling",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Inkling. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
    "nom": "Gemma 4 31B",
    "fournisseur": "google",
    "score": 32.1,
@@ -1898,6 +2146,30 @@
    "local": false,
    "cle": "gpt-5.4-nano",
    "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Grok 4.3",
+   "fournisseur": "xai",
+   "score": 26.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.3",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Grok 4.3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemini 2.5 Pro",
+   "fournisseur": "gemini",
+   "score": 22.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-2.5-pro",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Gemini 2.5 Pro. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
   },
   {
    "categorie": "code",
@@ -2238,6 +2510,18 @@
   },
   {
    "categorie": "web",
+   "nom": "Step 5 Preview",
+   "fournisseur": "stepfun",
+   "score": 1568,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "stepfun-ai/Step-5-Preview",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Step 5 Preview (High). Poids ouverts officiels, 600B paramètres totaux ; matériel du studio non vérifié. local=false selon la convention héritée pour les très gros modèles ouverts. Identifiant de checkpoint [N1], aucun nom Ollama ajouté. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
    "nom": "Claude Opus 4.7",
    "fournisseur": "anthropic",
    "score": 1558.0,
@@ -2322,6 +2606,150 @@
   },
   {
    "categorie": "web",
+   "nom": "Claude Sonnet 4.6",
+   "fournisseur": "anthropic",
+   "score": 1523,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-sonnet-4-6",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Claude Sonnet 4.6. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-5.6 Terra",
+   "fournisseur": "openai",
+   "score": 1521,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 119,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-5.6-terra",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : GPT-5.6 Terra (xHigh, Codex Harness). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-5.6 Luna",
+   "fournisseur": "openai",
+   "score": 1519,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.6-luna",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : GPT-5.6 Luna (xHigh, Codex Harness). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-5.5",
+   "fournisseur": "openai",
+   "score": 1512,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.5",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : GPT-5.5 (xHigh, Codex Harness). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemini 3.5 Flash",
+   "fournisseur": "gemini",
+   "score": 1503,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.5-flash",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Gemini 3.5 Flash. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "MiniMax M3",
+   "fournisseur": "minimax",
+   "score": 1482,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 88,
+   "prix": 0.3,
+   "local": false,
+   "cle": "MiniMax-M3",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : MiniMax M3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-5.4",
+   "fournisseur": "openai",
+   "score": 1464,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : GPT-5.4 (High, Codex Harness). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemini 3.1 Pro Preview",
+   "fournisseur": "gemini",
+   "score": 1447,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-pro-preview",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Gemini 3.1 Pro Preview. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemini 3.5 Flash-Lite",
+   "fournisseur": "gemini",
+   "score": 1434,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 356,
+   "prix": 0.3,
+   "local": false,
+   "cle": "gemini-3.5-flash-lite",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Gemini 3.5 Flash-Lite. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-5.2",
+   "fournisseur": "openai",
+   "score": 1417,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.2",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : GPT-5.2. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "Inkling",
+   "fournisseur": "thinking machines",
+   "score": 1415,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 214,
+   "prix": 1.0,
+   "local": false,
+   "cle": "thinkingmachines/Inkling",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Inkling. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-5.3 Codex",
+   "fournisseur": "openai",
+   "score": 1407,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 97,
+   "prix": 1.75,
+   "local": false,
+   "cle": "gpt-5.3-codex",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : GPT-5.3-Codex (Codex Harness). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
    "nom": "GPT-5.4 mini",
    "fournisseur": "openai",
    "score": 1397.0,
@@ -2360,6 +2788,42 @@
   },
   {
    "categorie": "web",
+   "nom": "Qwen3.5 27B",
+   "fournisseur": "qwen",
+   "score": 1359,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-27B",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "Grok 4.3",
+   "fournisseur": "xai",
+   "score": 1357,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.3",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Grok 4.3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "Claude Haiku 4.5",
+   "fournisseur": "anthropic",
+   "score": 1330,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-haiku-4-5-20251001",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Claude Haiku 4.5 (20251001). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
    "nom": "Mistral Medium 3.5",
    "fournisseur": "mistral",
    "score": 1264.0,
@@ -2369,6 +2833,18 @@
    "local": false,
    "cle": "mistral-medium-3-5",
    "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "web",
+   "nom": "Qwen3.5 35B-A3B",
+   "fournisseur": "qwen",
+   "score": 1254,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-35B-A3B",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
   },
   {
    "categorie": "web",
@@ -2876,6 +3352,18 @@
   },
   {
    "categorie": "connaissances",
+   "nom": "Step 5 Preview",
+   "fournisseur": "stepfun",
+   "score": 68,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "stepfun-ai/Step-5-Preview",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Step 5 Preview. Poids ouverts officiels, 600B paramètres totaux ; matériel du studio non vérifié. local=false selon la convention héritée pour les très gros modèles ouverts. Identifiant de checkpoint [N1], aucun nom Ollama ajouté."
+  },
+  {
+   "categorie": "connaissances",
    "nom": "Kimi K3",
    "fournisseur": "moonshot",
    "score": 67.5,
@@ -2984,6 +3472,114 @@
   },
   {
    "categorie": "connaissances",
+   "nom": "GPT-5.6 Luna",
+   "fournisseur": "openai",
+   "score": 63.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.6-luna",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-5.6 Luna. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GLM-5.3",
+   "fournisseur": "zai",
+   "score": 61.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": 84,
+   "prix": 0.079,
+   "local": false,
+   "cle": "glm-5.3",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GLM-5.3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-5.2",
+   "fournisseur": "openai",
+   "score": 59.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.2",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-5.2. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Qwen3.8 Flash Next",
+   "fournisseur": "qwen",
+   "score": 58.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "Qwen/Qwen3.8-Flash-Next",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Qwen3.8 Flash Next. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Claude Sonnet 4.6",
+   "fournisseur": "anthropic",
+   "score": 54.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-sonnet-4-6",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Claude Sonnet 4.6. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Grok 4.3",
+   "fournisseur": "xai",
+   "score": 54.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.3",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Grok 4.3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Mistral Large 4",
+   "fournisseur": "mistral",
+   "score": 54,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "mistral-large-4",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Mistral Large 4. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Inkling",
+   "fournisseur": "thinking machines",
+   "score": 53.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": 214,
+   "prix": 1.0,
+   "local": false,
+   "cle": "thinkingmachines/Inkling",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Inkling. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "MiniMax M3",
+   "fournisseur": "minimax",
+   "score": 51.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": 88,
+   "prix": 0.3,
+   "local": false,
+   "cle": "MiniMax-M3",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : MiniMax M3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
    "nom": "GPT-5.4 mini",
    "fournisseur": "openai",
    "score": 50.8,
@@ -3018,6 +3614,42 @@
    "local": false,
    "cle": "gemini-3.5-flash-lite",
    "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Qwen3.5 27B",
+   "fournisseur": "qwen",
+   "score": 45.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-27B",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemini 2.5 Pro",
+   "fournisseur": "gemini",
+   "score": 44.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-2.5-pro",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Gemini 2.5 Pro. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Qwen3.5 35B-A3B",
+   "fournisseur": "qwen",
+   "score": 42.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-35B-A3B",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
   },
   {
    "categorie": "connaissances",
@@ -3056,6 +3688,19 @@
    "cle": "google/gemma-4-12B-it",
    "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
    "ollama": "gemma4:12b"
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-OSS 20B",
+   "fournisseur": "openai",
+   "score": 33.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "openai/gpt-oss-20b",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-OSS 20B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés.",
+   "ollama": "gpt-oss:20b"
   },
   {
    "categorie": "connaissances",
@@ -3287,6 +3932,18 @@
   },
   {
    "categorie": "conversation",
+   "nom": "GLM-5.3",
+   "fournisseur": "zai",
+   "score": 1481,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 84,
+   "prix": 0.079,
+   "local": false,
+   "cle": "glm-5.3",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : GLM-5.3 (Max). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
    "nom": "GPT-6.1 Sol",
    "fournisseur": "openai",
    "score": 1480.0,
@@ -3347,6 +4004,114 @@
   },
   {
    "categorie": "conversation",
+   "nom": "GPT-5.4",
+   "fournisseur": "openai",
+   "score": 1475,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : GPT-5.4 (High). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Claude Sonnet 4.6",
+   "fournisseur": "anthropic",
+   "score": 1472,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-sonnet-4-6",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Claude Sonnet 4.6. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-5.6 Terra",
+   "fournisseur": "openai",
+   "score": 1467,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 119,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-5.6-terra",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : GPT-5.6 Terra (xHigh). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Grok 4.5",
+   "fournisseur": "xai",
+   "score": 1466,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.5",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Grok 4.5. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Claude Sonnet 5",
+   "fournisseur": "anthropic",
+   "score": 1461,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "claude-sonnet-5",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Claude Sonnet 5 (High). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-6 Sol",
+   "fournisseur": "openai",
+   "score": 1459,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-6-sol",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : GPT-6 Sol (Max). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Grok 4.6",
+   "fournisseur": "xai",
+   "score": 1456,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "grok-4.6",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Grok 4.6 (High). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemini 3.5 Flash-Lite",
+   "fournisseur": "gemini",
+   "score": 1455,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 356,
+   "prix": 0.3,
+   "local": false,
+   "cle": "gemini-3.5-flash-lite",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Gemini 3.5 Flash-Lite. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-5.6 Luna",
+   "fournisseur": "openai",
+   "score": 1453,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.6-luna",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : GPT-5.6 Luna (xHigh). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
    "nom": "Gemma 4 31B",
    "fournisseur": "google",
    "score": 1452.0,
@@ -3360,6 +4125,18 @@
   },
   {
    "categorie": "conversation",
+   "nom": "Step 5 Preview",
+   "fournisseur": "stepfun",
+   "score": 1448,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "stepfun-ai/Step-5-Preview",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Step 5 Preview. Poids ouverts officiels, 600B paramètres totaux ; matériel du studio non vérifié. local=false selon la convention héritée pour les très gros modèles ouverts. Identifiant de checkpoint [N1], aucun nom Ollama ajouté. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
    "nom": "GPT-5.4 mini",
    "fournisseur": "openai",
    "score": 1447.0,
@@ -3369,6 +4146,78 @@
    "local": false,
    "cle": "gpt-5.4-mini",
    "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemini 2.5 Pro",
+   "fournisseur": "gemini",
+   "score": 1445,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-2.5-pro",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Gemini 2.5 Pro. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-6 Luna",
+   "fournisseur": "openai",
+   "score": 1442,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 130,
+   "prix": 0.1,
+   "local": false,
+   "cle": "gpt-6-luna",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : GPT-6 Luna (Max). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Grok 4.3",
+   "fournisseur": "xai",
+   "score": 1442,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.3",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Grok 4.3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Inkling",
+   "fournisseur": "thinking machines",
+   "score": 1442,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 214,
+   "prix": 1.0,
+   "local": false,
+   "cle": "thinkingmachines/Inkling",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Inkling. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Grok 4.7",
+   "fournisseur": "xai",
+   "score": 1441,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 76,
+   "prix": 2.0,
+   "local": false,
+   "cle": "grok-4.7",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Grok 4.7 (xHigh). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "MiniMax M3",
+   "fournisseur": "minimax",
+   "score": 1440,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 88,
+   "prix": 0.3,
+   "local": false,
+   "cle": "MiniMax-M3",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : MiniMax M3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
   },
   {
    "categorie": "conversation",
@@ -3395,6 +4244,30 @@
    "cle": "Qwen/Qwen3.8-27B",
    "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
    "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-5.2",
+   "fournisseur": "openai",
+   "score": 1437,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.2",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : GPT-5.2 (High). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Mistral Large 4",
+   "fournisseur": "mistral",
+   "score": 1434,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "mistral-large-4",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Mistral Large 4. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
   },
   {
    "categorie": "conversation",
@@ -3431,6 +4304,42 @@
    "local": false,
    "cle": "claude-haiku-4-5-20251001",
    "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3.5 27B",
+   "fournisseur": "qwen",
+   "score": 1409,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-27B",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-5.4 nano",
+   "fournisseur": "openai",
+   "score": 1401,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-nano",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : GPT-5.4 nano (High). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3.5 35B-A3B",
+   "fournisseur": "qwen",
+   "score": 1394,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-35B-A3B",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
   },
   {
    "categorie": "conversation",
@@ -3728,6 +4637,18 @@
   },
   {
    "categorie": "vision",
+   "nom": "Grok 4.3",
+   "fournisseur": "xai",
+   "score": 79.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.3",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Provisional-ranked, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Grok 4.3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "vision",
    "nom": "GPT-5.2",
    "fournisseur": "openai",
    "score": 75.5,
@@ -3786,6 +4707,18 @@
    "local": false,
    "cle": "gpt-5.4-mini",
    "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Step 5 Preview",
+   "fournisseur": "stepfun",
+   "score": 73.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "stepfun-ai/Step-5-Preview",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Provisional-ranked, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Step 5 Preview. Poids ouverts officiels, 600B paramètres totaux ; matériel du studio non vérifié. local=false selon la convention héritée pour les très gros modèles ouverts. Identifiant de checkpoint [N1], aucun nom Ollama ajouté."
   },
   {
    "categorie": "vision",
@@ -3901,6 +4834,30 @@
   },
   {
    "categorie": "vision",
+   "nom": "MiniMax M3",
+   "fournisseur": "minimax",
+   "score": 59.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": 88,
+   "prix": 0.3,
+   "local": false,
+   "cle": "MiniMax-M3",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Provisional-ranked, tableau de catégorie. Valeur publiée sans conversion. Ligne source : MiniMax M3. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Claude Sonnet 4.6",
+   "fournisseur": "anthropic",
+   "score": 58.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-sonnet-4-6",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Provisional-ranked, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Claude Sonnet 4.6. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "vision",
    "nom": "GPT-5.4 nano",
    "fournisseur": "openai",
    "score": 52.7,
@@ -3994,6 +4951,18 @@
    "local": false,
    "cle": "gemini-3.1-flash-image-preview",
    "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Le lien du tableau nomme le snapshot Preview ; identifiant historique retiré le 2026-06-25. Score non attribué à la version stable."
+  },
+  {
+   "categorie": "image",
+   "nom": "Riverflow 2.0 Pro",
+   "fournisseur": "replicate",
+   "score": 150,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "sourceful/riverflow-2.0-pro",
+   "note": "[I] Données 2026-10-27 dans l’en-tête ; date interactive antérieure déjà signalée ; consulté le 2026-10-27. All, tableau interactif paginé. Valeur publiée sans conversion. Ligne source : Riverflow 2.0 Pro. Créateur Sourceful ; hébergement Replicate confirmé par la fiche LLM Stats et sa référence API officielle [N2/N3]. Prix et vitesse non importés : unités hétérogènes dans le schéma historique."
   },
   {
    "categorie": "image",
@@ -4102,6 +5071,18 @@
    "local": true,
    "cle": "black-forest-labs/FLUX.2-dev",
    "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Poids disponibles ; conditions de licence à consulter, aucun test local."
+  },
+  {
+   "categorie": "image",
+   "nom": "Riverflow 2.0 Fast",
+   "fournisseur": "replicate",
+   "score": -220,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "sourceful/riverflow-2.0-fast",
+   "note": "[I] Données 2026-10-27 dans l’en-tête ; date interactive antérieure déjà signalée ; consulté le 2026-10-27. All, tableau interactif paginé. Valeur publiée sans conversion. Ligne source : Riverflow 2.0 Fast. Créateur Sourceful ; hébergement Replicate confirmé par la fiche LLM Stats et sa référence API officielle [N2/N3]. Prix et vitesse non importés : unités hétérogènes dans le schéma historique."
   },
   {
    "categorie": "image",
