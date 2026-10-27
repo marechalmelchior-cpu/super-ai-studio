@@ -1,7 +1,7 @@
 {
- "version": "0.4.37",
+ "version": "0.4.38",
  "mineure": true,
- "notes": "Page tâche et page projet revues, cartes d'agent réglables, actions du superviseur, extensions rangées ; Ollama ne s'ouvre plus tout seul ; l'installateur n'installe plus d'outil d'IA.",
- "fichier": "programme-0.4.37.zip",
- "sha256": "2452edbd00be6b54c4d2ba7292b05ffaee64c59762f91d408c5f27e899800144"
+ "notes": "Audit de sécurité : 10 failles élevées corrigées (garde des commandes, liens, ZIP, téléphone, secrets) ; relecture plus économe en tokens.",
+ "fichier": "programme-0.4.38.zip",
+ "sha256": "b1d1a734315ce88b3eaf0d132dd4da3aef245b4eb2eb117e6d715e07efefe9be"
 }
