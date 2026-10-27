@@ -1,7 +1,7 @@
 {
- "version": "0.4.33",
+ "version": "0.4.34",
  "mineure": true,
- "notes": "Le Superviseur annonce chaque étape de chaîne, fusion et suite en un clic",
- "fichier": "programme-0.4.33.zip",
- "sha256": "c19660eb5dedf781a32231c65556137d2c32946798db20db06e314bc5828d787"
+ "notes": "Tâche plus lisible, classements complétés et sourcés, blocs plus hauts",
+ "fichier": "programme-0.4.34.zip",
+ "sha256": "b73bd5729c34f6b9b0d54e001374c23dcaa1cf372400f57e5d04b56b216cee76"
 }

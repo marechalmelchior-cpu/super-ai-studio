@@ -1,38 +1,422 @@
 {
- "date": "2026-10-26",
- "note": "Classements publics compilés (benchmarks et votes à l'aveugle) ; indicatifs : un modèle peut être meilleur sur ta tâche précise. Un modèle local apparaît partout où la source l'a mesuré, sur la même échelle que les modèles cloud.",
+ "date": "2026-10-27",
+ "note": "Proposition documentée, consultation du 27 octobre 2026. Chaque catégorie conserve son échelle et sa source ; scores comparables seulement au sein de la même catégorie et du même protocole public. Les valeurs publiées ne sont pas des mesures du studio. Réglages, couvertures partielles et modèles retirés sont signalés dans les notes et RAPPORT.md. Aucun score manquant ou marqué Estimated n’a été complété. Les cle sont des identifiants natifs API, catalogue ou checkpoints officiels ; aucun identifiant Ollama supposé. Prix et vitesses repris de la version précédente quand la source n'en donnait pas ; les prix du jour remplacent ces valeurs lors de l'actualisation quotidienne.",
  "sources": [
   {
-   "nom": "Artificial Analysis Intelligence Index (via modelgrep) — classement global",
+   "nom": "G — Artificial Analysis Intelligence Index via modelgrep ; données 2026-10 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
    "url": "https://modelgrep.com/leaderboard"
   },
   {
-   "nom": "Artificial Analysis — modèles",
-   "url": "https://artificialanalysis.ai/leaderboards/models"
-  },
-  {
-   "nom": "BenchLM — agents, code, raisonnement, connaissances, vision",
+   "nom": "A — BenchLM, BenchAlign Agentic, lignes Supported seulement ; données 2026-10-26 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
    "url": "https://benchlm.ai/agentic"
   },
   {
-   "nom": "LMArena (arena.ai) — conversation et sites web, votes",
-   "url": "https://www.developersdigest.tech/benchmarks/lmarena"
+   "nom": "C — BenchLM, BenchAlign Coding, lignes Supported seulement ; données 2026-10-26 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
+   "url": "https://benchlm.ai/coding"
   },
   {
-   "nom": "llm-stats — images",
+   "nom": "R — BenchLM, Weighted Reasoning, vue Provisional-ranked ; données 2026-10-26 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
+   "url": "https://benchlm.ai/reasoning"
+  },
+  {
+   "nom": "K — BenchLM, BenchAlign Knowledge, lignes Supported seulement ; données 2026-10-26 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
+   "url": "https://benchlm.ai/knowledge"
+  },
+  {
+   "nom": "V — BenchLM, Weighted Multimodal & Grounded, vue Provisional-ranked ; données 2026-10-26 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
+   "url": "https://benchlm.ai/multimodal-grounded"
+  },
+  {
+   "nom": "T — Arena Text Overall, sans ajustement, toutes licences ; données 2026-10-22 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
+   "url": "https://arena.ai/leaderboard/chat/text"
+  },
+  {
+   "nom": "W — Arena Code WebDev Overall, toutes licences ; données 2026-10-22 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
+   "url": "https://arena.ai/leaderboard/code/webdev"
+  },
+  {
+   "nom": "I — LLM Stats Image Arena, All, tableau interactif paginé ; données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consultation 2026-10-27 ; Aucune conversion : score TrueSkill conservateur μ − 3σ publié, y compris les scores négatifs. Pas un Elo Arena.ai.",
    "url": "https://llm-stats.com/leaderboards/best-ai-for-image-generation"
   },
   {
-   "nom": "llm-stats — vidéo",
+   "nom": "D — LLM Stats Video Arena, Generate / All, tableau interactif ; données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consultation 2026-10-27 ; Aucune conversion : score TrueSkill conservateur μ − 3σ publié. Image-to-Video et Edit exclus.",
    "url": "https://llm-stats.com/leaderboards/best-ai-for-video-creation"
   },
   {
-   "nom": "Artificial Analysis — voix",
-   "url": "https://artificialanalysis.ai/text-to-speech/leaderboard"
+   "nom": "S — Artificial Analysis Provider Voice Arena, All / All / All models ; données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consultation 2026-10-27 ; Aucune conversion : Elo central publié ; ancre Zonos-v0.1 = 1000. Autres arènes vocales exclues.",
+   "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice"
   },
   {
-   "nom": "Artificial Analysis — transcription",
+   "nom": "B — Artificial Analysis AA-WER v2 non-streaming ; données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consultation 2026-10-27 ; Aucune conversion : WER en pourcentage, plus bas = mieux. Même index : AA-AgentTalk 50 %, VoxPopuli-Cleaned-AA 25 %, Earnings22-Cleaned-AA 25 %.",
    "url": "https://artificialanalysis.ai/speech-to-text/non-streaming"
+  },
+  {
+   "nom": "M — Méthodologie BenchLM et statut des résultats ; données rafraîchissement 2026-10-26 ; consultation 2026-10-27 ; Aucune conversion ; les indices calibrés restent ceux de la source.",
+   "url": "https://benchlm.ai/methodology"
+  },
+  {
+   "nom": "QA1 — Contrôle des mesures de raisonnement et des rangs ; données 2026-10-26 ; consultation 2026-10-27 ; Source de contrôle ; scores contradictoires ou non admissibles exclus de la proposition.",
+   "url": "https://benchlm.ai/models/claude-sonnet-5-5"
+  },
+  {
+   "nom": "QA2 — Contrôle des mesures de raisonnement et des rangs ; données 2026-10-26 ; consultation 2026-10-27 ; Source de contrôle ; scores contradictoires ou non admissibles exclus de la proposition.",
+   "url": "https://benchlm.ai/models/qwen3-8-27b"
+  },
+  {
+   "nom": "QA3 — Contrôle des mesures de raisonnement et des rangs ; données 2026-10-26 ; consultation 2026-10-27 ; Source de contrôle ; scores contradictoires ou non admissibles exclus de la proposition.",
+   "url": "https://benchlm.ai/models/glm-5-3"
+  },
+  {
+   "nom": "QA4 — Contrôle des mesures de raisonnement et des rangs ; données 2026-10-26 ; consultation 2026-10-27 ; Source de contrôle ; scores contradictoires ou non admissibles exclus de la proposition.",
+   "url": "https://benchlm.ai/models/inkling"
+  },
+  {
+   "nom": "QA5 — Contrôle des mesures de raisonnement et des rangs ; données 2026-10-26 ; consultation 2026-10-27 ; Source de contrôle ; scores contradictoires ou non admissibles exclus de la proposition.",
+   "url": "https://benchlm.ai/models/gemma-4-31b"
+  },
+  {
+   "nom": "QA6 — Contrôle des mesures de raisonnement et des rangs ; données 2026-10-26 ; consultation 2026-10-27 ; Source de contrôle ; scores contradictoires ou non admissibles exclus de la proposition.",
+   "url": "https://benchlm.ai/models/gemma-4-26b-a4b"
+  },
+  {
+   "nom": "ID1 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe"
+  },
+  {
+   "nom": "ID2 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe"
+  },
+  {
+   "nom": "ID3 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  {
+   "nom": "ID4 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/reference/resources/responses/methods/create"
+  },
+  {
+   "nom": "ID5 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/nvidia/canary-qwen-2.5b"
+  },
+  {
+   "nom": "ID6 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/ResembleAI/chatterbox"
+  },
+  {
+   "nom": "ID7 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.cloud.google.com/speech-to-text/docs/release-notes"
+  },
+  {
+   "nom": "ID8 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://cloud.google.com/speech-to-text/v2/docs/chirp_3-model"
+  },
+  {
+   "nom": "ID9 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex"
+  },
+  {
+   "nom": "ID10 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://elevenlabs.io/docs/overview/models"
+  },
+  {
+   "nom": "ID11 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash"
+  },
+  {
+   "nom": "ID12 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash"
+  },
+  {
+   "nom": "ID13 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "nom": "ID14 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://platform.claude.com/docs/en/models/overview"
+  },
+  {
+   "nom": "ID15 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://ai.google.dev/gemini-api/docs/deprecations"
+  },
+  {
+   "nom": "ID16 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/black-forest-labs/FLUX.2-dev"
+  },
+  {
+   "nom": "ID17 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.bfl.ai/api-reference/models/generate-or-edit-an-image-with-flux2-%5Bflex%5D"
+  },
+  {
+   "nom": "ID18 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.bfl.ai/api-reference/models/generate-or-edit-an-image-with-flux2-%5Bmax%5D"
+  },
+  {
+   "nom": "ID19 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.bfl.ai/api-reference/models/generate-or-edit-an-image-with-flux2-%5Bpro%5D"
+  },
+  {
+   "nom": "ID20 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/google/gemma-4-12B-it"
+  },
+  {
+   "nom": "ID21 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/google/gemma-4-E2B-it"
+  },
+  {
+   "nom": "ID22 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/google/gemma-4-26B-A4B-it"
+  },
+  {
+   "nom": "ID23 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/google/gemma-4-31B-it"
+  },
+  {
+   "nom": "ID24 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/google/gemma-4-E4B-it"
+  },
+  {
+   "nom": "ID25 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.z.ai/guides/llm/glm-5.3"
+  },
+  {
+   "nom": "ID26 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.z.ai/guides/llm/glm-5.3-flash"
+  },
+  {
+   "nom": "ID27 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.x.ai/developers/models/grok-4.3"
+  },
+  {
+   "nom": "ID28 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.x.ai/developers/models/grok-4.5"
+  },
+  {
+   "nom": "ID29 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.x.ai/developers/models/grok-4.6"
+  },
+  {
+   "nom": "ID30 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.x.ai/developers/models/grok-4.7"
+  },
+  {
+   "nom": "ID31 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.x.ai/developers/models/grok-imagine-image-2.0"
+  },
+  {
+   "nom": "ID32 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.x.ai/developers/model-capabilities/audio/speech-to-text"
+  },
+  {
+   "nom": "ID33 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-transcribe"
+  },
+  {
+   "nom": "ID34 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-image-1"
+  },
+  {
+   "nom": "ID35 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-image-1.5"
+  },
+  {
+   "nom": "ID36 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-image-2"
+  },
+  {
+   "nom": "ID37 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-image-1-mini"
+  },
+  {
+   "nom": "ID38 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://tinker-docs.thinkingmachines.ai/cookbook/inkling/"
+  },
+  {
+   "nom": "ID39 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.inworld.ai/models"
+  },
+  {
+   "nom": "ID40 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://platform.kimi.ai/docs/models"
+  },
+  {
+   "nom": "ID41 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://fal.ai/models/fal-ai/kling-video/v3/pro/text-to-video/api"
+  },
+  {
+   "nom": "ID42 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+  },
+  {
+   "nom": "ID43 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+  },
+  {
+   "nom": "ID44 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
+   "nom": "ID45 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+   "nom": "ID46 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.ltx.io/models"
+  },
+  {
+   "nom": "ID47 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe"
+  },
+  {
+   "nom": "ID48 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai"
+  },
+  {
+   "nom": "ID49 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://platform.minimax.io/docs/guides/models-intro"
+  },
+  {
+   "nom": "ID50 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.mistral.ai/models/mistral-large-4-0"
+  },
+  {
+   "nom": "ID51 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04"
+  },
+  {
+   "nom": "ID52 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+  },
+  {
+   "nom": "ID53 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://dev.meta.ai/docs/models"
+  },
+  {
+   "nom": "ID54 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.deepgram.com/docs/models-languages-overview"
+  },
+  {
+   "nom": "ID55 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/myshell-ai/OpenVoiceV2"
+  },
+  {
+   "nom": "ID56 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/openai/gpt-oss-20b"
+  },
+  {
+   "nom": "ID57 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2"
+  },
+  {
+   "nom": "ID58 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3"
+  },
+  {
+   "nom": "ID59 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+  },
+  {
+   "nom": "ID60 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Qwen/Qwen3.5-27B"
+  },
+  {
+   "nom": "ID61 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
+  },
+  {
+   "nom": "ID62 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Qwen/Qwen3.6-27B"
+  },
+  {
+   "nom": "ID63 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+   "nom": "ID64 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Qwen/Qwen-Image"
+  },
+  {
+   "nom": "ID65 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://help.aliyun.com/en/model-studio/qwen3-8-max"
+  },
+  {
+   "nom": "ID66 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+  },
+  {
+   "nom": "ID67 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-plus"
+  },
+  {
+   "nom": "ID68 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/fishaudio/s1-mini"
+  },
+  {
+   "nom": "ID69 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://elevenlabs.io/docs/eleven-api/choosing-the-right-model"
+  },
+  {
+   "nom": "ID70 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://fal.ai/models/bytedance/seedance-2.0/fast/text-to-video/api"
+  },
+  {
+   "nom": "ID71 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models"
+  },
+  {
+   "nom": "ID72 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.cartesia.ai/build-with-cartesia/tts-models/latest"
+  },
+  {
+   "nom": "ID73 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/sora-2"
+  },
+  {
+   "nom": "ID74 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/sora-2-pro"
+  },
+  {
+   "nom": "ID75 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+  },
+  {
+   "nom": "ID76 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://www.assemblyai.com/changelog?3b7e7275_page=4&b942b364_page=2"
+  },
+  {
+   "nom": "ID77 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://www.assemblyai.com/docs/pre-recorded-audio/universal-3-5-pro"
+  },
+  {
+   "nom": "ID78 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-26-02"
+  },
+  {
+   "nom": "ID79 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0"
+  },
+  {
+   "nom": "ID80 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.mistral.ai/models/voxtral-small-transcribe-3-0"
+  },
+  {
+   "nom": "ID81 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://docs.mistral.ai/models/voxtral-small-25-07"
+  },
+  {
+   "nom": "ID82 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B"
+  },
+  {
+   "nom": "ID83 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B"
+  },
+  {
+   "nom": "ID84 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://developers.openai.com/api/docs/models/whisper-1"
+  },
+  {
+   "nom": "ID85 — Identifiants API ou checkpoints officiels ; données 2026-10-27 ; consultation 2026-10-27 ; Aucune conversion ; source descriptive des identifiants, pas une source de score.",
+   "url": "https://huggingface.co/coqui/XTTS-v2"
   }
  ],
  "categories": {
@@ -77,7 +461,7 @@
    "prix": 4.0,
    "local": false,
    "cle": "claude-opus-5-5",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -89,7 +473,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "claude-sonnet-5-5",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -100,8 +484,8 @@
    "vitesse": 50,
    "prix": 2.0,
    "local": false,
-   "cle": "kimi-k3.1",
-   "note": ""
+   "cle": "kimi-k3.1-pro",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -113,7 +497,7 @@
    "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5-1",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -125,7 +509,7 @@
    "prix": 10.0,
    "local": false,
    "cle": "gpt-6-astra",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -137,7 +521,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "gemini-4-argon",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -148,8 +532,8 @@
    "vitesse": 117,
    "prix": 4.0,
    "local": false,
-   "cle": "muse-wonder",
-   "note": ""
+   "cle": "muse-wonder-1.0",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -161,7 +545,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "gpt-6.1-sol",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -173,7 +557,7 @@
    "prix": 5.0,
    "local": false,
    "cle": "claude-opus-5",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -185,7 +569,19 @@
    "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "GPT-6.1 Terra",
+   "fournisseur": "openai",
+   "score": 48.1,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-6.1-terra",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -196,8 +592,8 @@
    "vitesse": null,
    "prix": 1.25,
    "local": false,
-   "cle": "muse-spark",
-   "note": ""
+   "cle": "muse-spark-1.3",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -209,7 +605,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "gpt-6-sol",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -221,7 +617,7 @@
    "prix": 4.0,
    "local": false,
    "cle": "gpt-5.6-sol",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -233,47 +629,23 @@
    "prix": 2.0,
    "local": false,
    "cle": "grok-4.7",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
-   "nom": "MiMo V2.6 Pro",
-   "fournisseur": "xiaomi",
-   "score": 46.3,
-   "unite": "indice d'intelligence",
-   "vitesse": 45,
-   "prix": 0.435,
-   "local": false,
-   "cle": "mimo-v2.6-pro",
-   "note": "poids ouverts (trop gros pour un PC)"
-  },
-  {
-   "categorie": "global",
-   "nom": "Qwen3.8 Max",
+   "nom": "Qwen3.8 Max (0902)",
    "fournisseur": "qwen",
    "score": 45.4,
    "unite": "indice d'intelligence",
-   "vitesse": 40,
-   "prix": 2.0,
+   "vitesse": null,
+   "prix": null,
    "local": false,
-   "cle": "qwen3.8-max",
-   "note": ""
+   "cle": "qwen3.8-max-0902",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
-   "nom": "DeepSeek V4.1 Flash",
-   "fournisseur": "deepseek",
-   "score": 45.1,
-   "unite": "indice d'intelligence",
-   "vitesse": 155,
-   "prix": 0.15,
-   "local": false,
-   "cle": "deepseek-v4.1-flash",
-   "note": "poids ouverts (trop gros pour un PC)"
-  },
-  {
-   "categorie": "global",
-   "nom": "GLM 5.3",
+   "nom": "GLM-5.3",
    "fournisseur": "zai",
    "score": 44.8,
    "unite": "indice d'intelligence",
@@ -281,7 +653,7 @@
    "prix": 0.079,
    "local": false,
    "cle": "glm-5.3",
-   "note": "poids ouverts (trop gros pour un PC)"
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
   },
   {
    "categorie": "global",
@@ -293,19 +665,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "grok-4.6",
-   "note": ""
-  },
-  {
-   "categorie": "global",
-   "nom": "Step 5 (préversion)",
-   "fournisseur": "stepfun",
-   "score": 43.7,
-   "unite": "indice d'intelligence",
-   "vitesse": 211,
-   "prix": 1.0,
-   "local": false,
-   "cle": "step-5",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -317,7 +677,7 @@
    "prix": 0.239,
    "local": false,
    "cle": "kimi-k3",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -329,7 +689,7 @@
    "prix": 0.1,
    "local": false,
    "cle": "claude-haiku-5-5",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -340,8 +700,8 @@
    "vitesse": 108,
    "prix": 0.15,
    "local": false,
-   "cle": "minimax-m3.1",
-   "note": ""
+   "cle": "MiniMax-M3.1-Flash",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -353,19 +713,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "gpt-5.6-terra",
-   "note": ""
-  },
-  {
-   "categorie": "global",
-   "nom": "GLM 5.3 Flash",
-   "fournisseur": "zai",
-   "score": 41.8,
-   "unite": "indice d'intelligence",
-   "vitesse": 64,
-   "prix": 0.15,
-   "local": false,
-   "cle": "glm-5.3-flash",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -376,20 +724,20 @@
    "vitesse": null,
    "prix": 5.0,
    "local": false,
-   "cle": "claude-opus-4.8",
-   "note": ""
+   "cle": "claude-opus-4-8",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
-   "nom": "Ling 3.1 Flash",
-   "fournisseur": "inclusionai",
-   "score": 41.1,
+   "nom": "GLM-5.3 Flash",
+   "fournisseur": "zai",
+   "score": 41.8,
    "unite": "indice d'intelligence",
-   "vitesse": 213,
-   "prix": 0.075,
+   "vitesse": 64,
+   "prix": 0.15,
    "local": false,
-   "cle": "ling-3.1-flash",
-   "note": ""
+   "cle": "glm-5.3-flash",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
   },
   {
    "categorie": "global",
@@ -401,31 +749,67 @@
    "prix": 0.825,
    "local": false,
    "cle": "gemini-3.8-flash",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
-   "nom": "Qwen3.8 2.4T",
-   "fournisseur": "qwen",
-   "score": 39.9,
+   "nom": "Claude Opus 4.7",
+   "fournisseur": "anthropic",
+   "score": 40.7,
    "unite": "indice d'intelligence",
-   "vitesse": 39,
-   "prix": 2.0,
+   "vitesse": null,
+   "prix": null,
    "local": false,
-   "cle": "qwen3.8-2.4t",
-   "note": "poids ouverts (trop gros pour un PC)"
+   "cle": "claude-opus-4-7",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
-   "nom": "Muse Spark Open",
-   "fournisseur": "meta",
-   "score": 38.9,
+   "nom": "Gemini 3.7 Flash",
+   "fournisseur": "gemini",
+   "score": 39.1,
    "unite": "indice d'intelligence",
-   "vitesse": 144,
-   "prix": 1.25,
+   "vitesse": null,
+   "prix": null,
    "local": false,
-   "cle": "muse-spark-open",
-   "note": "poids ouverts"
+   "cle": "gemini-3.7-flash",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "GPT-5.4",
+   "fournisseur": "openai",
+   "score": 39.0,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "Grok 4.5",
+   "fournisseur": "xai",
+   "score": 38.8,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.5",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "GPT-5.5",
+   "fournisseur": "openai",
+   "score": 38.4,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.5",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -437,7 +821,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "claude-sonnet-5",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -449,31 +833,56 @@
    "prix": 0.1,
    "local": false,
    "cle": "gpt-6-luna",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
-   "nom": "MiMo V2.6 Flash",
-   "fournisseur": "xiaomi",
-   "score": 37.9,
+   "nom": "GPT-5.6 Luna",
+   "fournisseur": "openai",
+   "score": 37.3,
    "unite": "indice d'intelligence",
-   "vitesse": 50,
-   "prix": 0.14,
+   "vitesse": null,
+   "prix": null,
    "local": false,
-   "cle": "mimo-v2.6-flash",
-   "note": ""
+   "cle": "gpt-5.6-luna",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
-   "nom": "DeepSeek V4 Pro",
-   "fournisseur": "deepseek",
-   "score": 36.0,
+   "nom": "Gemini 3.6 Flash",
+   "fournisseur": "gemini",
+   "score": 34.0,
    "unite": "indice d'intelligence",
-   "vitesse": 103,
-   "prix": 0.209,
+   "vitesse": null,
+   "prix": null,
    "local": false,
-   "cle": "deepseek-v4-pro",
-   "note": ""
+   "cle": "gemini-3.6-flash",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "Qwen3.8 27B",
+   "fournisseur": "qwen",
+   "score": 33.7,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.8-27B",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Gemini 3.5 Flash",
+   "fournisseur": "gemini",
+   "score": 32.6,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.5-flash",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Identifiant historique, désormais redirigé vers Gemini 3.6 Flash."
   },
   {
    "categorie": "global",
@@ -485,7 +894,31 @@
    "prix": 1.75,
    "local": false,
    "cle": "gpt-5.3-codex",
-   "note": ""
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "GPT-5.2",
+   "fournisseur": "openai",
+   "score": 30.4,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.2",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "Gemini 3.1 Pro Preview",
+   "fournisseur": "gemini",
+   "score": 29.7,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-pro-preview",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -496,32 +929,20 @@
    "vitesse": 88,
    "prix": 0.3,
    "local": false,
-   "cle": "minimax-m3",
-   "note": ""
+   "cle": "MiniMax-M3",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
-   "nom": "Solar Pro 4",
-   "fournisseur": "upstage",
-   "score": 26.6,
+   "nom": "Claude Opus 4.6",
+   "fournisseur": "anthropic",
+   "score": 26.4,
    "unite": "indice d'intelligence",
    "vitesse": null,
-   "prix": 0.15,
+   "prix": null,
    "local": false,
-   "cle": "solar-pro4",
-   "note": ""
-  },
-  {
-   "categorie": "global",
-   "nom": "Nemotron 3.5 Super VL",
-   "fournisseur": "nvidia",
-   "score": 26.5,
-   "unite": "indice d'intelligence",
-   "vitesse": 441,
-   "prix": 0.15,
-   "local": false,
-   "cle": "nemotron-3.5-super",
-   "note": "poids ouverts ; une version gratuite existe sur OpenRouter"
+   "cle": "claude-opus-4-6",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -532,20 +953,56 @@
    "vitesse": 214,
    "prix": 1.0,
    "local": false,
-   "cle": "inkling",
-   "note": "poids ouverts"
+   "cle": "thinkingmachines/Inkling",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
   },
   {
    "categorie": "global",
-   "nom": "Hunyuan 3",
-   "fournisseur": "tencent",
-   "score": 25.3,
+   "nom": "Grok 4.3",
+   "fournisseur": "xai",
+   "score": 24.9,
    "unite": "indice d'intelligence",
-   "vitesse": 81,
-   "prix": 0.083,
+   "vitesse": null,
+   "prix": null,
    "local": false,
-   "cle": "hy3",
-   "note": ""
+   "cle": "grok-4.3",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "Claude Sonnet 4.6",
+   "fournisseur": "anthropic",
+   "score": 24.7,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-sonnet-4-6",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "GPT-5.4 mini",
+   "fournisseur": "openai",
+   "score": 24.1,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-mini",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "Qwen3.5 27B",
+   "fournisseur": "qwen",
+   "score": 22.9,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-27B",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
   },
   {
    "categorie": "global",
@@ -557,32 +1014,7 @@
    "prix": 0.3,
    "local": false,
    "cle": "gemini-3.5-flash-lite",
-   "note": ""
-  },
-  {
-   "categorie": "global",
-   "nom": "Solar Mini 4",
-   "fournisseur": "upstage",
-   "score": 24.1,
-   "unite": "indice d'intelligence",
-   "vitesse": 108,
-   "prix": 0.05,
-   "local": false,
-   "cle": "solar-mini4",
-   "note": ""
-  },
-  {
-   "categorie": "global",
-   "nom": "Qwen3.8 27B",
-   "fournisseur": "qwen",
-   "score": 33.7,
-   "unite": "indice d'intelligence",
-   "vitesse": null,
-   "prix": null,
-   "local": true,
-   "cle": "qwen3.8:27b",
-   "ollama": "qwen3.8:27b",
-   "note": "mémoire : ≈ 18 Go (24 Go de carte graphique conseillés) — le plus capable en local, voit les images"
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "global",
@@ -593,171 +1025,81 @@
    "vitesse": null,
    "prix": null,
    "local": true,
-   "cle": "qwen3.6:27b",
-   "ollama": "qwen3.6:27b",
-   "note": "mémoire : ≈ 17 Go"
+   "cle": "Qwen/Qwen3.6-27B",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.6:27b"
   },
   {
    "categorie": "global",
-   "nom": "Qwen3.6 35B-A3B",
-   "fournisseur": "qwen",
-   "score": 18,
-   "unite": "indice d'intelligence",
-   "vitesse": null,
-   "prix": null,
-   "local": true,
-   "cle": "qwen3.6:35b",
-   "ollama": "qwen3.6:35b",
-   "note": "mémoire : ≈ 24 Go — rapide (3B actifs)"
-  },
-  {
-   "categorie": "global",
-   "nom": "Gemma 4 26B-A4B",
-   "fournisseur": "google",
-   "score": 17,
-   "unite": "indice d'intelligence",
-   "vitesse": null,
-   "prix": null,
-   "local": true,
-   "cle": "gemma4:26b",
-   "ollama": "gemma4:26b",
-   "note": "mémoire : ≈ 18 Go — estimation Artificial Analysis"
-  },
-  {
-   "categorie": "global",
-   "nom": "Gemma 4 31B",
-   "fournisseur": "google",
-   "score": 15,
-   "unite": "indice d'intelligence",
-   "vitesse": null,
-   "prix": null,
-   "local": true,
-   "cle": "gemma4:31b",
-   "ollama": "gemma4:31b",
-   "note": "mémoire : ≈ 20 Go — texte, image et son"
-  },
-  {
-   "categorie": "global",
-   "nom": "Gemma 4 12B",
-   "fournisseur": "google",
-   "score": 14,
-   "unite": "indice d'intelligence",
-   "vitesse": null,
-   "prix": null,
-   "local": true,
-   "cle": "gemma4:12b",
-   "ollama": "gemma4:12b",
-   "note": "mémoire : ≈ 8 Go — léger ; estimation Artificial Analysis"
-  },
-  {
-   "categorie": "global",
-   "nom": "GPT-OSS 120B",
+   "nom": "GPT-5.4 nano",
    "fournisseur": "openai",
-   "score": 12,
+   "score": 20.7,
    "unite": "indice d'intelligence",
    "vitesse": null,
    "prix": null,
-   "local": true,
-   "cle": "gpt-oss:120b",
-   "ollama": "gpt-oss:120b",
-   "note": "mémoire : ≈ 65 Go — gros PC seulement"
-  },
-  {
-   "categorie": "global",
-   "nom": "GPT-OSS 20B",
-   "fournisseur": "openai",
-   "score": 10,
-   "unite": "indice d'intelligence",
-   "vitesse": null,
-   "prix": null,
-   "local": true,
-   "cle": "gpt-oss:20b",
-   "ollama": "gpt-oss:20b",
-   "note": "mémoire : ≈ 14 Go — tient dans 16 Go"
+   "local": false,
+   "cle": "gpt-5.4-nano",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
    "nom": "Claude Opus 5.5",
    "fournisseur": "anthropic",
-   "score": 90.4,
+   "score": 90.2,
    "unite": "score BenchLM (%)",
    "vitesse": 95,
    "prix": 4.0,
    "local": false,
    "cle": "claude-opus-5-5",
-   "note": ""
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
    "nom": "Claude Fable 5.1",
    "fournisseur": "anthropic",
-   "score": 80.8,
+   "score": 80.7,
    "unite": "score BenchLM (%)",
-   "vitesse": 70,
+   "vitesse": 67,
    "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5-1",
-   "note": ""
-  },
-  {
-   "categorie": "agents",
-   "nom": "Gemini 4 Argon",
-   "fournisseur": "gemini",
-   "score": 78.7,
-   "unite": "score BenchLM (%)",
-   "vitesse": 79,
-   "prix": 2.0,
-   "local": false,
-   "cle": "gemini-4-argon",
-   "note": ""
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
    "nom": "Claude Opus 5",
    "fournisseur": "anthropic",
-   "score": 78.4,
+   "score": 78.5,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": 5.0,
    "local": false,
    "cle": "claude-opus-5",
-   "note": ""
-  },
-  {
-   "categorie": "agents",
-   "nom": "GPT-6.1 Sol",
-   "fournisseur": "openai",
-   "score": 76.3,
-   "unite": "score BenchLM (%)",
-   "vitesse": 56,
-   "prix": 2.0,
-   "local": false,
-   "cle": "gpt-6.1-sol",
-   "note": ""
-  },
-  {
-   "categorie": "agents",
-   "nom": "Claude Fable 5",
-   "fournisseur": "anthropic",
-   "score": 75.8,
-   "unite": "score BenchLM (%)",
-   "vitesse": null,
-   "prix": null,
-   "local": false,
-   "cle": "claude-fable-5",
-   "note": ""
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
    "nom": "GPT-6 Astra",
    "fournisseur": "openai",
-   "score": 75.7,
+   "score": 75.6,
    "unite": "score BenchLM (%)",
-   "vitesse": 63,
+   "vitesse": 60,
    "prix": 10.0,
    "local": false,
    "cle": "gpt-6-astra",
-   "note": ""
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Claude Fable 5",
+   "fournisseur": "anthropic",
+   "score": 75.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 10.0,
+   "local": false,
+   "cle": "claude-fable-5",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
@@ -765,11 +1107,11 @@
    "fournisseur": "zai",
    "score": 70.2,
    "unite": "score BenchLM (%)",
-   "vitesse": 78,
+   "vitesse": 84,
    "prix": 0.079,
    "local": false,
    "cle": "glm-5.3",
-   "note": "poids ouverts (trop gros pour un PC)"
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
   },
   {
    "categorie": "agents",
@@ -781,31 +1123,19 @@
    "prix": 2.0,
    "local": false,
    "cle": "grok-4.6",
-   "note": ""
-  },
-  {
-   "categorie": "agents",
-   "nom": "Kimi K3",
-   "fournisseur": "moonshot",
-   "score": 69.3,
-   "unite": "score BenchLM (%)",
-   "vitesse": null,
-   "prix": 0.239,
-   "local": false,
-   "cle": "kimi-k3",
-   "note": ""
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
    "nom": "Claude Sonnet 5.5",
    "fournisseur": "anthropic",
-   "score": 68.9,
+   "score": 68.8,
    "unite": "score BenchLM (%)",
-   "vitesse": 138,
+   "vitesse": 140,
    "prix": 2.0,
    "local": false,
    "cle": "claude-sonnet-5-5",
-   "note": ""
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
@@ -817,68 +1147,333 @@
    "prix": 4.0,
    "local": false,
    "cle": "gpt-5.6-sol",
-   "note": ""
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
-   "nom": "MiMo-V2.6-Pro",
-   "fournisseur": "xiaomi",
-   "score": 67.8,
+   "nom": "Kimi K3",
+   "fournisseur": "moonshot",
+   "score": 67.3,
    "unite": "score BenchLM (%)",
-   "vitesse": null,
-   "prix": null,
+   "vitesse": 40,
+   "prix": 0.239,
    "local": false,
-   "cle": "mimo-v2.6-pro",
-   "note": "poids ouverts (trop gros pour un PC)"
+   "cle": "kimi-k3",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
    "nom": "Qwen3.8 Max",
    "fournisseur": "qwen",
-   "score": 67.4,
+   "score": 66.2,
    "unite": "score BenchLM (%)",
    "vitesse": 40,
    "prix": 2.0,
    "local": false,
    "cle": "qwen3.8-max",
-   "note": ""
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Gemini 3.8 Flash",
+   "fournisseur": "gemini",
+   "score": 66.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": 122,
+   "prix": 0.825,
+   "local": false,
+   "cle": "gemini-3.8-flash",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "agents",
    "nom": "Claude Sonnet 5",
    "fournisseur": "anthropic",
-   "score": 66.3,
+   "score": 66.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "claude-sonnet-5",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Qwen3.8 Flash Next",
+   "fournisseur": "qwen",
+   "score": 64.6,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "claude-sonnet-5",
-   "note": ""
+   "cle": "Qwen/Qwen3.8-Flash-Next",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
   },
   {
    "categorie": "agents",
    "nom": "Qwen3.8 27B",
    "fournisseur": "qwen",
-   "score": 63.3,
+   "score": 63.2,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": null,
    "local": true,
-   "cle": "qwen3.8:27b",
-   "ollama": "qwen3.8:27b",
-   "note": "mémoire : ≈ 18 Go (24 Go de carte graphique conseillés) — le plus capable en local, voit les images"
+   "cle": "Qwen/Qwen3.8-27B",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "agents",
+   "nom": "Claude Haiku 5.5",
+   "fournisseur": "anthropic",
+   "score": 61.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": 240,
+   "prix": 0.1,
+   "local": false,
+   "cle": "claude-haiku-5-5",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Grok 4.5",
+   "fournisseur": "xai",
+   "score": 60.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.5",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Gemini 3.7 Flash",
+   "fournisseur": "gemini",
+   "score": 60.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.7-flash",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "GPT-5.5",
+   "fournisseur": "openai",
+   "score": 60.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.5",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "GPT-5.6 Terra",
+   "fournisseur": "openai",
+   "score": 60.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": 119,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-5.6-terra",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Claude Opus 4.8",
+   "fournisseur": "anthropic",
+   "score": 60.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 5.0,
+   "local": false,
+   "cle": "claude-opus-4-8",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "GPT-5.6 Luna",
+   "fournisseur": "openai",
+   "score": 58.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.6-luna",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "GPT-6 Sol",
+   "fournisseur": "openai",
+   "score": 57.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-6-sol",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "GLM-5.3 Flash",
+   "fournisseur": "zai",
+   "score": 57.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": 64,
+   "prix": 0.15,
+   "local": false,
+   "cle": "glm-5.3-flash",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "agents",
+   "nom": "GPT-5.4",
+   "fournisseur": "openai",
+   "score": 53.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Gemini 3.6 Flash",
+   "fournisseur": "gemini",
+   "score": 51.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.6-flash",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Gemini 3.5 Flash",
+   "fournisseur": "gemini",
+   "score": 51.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.5-flash",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Identifiant historique réel ; l’API le redirige désormais vers Gemini 3.6 Flash, sans transfert du score à ce dernier."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Claude Sonnet 4.6",
+   "fournisseur": "anthropic",
+   "score": 45.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-sonnet-4-6",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Claude Opus 4.6",
+   "fournisseur": "anthropic",
+   "score": 45.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-opus-4-6",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "GPT-5.4 mini",
+   "fournisseur": "openai",
+   "score": 35.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-mini",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Gemini 3.5 Flash-Lite",
+   "fournisseur": "gemini",
+   "score": 35.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": 356,
+   "prix": 0.3,
+   "local": false,
+   "cle": "gemini-3.5-flash-lite",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "GPT-5.4 nano",
+   "fournisseur": "openai",
+   "score": 33.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-nano",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Qwen3.6 27B",
+   "fournisseur": "qwen",
+   "score": 29.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.6-27B",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.6:27b"
+  },
+  {
+   "categorie": "agents",
+   "nom": "Claude Haiku 4.5",
+   "fournisseur": "anthropic",
+   "score": 21.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-haiku-4-5-20251001",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Mistral Medium 3.5",
+   "fournisseur": "mistral",
+   "score": 21.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "mistral-medium-3-5",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
   },
   {
    "categorie": "code",
    "nom": "Claude Sonnet 5.5",
    "fournisseur": "anthropic",
-   "score": 84.4,
+   "score": 84.5,
    "unite": "score BenchLM (%)",
-   "vitesse": 138,
+   "vitesse": 140,
    "prix": 2.0,
    "local": false,
    "cle": "claude-sonnet-5-5",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
@@ -890,91 +1485,79 @@
    "prix": 4.0,
    "local": false,
    "cle": "claude-opus-5-5",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
    "nom": "Claude Fable 5.1",
    "fournisseur": "anthropic",
-   "score": 77.0,
+   "score": 77.2,
    "unite": "score BenchLM (%)",
-   "vitesse": 70,
+   "vitesse": 67,
    "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5-1",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
    "nom": "GPT-6 Astra",
    "fournisseur": "openai",
-   "score": 75.7,
+   "score": 75.5,
    "unite": "score BenchLM (%)",
-   "vitesse": 63,
+   "vitesse": 60,
    "prix": 10.0,
    "local": false,
    "cle": "gpt-6-astra",
-   "note": ""
-  },
-  {
-   "categorie": "code",
-   "nom": "Muse Wonder Full",
-   "fournisseur": "meta",
-   "score": 74.3,
-   "unite": "score BenchLM (%)",
-   "vitesse": 139,
-   "prix": 4.0,
-   "local": false,
-   "cle": "muse-wonder",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
    "nom": "Gemini 4 Argon",
    "fournisseur": "gemini",
-   "score": 73.1,
+   "score": 73.2,
    "unite": "score BenchLM (%)",
-   "vitesse": 79,
+   "vitesse": 78,
    "prix": 2.0,
    "local": false,
    "cle": "gemini-4-argon",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
    "nom": "Claude Fable 5",
    "fournisseur": "anthropic",
-   "score": 71.4,
+   "score": 71.8,
    "unite": "score BenchLM (%)",
    "vitesse": null,
-   "prix": null,
+   "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
    "nom": "GPT-6.1 Sol",
    "fournisseur": "openai",
-   "score": 71.0,
+   "score": 71.4,
    "unite": "score BenchLM (%)",
    "vitesse": 56,
    "prix": 2.0,
    "local": false,
    "cle": "gpt-6.1-sol",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
    "nom": "Claude Opus 5",
    "fournisseur": "anthropic",
-   "score": 70.8,
+   "score": 70.9,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": 5.0,
    "local": false,
    "cle": "claude-opus-5",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
@@ -982,11 +1565,11 @@
    "fournisseur": "meta",
    "score": 70.1,
    "unite": "score BenchLM (%)",
-   "vitesse": 139,
+   "vitesse": 117,
    "prix": 4.0,
    "local": false,
-   "cle": "muse-wonder",
-   "note": ""
+   "cle": "muse-wonder-1.0",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
@@ -998,31 +1581,19 @@
    "prix": 4.0,
    "local": false,
    "cle": "gpt-5.6-sol",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
    "nom": "GPT-6 Sol",
    "fournisseur": "openai",
-   "score": 66.4,
+   "score": 66.3,
    "unite": "score BenchLM (%)",
    "vitesse": null,
-   "prix": null,
+   "prix": 2.0,
    "local": false,
    "cle": "gpt-6-sol",
-   "note": ""
-  },
-  {
-   "categorie": "code",
-   "nom": "MiMo-V2.6-Pro",
-   "fournisseur": "xiaomi",
-   "score": 63.5,
-   "unite": "score BenchLM (%)",
-   "vitesse": null,
-   "prix": null,
-   "local": false,
-   "cle": "mimo-v2.6-pro",
-   "note": "poids ouverts (trop gros pour un PC)"
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
@@ -1034,7 +1605,7 @@
    "prix": null,
    "local": false,
    "cle": "gpt-5.5",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "code",
@@ -1042,155 +1613,774 @@
    "fournisseur": "openai",
    "score": 61.8,
    "unite": "score BenchLM (%)",
-   "vitesse": 126,
+   "vitesse": 119,
    "prix": 2.0,
    "local": false,
    "cle": "gpt-5.6-terra",
-   "note": ""
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "GPT-5.6 Luna",
+   "fournisseur": "openai",
+   "score": 61.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.6-luna",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Claude Opus 4.8",
+   "fournisseur": "anthropic",
+   "score": 60.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 5.0,
+   "local": false,
+   "cle": "claude-opus-4-8",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemini 3.8 Flash",
+   "fournisseur": "gemini",
+   "score": 60.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": 122,
+   "prix": 0.825,
+   "local": false,
+   "cle": "gemini-3.8-flash",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Kimi K3",
+   "fournisseur": "moonshot",
+   "score": 59.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": 40,
+   "prix": 0.239,
+   "local": false,
+   "cle": "kimi-k3",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "MiniMax M3.1 Flash",
+   "fournisseur": "minimax",
+   "score": 58.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": 108,
+   "prix": 0.15,
+   "local": false,
+   "cle": "MiniMax-M3.1-Flash",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Grok 4.6",
+   "fournisseur": "xai",
+   "score": 58.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "grok-4.6",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemini 3.7 Flash",
+   "fournisseur": "gemini",
+   "score": 57.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.7-flash",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Claude Sonnet 5",
+   "fournisseur": "anthropic",
+   "score": 57.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "claude-sonnet-5",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "GLM-5.3",
+   "fournisseur": "zai",
+   "score": 56.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": 84,
+   "prix": 0.079,
+   "local": false,
+   "cle": "glm-5.3",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "code",
+   "nom": "GPT-6 Luna",
+   "fournisseur": "openai",
+   "score": 53.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": 130,
+   "prix": 0.1,
+   "local": false,
+   "cle": "gpt-6-luna",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Qwen3.8 Max",
+   "fournisseur": "qwen",
+   "score": 53.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": 40,
+   "prix": 2.0,
+   "local": false,
+   "cle": "qwen3.8-max",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Claude Haiku 5.5",
+   "fournisseur": "anthropic",
+   "score": 52.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": 240,
+   "prix": 0.1,
+   "local": false,
+   "cle": "claude-haiku-5-5",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Qwen3.8 Flash Next",
+   "fournisseur": "qwen",
+   "score": 51.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "Qwen/Qwen3.8-Flash-Next",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemini 3.6 Flash",
+   "fournisseur": "gemini",
+   "score": 51.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.6-flash",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemini 3.5 Flash",
+   "fournisseur": "gemini",
+   "score": 50.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.5-flash",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Identifiant historique réel ; l’API le redirige désormais vers Gemini 3.6 Flash, sans transfert du score à ce dernier."
+  },
+  {
+   "categorie": "code",
+   "nom": "GLM-5.3 Flash",
+   "fournisseur": "zai",
+   "score": 47.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": 64,
+   "prix": 0.15,
+   "local": false,
+   "cle": "glm-5.3-flash",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "code",
+   "nom": "Qwen3.8 27B",
+   "fournisseur": "qwen",
+   "score": 46.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.8-27B",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemini 3.5 Flash-Lite",
+   "fournisseur": "gemini",
+   "score": 35.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": 356,
+   "prix": 0.3,
+   "local": false,
+   "cle": "gemini-3.5-flash-lite",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "GPT-5.4 mini",
+   "fournisseur": "openai",
+   "score": 35.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-mini",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Qwen3.6 27B",
+   "fournisseur": "qwen",
+   "score": 35.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.6-27B",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.6:27b"
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemma 4 31B",
+   "fournisseur": "google",
+   "score": 32.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-31B-it",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:31b"
+  },
+  {
+   "categorie": "code",
+   "nom": "Gemma 4 26B-A4B",
+   "fournisseur": "google",
+   "score": 31.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-26B-A4B-it",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:26b"
+  },
+  {
+   "categorie": "code",
+   "nom": "GPT-5.4 nano",
+   "fournisseur": "openai",
+   "score": 29.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-nano",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "code",
+   "nom": "Claude Haiku 4.5",
+   "fournisseur": "anthropic",
+   "score": 17.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-haiku-4-5-20251001",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "web",
    "nom": "Claude Opus 5.5",
    "fournisseur": "anthropic",
-   "score": 1807,
+   "score": 1807.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": 95,
    "prix": 4.0,
    "local": false,
    "cle": "claude-opus-5-5",
-   "note": ""
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "web",
    "nom": "GPT-6 Astra",
    "fournisseur": "openai",
-   "score": 1777,
+   "score": 1774.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 63,
+   "vitesse": 60,
    "prix": 10.0,
    "local": false,
    "cle": "gpt-6-astra",
-   "note": ""
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "web",
    "nom": "Claude Sonnet 5.5",
    "fournisseur": "anthropic",
-   "score": 1768,
+   "score": 1769.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 138,
+   "vitesse": 140,
    "prix": 2.0,
    "local": false,
    "cle": "claude-sonnet-5-5",
-   "note": ""
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage xHigh."
   },
   {
    "categorie": "web",
    "nom": "GPT-6.1 Sol",
    "fournisseur": "openai",
-   "score": 1755,
+   "score": 1749.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": 56,
    "prix": 2.0,
    "local": false,
    "cle": "gpt-6.1-sol",
-   "note": ""
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "web",
    "nom": "Claude Fable 5.1",
    "fournisseur": "anthropic",
-   "score": 1741,
+   "score": 1742.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 70,
+   "vitesse": 67,
    "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5-1",
-   "note": ""
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
+  },
+  {
+   "categorie": "web",
+   "nom": "Kimi K3.1 Pro",
+   "fournisseur": "moonshot",
+   "score": 1692.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 50,
+   "prix": 2.0,
+   "local": false,
+   "cle": "kimi-k3.1-pro",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max ; Preliminary. Date de l’en-tête du tableau antérieure à la sortie : voir RAPPORT.md."
   },
   {
    "categorie": "web",
    "nom": "Claude Opus 5",
    "fournisseur": "anthropic",
-   "score": 1689,
+   "score": 1691.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": null,
    "prix": 5.0,
    "local": false,
    "cle": "claude-opus-5",
-   "note": ""
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "web",
    "nom": "GPT-6 Sol",
    "fournisseur": "openai",
-   "score": 1683,
+   "score": 1681.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": null,
-   "prix": null,
+   "prix": 2.0,
    "local": false,
    "cle": "gpt-6-sol",
-   "note": ""
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "web",
    "nom": "Gemini 4 Argon",
    "fournisseur": "gemini",
-   "score": 1678,
+   "score": 1674.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 79,
+   "vitesse": 78,
    "prix": 2.0,
    "local": false,
    "cle": "gemini-4-argon",
-   "note": "score provisoire"
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "Qwen3.8 Max (0902)",
+   "fournisseur": "qwen",
+   "score": 1673.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "qwen3.8-max-0902",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Snapshot 0902 ; Preliminary."
   },
   {
    "categorie": "web",
    "nom": "Qwen3.8 Max",
    "fournisseur": "qwen",
-   "score": 1674,
+   "score": 1672.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": 40,
    "prix": 2.0,
    "local": false,
    "cle": "qwen3.8-max",
-   "note": "score provisoire"
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Preliminary."
   },
   {
    "categorie": "web",
    "nom": "Muse Spark 1.3",
    "fournisseur": "meta",
-   "score": 1658,
+   "score": 1657.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 125,
+   "vitesse": null,
    "prix": 1.25,
    "local": false,
-   "cle": "muse-spark",
-   "note": ""
+   "cle": "muse-spark-1.3",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "web",
    "nom": "Kimi K3",
    "fournisseur": "moonshot",
-   "score": 1655,
+   "score": 1655.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": null,
+   "vitesse": 40,
    "prix": 0.239,
    "local": false,
    "cle": "kimi-k3",
-   "note": ""
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "web",
    "nom": "Muse Wonder",
    "fournisseur": "meta",
-   "score": 1650,
+   "score": 1651.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 139,
+   "vitesse": 117,
    "prix": 4.0,
    "local": false,
-   "cle": "muse-wonder",
-   "note": ""
+   "cle": "muse-wonder-1.0",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
+  },
+  {
+   "categorie": "web",
+   "nom": "Grok 4.7",
+   "fournisseur": "xai",
+   "score": 1638.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 76,
+   "prix": 2.0,
+   "local": false,
+   "cle": "grok-4.7",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage xHigh."
+  },
+  {
+   "categorie": "web",
+   "nom": "Qwen3.8 Flash Next",
+   "fournisseur": "qwen",
+   "score": 1629.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "Qwen/Qwen3.8-Flash-Next",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Preliminary. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "web",
+   "nom": "Claude Fable 5",
+   "fournisseur": "anthropic",
+   "score": 1624.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 10.0,
+   "local": false,
+   "cle": "claude-fable-5",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "GLM-5.3",
+   "fournisseur": "zai",
+   "score": 1623.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 84,
+   "prix": 0.079,
+   "local": false,
+   "cle": "glm-5.3",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "web",
+   "nom": "Grok 4.6",
+   "fournisseur": "xai",
+   "score": 1617.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "grok-4.6",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-5.6 Sol",
+   "fournisseur": "openai",
+   "score": 1615.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 4.0,
+   "local": false,
+   "cle": "gpt-5.6-sol",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage xHigh ; Codex Harness."
+  },
+  {
+   "categorie": "web",
+   "nom": "GLM-5.3 Flash",
+   "fournisseur": "zai",
+   "score": 1608.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 64,
+   "prix": 0.15,
+   "local": false,
+   "cle": "glm-5.3-flash",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "web",
+   "nom": "Qwen3.8 27B",
+   "fournisseur": "qwen",
+   "score": 1591.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.8-27B",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemini 3.7 Flash",
+   "fournisseur": "gemini",
+   "score": 1590.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.7-flash",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High ; Preliminary."
+  },
+  {
+   "categorie": "web",
+   "nom": "MiniMax M3.1 Flash",
+   "fournisseur": "minimax",
+   "score": 1589.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 108,
+   "prix": 0.15,
+   "local": false,
+   "cle": "MiniMax-M3.1-Flash",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Preliminary."
+  },
+  {
+   "categorie": "web",
+   "nom": "Claude Haiku 5.5",
+   "fournisseur": "anthropic",
+   "score": 1586.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 240,
+   "prix": 0.1,
+   "local": false,
+   "cle": "claude-haiku-5-5",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemini 3.8 Flash",
+   "fournisseur": "gemini",
+   "score": 1585.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 122,
+   "prix": 0.825,
+   "local": false,
+   "cle": "gemini-3.8-flash",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High ; Preliminary."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-6 Luna",
+   "fournisseur": "openai",
+   "score": 1579.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 130,
+   "prix": 0.1,
+   "local": false,
+   "cle": "gpt-6-luna",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
+  },
+  {
+   "categorie": "web",
+   "nom": "Claude Opus 4.7",
+   "fournisseur": "anthropic",
+   "score": 1558.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-opus-4-7",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "Claude Opus 4.8",
+   "fournisseur": "anthropic",
+   "score": 1556.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 5.0,
+   "local": false,
+   "cle": "claude-opus-4-8",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "Grok 4.5",
+   "fournisseur": "xai",
+   "score": 1553.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.5",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "web",
+   "nom": "Claude Opus 4.6",
+   "fournisseur": "anthropic",
+   "score": 1546.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-opus-4-6",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "Mistral Large 4",
+   "fournisseur": "mistral",
+   "score": 1545.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "mistral-large-4",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "web",
+   "nom": "Claude Sonnet 5",
+   "fournisseur": "anthropic",
+   "score": 1541.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "claude-sonnet-5",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemini 3.6 Flash",
+   "fournisseur": "gemini",
+   "score": 1538.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.6-flash",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "GPT-5.4 mini",
+   "fournisseur": "openai",
+   "score": 1397.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-mini",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemma 4 31B",
+   "fournisseur": "google",
+   "score": 1368.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-31B-it",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:31b"
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemma 4 26B-A4B",
+   "fournisseur": "google",
+   "score": 1360.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-26B-A4B-it",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:26b"
+  },
+  {
+   "categorie": "web",
+   "nom": "Mistral Medium 3.5",
+   "fournisseur": "mistral",
+   "score": 1264.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "mistral-medium-3-5",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "web",
+   "nom": "Gemini 2.5 Pro",
+   "fournisseur": "gemini",
+   "score": 1226.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-2.5-pro",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
@@ -1198,11 +2388,11 @@
    "fournisseur": "openai",
    "score": 93.3,
    "unite": "score BenchLM (%)",
-   "vitesse": 63,
+   "vitesse": 60,
    "prix": 10.0,
    "local": false,
    "cle": "gpt-6-astra",
-   "note": ""
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
@@ -1214,7 +2404,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "gpt-6.1-sol",
-   "note": ""
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
@@ -1222,11 +2412,11 @@
    "fournisseur": "gemini",
    "score": 86.9,
    "unite": "score BenchLM (%)",
-   "vitesse": 79,
+   "vitesse": 78,
    "prix": 2.0,
    "local": false,
    "cle": "gemini-4-argon",
-   "note": ""
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
@@ -1238,7 +2428,7 @@
    "prix": 4.0,
    "local": false,
    "cle": "claude-opus-5-5",
-   "note": ""
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
@@ -1246,23 +2436,11 @@
    "fournisseur": "anthropic",
    "score": 85.2,
    "unite": "score BenchLM (%)",
-   "vitesse": 70,
+   "vitesse": 67,
    "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5-1",
-   "note": ""
-  },
-  {
-   "categorie": "raisonnement",
-   "nom": "Claude Sonnet 5.5",
-   "fournisseur": "anthropic",
-   "score": 81.8,
-   "unite": "score BenchLM (%)",
-   "vitesse": 138,
-   "prix": 2.0,
-   "local": false,
-   "cle": "claude-sonnet-5-5",
-   "note": ""
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
@@ -1274,7 +2452,7 @@
    "prix": 5.0,
    "local": false,
    "cle": "claude-opus-5",
-   "note": ""
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
@@ -1286,56 +2464,187 @@
    "prix": null,
    "local": false,
    "cle": "mistral-large-4",
-   "note": ""
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
-   "nom": "GLM-5.3 Flash",
-   "fournisseur": "zai",
-   "score": 80.0,
+   "nom": "GPT-5.6 Sol",
+   "fournisseur": "openai",
+   "score": 76.4,
    "unite": "score BenchLM (%)",
    "vitesse": null,
-   "prix": 0.15,
+   "prix": 4.0,
    "local": false,
-   "cle": "glm-5.3-flash",
-   "note": "poids ouverts"
+   "cle": "gpt-5.6-sol",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
-   "nom": "GLM-5.3",
-   "fournisseur": "zai",
-   "score": 79.8,
+   "nom": "Gemini 3.8 Flash",
+   "fournisseur": "gemini",
+   "score": 74.3,
    "unite": "score BenchLM (%)",
-   "vitesse": 78,
-   "prix": 0.079,
+   "vitesse": 122,
+   "prix": 0.825,
    "local": false,
-   "cle": "glm-5.3",
-   "note": "poids ouverts (trop gros pour un PC)"
+   "cle": "gemini-3.8-flash",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "raisonnement",
-   "nom": "Inkling",
-   "fournisseur": "thinking machines",
-   "score": 78.1,
+   "nom": "GPT-6 Sol",
+   "fournisseur": "openai",
+   "score": 73.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-6-sol",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "Gemini 3.5 Flash",
+   "fournisseur": "gemini",
+   "score": 70.9,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "inkling",
-   "note": "poids ouverts"
+   "cle": "gemini-3.5-flash",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27. Identifiant historique réel ; l’API le redirige désormais vers Gemini 3.6 Flash, sans transfert du score à ce dernier."
   },
   {
    "categorie": "raisonnement",
-   "nom": "Qwen3.8 27B",
-   "fournisseur": "qwen",
-   "score": 81.3,
+   "nom": "Kimi K3",
+   "fournisseur": "moonshot",
+   "score": 69.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": 40,
+   "prix": 0.239,
+   "local": false,
+   "cle": "kimi-k3",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "GPT-5.5",
+   "fournisseur": "openai",
+   "score": 69.7,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": null,
-   "local": true,
-   "cle": "qwen3.8:27b",
-   "ollama": "qwen3.8:27b",
-   "note": "mémoire : ≈ 18 Go (24 Go de carte graphique conseillés) — le plus capable en local, voit les images"
+   "local": false,
+   "cle": "gpt-5.5",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "GPT-5.6 Terra",
+   "fournisseur": "openai",
+   "score": 69.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": 119,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-5.6-terra",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "GPT-5.4",
+   "fournisseur": "openai",
+   "score": 64.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27. Vue provisoire : certaines données sources portent le marqueur P ; aucun score n’a été estimé par le studio."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "Claude Opus 4.8",
+   "fournisseur": "anthropic",
+   "score": 62.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 5.0,
+   "local": false,
+   "cle": "claude-opus-4-8",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "Grok 4.6",
+   "fournisseur": "xai",
+   "score": 61.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "grok-4.6",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "Claude Haiku 5.5",
+   "fournisseur": "anthropic",
+   "score": 59.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": 240,
+   "prix": 0.1,
+   "local": false,
+   "cle": "claude-haiku-5-5",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "GPT-6 Luna",
+   "fournisseur": "openai",
+   "score": 59.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": 130,
+   "prix": 0.1,
+   "local": false,
+   "cle": "gpt-6-luna",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "Grok 4.7",
+   "fournisseur": "xai",
+   "score": 58.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": 76,
+   "prix": 2.0,
+   "local": false,
+   "cle": "grok-4.7",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "GPT-5.6 Luna",
+   "fournisseur": "openai",
+   "score": 58.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.6-luna",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "raisonnement",
+   "nom": "Grok 4.5",
+   "fournisseur": "xai",
+   "score": 54.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.5",
+   "note": "[R] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "connaissances",
@@ -1347,43 +2656,55 @@
    "prix": 4.0,
    "local": false,
    "cle": "claude-opus-5-5",
-   "note": ""
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "connaissances",
    "nom": "Claude Fable 5.1",
    "fournisseur": "anthropic",
-   "score": 86.2,
+   "score": 86.1,
    "unite": "score BenchLM (%)",
-   "vitesse": 70,
+   "vitesse": 67,
    "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5-1",
-   "note": ""
-  },
-  {
-   "categorie": "connaissances",
-   "nom": "GPT-6 Astra",
-   "fournisseur": "openai",
-   "score": 85.7,
-   "unite": "score BenchLM (%)",
-   "vitesse": 63,
-   "prix": 10.0,
-   "local": false,
-   "cle": "gpt-6-astra",
-   "note": ""
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "connaissances",
    "nom": "GPT-6.1 Sol",
    "fournisseur": "openai",
-   "score": 85.5,
+   "score": 85.9,
    "unite": "score BenchLM (%)",
    "vitesse": 56,
    "prix": 2.0,
    "local": false,
    "cle": "gpt-6.1-sol",
-   "note": ""
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-6 Astra",
+   "fournisseur": "openai",
+   "score": 85.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": 60,
+   "prix": 10.0,
+   "local": false,
+   "cle": "gpt-6-astra",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Claude Fable 5",
+   "fournisseur": "anthropic",
+   "score": 82.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 10.0,
+   "local": false,
+   "cle": "claude-fable-5",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "connaissances",
@@ -1391,83 +2712,59 @@
    "fournisseur": "anthropic",
    "score": 82.1,
    "unite": "score BenchLM (%)",
-   "vitesse": 138,
+   "vitesse": 140,
    "prix": 2.0,
    "local": false,
    "cle": "claude-sonnet-5-5",
-   "note": ""
-  },
-  {
-   "categorie": "connaissances",
-   "nom": "Claude Fable 5",
-   "fournisseur": "anthropic",
-   "score": 81.5,
-   "unite": "score BenchLM (%)",
-   "vitesse": null,
-   "prix": null,
-   "local": false,
-   "cle": "claude-fable-5",
-   "note": ""
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "connaissances",
    "nom": "Claude Opus 5",
    "fournisseur": "anthropic",
-   "score": 81.4,
+   "score": 81.3,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": 5.0,
    "local": false,
    "cle": "claude-opus-5",
-   "note": ""
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "connaissances",
    "nom": "Gemini 4 Argon",
    "fournisseur": "gemini",
-   "score": 80.8,
+   "score": 80.7,
    "unite": "score BenchLM (%)",
-   "vitesse": 79,
+   "vitesse": 78,
    "prix": 2.0,
    "local": false,
    "cle": "gemini-4-argon",
-   "note": ""
-  },
-  {
-   "categorie": "connaissances",
-   "nom": "GPT-6 Sol",
-   "fournisseur": "openai",
-   "score": 79.7,
-   "unite": "score BenchLM (%)",
-   "vitesse": null,
-   "prix": null,
-   "local": false,
-   "cle": "gpt-6-sol",
-   "note": "estimation"
-  },
-  {
-   "categorie": "connaissances",
-   "nom": "Muse Wonder Full",
-   "fournisseur": "meta",
-   "score": 78.2,
-   "unite": "score BenchLM (%)",
-   "vitesse": 139,
-   "prix": 4.0,
-   "local": false,
-   "cle": "muse-wonder",
-   "note": ""
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "connaissances",
    "nom": "GPT-5.6 Sol",
    "fournisseur": "openai",
-   "score": 76.4,
+   "score": 76.3,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": 4.0,
    "local": false,
    "cle": "gpt-5.6-sol",
-   "note": ""
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-6.1 Terra",
+   "fournisseur": "openai",
+   "score": 74.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-6.1-terra",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "connaissances",
@@ -1475,131 +2772,730 @@
    "fournisseur": "meta",
    "score": 74.2,
    "unite": "score BenchLM (%)",
-   "vitesse": 139,
+   "vitesse": 117,
    "prix": 4.0,
    "local": false,
-   "cle": "muse-wonder",
-   "note": ""
+   "cle": "muse-wonder-1.0",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemini 3.8 Flash",
+   "fournisseur": "gemini",
+   "score": 72.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": 122,
+   "prix": 0.825,
+   "local": false,
+   "cle": "gemini-3.8-flash",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "MiniMax M3.1 Flash",
+   "fournisseur": "minimax",
+   "score": 72.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": 108,
+   "prix": 0.15,
+   "local": false,
+   "cle": "MiniMax-M3.1-Flash",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-5.5",
+   "fournisseur": "openai",
+   "score": 71.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.5",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Claude Opus 4.8",
+   "fournisseur": "anthropic",
+   "score": 71.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 5.0,
+   "local": false,
+   "cle": "claude-opus-4-8",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemini 3.7 Flash",
+   "fournisseur": "gemini",
+   "score": 70.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.7-flash",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-5.6 Terra",
+   "fournisseur": "openai",
+   "score": 69.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": 119,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-5.6-terra",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Grok 4.6",
+   "fournisseur": "xai",
+   "score": 68.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "grok-4.6",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-5.4",
+   "fournisseur": "openai",
+   "score": 68.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Kimi K3",
+   "fournisseur": "moonshot",
+   "score": 67.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": 40,
+   "prix": 0.239,
+   "local": false,
+   "cle": "kimi-k3",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Qwen3.8 Max",
+   "fournisseur": "qwen",
+   "score": 67.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": 40,
+   "prix": 2.0,
+   "local": false,
+   "cle": "qwen3.8-max",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemini 3.1 Pro Preview",
+   "fournisseur": "gemini",
+   "score": 67.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-pro-preview",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-6 Luna",
+   "fournisseur": "openai",
+   "score": 66.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": 130,
+   "prix": 0.1,
+   "local": false,
+   "cle": "gpt-6-luna",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Grok 4.5",
+   "fournisseur": "xai",
+   "score": 66.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "grok-4.5",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Claude Haiku 5.5",
+   "fournisseur": "anthropic",
+   "score": 65.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": 240,
+   "prix": 0.1,
+   "local": false,
+   "cle": "claude-haiku-5-5",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemini 3.5 Flash",
+   "fournisseur": "gemini",
+   "score": 65.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.5-flash",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Identifiant historique réel ; l’API le redirige désormais vers Gemini 3.6 Flash, sans transfert du score à ce dernier."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Claude Sonnet 5",
+   "fournisseur": "anthropic",
+   "score": 64.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "claude-sonnet-5",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemini 3.6 Flash",
+   "fournisseur": "gemini",
+   "score": 64.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.6-flash",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-5.4 mini",
+   "fournisseur": "openai",
+   "score": 50.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-mini",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Qwen3.8 27B",
+   "fournisseur": "qwen",
+   "score": 50.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.8-27B",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemini 3.5 Flash-Lite",
+   "fournisseur": "gemini",
+   "score": 48.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": 356,
+   "prix": 0.3,
+   "local": false,
+   "cle": "gemini-3.5-flash-lite",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemma 4 31B",
+   "fournisseur": "google",
+   "score": 40.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-31B-it",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Couverture de la fiche mixte : 3 résultats vérifiés sur 4 ; catégorie affichée Supported au classement. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:31b"
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "GPT-5.4 nano",
+   "fournisseur": "openai",
+   "score": 39.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-nano",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Gemma 4 12B",
+   "fournisseur": "google",
+   "score": 34.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-12B-it",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:12b"
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Mistral Medium 3.5",
+   "fournisseur": "mistral",
+   "score": 31.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "mistral-medium-3-5",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
   },
   {
    "categorie": "conversation",
    "nom": "Gemini 4 Argon",
    "fournisseur": "gemini",
-   "score": 1524,
+   "score": 1517.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 79,
+   "vitesse": 78,
    "prix": 2.0,
    "local": false,
    "cle": "gemini-4-argon",
-   "note": "score provisoire"
-  },
-  {
-   "categorie": "conversation",
-   "nom": "Muse Wonder",
-   "fournisseur": "meta",
-   "score": 1509,
-   "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 139,
-   "prix": 4.0,
-   "local": false,
-   "cle": "muse-wonder",
-   "note": ""
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
   },
   {
    "categorie": "conversation",
    "nom": "Claude Opus 5.5",
    "fournisseur": "anthropic",
-   "score": 1508,
+   "score": 1509.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": 95,
    "prix": 4.0,
    "local": false,
    "cle": "claude-opus-5-5",
-   "note": ""
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Muse Wonder",
+   "fournisseur": "meta",
+   "score": 1509.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 117,
+   "prix": 4.0,
+   "local": false,
+   "cle": "muse-wonder-1.0",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "conversation",
    "nom": "Claude Fable 5",
    "fournisseur": "anthropic",
-   "score": 1504,
+   "score": 1503.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": null,
-   "prix": null,
+   "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5",
-   "note": ""
-  },
-  {
-   "categorie": "conversation",
-   "nom": "Claude Opus 4.6",
-   "fournisseur": "anthropic",
-   "score": 1503,
-   "unite": "score arène (votes à l'aveugle)",
-   "vitesse": null,
-   "prix": null,
-   "local": false,
-   "cle": "claude-opus-4.6",
-   "note": ""
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
   },
   {
    "categorie": "conversation",
    "nom": "Claude Fable 5.1",
    "fournisseur": "anthropic",
-   "score": 1502,
+   "score": 1503.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 70,
+   "vitesse": 67,
    "prix": 10.0,
    "local": false,
    "cle": "claude-fable-5-1",
-   "note": ""
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Claude Opus 4.6",
+   "fournisseur": "anthropic",
+   "score": 1503.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-opus-4-6",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
   },
   {
    "categorie": "conversation",
    "nom": "Claude Opus 4.7",
    "fournisseur": "anthropic",
-   "score": 1501,
+   "score": 1501.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "claude-opus-4.7",
-   "note": ""
+   "cle": "claude-opus-4-7",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
   },
   {
    "categorie": "conversation",
    "nom": "Gemini 3.8 Flash",
    "fournisseur": "gemini",
-   "score": 1496,
+   "score": 1496.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": null,
-   "prix": null,
+   "vitesse": 122,
+   "prix": 0.825,
    "local": false,
    "cle": "gemini-3.8-flash",
-   "note": "score provisoire"
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High ; Preliminary."
   },
   {
    "categorie": "conversation",
    "nom": "Muse Spark 1.3",
    "fournisseur": "meta",
-   "score": 1494,
+   "score": 1496.0,
    "unite": "score arène (votes à l'aveugle)",
-   "vitesse": 125,
+   "vitesse": null,
    "prix": 1.25,
    "local": false,
-   "cle": "muse-spark",
-   "note": ""
+   "cle": "muse-spark-1.3",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
   },
   {
    "categorie": "conversation",
    "nom": "Claude Opus 5",
    "fournisseur": "anthropic",
-   "score": 1490,
+   "score": 1491.0,
    "unite": "score arène (votes à l'aveugle)",
    "vitesse": null,
    "prix": 5.0,
    "local": false,
    "cle": "claude-opus-5",
-   "note": ""
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemini 3.7 Flash",
+   "fournisseur": "gemini",
+   "score": 1490.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.7-flash",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High ; Preliminary."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemini 3.1 Pro Preview",
+   "fournisseur": "gemini",
+   "score": 1487.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-pro-preview",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Kimi K3",
+   "fournisseur": "moonshot",
+   "score": 1487.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 40,
+   "prix": 0.239,
+   "local": false,
+   "cle": "kimi-k3",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-5.6 Sol",
+   "fournisseur": "openai",
+   "score": 1485.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 4.0,
+   "local": false,
+   "cle": "gpt-5.6-sol",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage xHigh."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemini 3.6 Flash",
+   "fournisseur": "gemini",
+   "score": 1483.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.6-flash",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3.8 Max",
+   "fournisseur": "qwen",
+   "score": 1483.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 40,
+   "prix": 2.0,
+   "local": false,
+   "cle": "qwen3.8-max",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-5.5",
+   "fournisseur": "openai",
+   "score": 1482.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.5",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Claude Opus 4.8",
+   "fournisseur": "anthropic",
+   "score": 1481.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": 5.0,
+   "local": false,
+   "cle": "claude-opus-4-8",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-6.1 Sol",
+   "fournisseur": "openai",
+   "score": 1480.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 56,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-6.1-sol",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Claude Sonnet 5.5",
+   "fournisseur": "anthropic",
+   "score": 1478.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 140,
+   "prix": 2.0,
+   "local": false,
+   "cle": "claude-sonnet-5-5",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage xHigh."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemini 3.5 Flash",
+   "fournisseur": "gemini",
+   "score": 1477.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.5-flash",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High. Identifiant historique réel ; l’API le redirige désormais vers Gemini 3.6 Flash, sans transfert du score à ce dernier."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GLM-5.3 Flash",
+   "fournisseur": "zai",
+   "score": 1476.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 64,
+   "prix": 0.15,
+   "local": false,
+   "cle": "glm-5.3-flash",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-6 Astra",
+   "fournisseur": "openai",
+   "score": 1476.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 60,
+   "prix": 10.0,
+   "local": false,
+   "cle": "gpt-6-astra",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage Max."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemma 4 31B",
+   "fournisseur": "google",
+   "score": 1452.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-31B-it",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:31b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-5.4 mini",
+   "fournisseur": "openai",
+   "score": 1447.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-mini",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemma 4 26B-A4B",
+   "fournisseur": "google",
+   "score": 1437.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-26B-A4B-it",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:26b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3.8 27B",
+   "fournisseur": "qwen",
+   "score": 1437.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.8-27B",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Mistral Medium 3.5",
+   "fournisseur": "mistral",
+   "score": 1426.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "mistral-medium-3-5",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Claude Haiku 5.5",
+   "fournisseur": "anthropic",
+   "score": 1425.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": 240,
+   "prix": 0.1,
+   "local": false,
+   "cle": "claude-haiku-5-5",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Claude Haiku 4.5",
+   "fournisseur": "anthropic",
+   "score": 1414.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-haiku-4-5-20251001",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Llama 3.3 70B Instruct",
+   "fournisseur": "meta",
+   "score": 1318.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-3.3-70B-Instruct",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids disponibles ; matériel et quantification à choisir, aucun test local.",
+   "ollama": "llama3.3:70b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-OSS 20B",
+   "fournisseur": "openai",
+   "score": 1317.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "openai/gpt-oss-20b",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27.",
+   "ollama": "gpt-oss:20b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Mistral Small 3.1 24B",
+   "fournisseur": "mistral",
+   "score": 1303.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27.",
+   "ollama": "mistral-small3.1:24b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Llama 3.1 8B Instruct",
+   "fournisseur": "meta",
+   "score": 1211,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-3.1-8B-Instruct",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27.",
+   "ollama": "llama3.1:8b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Llama 3.2 3B Instruct",
+   "fournisseur": "meta",
+   "score": 1167,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-3.2-3B-Instruct",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27.",
+   "ollama": "llama3.2:3b"
   },
   {
    "categorie": "vision",
@@ -1607,11 +3503,11 @@
    "fournisseur": "moonshot",
    "score": 98.0,
    "unite": "score BenchLM (%)",
-   "vitesse": 59,
+   "vitesse": 50,
    "prix": 2.0,
    "local": false,
-   "cle": "kimi-k3.1",
-   "note": "mesuré sur 3 tests sur 4"
+   "cle": "kimi-k3.1-pro",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Couverture partielle, 3 tests pondérés sur 4 ; ne pas interpréter comme 98 % de réussite à un test unique."
   },
   {
    "categorie": "vision",
@@ -1623,7 +3519,7 @@
    "prix": 2.0,
    "local": false,
    "cle": "qwen3.8-max",
-   "note": ""
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
@@ -1635,7 +3531,19 @@
    "prix": 4.0,
    "local": false,
    "cle": "claude-opus-5-5",
-   "note": ""
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "GPT-6.1 Terra",
+   "fournisseur": "openai",
+   "score": 91.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-6.1-terra",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
@@ -1647,7 +3555,7 @@
    "prix": 5.0,
    "local": false,
    "cle": "claude-opus-5",
-   "note": ""
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
@@ -1655,11 +3563,11 @@
    "fournisseur": "moonshot",
    "score": 90.2,
    "unite": "score BenchLM (%)",
-   "vitesse": null,
+   "vitesse": 40,
    "prix": 0.239,
    "local": false,
    "cle": "kimi-k3",
-   "note": ""
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
@@ -1671,7 +3579,7 @@
    "prix": 4.0,
    "local": false,
    "cle": "gpt-5.6-sol",
-   "note": ""
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
@@ -1679,11 +3587,11 @@
    "fournisseur": "gemini",
    "score": 88.2,
    "unite": "score BenchLM (%)",
-   "vitesse": null,
-   "prix": null,
+   "vitesse": 122,
+   "prix": 0.825,
    "local": false,
    "cle": "gemini-3.8-flash",
-   "note": ""
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
@@ -1692,34 +3600,70 @@
    "score": 88.1,
    "unite": "score BenchLM (%)",
    "vitesse": null,
-   "prix": null,
+   "prix": 5.0,
    "local": false,
-   "cle": "claude-opus-4.8",
-   "note": ""
+   "cle": "claude-opus-4-8",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
-   "nom": "Muse Spark",
-   "fournisseur": "meta",
-   "score": 83.8,
-   "unite": "score BenchLM (%)",
-   "vitesse": 125,
-   "prix": 1.25,
-   "local": false,
-   "cle": "muse-spark",
-   "note": ""
-  },
-  {
-   "categorie": "vision",
-   "nom": "Claude Sonnet 5",
-   "fournisseur": "anthropic",
-   "score": 80.6,
+   "nom": "Gemini 3.6 Flash",
+   "fournisseur": "gemini",
+   "score": 87.9,
    "unite": "score BenchLM (%)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "claude-sonnet-5",
-   "note": ""
+   "cle": "gemini-3.6-flash",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Gemini 3.5 Flash",
+   "fournisseur": "gemini",
+   "score": 87.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.5-flash",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Identifiant historique réel ; l’API le redirige désormais vers Gemini 3.6 Flash, sans transfert du score à ce dernier."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Qwen3.8 Flash Next",
+   "fournisseur": "qwen",
+   "score": 86.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "Qwen/Qwen3.8-Flash-Next",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Gemini 3.7 Flash",
+   "fournisseur": "gemini",
+   "score": 85.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.7-flash",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "GPT-5.6 Terra",
+   "fournisseur": "openai",
+   "score": 84.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": 119,
+   "prix": 2.0,
+   "local": false,
+   "cle": "gpt-5.6-terra",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
@@ -1730,9 +3674,81 @@
    "vitesse": null,
    "prix": null,
    "local": true,
-   "cle": "qwen3.8:27b",
-   "ollama": "qwen3.8:27b",
-   "note": "mémoire : ≈ 18 Go (24 Go de carte graphique conseillés) — le plus capable en local, voit les images"
+   "cle": "Qwen/Qwen3.8-27B",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.8:27b"
+  },
+  {
+   "categorie": "vision",
+   "nom": "Gemini 3.1 Pro Preview",
+   "fournisseur": "gemini",
+   "score": 81.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-pro-preview",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "GLM-5.3 Flash",
+   "fournisseur": "zai",
+   "score": 81.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": 64,
+   "prix": 0.15,
+   "local": false,
+   "cle": "glm-5.3-flash",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Claude Sonnet 5",
+   "fournisseur": "anthropic",
+   "score": 80.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": 2.0,
+   "local": false,
+   "cle": "claude-sonnet-5",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "GPT-5.6 Luna",
+   "fournisseur": "openai",
+   "score": 80.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.6-luna",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "GPT-5.2",
+   "fournisseur": "openai",
+   "score": 75.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.2",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Claude Opus 4.6",
+   "fournisseur": "anthropic",
+   "score": 74.9,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "claude-opus-4-6",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
   },
   {
    "categorie": "vision",
@@ -1743,165 +3759,781 @@
    "vitesse": null,
    "prix": null,
    "local": true,
-   "cle": "gemma4:31b",
-   "ollama": "gemma4:31b",
-   "note": "mémoire : ≈ 20 Go — texte, image et son"
+   "cle": "google/gemma-4-31B-it",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:31b"
+  },
+  {
+   "categorie": "vision",
+   "nom": "GPT-5.5",
+   "fournisseur": "openai",
+   "score": 74.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.5",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "GPT-5.4 mini",
+   "fournisseur": "openai",
+   "score": 74.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-mini",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "MiniMax M3.1 Flash",
+   "fournisseur": "minimax",
+   "score": 73.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": 108,
+   "prix": 0.15,
+   "local": false,
+   "cle": "MiniMax-M3.1-Flash",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "GPT-5.4",
+   "fournisseur": "openai",
+   "score": 71.5,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Inkling",
+   "fournisseur": "thinking machines",
+   "score": 68.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": 214,
+   "prix": 1.0,
+   "local": false,
+   "cle": "thinkingmachines/Inkling",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Qwen3.5 27B",
+   "fournisseur": "qwen",
+   "score": 67.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-27B",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Gemma 4 26B-A4B",
+   "fournisseur": "google",
+   "score": 67.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-26B-A4B-it",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:26b"
+  },
+  {
+   "categorie": "vision",
+   "nom": "Qwen3.6 27B",
+   "fournisseur": "qwen",
+   "score": 67.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.6-27B",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.6:27b"
+  },
+  {
+   "categorie": "vision",
+   "nom": "Qwen3.6 35B-A3B",
+   "fournisseur": "qwen",
+   "score": 66.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.6-35B-A3B",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "qwen3.6:35b"
+  },
+  {
+   "categorie": "vision",
+   "nom": "Qwen3.5 35B-A3B",
+   "fournisseur": "qwen",
+   "score": 64.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-35B-A3B",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Gemma 4 12B",
+   "fournisseur": "google",
+   "score": 60.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-12B-it",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "ollama": "gemma4:12b"
+  },
+  {
+   "categorie": "vision",
+   "nom": "GPT-5.4 nano",
+   "fournisseur": "openai",
+   "score": 52.7,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-5.4-nano",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Gemma 4 E4B",
+   "fournisseur": "google",
+   "score": 23.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-E4B-it",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
+  },
+  {
+   "categorie": "vision",
+   "nom": "Gemma 4 E2B",
+   "fournisseur": "google",
+   "score": 14.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-E2B-it",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
   },
   {
    "categorie": "image",
    "nom": "GPT Image 2",
    "fournisseur": "openai",
-   "score": 506,
+   "score": 506.0,
    "unite": "score arène (votes)",
    "vitesse": null,
    "prix": 0.05,
    "local": false,
    "cle": "gpt-image-2",
-   "note": ""
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
   },
   {
    "categorie": "image",
    "nom": "Grok Imagine Image 2.0",
    "fournisseur": "xai",
-   "score": 362,
+   "score": 362.0,
    "unite": "score arène (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "grok-imagine",
-   "note": ""
+   "cle": "grok-imagine-image-2.0",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
   },
   {
    "categorie": "image",
    "nom": "MAI-Image-2.5",
    "fournisseur": "microsoft",
-   "score": 257,
+   "score": 257.0,
    "unite": "score arène (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "mai-image",
-   "note": ""
+   "cle": "MAI-Image-2.5",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Identifiant du catalogue Foundry ; un nom de déploiement propre au compte est requis pour appeler l’API."
   },
   {
    "categorie": "image",
-   "nom": "Gemini 3.1 Flash Image",
-   "fournisseur": "gemini",
-   "score": null,
+   "nom": "GPT Image 1.5",
+   "fournisseur": "openai",
+   "score": 251.0,
    "unite": "score arène (votes)",
    "vitesse": null,
-   "prix": 0.02,
+   "prix": null,
    "local": false,
-   "cle": "gemini-3.1-flash-image",
-   "note": "très bon rapport qualité/prix"
+   "cle": "gpt-image-1.5",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "image",
+   "nom": "Gemini 3.1 Flash Image (Preview)",
+   "fournisseur": "gemini",
+   "score": 154.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-flash-image-preview",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Le lien du tableau nomme le snapshot Preview ; identifiant historique retiré le 2026-06-25. Score non attribué à la version stable."
   },
   {
    "categorie": "image",
    "nom": "Flux 2 Pro",
-   "fournisseur": "bfl",
-   "score": null,
+   "fournisseur": "black-forest-labs",
+   "score": 72.0,
    "unite": "score arène (votes)",
    "vitesse": null,
    "prix": 0.02,
    "local": false,
-   "cle": "flux-2",
-   "note": "famille Flux : versions ouvertes installables en local"
+   "cle": "flux-2-pro",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
   },
   {
-   "categorie": "video",
-   "nom": "Kling v3",
-   "fournisseur": "kling",
-   "score": 1934,
+   "categorie": "image",
+   "nom": "Flux 2 Flex",
+   "fournisseur": "black-forest-labs",
+   "score": 66.0,
    "unite": "score arène (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "kling",
-   "note": "génération par leur site ou leur API ; le studio prépare scénarios, storyboards et prompts"
+   "cle": "flux-2-flex",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
   },
   {
-   "categorie": "video",
-   "nom": "Happy Horse 1.0",
-   "fournisseur": "alibaba",
-   "score": 1816,
+   "categorie": "image",
+   "nom": "Gemini 2.5 Flash Image",
+   "fournisseur": "gemini",
+   "score": 66.0,
    "unite": "score arène (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "happy-horse",
-   "note": "génération par leur site ou leur API ; le studio prépare scénarios, storyboards et prompts"
+   "cle": "gemini-2.5-flash-image",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
   },
   {
-   "categorie": "video",
-   "nom": "Seedance 2.0 Fast",
-   "fournisseur": "bytedance",
-   "score": 1747,
+   "categorie": "image",
+   "nom": "Flux 2 Max",
+   "fournisseur": "black-forest-labs",
+   "score": 57.0,
    "unite": "score arène (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "seedance",
-   "note": "génération par leur site ou leur API ; le studio prépare scénarios, storyboards et prompts"
+   "cle": "flux-2-max",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "image",
+   "nom": "GPT Image 1",
+   "fournisseur": "openai",
+   "score": 44.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-image-1",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Identifiant historique réel ; API retirée le 2026-10-23."
+  },
+  {
+   "categorie": "image",
+   "nom": "Muse Image",
+   "fournisseur": "meta",
+   "score": 2.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "muse-image-1.0",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "image",
+   "nom": "Gemini 3 Pro Image (Preview)",
+   "fournisseur": "gemini",
+   "score": -23.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3-pro-image-preview",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Le lien du tableau nomme le snapshot Preview ; identifiant historique retiré le 2026-06-25. Score non attribué à la version stable."
+  },
+  {
+   "categorie": "image",
+   "nom": "GPT Image 1 Mini",
+   "fournisseur": "openai",
+   "score": -31.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-image-1-mini",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "image",
+   "nom": "FLUX.2 dev",
+   "fournisseur": "black-forest-labs",
+   "score": -194.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "black-forest-labs/FLUX.2-dev",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Poids disponibles ; conditions de licence à consulter, aucun test local."
+  },
+  {
+   "categorie": "image",
+   "nom": "Qwen Image",
+   "fournisseur": "qwen",
+   "score": -238.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen-Image",
+   "note": "[I] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "video",
+   "nom": "Kling v3 Pro (via fal)",
+   "fournisseur": "fal",
+   "score": 1934.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "fal-ai/kling-video/v3/pro/text-to-video",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Créateur : Kuaishou/Kling. Identifiant exact du fournisseur fal, relié par la fiche LLM Stats."
+  },
+  {
+   "categorie": "video",
+   "nom": "Seedance 2.0 Fast (via fal)",
+   "fournisseur": "fal",
+   "score": 1747.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "bytedance/seedance-2.0/fast/text-to-video",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Créateur : ByteDance. Identifiant exact du fournisseur fal, relié par la fiche LLM Stats."
+  },
+  {
+   "categorie": "video",
+   "nom": "LTX-2.3 Pro",
+   "fournisseur": "lightricks",
+   "score": 1421.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "ltx-2-3-pro",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "video",
+   "nom": "LTX-2.3 Fast",
+   "fournisseur": "lightricks",
+   "score": 1325.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "ltx-2-3-fast",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "video",
+   "nom": "Wan 2.1 T2V 14B",
+   "fournisseur": "wan",
+   "score": 1139.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Wan-AI/Wan2.1-T2V-14B",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Vue Generate ; poids du modèle T2V, aucun test local."
+  },
+  {
+   "categorie": "video",
+   "nom": "Wan 2.2 T2V A14B",
+   "fournisseur": "wan",
+   "score": 1106.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Wan-AI/Wan2.2-T2V-A14B",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Vue Generate ; poids du modèle T2V, aucun test local."
+  },
+  {
+   "categorie": "video",
+   "nom": "Sora 2 Pro",
+   "fournisseur": "openai",
+   "score": 793.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "sora-2-pro",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Identifiant historique du fournisseur ; disponibilité actuelle à contrôler avant intégration."
+  },
+  {
+   "categorie": "video",
+   "nom": "Veo 3.1 Preview",
+   "fournisseur": "gemini",
+   "score": 760.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "veo-3.1-generate-preview",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Identifiant historique retiré de Gemini API le 2026-10-22. Score conservé pour le modèle évalué, sans transfert à Gemini Omni."
+  },
+  {
+   "categorie": "video",
+   "nom": "Veo 3.1 Fast Preview",
+   "fournisseur": "gemini",
+   "score": 642.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "veo-3.1-fast-generate-preview",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Identifiant historique retiré de Gemini API le 2026-10-22. Score conservé pour le modèle évalué, sans transfert à Gemini Omni."
+  },
+  {
+   "categorie": "video",
+   "nom": "Sora 2",
+   "fournisseur": "openai",
+   "score": 514.0,
+   "unite": "score arène (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "sora-2",
+   "note": "[D] Données 2026-10-08 affiché dans le navigateur ; 2026-10-27 dans le texte indexé ; consulté le 2026-10-27. Identifiant historique du fournisseur ; disponibilité actuelle à contrôler avant intégration."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Eleven v4",
+   "fournisseur": "elevenlabs",
+   "score": 1333.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "eleven_v4",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "voix",
    "nom": "Eleven v4 Turbo",
    "fournisseur": "elevenlabs",
-   "score": 1336,
+   "score": 1333.0,
    "unite": "Elo (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "eleven",
-   "note": ""
+   "cle": "eleven_v4_turbo",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "voix",
    "nom": "Qwen-Audio 3.1 TTS Plus",
    "fournisseur": "qwen",
-   "score": 1307,
+   "score": 1306.0,
    "unite": "Elo (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "qwen-audio",
-   "note": ""
+   "cle": "qwen-audio-3.1-tts-plus",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "voix",
    "nom": "Sonic 3.6",
    "fournisseur": "cartesia",
-   "score": 1292,
+   "score": 1292.0,
    "unite": "Elo (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "sonic",
-   "note": ""
+   "cle": "sonic-3.6",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "voix",
    "nom": "Gemini 3.8 Flash TTS",
    "fournisseur": "gemini",
-   "score": 1280,
+   "score": 1280.0,
    "unite": "Elo (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
    "cle": "gemini-3.8-flash-tts",
-   "note": ""
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
-   "categorie": "transcription",
-   "nom": "Fun-Realtime-ASR (préversion)",
-   "fournisseur": "alibaba",
-   "score": 1.7,
-   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "categorie": "voix",
+   "nom": "Inworld Realtime TTS-2",
+   "fournisseur": "inworld",
+   "score": 1267.0,
+   "unite": "Elo (votes)",
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "stt-fun-realtime-asr",
-   "note": "×20.8 le temps réel"
+   "cle": "inworld-tts-2",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Gemini 3.8 Flash-Lite TTS",
+   "fournisseur": "gemini",
+   "score": 1256.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.8-flash-lite-tts",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Inworld Realtime TTS-2 Flash",
+   "fournisseur": "inworld",
+   "score": 1218.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "inworld-tts-2-flash",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Gemini 3.1 Flash TTS",
+   "fournisseur": "gemini",
+   "score": 1212.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-flash-tts-preview",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Sonic 3.5",
+   "fournisseur": "cartesia",
+   "score": 1190.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "sonic-3.5",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Eleven v3",
+   "fournisseur": "elevenlabs",
+   "score": 1184.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "eleven_v3",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "MiniMax Speech 2.8 HD",
+   "fournisseur": "minimax",
+   "score": 1174.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "speech-2.8-hd",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "MiniMax Speech 2.8 Turbo",
+   "fournisseur": "minimax",
+   "score": 1153.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "speech-2.8-turbo",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "MiniMax Speech 2.6 HD",
+   "fournisseur": "minimax",
+   "score": 1126.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "speech-2.6-hd",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "MiniMax Speech 2.6 Turbo",
+   "fournisseur": "minimax",
+   "score": 1120.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "speech-2.6-turbo",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "MiniMax Speech 02 HD",
+   "fournisseur": "minimax",
+   "score": 1108.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "speech-02-hd",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Eleven Multilingual v2",
+   "fournisseur": "elevenlabs",
+   "score": 1093.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "eleven_multilingual_v2",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "MiniMax Speech 02 Turbo",
+   "fournisseur": "minimax",
+   "score": 1089.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "speech-02-turbo",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Eleven Flash v2.5",
+   "fournisseur": "elevenlabs",
+   "score": 1076.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "eleven_flash_v2_5",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Kokoro 82M v1.0",
+   "fournisseur": "hexgrad",
+   "score": 1063.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "hexgrad/Kokoro-82M",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Poids officiels ; score de l’arène publique, aucune synthèse locale effectuée."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Sonic 3",
+   "fournisseur": "cartesia",
+   "score": 1054.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "sonic-3",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "voix",
+   "nom": "OpenAudio S1 Mini",
+   "fournisseur": "fish audio",
+   "score": 1043.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "fishaudio/s1-mini",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Poids officiels ; score de l’arène publique, aucune synthèse locale effectuée."
+  },
+  {
+   "categorie": "voix",
+   "nom": "Chatterbox",
+   "fournisseur": "resemble",
+   "score": 1023.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ResembleAI/chatterbox",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Poids officiels ; score de l’arène publique, aucune synthèse locale effectuée."
+  },
+  {
+   "categorie": "voix",
+   "nom": "OpenVoice v2",
+   "fournisseur": "myshell",
+   "score": 956.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "myshell-ai/OpenVoiceV2",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Poids officiels ; score de l’arène publique, aucune synthèse locale effectuée."
+  },
+  {
+   "categorie": "voix",
+   "nom": "XTTS v2",
+   "fournisseur": "coqui",
+   "score": 913.0,
+   "unite": "Elo (votes)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "coqui/XTTS-v2",
+   "note": "[S] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Poids officiels ; score de l’arène publique, aucune synthèse locale effectuée."
   },
   {
    "categorie": "transcription",
@@ -1912,8 +4544,8 @@
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "stt-mai-transcribe-2",
-   "note": "×303.4 le temps réel"
+   "cle": "MAI-Transcribe-2",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "transcription",
@@ -1924,8 +4556,8 @@
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "stt-voxtral-small-transcribe-3",
-   "note": "×64.9 le temps réel"
+   "cle": "voxtral-small-transcribe-3-0",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "transcription",
@@ -1936,8 +4568,8 @@
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "stt-scribe-v2",
-   "note": "×68.4 le temps réel"
+   "cle": "scribe_v2",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "transcription",
@@ -1948,8 +4580,8 @@
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "stt-voxtral-mini-transcribe-3",
-   "note": "×76.1 le temps réel"
+   "cle": "voxtral-mini-transcribe-3-0",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "transcription",
@@ -1960,8 +4592,8 @@
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "stt-grok-voice-transcribe-2.0",
-   "note": "×187.2 le temps réel"
+   "cle": "grok-voice-transcribe-2.0",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "transcription",
@@ -1972,20 +4604,8 @@
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "stt-mai-transcribe-1.5",
-   "note": "×80.5 le temps réel"
-  },
-  {
-   "categorie": "transcription",
-   "nom": "StepAudio 3 ASR",
-   "fournisseur": "stepfun",
-   "score": 2.5,
-   "unite": "taux d'erreur (WER %, plus bas = mieux)",
-   "vitesse": null,
-   "prix": null,
-   "local": false,
-   "cle": "stt-stepaudio-3-asr",
-   "note": "×64.4 le temps réel"
+   "cle": "MAI-Transcribe-1.5",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
   },
   {
    "categorie": "transcription",
@@ -1996,8 +4616,20 @@
    "vitesse": null,
    "prix": null,
    "local": false,
-   "cle": "stt-gemini-3.5-transcribe",
-   "note": "×90.1 le temps réel"
+   "cle": "gemini-3.5-transcribe",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Gemini 3.1 Pro Preview",
+   "fournisseur": "gemini",
+   "score": 2.8,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-pro-preview",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Réglage High ; un seul réglage retenu, Low exclu pour éviter un doublon de modèle."
   },
   {
    "categorie": "transcription",
@@ -2007,9 +4639,225 @@
    "unite": "taux d'erreur (WER %, plus bas = mieux)",
    "vitesse": null,
    "prix": null,
+   "local": true,
+   "cle": "voxtral-small-2507",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Poids ouverts disponibles ; AA a mesuré l’API Mistral, aucun test local du studio."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Gemini 2.5 Pro",
+   "fournisseur": "gemini",
+   "score": 2.9,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
    "local": false,
-   "cle": "stt-voxtral-small",
-   "note": "poids ouverts · ×56.3 le temps réel"
+   "cle": "gemini-2.5-pro",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Gemini 3 Flash",
+   "fournisseur": "gemini",
+   "score": 2.9,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3-flash-preview",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Universal-3.5 Pro",
+   "fournisseur": "assemblyai",
+   "score": 3.0,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "universal-3-5-pro",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Universal-3 Pro",
+   "fournisseur": "assemblyai",
+   "score": 3.1,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "universal-3-pro",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Identifiant historique réel ; modèle retiré le 2026-09-02. Score non attribué à Universal-3.5 Pro."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "GPT Transcribe",
+   "fournisseur": "openai",
+   "score": 3.3,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-transcribe",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Gemini 3.1 Flash-Lite Preview",
+   "fournisseur": "gemini",
+   "score": 3.4,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-3.1-flash-lite-preview",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Réglage Minimal ; identifiant Preview historique retiré le 2026-05-25, score non transféré à la version stable."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Voxtral Mini Transcribe 2",
+   "fournisseur": "mistral",
+   "score": 3.6,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "voxtral-mini-2602",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "GPT-4o Transcribe",
+   "fournisseur": "openai",
+   "score": 4.0,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-4o-transcribe",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Whisper Large v2 (API OpenAI)",
+   "fournisseur": "openai",
+   "score": 4.1,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "whisper-1",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Résultat de l’API OpenAI, pas celui de Whisper v3 hébergé ailleurs."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Canary Qwen 2.5B",
+   "fournisseur": "nvidia",
+   "score": 4.3,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/canary-qwen-2.5b",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. AA a mesuré l’hébergement Replicate ; aucun test local du studio."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Chirp 3",
+   "fournisseur": "google",
+   "score": 4.3,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "chirp_3",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "GPT-4o Mini Transcribe",
+   "fournisseur": "openai",
+   "score": 4.5,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gpt-4o-mini-transcribe",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Parakeet TDT 0.6B v3",
+   "fournisseur": "nvidia",
+   "score": 4.5,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/parakeet-tdt-0.6b-v3",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. AA a mesuré l’hébergement Together AI ; aucun test local du studio."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Gemini 2.5 Flash",
+   "fournisseur": "gemini",
+   "score": 5.1,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-2.5-flash",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Deepgram Nova-3",
+   "fournisseur": "deepgram",
+   "score": 5.2,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "nova-3",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Gemini 2.5 Flash-Lite",
+   "fournisseur": "gemini",
+   "score": 5.2,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "gemini-2.5-flash-lite",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Parakeet TDT 0.6B v2",
+   "fournisseur": "nvidia",
+   "score": 6.4,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/parakeet-tdt-0.6b-v2",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. AA a mesuré l’hébergement NVIDIA ; aucun test local du studio."
+  },
+  {
+   "categorie": "transcription",
+   "nom": "Chirp",
+   "fournisseur": "google",
+   "score": 31.2,
+   "unite": "taux d'erreur (WER %, plus bas = mieux)",
+   "vitesse": null,
+   "prix": null,
+   "local": false,
+   "cle": "chirp",
+   "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Identifiant historique documenté ; la page générique Chirp décrit maintenant Chirp 3. Score distinct conservé, sans substitution par chirp_3."
   }
  ]
 }
