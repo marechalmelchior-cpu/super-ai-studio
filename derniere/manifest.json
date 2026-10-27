@@ -1,7 +1,7 @@
 {
- "version": "0.4.30",
+ "version": "0.4.31",
  "mineure": true,
- "notes": "Stop fiable, heures dans le Superviseur, commandes et secrets mieux protégés",
- "fichier": "programme-0.4.30.zip",
- "sha256": "f6dd0ff7e0b6561837fd2cc9e118d1ac2296b6a10f54ea2e4e2dbacc5ebecffb"
+ "notes": "Agents optimisés selon les classements, modèles exacts, journal en tête de la tâche",
+ "fichier": "programme-0.4.31.zip",
+ "sha256": "0887f8d2d2c78abddd4c3aca742b920c45a7e8cb8ca252e02434a4c226ae9a59"
 }
