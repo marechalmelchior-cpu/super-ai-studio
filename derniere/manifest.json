@@ -1,7 +1,7 @@
 {
- "version": "0.4.29",
+ "version": "0.4.30",
  "mineure": true,
- "notes": "Journal récent en haut, sauvegarde complète des réglages, mise à jour réversible, avertissement IA locale fermée",
- "fichier": "programme-0.4.29.zip",
- "sha256": "41a0c5b9c0132bde73924f31e571086daaf1c1a543fb884c030bde313b0dd615"
+ "notes": "Stop fiable, heures dans le Superviseur, commandes et secrets mieux protégés",
+ "fichier": "programme-0.4.30.zip",
+ "sha256": "f6dd0ff7e0b6561837fd2cc9e118d1ac2296b6a10f54ea2e4e2dbacc5ebecffb"
 }
