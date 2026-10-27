@@ -1,7 +1,7 @@
 {
- "version": "0.4.28",
+ "version": "0.4.29",
  "mineure": true,
- "notes": "Corrections : tâche en cours après « Corriger », diff complet pour la relecture, deux tâches simultanées isolées",
- "fichier": "programme-0.4.28.zip",
- "sha256": "23b62ae960b3cfef87bb26ddd53a806b3201d79ef617aaf6677d84a401c454c3"
+ "notes": "Journal récent en haut, sauvegarde complète des réglages, mise à jour réversible, avertissement IA locale fermée",
+ "fichier": "programme-0.4.29.zip",
+ "sha256": "41a0c5b9c0132bde73924f31e571086daaf1c1a543fb884c030bde313b0dd615"
 }
