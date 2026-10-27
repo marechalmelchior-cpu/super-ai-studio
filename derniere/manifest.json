@@ -1,7 +1,7 @@
 {
- "version": "0.4.35",
+ "version": "0.4.36",
  "mineure": true,
- "notes": "Commandes complexes plus refusées à tort ; recherches sans résultat plus affichées en échec ; bloc de la chaîne sous le journal.",
- "fichier": "programme-0.4.35.zip",
- "sha256": "07d0e2157269186d2f7b1527b09b49b4fc76ba7a7068c8196ead6e90dc3f790c"
+ "notes": "Les chaînes vont jusqu'au bout toutes seules (branche sur branche) ; l'éditeur Unreal reste ouvert pour compiler la copie d'une tâche.",
+ "fichier": "programme-0.4.36.zip",
+ "sha256": "0333d5f3c0dd425cc702bffb013cc9eb1f0e99f264a3b2db1cc10774d39fbe7a"
 }
