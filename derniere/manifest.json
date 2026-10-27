@@ -1,7 +1,7 @@
 {
- "version": "0.4.34",
+ "version": "0.4.35",
  "mineure": true,
- "notes": "Tâche plus lisible, classements complétés et sourcés, blocs plus hauts",
- "fichier": "programme-0.4.34.zip",
- "sha256": "b73bd5729c34f6b9b0d54e001374c23dcaa1cf372400f57e5d04b56b216cee76"
+ "notes": "Commandes complexes plus refusées à tort ; recherches sans résultat plus affichées en échec ; bloc de la chaîne sous le journal.",
+ "fichier": "programme-0.4.35.zip",
+ "sha256": "07d0e2157269186d2f7b1527b09b49b4fc76ba7a7068c8196ead6e90dc3f790c"
 }
