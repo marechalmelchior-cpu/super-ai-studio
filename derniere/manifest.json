@@ -1,7 +1,7 @@
 {
- "version": "0.4.32",
+ "version": "0.4.33",
  "mineure": true,
- "notes": "Le studio ne se ferme plus tout seul quand sa fenêtre est en arrière-plan",
- "fichier": "programme-0.4.32.zip",
- "sha256": "bd075dab839cbe779795b183ba655b8a1ea13ae429aa3ff92d5d92708707acc9"
+ "notes": "Le Superviseur annonce chaque étape de chaîne, fusion et suite en un clic",
+ "fichier": "programme-0.4.33.zip",
+ "sha256": "c19660eb5dedf781a32231c65556137d2c32946798db20db06e314bc5828d787"
 }
