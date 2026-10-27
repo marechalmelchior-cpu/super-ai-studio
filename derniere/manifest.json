@@ -1,7 +1,7 @@
 {
- "version": "0.4.27",
+ "version": "0.4.28",
  "mineure": true,
- "notes": "Journal en direct, modèle exact, copies partielles sûres, agents coupés seulement s'ils ne font plus rien",
- "fichier": "programme-0.4.27.zip",
- "sha256": "1ec720aeba2726a62d8a7741e3849b91a6dc66105a19e5b2ee3c8da985206104"
+ "notes": "Corrections : tâche en cours après « Corriger », diff complet pour la relecture, deux tâches simultanées isolées",
+ "fichier": "programme-0.4.28.zip",
+ "sha256": "23b62ae960b3cfef87bb26ddd53a806b3201d79ef617aaf6677d84a401c454c3"
 }
