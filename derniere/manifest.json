@@ -1,7 +1,7 @@
 {
- "version": "0.4.26",
+ "version": "0.4.27",
  "mineure": true,
- "notes": "Les tâches sur le studio (skills et règles) s'appliquent après validation",
- "fichier": "programme-0.4.26.zip",
- "sha256": "c6c5c18f1fb36f3511f80b6d125eb20e7b10d0cce381b499d59ad2c6cb96bd53"
+ "notes": "Journal en direct, modèle exact, copies partielles sûres, agents coupés seulement s'ils ne font plus rien",
+ "fichier": "programme-0.4.27.zip",
+ "sha256": "1ec720aeba2726a62d8a7741e3849b91a6dc66105a19e5b2ee3c8da985206104"
 }
