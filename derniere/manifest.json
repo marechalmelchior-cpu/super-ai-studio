@@ -1,7 +1,7 @@
 {
- "version": "0.4.38",
+ "version": "0.4.39",
  "mineure": true,
- "notes": "Audit de sécurité : 10 failles élevées corrigées (garde des commandes, liens, ZIP, téléphone, secrets) ; relecture plus économe en tokens.",
- "fichier": "programme-0.4.38.zip",
- "sha256": "b1d1a734315ce88b3eaf0d132dd4da3aef245b4eb2eb117e6d715e07efefe9be"
+ "notes": "Code du studio en anglais (textes affichés en français) ; migration automatique avec sauvegarde vérifiée ; listes déroulantes et fiche d'agent corrigées.",
+ "fichier": "programme-0.4.39.zip",
+ "sha256": "bc6305c6e489a79d3adb4470db24e7b8bc4ee10c1e0f7655424f82e582afe8ff"
 }
