@@ -1,7 +1,7 @@
 {
- "version": "0.4.31",
+ "version": "0.4.32",
  "mineure": true,
- "notes": "Agents optimisés selon les classements, modèles exacts, journal en tête de la tâche",
- "fichier": "programme-0.4.31.zip",
- "sha256": "0887f8d2d2c78abddd4c3aca742b920c45a7e8cb8ca252e02434a4c226ae9a59"
+ "notes": "Le studio ne se ferme plus tout seul quand sa fenêtre est en arrière-plan",
+ "fichier": "programme-0.4.32.zip",
+ "sha256": "bd075dab839cbe779795b183ba655b8a1ea13ae429aa3ff92d5d92708707acc9"
 }
