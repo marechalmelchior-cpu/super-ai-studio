@@ -11,14 +11,17 @@ NOM="Super AI Agent Pro Station Max 2000"
 dire() { printf '\n\033[1;36m%s\033[0m\n' "$*"; }
 stop() { printf '\n\033[1;31m%s\033[0m\n' "$*" >&2; exit 1; }
 
+cd "$HOME"                                   # le dossier courant du Terminal peut avoir été supprimé (réinstallation)
 dire "Installation de $NOM"
 PY=""
-for c in python3.13 python3.12 python3.11 python3; do
-  if command -v "$c" >/dev/null 2>&1 && "$c" -c 'import sys; sys.exit(0 if sys.version_info >= (3, 11) else 1)' 2>/dev/null; then PY="$(command -v "$c")"; break; fi
+# Python 3.11 à 3.13 : les composants du studio n'existent pas encore pour les versions plus récentes
+for c in python3.13 python3.12 python3.11 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 \
+         /Library/Frameworks/Python.framework/Versions/3.12/bin/python3 /opt/homebrew/bin/python3.12 /usr/local/bin/python3.12 python3; do
+  if command -v "$c" >/dev/null 2>&1 && "$c" -c 'import sys; sys.exit(0 if (3, 11) <= sys.version_info[:2] <= (3, 13) else 1)' 2>/dev/null; then PY="$(command -v "$c")"; break; fi
 done
 if [ -z "$PY" ]; then
-  if [ "$(uname)" = "Darwin" ]; then stop "Python 3.11 ou plus est nécessaire : installe-le depuis https://www.python.org/downloads/ (ou : brew install python@3.12), puis relance cette commande."
-  else stop "Python 3.11 ou plus est nécessaire. Ubuntu/Debian : sudo apt install python3 python3-venv · Fedora : sudo dnf install python3 — puis relance cette commande."; fi
+  if [ "$(uname)" = "Darwin" ]; then stop "Il faut Python 3.12 (les versions 3.11 à 3.13 conviennent ; une version plus récente ne marche pas encore) : installe « Python 3.12 » depuis https://www.python.org/downloads/macos/ (ou : brew install python@3.12), puis relance cette commande."
+  else stop "Python 3.11 à 3.13 est nécessaire. Ubuntu/Debian : sudo apt install python3 python3-venv · Fedora : sudo dnf install python3 — puis relance cette commande."; fi
 fi
 "$PY" -c 'import venv, ensurepip' 2>/dev/null || stop "Il manque le module venv de Python. Ubuntu/Debian : sudo apt install python3-venv — puis relance cette commande."
 echo "Python : $PY"
