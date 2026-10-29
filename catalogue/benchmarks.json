@@ -1,6 +1,6 @@
 {
- "date": "2026-10-27",
- "note": "Proposition du 2026-10-27, à valider par Mel avant publication. Une source et une échelle par catégorie, valeurs publiées sans conversion. Couverture étendue aux scores admissibles retrouvés pour les identités déjà documentées, ainsi qu’à Step 5 Preview et Riverflow 2.0 Pro/Fast. Aucun score Estimated ni score absent complété. Prix, vitesse et ollama existants préservés ; aucun nouvel identifiant Ollama. Sources, réglages, exclusions et limites détaillés dans RAPPORT.md.",
+ "date": "2026-10-29",
+ "note": "Classements du 2026-10-29. Une source et une échelle par catégorie, valeurs publiées sans conversion, aucun score estimé ni complété. Sources : Artificial Analysis Intelligence Index (global, version du 2026-10-27), BenchLM (agents, code, raisonnement, connaissances, vision), Arena (sites web, conversation), LLM Stats (images, vidéo), Artificial Analysis (voix, transcription). Ajout de 87 entrées de modèles à poids ouverts installables avec Ollama (nom officiel de la bibliothèque Ollama) ; la note de chaque modèle local indique la taille du fichier Ollama (≈ Go).",
  "sources": [
   {
    "nom": "G — Artificial Analysis Intelligence Index via modelgrep ; données 2026-10 ; consultation 2026-10-27 ; Aucune conversion : valeur numérique publiée, sans changement d’échelle.",
@@ -449,6 +449,34 @@
   {
    "nom": "QA9 — Contrôle de la mesure de vision MiniMax M3.1 Flash ; consultation 2026-10-27 ; contrôle descriptif, pas une seconde source de score.",
    "url": "https://benchlm.ai/models/minimax-m3-1-flash"
+  },
+  {
+   "nom": "G (complément) — Artificial Analysis Intelligence Index, page leaderboards/models archivée par la Wayback Machine le 2026-10-27 17:21 UTC, dernière version avant le changement d'échelle ; données 2026-10-27 ; consultation 2026-10-29 ; même indice et même échelle que G (les 24 modèles communs ont des valeurs identiques au fichier publié) ; lignes non estimées seulement, réglage le plus élevé publié par modèle ; aucune conversion.",
+   "url": "https://web.archive.org/web/20261027172115/https://artificialanalysis.ai/leaderboards/models"
+  },
+  {
+   "nom": "C (complément) — BenchLM, BenchAlign Coding, lignes Supported seulement ; données 2026-10-29 ; consultation 2026-10-29 ; aucune conversion.",
+   "url": "https://benchlm.ai/coding"
+  },
+  {
+   "nom": "K (complément) — BenchLM, BenchAlign Knowledge, lignes Supported seulement ; données 2026-10-29 ; consultation 2026-10-29 ; aucune conversion.",
+   "url": "https://benchlm.ai/knowledge"
+  },
+  {
+   "nom": "V (complément) — BenchLM, Weighted Multimodal & Grounded, vue Provisional-ranked ; données 2026-10-29 ; consultation 2026-10-29 ; aucune conversion.",
+   "url": "https://benchlm.ai/multimodal-grounded"
+  },
+  {
+   "nom": "T (complément) — Arena Text Overall, page archivée par la Wayback Machine le 2026-10-21 ; données 2026-10-20 ; consultation 2026-10-29 ; page en direct protégée par une vérification anti-robot ; aucune conversion.",
+   "url": "https://web.archive.org/web/20261021014236/https://arena.ai/leaderboard/chat/text"
+  },
+  {
+   "nom": "W (complément) — Arena Code WebDev Overall, page archivée par la Wayback Machine le 2026-10-23 ; données 2026-10-22 ; consultation 2026-10-29 ; aucune conversion.",
+   "url": "https://web.archive.org/web/20261023102751/https://arena.ai/leaderboard/code/webdev"
+  },
+  {
+   "nom": "OL — Bibliothèque Ollama officielle : noms des modèles installables et taille des fichiers par quantification ; consultation 2026-10-29 ; source descriptive, pas un score.",
+   "url": "https://ollama.com/library"
   }
  ],
  "categories": {
@@ -913,7 +941,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.8-27B",
-   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.8:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.8:27b"
   },
   {
@@ -975,6 +1003,19 @@
    "local": false,
    "cle": "MiniMax-M3",
    "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "Nemotron 3.5 Super VL 120B-A12B",
+   "fournisseur": "nvidia",
+   "score": 26.5,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Nemotron 3.5 Super VL. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3.5-super:120b ≈ 90 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3.5-super:120b"
   },
   {
    "categorie": "global",
@@ -1046,7 +1087,8 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-27B",
-   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:27b ≈ 17 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:27b"
   },
   {
    "categorie": "global",
@@ -1070,7 +1112,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.6-27B",
-   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[G] Données 2026-10 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.6:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.6:27b"
   },
   {
@@ -1084,6 +1126,292 @@
    "local": false,
    "cle": "gpt-5.4-nano",
    "note": "[G] Données 2026-10 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "global",
+   "nom": "Qwen3.6 35B-A3B",
+   "fournisseur": "qwen",
+   "score": 18.2,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.6-35B-A3B",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Qwen3.6 35B A3B (Reasoning). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.6:35b ≈ 23 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.6:35b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Muse Glimmer 30B",
+   "fournisseur": "meta",
+   "score": 17.5,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-models/Muse-Glimmer-30B",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Muse Glimmer (High). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : muse-glimmer:30b ≈ 18 Go (fichier Q4_K_M)",
+   "ollama": "muse-glimmer:30b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Qwen3.5 122B-A10B",
+   "fournisseur": "qwen",
+   "score": 15.6,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-122B-A10B",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Qwen3.5 122B A10B (Reasoning). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:122b ≈ 81 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:122b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Gemma 4 31B",
+   "fournisseur": "google",
+   "score": 14.7,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-31B-it",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Gemma 4 31B (Reasoning). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:31b ≈ 20 Go (fichier Q4_K_M)",
+   "ollama": "gemma4:31b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Mistral Medium 3.5 128B",
+   "fournisseur": "mistral",
+   "score": 14.2,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Mistral-Medium-3.5-128B",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Mistral Medium 3.5. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : mistral-medium-3.5:128b ≈ 80 Go (fichier Q4_K_M)",
+   "ollama": "mistral-medium-3.5:128b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Nemotron 3.5 Lightning 30B-A3B",
+   "fournisseur": "nvidia",
+   "score": 12.9,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Nemotron 3.5 Lightning. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3.5-lightning:30b ≈ 25 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3.5-lightning:30b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Granite 4.2 30B",
+   "fournisseur": "ibm",
+   "score": 12.7,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.2-30b",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Granite 4.2 30B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.2:30b ≈ 18 Go (fichier Q4_K_M)",
+   "ollama": "granite4.2:30b"
+  },
+  {
+   "categorie": "global",
+   "nom": "GPT-OSS 120B",
+   "fournisseur": "openai",
+   "score": 11.6,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "openai/gpt-oss-120b",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : gpt-oss-120b (High). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gpt-oss:120b ≈ 65 Go (fichier MXFP4)",
+   "ollama": "gpt-oss:120b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Qwen3.5 9B",
+   "fournisseur": "qwen",
+   "score": 11.2,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-9B",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Qwen3.5 9B (Reasoning). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:9b ≈ 6,6 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:9b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Granite 4.2 8B",
+   "fournisseur": "ibm",
+   "score": 11.1,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.2-8b",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Granite 4.2 8B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.2:8b ≈ 5,3 Go (fichier Q4_K_M)",
+   "ollama": "granite4.2:8b"
+  },
+  {
+   "categorie": "global",
+   "nom": "North Mini Code 1.0",
+   "fournisseur": "cohere",
+   "score": 9.9,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "CohereLabs/North-Mini-Code-1.0",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : North Mini Code. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : north-mini-code-1.0 ≈ 19 Go (fichier Q4_K_M)",
+   "ollama": "north-mini-code-1.0"
+  },
+  {
+   "categorie": "global",
+   "nom": "Llama 4 Maverick",
+   "fournisseur": "meta",
+   "score": 9.3,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Llama 4 Maverick. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : llama4:maverick ≈ 245 Go (fichier Q4_K_M)",
+   "ollama": "llama4:maverick"
+  },
+  {
+   "categorie": "global",
+   "nom": "Qwen3 Coder Next 80B-A3B",
+   "fournisseur": "qwen",
+   "score": 9.2,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-Coder-Next",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Qwen3 Coder Next. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3-coder-next ≈ 52 Go (fichier Q4_K_M)",
+   "ollama": "qwen3-coder-next"
+  },
+  {
+   "categorie": "global",
+   "nom": "Granite 4.2 3B",
+   "fournisseur": "ibm",
+   "score": 9.1,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.2-3b",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Granite 4.2 3B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.2:3b ≈ 2,2 Go (fichier Q4_K_M)",
+   "ollama": "granite4.2:3b"
+  },
+  {
+   "categorie": "global",
+   "nom": "GPT-OSS 20B",
+   "fournisseur": "openai",
+   "score": 9.0,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "openai/gpt-oss-20b",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : gpt-oss-20b (High). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gpt-oss:20b ≈ 14 Go (fichier MXFP4)",
+   "ollama": "gpt-oss:20b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Gemma 4 E4B",
+   "fournisseur": "google",
+   "score": 8.9,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-4-E4B-it",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Gemma 4 E4B (Reasoning). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:e4b ≈ 6,6 Go (fichier Q4_K_M)",
+   "ollama": "gemma4:e4b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Nemotron 3 Nano 30B-A3B",
+   "fournisseur": "nvidia",
+   "score": 8.9,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : NVIDIA Nemotron 3 Nano 30B A3B (Reasoning). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3-nano:30b ≈ 24 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3-nano:30b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Llama 4 Scout",
+   "fournisseur": "meta",
+   "score": 6.5,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Llama 4 Scout. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : llama4:scout ≈ 67 Go (fichier Q4_K_M)",
+   "ollama": "llama4:scout"
+  },
+  {
+   "categorie": "global",
+   "nom": "Ministral 3 14B",
+   "fournisseur": "mistral",
+   "score": 6.0,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Ministral-3-14B-Instruct-2512",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Ministral 3 14B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : ministral-3:14b ≈ 9,1 Go (fichier Q4_K_M)",
+   "ollama": "ministral-3:14b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Ministral 3 8B",
+   "fournisseur": "mistral",
+   "score": 5.5,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Ministral-3-8B-Instruct-2512",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Ministral 3 8B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : ministral-3:8b ≈ 6 Go (fichier Q4_K_M)",
+   "ollama": "ministral-3:8b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Nemotron 3 Nano 4B",
+   "fournisseur": "nvidia",
+   "score": 4.8,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : NVIDIA Nemotron 3 Nano 4B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3-nano:4b ≈ 2,8 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3-nano:4b"
+  },
+  {
+   "categorie": "global",
+   "nom": "Ministral 3 3B",
+   "fournisseur": "mistral",
+   "score": 4.8,
+   "unite": "indice d'intelligence",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Ministral-3-3B-Instruct-2512",
+   "note": "[G] Données 2026-10-27 (archive Artificial Analysis du 2026-10-27 17:21 UTC, même indice et même échelle que modelgrep) ; consulté le 2026-10-29. Ligne source : Ministral 3 3B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : ministral-3:3b ≈ 3 Go (fichier Q4_K_M)",
+   "ollama": "ministral-3:3b"
   },
   {
    "categorie": "agents",
@@ -1263,7 +1591,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.8-27B",
-   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.8:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.8:27b"
   },
   {
@@ -1540,7 +1868,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.6-27B",
-   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.6:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.6:27b"
   },
   {
@@ -1578,6 +1906,19 @@
    "local": false,
    "cle": "mistral-medium-3-5",
    "note": "[A] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "agents",
+   "nom": "Mistral Medium 3.5 128B",
+   "fournisseur": "mistral",
+   "score": 21.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Mistral-Medium-3.5-128B",
+   "note": "[A] Valeur reprise telle quelle de l'entrée cloud « Mistral Medium 3.5 » de ce fichier (même source, même date) : même modèle, poids ouverts. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : mistral-medium-3.5:128b ≈ 80 Go (fichier Q4_K_M)",
+   "ollama": "mistral-medium-3.5:128b"
   },
   {
    "categorie": "code",
@@ -1985,7 +2326,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.8-27B",
-   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.8:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.8:27b"
   },
   {
@@ -2086,6 +2427,19 @@
   },
   {
    "categorie": "code",
+   "nom": "Qwen3.5 122B-A10B",
+   "fournisseur": "qwen",
+   "score": 35.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-122B-A10B",
+   "note": "[C] Données 2026-10-29 ; consulté le 2026-10-29. Supported, tableau de catégorie. Ligne source : Qwen3.5-122B-A10B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:122b ≈ 81 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:122b"
+  },
+  {
+   "categorie": "code",
    "nom": "Qwen3.6 27B",
    "fournisseur": "qwen",
    "score": 35.0,
@@ -2094,7 +2448,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.6-27B",
-   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.6:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.6:27b"
   },
   {
@@ -2119,7 +2473,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-31B-it",
-   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:31b ≈ 20 Go (fichier Q4_K_M)",
    "ollama": "gemma4:31b"
   },
   {
@@ -2132,7 +2486,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-26B-A4B-it",
-   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:26b ≈ 19 Go (fichier Q4_K_M)",
    "ollama": "gemma4:26b"
   },
   {
@@ -2170,6 +2524,19 @@
    "local": false,
    "cle": "gemini-2.5-pro",
    "note": "[C] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Gemini 2.5 Pro. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+  },
+  {
+   "categorie": "code",
+   "nom": "Laguna XS.2",
+   "fournisseur": "poolside",
+   "score": 22.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "poolside/Laguna-XS.2",
+   "note": "[C] Données 2026-10-29 ; consulté le 2026-10-29. Supported, tableau de catégorie. Ligne source : Laguna XS.2. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : laguna-xs.2 ≈ 23 Go (fichier Q4_K_M)",
+   "ollama": "laguna-xs.2"
   },
   {
    "categorie": "code",
@@ -2445,7 +2812,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.8-27B",
-   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.8:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.8:27b"
   },
   {
@@ -2750,6 +3117,19 @@
   },
   {
    "categorie": "web",
+   "nom": "Nemotron 3.5 Super VL 120B-A12B",
+   "fournisseur": "nvidia",
+   "score": 1399,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+   "note": "[W] Données 2026-10-22 (archive Arena du 2026-10-23) ; consulté le 2026-10-29. Overall, toutes licences ; Elo central. Ligne source : NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3.5-super:120b ≈ 90 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3.5-super:120b"
+  },
+  {
+   "categorie": "web",
    "nom": "GPT-5.4 mini",
    "fournisseur": "openai",
    "score": 1397.0,
@@ -2770,8 +3150,21 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-31B-it",
-   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:31b ≈ 20 Go (fichier Q4_K_M)",
    "ollama": "gemma4:31b"
+  },
+  {
+   "categorie": "web",
+   "nom": "Qwen3.5 122B-A10B",
+   "fournisseur": "qwen",
+   "score": 1361,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-122B-A10B",
+   "note": "[W] Données 2026-10-22 (archive Arena du 2026-10-23) ; consulté le 2026-10-29. Overall, toutes licences ; Elo central. Ligne source : Qwen3.5-122B-A10B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:122b ≈ 81 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:122b"
   },
   {
    "categorie": "web",
@@ -2783,7 +3176,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-26B-A4B-it",
-   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:26b ≈ 19 Go (fichier Q4_K_M)",
    "ollama": "gemma4:26b"
   },
   {
@@ -2796,7 +3189,8 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-27B",
-   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé. — Ollama : qwen3.5:27b ≈ 17 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:27b"
   },
   {
    "categorie": "web",
@@ -2812,6 +3206,19 @@
   },
   {
    "categorie": "web",
+   "nom": "Muse Glimmer 30B",
+   "fournisseur": "meta",
+   "score": 1355,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-models/Muse-Glimmer-30B",
+   "note": "[W] Données 2026-10-22 (archive Arena du 2026-10-23) ; consulté le 2026-10-29. Overall, toutes licences ; Elo central. Ligne source : Muse Glimmer. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : muse-glimmer:30b ≈ 18 Go (fichier Q4_K_M)",
+   "ollama": "muse-glimmer:30b"
+  },
+  {
+   "categorie": "web",
    "nom": "Claude Haiku 4.5",
    "fournisseur": "anthropic",
    "score": 1330,
@@ -2821,6 +3228,32 @@
    "local": false,
    "cle": "claude-haiku-4-5-20251001",
    "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Claude Haiku 4.5 (20251001). Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+  },
+  {
+   "categorie": "web",
+   "nom": "Laguna XS.2",
+   "fournisseur": "poolside",
+   "score": 1303,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "poolside/Laguna-XS.2",
+   "note": "[W] Données 2026-10-22 (archive Arena du 2026-10-23) ; consulté le 2026-10-29. Overall, toutes licences ; Elo central. Ligne source : Laguna XS.2. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : laguna-xs.2 ≈ 23 Go (fichier Q4_K_M)",
+   "ollama": "laguna-xs.2"
+  },
+  {
+   "categorie": "web",
+   "nom": "Qwen3 Coder 480B-A35B",
+   "fournisseur": "qwen",
+   "score": 1275,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+   "note": "[W] Données 2026-10-22 (archive Arena du 2026-10-23) ; consulté le 2026-10-29. Overall, toutes licences ; Elo central. Ligne source : Qwen3-Coder-480B-A35B-Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3-coder:480b ≈ 290 Go (fichier Q4_K_M)",
+   "ollama": "qwen3-coder:480b"
   },
   {
    "categorie": "web",
@@ -2836,6 +3269,19 @@
   },
   {
    "categorie": "web",
+   "nom": "Mistral Medium 3.5 128B",
+   "fournisseur": "mistral",
+   "score": 1264.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Mistral-Medium-3.5-128B",
+   "note": "[W] Valeur reprise telle quelle de l'entrée cloud « Mistral Medium 3.5 » de ce fichier (même source, même date) : même modèle, poids ouverts. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : mistral-medium-3.5:128b ≈ 80 Go (fichier Q4_K_M)",
+   "ollama": "mistral-medium-3.5:128b"
+  },
+  {
+   "categorie": "web",
    "nom": "Qwen3.5 35B-A3B",
    "fournisseur": "qwen",
    "score": 1254,
@@ -2844,7 +3290,8 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-35B-A3B",
-   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+   "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé. — Ollama : qwen3.5:35b ≈ 22 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:35b"
   },
   {
    "categorie": "web",
@@ -2857,6 +3304,32 @@
    "local": false,
    "cle": "gemini-2.5-pro",
    "note": "[W] Données 2026-10-22 ; consulté le 2026-10-27."
+  },
+  {
+   "categorie": "web",
+   "nom": "Devstral 2 123B",
+   "fournisseur": "mistral",
+   "score": 1197,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Devstral-2-123B-Instruct-2512",
+   "note": "[W] Données 2026-10-22 (archive Arena du 2026-10-23) ; consulté le 2026-10-29. Overall, toutes licences ; Elo central. Ligne source : Devstral 2. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : devstral-2:123b ≈ 75 Go (fichier Q4_K_M)",
+   "ollama": "devstral-2:123b"
+  },
+  {
+   "categorie": "web",
+   "nom": "Granite 4.1 8B",
+   "fournisseur": "ibm",
+   "score": 1192,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.1-8b",
+   "note": "[W] Données 2026-10-22 (archive Arena du 2026-10-23) ; consulté le 2026-10-29. Overall, toutes licences ; Elo central. Ligne source : Granite 4.1 8B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.1:8b ≈ 5,3 Go (fichier Q4_K_M)",
+   "ollama": "granite4.1:8b"
   },
   {
    "categorie": "raisonnement",
@@ -3600,7 +4073,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.8-27B",
-   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.8:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.8:27b"
   },
   {
@@ -3625,7 +4098,8 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-27B",
-   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. — Ollama : qwen3.5:27b ≈ 17 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:27b"
   },
   {
    "categorie": "connaissances",
@@ -3649,7 +4123,8 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-35B-A3B",
-   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés."
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. — Ollama : qwen3.5:35b ≈ 22 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:35b"
   },
   {
    "categorie": "connaissances",
@@ -3661,7 +4136,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-31B-it",
-   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Couverture de la fiche mixte : 3 résultats vérifiés sur 4 ; catégorie affichée Supported au classement. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Couverture de la fiche mixte : 3 résultats vérifiés sur 4 ; catégorie affichée Supported au classement. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:31b ≈ 20 Go (fichier Q4_K_M)",
    "ollama": "gemma4:31b"
   },
   {
@@ -3678,6 +4153,19 @@
   },
   {
    "categorie": "connaissances",
+   "nom": "GPT-OSS 120B",
+   "fournisseur": "openai",
+   "score": 39.6,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "openai/gpt-oss-120b",
+   "note": "[K] Données 2026-10-29 ; consulté le 2026-10-29. Supported, tableau de catégorie. Ligne source : GPT-OSS 120B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gpt-oss:120b ≈ 65 Go (fichier MXFP4)",
+   "ollama": "gpt-oss:120b"
+  },
+  {
+   "categorie": "connaissances",
    "nom": "Gemma 4 12B",
    "fournisseur": "google",
    "score": 34.9,
@@ -3686,8 +4174,21 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-12B-it",
-   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:12b ≈ 8 Go (fichier Q4_K_M)",
    "ollama": "gemma4:12b"
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Nemotron 3 Nano Omni 30B-A3B",
+   "fournisseur": "nvidia",
+   "score": 34.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+   "note": "[K] Données 2026-10-29 ; consulté le 2026-10-29. Supported, tableau de catégorie. Ligne source : Nemotron 3 Nano Omni 30B A3B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron3:33b ≈ 28 Go (fichier Q4_K_M)",
+   "ollama": "nemotron3:33b"
   },
   {
    "categorie": "connaissances",
@@ -3699,8 +4200,21 @@
    "prix": null,
    "local": true,
    "cle": "openai/gpt-oss-20b",
-   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-OSS 20B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés.",
+   "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Supported, tableau de catégorie. Valeur publiée sans conversion. Ligne source : GPT-OSS 20B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. — Ollama : gpt-oss:20b ≈ 14 Go (fichier MXFP4)",
    "ollama": "gpt-oss:20b"
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Granite 4.2 8B",
+   "fournisseur": "ibm",
+   "score": 32.4,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.2-8b",
+   "note": "[K] Données 2026-10-29 ; consulté le 2026-10-29. Supported, tableau de catégorie. Ligne source : Granite 4.2 8B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.2:8b ≈ 5,3 Go (fichier Q4_K_M)",
+   "ollama": "granite4.2:8b"
   },
   {
    "categorie": "connaissances",
@@ -3713,6 +4227,45 @@
    "local": false,
    "cle": "mistral-medium-3-5",
    "note": "[K] Données 2026-10-26 ; consulté le 2026-10-27. Poids ouverts ; modèle volumineux, matériel non vérifié."
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Mistral Medium 3.5 128B",
+   "fournisseur": "mistral",
+   "score": 31.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Mistral-Medium-3.5-128B",
+   "note": "[K] Valeur reprise telle quelle de l'entrée cloud « Mistral Medium 3.5 » de ce fichier (même source, même date) : même modèle, poids ouverts. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : mistral-medium-3.5:128b ≈ 80 Go (fichier Q4_K_M)",
+   "ollama": "mistral-medium-3.5:128b"
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "LFM2.5 8B-A1B",
+   "fournisseur": "liquid",
+   "score": 24.8,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "LiquidAI/LFM2.5-8B-A1B",
+   "note": "[K] Données 2026-10-29 ; consulté le 2026-10-29. Supported, tableau de catégorie. Ligne source : LFM2.5-8B-A1B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : lfm2.5:8b ≈ 5,2 Go (fichier Q4_K_M)",
+   "ollama": "lfm2.5:8b"
+  },
+  {
+   "categorie": "connaissances",
+   "nom": "Phi-4 14B",
+   "fournisseur": "microsoft",
+   "score": 20.3,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "microsoft/phi-4",
+   "note": "[K] Données 2026-10-29 ; consulté le 2026-10-29. Supported, tableau de catégorie. Ligne source : Phi-4. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : phi4:14b ≈ 9,1 Go (fichier Q4_K_M)",
+   "ollama": "phi4:14b"
   },
   {
    "categorie": "conversation",
@@ -4120,7 +4673,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-31B-it",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:31b ≈ 20 Go (fichier Q4_K_M)",
    "ollama": "gemma4:31b"
   },
   {
@@ -4229,7 +4782,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-26B-A4B-it",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:26b ≈ 19 Go (fichier Q4_K_M)",
    "ollama": "gemma4:26b"
   },
   {
@@ -4242,7 +4795,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.8-27B",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.8:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.8:27b"
   },
   {
@@ -4283,6 +4836,19 @@
   },
   {
    "categorie": "conversation",
+   "nom": "Mistral Medium 3.5 128B",
+   "fournisseur": "mistral",
+   "score": 1426.0,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Mistral-Medium-3.5-128B",
+   "note": "[T] Valeur reprise telle quelle de l'entrée cloud « Mistral Medium 3.5 » de ce fichier (même source, même date) : même modèle, poids ouverts. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : mistral-medium-3.5:128b ≈ 80 Go (fichier Q4_K_M)",
+   "ollama": "mistral-medium-3.5:128b"
+  },
+  {
+   "categorie": "conversation",
    "nom": "Claude Haiku 5.5",
    "fournisseur": "anthropic",
    "score": 1425.0,
@@ -4292,6 +4858,71 @@
    "local": false,
    "cle": "claude-haiku-5-5",
    "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Réglage High."
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Muse Glimmer 30B",
+   "fournisseur": "meta",
+   "score": 1425,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-models/Muse-Glimmer-30B",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Muse Glimmer. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : muse-glimmer:30b ≈ 18 Go (fichier Q4_K_M)",
+   "ollama": "muse-glimmer:30b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3 235B-A22B Instruct 2507",
+   "fournisseur": "qwen",
+   "score": 1422,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3-235B-A22B-Instruct (2507). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3:235b-instruct ≈ 142 Go (fichier Q4_K_M)",
+   "ollama": "qwen3:235b-instruct"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "DeepSeek R1 0528",
+   "fournisseur": "deepseek",
+   "score": 1422,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "deepseek-ai/DeepSeek-R1-0528",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : DeepSeek-R1 (0528). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : deepseek-r1:671b ≈ 404 Go (fichier Q4_K_M)",
+   "ollama": "deepseek-r1:671b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3.5 122B-A10B",
+   "fournisseur": "qwen",
+   "score": 1416,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-122B-A10B",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3.5-122B-A10B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:122b ≈ 81 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:122b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "DeepSeek V3.1 Terminus",
+   "fournisseur": "deepseek",
+   "score": 1416,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "deepseek-ai/DeepSeek-V3.1-Terminus",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : DeepSeek-V3.1-Terminus (Thinking). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : deepseek-v3.1:671b ≈ 404 Go (fichier Q4_K_M)",
+   "ollama": "deepseek-v3.1:671b"
   },
   {
    "categorie": "conversation",
@@ -4307,6 +4938,32 @@
   },
   {
    "categorie": "conversation",
+   "nom": "Nemotron 3.5 Super VL 120B-A12B",
+   "fournisseur": "nvidia",
+   "score": 1414,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3.5-super:120b ≈ 90 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3.5-super:120b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3 VL 235B-A22B Instruct",
+   "fournisseur": "qwen",
+   "score": 1413,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3-VL-235B-A22B-Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3-vl:235b-a22b-instruct ≈ 143 Go (fichier Q4_K_M)",
+   "ollama": "qwen3-vl:235b-a22b-instruct"
+  },
+  {
+   "categorie": "conversation",
    "nom": "Qwen3.5 27B",
    "fournisseur": "qwen",
    "score": 1409,
@@ -4315,7 +4972,8 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-27B",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Qwen3.5 27B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé. — Ollama : qwen3.5:27b ≈ 17 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:27b"
   },
   {
    "categorie": "conversation",
@@ -4331,6 +4989,32 @@
   },
   {
    "categorie": "conversation",
+   "nom": "Qwen3 235B-A22B Thinking 2507",
+   "fournisseur": "qwen",
+   "score": 1400,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3-235B-A22B-Thinking (2507). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3:235b ≈ 142 Go (fichier Q4_K_M)",
+   "ollama": "qwen3:235b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3 VL 235B-A22B Thinking",
+   "fournisseur": "qwen",
+   "score": 1395,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3-VL-235B-A22B-Thinking. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3-vl:235b ≈ 143 Go (fichier Q4_K_M)",
+   "ollama": "qwen3-vl:235b"
+  },
+  {
+   "categorie": "conversation",
    "nom": "Qwen3.5 35B-A3B",
    "fournisseur": "qwen",
    "score": 1394,
@@ -4339,7 +5023,242 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-35B-A3B",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé."
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Overall, toutes licences, sans ajustement. Valeur publiée sans conversion. Ligne source : Qwen3.5 35B-A3B. Identité et métadonnées reprises du même modèle dans la version actuelle ; prix, vitesse et éventuel nom Ollama conservés. Un seul réglage retenu par modèle ; Elo central, intervalle non importé. — Ollama : qwen3.5:35b ≈ 22 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:35b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3 Coder 480B-A35B",
+   "fournisseur": "qwen",
+   "score": 1388,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3-Coder-480B-A35B-Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3-coder:480b ≈ 290 Go (fichier Q4_K_M)",
+   "ollama": "qwen3-coder:480b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3 30B-A3B Instruct 2507",
+   "fournisseur": "qwen",
+   "score": 1382,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3-30B-A3B-Instruct (2507). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3:30b-instruct ≈ 19 Go (fichier Q4_K_M)",
+   "ollama": "qwen3:30b-instruct"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3 Next 80B-A3B Thinking",
+   "fournisseur": "qwen",
+   "score": 1369,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3-Next-80B-A3B-Thinking. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3-next:80b ≈ 50 Go (fichier Q4_K_M)",
+   "ollama": "qwen3-next:80b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemma 3 27B",
+   "fournisseur": "google",
+   "score": 1365,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-3-27b-it",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Gemma 3 27B IT. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma3:27b ≈ 17 Go (fichier Q4_K_M)",
+   "ollama": "gemma3:27b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GLM-4.7 Flash",
+   "fournisseur": "zai",
+   "score": 1365,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "zai-org/GLM-4.7-Flash",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : GLM-4.7-Flash. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : glm-4.7-flash ≈ 19 Go (fichier Q4_K_M)",
+   "ollama": "glm-4.7-flash"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Nemotron 3 Super 120B-A12B",
+   "fournisseur": "nvidia",
+   "score": 1360,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : NVIDIA-Nemotron-3-Super-120B-A12B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3-super:120b ≈ 87 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3-super:120b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Mistral Small 3.2 24B",
+   "fournisseur": "mistral",
+   "score": 1356,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Mistral Small 3.2 (2506). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : mistral-small3.2:24b ≈ 15 Go (fichier Q4_K_M)",
+   "ollama": "mistral-small3.2:24b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Command A 111B",
+   "fournisseur": "cohere",
+   "score": 1354,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "CohereLabs/c4ai-command-a-03-2025",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Command A (03-2025). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : command-a:111b ≈ 67 Go (fichier Q4_K_M)",
+   "ollama": "command-a:111b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Nemotron 3.5 Lightning 30B-A3B",
+   "fournisseur": "nvidia",
+   "score": 1353,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3.5-lightning:30b ≈ 25 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3.5-lightning:30b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "GPT-OSS 120B",
+   "fournisseur": "openai",
+   "score": 1352,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "openai/gpt-oss-120b",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : gpt-oss-120b. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gpt-oss:120b ≈ 65 Go (fichier MXFP4)",
+   "ollama": "gpt-oss:120b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen3 32B",
+   "fournisseur": "qwen",
+   "score": 1347,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3-32B",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen3-32B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3:32b ≈ 20 Go (fichier Q4_K_M)",
+   "ollama": "qwen3:32b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemma 3 12B",
+   "fournisseur": "google",
+   "score": 1342,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-3-12b-it",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Gemma 3 12B IT. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma3:12b ≈ 8,2 Go (fichier Q4_K_M)",
+   "ollama": "gemma3:12b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Granite 4.2 30B",
+   "fournisseur": "ibm",
+   "score": 1340,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.2-30b",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Granite 4.2 30B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.2:30b ≈ 18 Go (fichier Q4_K_M)",
+   "ollama": "granite4.2:30b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "QwQ 32B",
+   "fournisseur": "qwen",
+   "score": 1336,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/QwQ-32B",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : QwQ-32B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwq:32b ≈ 20 Go (fichier Q4_K_M)",
+   "ollama": "qwq:32b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Llama 3.1 405B Instruct",
+   "fournisseur": "meta",
+   "score": 1336,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-3.1-405B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Llama 3.1 405B Instruct (BF16). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : llama3.1:405b ≈ 243 Go (fichier Q4_K_M)",
+   "ollama": "llama3.1:405b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Olmo 3.1 32B Instruct",
+   "fournisseur": "ai2",
+   "score": 1329,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "allenai/Olmo-3.1-32B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Olmo 3.1 32B Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : olmo-3.1:32b-instruct ≈ 19 Go (fichier Q4_K_M)",
+   "ollama": "olmo-3.1:32b-instruct"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Llama 4 Maverick",
+   "fournisseur": "meta",
+   "score": 1327,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Llama 4 Maverick 17B 128E Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : llama4:maverick ≈ 245 Go (fichier Q4_K_M)",
+   "ollama": "llama4:maverick"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Llama 4 Scout",
+   "fournisseur": "meta",
+   "score": 1322,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Llama 4 Scout 17B 16E Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : llama4:scout ≈ 67 Go (fichier Q4_K_M)",
+   "ollama": "llama4:scout"
   },
   {
    "categorie": "conversation",
@@ -4351,8 +5270,21 @@
    "prix": null,
    "local": true,
    "cle": "meta-llama/Llama-3.3-70B-Instruct",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids disponibles ; matériel et quantification à choisir, aucun test local.",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. Poids disponibles ; matériel et quantification à choisir, aucun test local. — Ollama : llama3.3:70b ≈ 43 Go (fichier Q4_K_M)",
    "ollama": "llama3.3:70b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemma 3n E4B",
+   "fournisseur": "google",
+   "score": 1318,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-3n-E4B-it",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Gemma 3n E4B IT. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma3n:e4b ≈ 9,8 Go (fichier Q4_K_M)",
+   "ollama": "gemma3n:e4b"
   },
   {
    "categorie": "conversation",
@@ -4364,8 +5296,47 @@
    "prix": null,
    "local": true,
    "cle": "openai/gpt-oss-20b",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27.",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. — Ollama : gpt-oss:20b ≈ 14 Go (fichier MXFP4)",
    "ollama": "gpt-oss:20b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Nemotron 3 Nano 30B-A3B",
+   "fournisseur": "nvidia",
+   "score": 1314,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : NVIDIA-Nemotron-3-Nano-30B-A3B (BF16). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron-3-nano:30b ≈ 24 Go (fichier Q4_K_M)",
+   "ollama": "nemotron-3-nano:30b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Olmo 3 32B Think",
+   "fournisseur": "ai2",
+   "score": 1306,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "allenai/Olmo-3-32B-Think",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Olmo 3 32B Think. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : olmo-3:32b ≈ 19 Go (fichier Q4_K_M)",
+   "ollama": "olmo-3:32b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Granite 4.1 8B",
+   "fournisseur": "ibm",
+   "score": 1304,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.1-8b",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Granite 4.1 8B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.1:8b ≈ 5,3 Go (fichier Q4_K_M)",
+   "ollama": "granite4.1:8b"
   },
   {
    "categorie": "conversation",
@@ -4377,8 +5348,138 @@
    "prix": null,
    "local": true,
    "cle": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27.",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. — Ollama : mistral-small3.1:24b ≈ 15 Go (fichier Q4_K_M)",
    "ollama": "mistral-small3.1:24b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Gemma 3 4B",
+   "fournisseur": "google",
+   "score": 1303,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "google/gemma-3-4b-it",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Gemma 3 4B IT. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma3:4b ≈ 3,4 Go (fichier Q4_K_M)",
+   "ollama": "gemma3:4b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen2.5 72B",
+   "fournisseur": "qwen",
+   "score": 1303,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen2.5-72B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen2.5-72B-Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen2.5:72b ≈ 47 Go (fichier Q4_K_M)",
+   "ollama": "qwen2.5:72b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Llama 3.1 70B Instruct",
+   "fournisseur": "meta",
+   "score": 1293,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-3.1-70B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Llama 3.1 70B Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : llama3.1:70b ≈ 43 Go (fichier Q4_K_M)",
+   "ollama": "llama3.1:70b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Granite 4.2 3B",
+   "fournisseur": "ibm",
+   "score": 1291,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.2-3b",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Granite 4.2 3B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.2:3b ≈ 2,2 Go (fichier Q4_K_M)",
+   "ollama": "granite4.2:3b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Granite 4.2 8B",
+   "fournisseur": "ibm",
+   "score": 1290,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.2-8b",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Granite 4.2 8B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4.2:8b ≈ 5,3 Go (fichier Q4_K_M)",
+   "ollama": "granite4.2:8b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Granite 4.0 H Small",
+   "fournisseur": "ibm",
+   "score": 1287,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "ibm-granite/granite-4.0-h-small",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Granite-4.0-H-Small. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : granite4:small-h ≈ 19 Go (fichier Q4_K_M)",
+   "ollama": "granite4:small-h"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Olmo 3.1 32B Think",
+   "fournisseur": "ai2",
+   "score": 1286,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "allenai/Olmo-3.1-32B-Think",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Olmo 3.1 32B Think. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : olmo-3.1:32b ≈ 19 Go (fichier Q4_K_M)",
+   "ollama": "olmo-3.1:32b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Mistral Small 3 24B",
+   "fournisseur": "mistral",
+   "score": 1274,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "mistralai/Mistral-Small-24B-Instruct-2501",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Mistral Small 24B Instruct (2501). Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : mistral-small:24b ≈ 14 Go (fichier Q4_K_M)",
+   "ollama": "mistral-small:24b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Qwen2.5 Coder 32B",
+   "fournisseur": "qwen",
+   "score": 1271,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen2.5-Coder-32B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Qwen2.5-Coder-32B-Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen2.5-coder:32b ≈ 20 Go (fichier Q4_K_M)",
+   "ollama": "qwen2.5-coder:32b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Phi-4 14B",
+   "fournisseur": "microsoft",
+   "score": 1256,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "microsoft/phi-4",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Phi-4. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : phi4:14b ≈ 9,1 Go (fichier Q4_K_M)",
+   "ollama": "phi4:14b"
   },
   {
    "categorie": "conversation",
@@ -4390,7 +5491,7 @@
    "prix": null,
    "local": true,
    "cle": "meta-llama/Llama-3.1-8B-Instruct",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27.",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. — Ollama : llama3.1:8b ≈ 4,9 Go (fichier Q4_K_M)",
    "ollama": "llama3.1:8b"
   },
   {
@@ -4403,8 +5504,34 @@
    "prix": null,
    "local": true,
    "cle": "meta-llama/Llama-3.2-3B-Instruct",
-   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27.",
+   "note": "[T] Données 2026-10-22 ; consulté le 2026-10-27. — Ollama : llama3.2:3b ≈ 2 Go (fichier Q4_K_M)",
    "ollama": "llama3.2:3b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "SmolLM2 1.7B",
+   "fournisseur": "huggingface",
+   "score": 1115,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : SmolLM2 1.7B Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : smollm2:1.7b ≈ 1,8 Go (fichier Q8_0)",
+   "ollama": "smollm2:1.7b"
+  },
+  {
+   "categorie": "conversation",
+   "nom": "Llama 3.2 1B Instruct",
+   "fournisseur": "meta",
+   "score": 1111,
+   "unite": "score arène (votes à l'aveugle)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-llama/Llama-3.2-1B-Instruct",
+   "note": "[T] Données 2026-10-20 (archive Arena du 2026-10-21) ; consulté le 2026-10-29. Overall, toutes licences, sans ajustement ; Elo central. Ligne source : Llama 3.2 1B Instruct. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : llama3.2:1b ≈ 1,3 Go (fichier Q8_0)",
+   "ollama": "llama3.2:1b"
   },
   {
    "categorie": "vision",
@@ -4584,7 +5711,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.8-27B",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.8:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.8:27b"
   },
   {
@@ -4681,7 +5808,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-31B-it",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:31b ≈ 20 Go (fichier Q4_K_M)",
    "ollama": "gemma4:31b"
   },
   {
@@ -4758,6 +5885,19 @@
   },
   {
    "categorie": "vision",
+   "nom": "Qwen3.5 122B-A10B",
+   "fournisseur": "qwen",
+   "score": 68.0,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "Qwen/Qwen3.5-122B-A10B",
+   "note": "[V] Données 2026-10-29 ; consulté le 2026-10-29. Vue Provisional-ranked. Ligne source : Qwen3.5-122B-A10B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:122b ≈ 81 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:122b"
+  },
+  {
+   "categorie": "vision",
    "nom": "Qwen3.5 27B",
    "fournisseur": "qwen",
    "score": 67.6,
@@ -4766,7 +5906,8 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-27B",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:27b ≈ 17 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:27b"
   },
   {
    "categorie": "vision",
@@ -4778,7 +5919,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-26B-A4B-it",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:26b ≈ 19 Go (fichier Q4_K_M)",
    "ollama": "gemma4:26b"
   },
   {
@@ -4791,7 +5932,7 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.6-27B",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.6:27b ≈ 18 Go (fichier Q4_K_M)",
    "ollama": "qwen3.6:27b"
   },
   {
@@ -4804,8 +5945,21 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.6-35B-A3B",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.6:35b ≈ 23 Go (fichier Q4_K_M)",
    "ollama": "qwen3.6:35b"
+  },
+  {
+   "categorie": "vision",
+   "nom": "Muse Glimmer 30B",
+   "fournisseur": "meta",
+   "score": 65.2,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "meta-models/Muse-Glimmer-30B",
+   "note": "[V] Données 2026-10-29 ; consulté le 2026-10-29. Vue Provisional-ranked. Ligne source : Muse Glimmer 30B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : muse-glimmer:30b ≈ 18 Go (fichier Q4_K_M)",
+   "ollama": "muse-glimmer:30b"
   },
   {
    "categorie": "vision",
@@ -4817,7 +5971,8 @@
    "prix": null,
    "local": true,
    "cle": "Qwen/Qwen3.5-35B-A3B",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : qwen3.5:35b ≈ 22 Go (fichier Q4_K_M)",
+   "ollama": "qwen3.5:35b"
   },
   {
    "categorie": "vision",
@@ -4829,7 +5984,7 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-12B-it",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification.",
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:12b ≈ 8 Go (fichier Q4_K_M)",
    "ollama": "gemma4:12b"
   },
   {
@@ -4870,6 +6025,19 @@
   },
   {
    "categorie": "vision",
+   "nom": "Nemotron 3 Nano Omni 30B-A3B",
+   "fournisseur": "nvidia",
+   "score": 44.1,
+   "unite": "score BenchLM (%)",
+   "vitesse": null,
+   "prix": null,
+   "local": true,
+   "cle": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+   "note": "[V] Données 2026-10-29 ; consulté le 2026-10-29. Vue Provisional-ranked. Ligne source : Nemotron 3 Nano Omni 30B A3B. Poids ouverts ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : nemotron3:33b ≈ 28 Go (fichier Q4_K_M)",
+   "ollama": "nemotron3:33b"
+  },
+  {
+   "categorie": "vision",
    "nom": "Gemma 4 E4B",
    "fournisseur": "google",
    "score": 23.0,
@@ -4878,7 +6046,8 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-E4B-it",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:e4b ≈ 6,6 Go (fichier Q4_K_M)",
+   "ollama": "gemma4:e4b"
   },
   {
    "categorie": "vision",
@@ -4890,7 +6059,8 @@
    "prix": null,
    "local": true,
    "cle": "google/gemma-4-E2B-it",
-   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification."
+   "note": "[V] Données 2026-10-26 ; consulté le 2026-10-27. Poids officiels ; aucune mesure locale du studio. Score du modèle source, sans garantie pour une quantification. — Ollama : gemma4:e2b ≈ 4,6 Go (fichier Q4_K_M)",
+   "ollama": "gemma4:e2b"
   },
   {
    "categorie": "image",
@@ -5621,7 +6791,7 @@
    "vitesse": null,
    "prix": null,
    "local": true,
-   "cle": "voxtral-small-2507",
+   "cle": "mistralai/Voxtral-Small-24B-2507",
    "note": "[B] Données instantané public consulté le 2026-10-27, pas de date globale de mise à jour affichée ; consulté le 2026-10-27. Poids ouverts disponibles ; AA a mesuré l’API Mistral, aucun test local du studio."
   },
   {
