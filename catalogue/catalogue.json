@@ -1,5 +1,5 @@
 {
- "version": "2026-10-27",
+ "version": "2026-10-29",
  "categories": {
   "jeu": "Jeu vidéo",
   "3d": "3D et animation",
@@ -13,22 +13,237 @@
   "ecriture": "Écriture",
   "marketing": "Marketing",
   "recherche": "Recherche et veille",
-  "outils-ia": "Outils IA"
+  "outils-ia": "Outils IA",
+  "vente": "Vente et relation client",
+  "gestion": "Gestion, compta, RH et juridique",
+  "organisation": "Organisation et productivité",
+  "enseignement": "Enseignement et formation",
+  "ingenierie": "Architecture, ingénierie et CAO",
+  "associatif": "Santé, social et associatif",
+  "commerce": "Commerce, artisanat et restauration",
+  "accessibilite": "Accessibilité",
+  "vie-pratique": "Vie pratique",
+  "metiers": "Packs par métier"
  },
  "nouveaux": [
-  "game-design-document",
-  "level-design",
-  "game-balancing",
-  "3d-asset-pipeline",
-  "research-digest",
-  "notion",
-  "figma",
-  "ableton",
-  "tavily",
-  "office-documents",
-  "debugging-and-error-recovery",
-  "web-quality-audit",
-  "handoff"
+  "filesystem",
+  "time",
+  "markitdown",
+  "excel",
+  "chrome-devtools",
+  "sentry",
+  "supabase",
+  "mongodb",
+  "aws-docs",
+  "postman",
+  "grafana",
+  "unity-mcp",
+  "freecad-mcp",
+  "duckdb",
+  "jupyter",
+  "arxiv",
+  "zotero",
+  "wikipedia",
+  "brave-search",
+  "deepl",
+  "mapbox",
+  "xero",
+  "monday",
+  "todoist",
+  "airtable",
+  "obsidian",
+  "wordpress",
+  "dataforseo",
+  "logiciel-kdenlive",
+  "logiciel-shotcut",
+  "logiciel-handbrake",
+  "logiciel-losslesscut",
+  "logiciel-vlc",
+  "logiciel-mediainfo",
+  "logiciel-subtitle-edit",
+  "logiciel-aegisub",
+  "logiciel-darktable",
+  "logiciel-rawtherapee",
+  "logiciel-digikam",
+  "logiciel-imagemagick",
+  "logiciel-opentoonz",
+  "logiciel-hydrogen",
+  "logiciel-calibre",
+  "logiciel-sigil",
+  "logiciel-zettlr",
+  "logiciel-pandoc",
+  "logiciel-thunderbird",
+  "logiciel-obsidian",
+  "logiciel-joplin",
+  "logiciel-logseq",
+  "logiciel-pdfsam",
+  "logiciel-naps2",
+  "logiciel-okular",
+  "logiciel-onlyoffice",
+  "logiciel-notepadpp",
+  "logiciel-7zip",
+  "logiciel-powertoys",
+  "logiciel-sharex",
+  "logiciel-nextcloud",
+  "logiciel-freeplane",
+  "logiciel-drawio",
+  "logiciel-firefox",
+  "logiciel-gnucash",
+  "logiciel-homebank",
+  "logiciel-dolibarr",
+  "logiciel-r",
+  "logiciel-rstudio",
+  "logiciel-jasp",
+  "logiciel-jamovi",
+  "logiciel-knime",
+  "logiciel-qgis",
+  "logiciel-powerbi",
+  "logiciel-duckdb",
+  "logiciel-gephi",
+  "logiciel-jupyterlab",
+  "logiciel-zotero",
+  "logiciel-paraview",
+  "logiciel-anki",
+  "logiciel-geogebra",
+  "logiciel-scratch",
+  "logiciel-xournalpp",
+  "logiciel-freecad",
+  "logiciel-kicad",
+  "logiciel-librecad",
+  "logiciel-prusaslicer",
+  "logiciel-cura",
+  "logiciel-orcaslicer",
+  "logiciel-arduino",
+  "logiciel-nvda",
+  "logiciel-android-studio",
+  "logiciel-bruno",
+  "logiciel-postman",
+  "logiciel-dbeaver",
+  "logiciel-github-desktop",
+  "logiciel-gh",
+  "logiciel-windows-terminal",
+  "logiciel-rustup",
+  "logiciel-temurin-jdk",
+  "logiciel-dotnet-sdk",
+  "logiciel-go",
+  "logiciel-postgresql",
+  "logiciel-podman-desktop",
+  "logiciel-kubectl",
+  "logiciel-terraform",
+  "logiciel-aws-cli",
+  "logiciel-azure-cli",
+  "logiciel-gdevelop",
+  "logiciel-tiled",
+  "logiciel-pixelorama",
+  "logiciel-material-maker",
+  "logiciel-blockbench",
+  "logiciel-seo-spider",
+  "logiciel-canva",
+  "meeting-minutes",
+  "project-plan",
+  "workflow-automation",
+  "spreadsheet-builder",
+  "inbox-triage",
+  "invoice-preparation",
+  "bookkeeping-prep",
+  "cash-flow-forecast",
+  "payroll-inputs",
+  "tax-paperwork",
+  "legal-templates",
+  "job-posting",
+  "gdpr-records",
+  "quote-builder",
+  "prospecting-plan",
+  "sales-pipeline",
+  "newsletter-campaign",
+  "ad-campaign-brief",
+  "product-listing",
+  "lesson-plan",
+  "quiz-builder",
+  "grading-rubric",
+  "training-program",
+  "study-plan",
+  "news-article",
+  "translation-workflow",
+  "subtitles",
+  "manuscript-editing",
+  "podcast-production",
+  "video-script",
+  "photo-workflow",
+  "font-pairing",
+  "music-release",
+  "game-audio",
+  "playtest-report",
+  "3d-print-prep",
+  "bill-of-materials",
+  "space-planning",
+  "mobile-release",
+  "database-design",
+  "survey-design",
+  "association-assembly",
+  "grant-application",
+  "volunteer-schedule",
+  "membership-management",
+  "practice-admin",
+  "property-listing",
+  "menu-costing",
+  "stock-management",
+  "easy-to-read",
+  "alt-text",
+  "accessible-documents",
+  "household-budget",
+  "trip-planning",
+  "admin-procedures",
+  "formal-letter",
+  "support-ticket-handling",
+  "help-center-article",
+  "interview-guide",
+  "employee-onboarding",
+  "bibliography-management",
+  "experiment-design",
+  "data-quality-check",
+  "progress-report",
+  "marketing-plan",
+  "social-media-calendar",
+  "customer-follow-up",
+  "local-business-listing",
+  "accessible-event",
+  "job-freelance",
+  "job-accountant",
+  "job-teacher",
+  "job-trainer",
+  "job-student",
+  "job-shopkeeper",
+  "job-craftsman",
+  "job-restaurant",
+  "job-real-estate",
+  "job-video-creator",
+  "job-podcaster",
+  "job-musician",
+  "job-photographer",
+  "job-graphic-designer",
+  "job-web-developer",
+  "job-mobile-developer",
+  "job-backend-devops",
+  "job-game-studio",
+  "job-writer",
+  "job-journalist",
+  "job-translator",
+  "job-marketer",
+  "job-ecommerce",
+  "job-sales",
+  "job-customer-support",
+  "job-hr",
+  "job-small-business",
+  "job-association",
+  "job-health-social-admin",
+  "job-researcher",
+  "job-data-analyst",
+  "job-engineer-maker",
+  "job-architect",
+  "job-accessibility",
+  "job-project-manager",
+  "job-everyday"
  ],
  "elements": [
   {
@@ -2016,7 +2231,7 @@
    "id": "playwright",
    "type": "mcp",
    "nom": "Navigateur (Playwright)",
-   "description": "Les agents ouvrent un vrai navigateur : cliquer, remplir, lire une page, faire des captures.",
+   "description": "Les agents ouvrent un vrai navigateur : cliquer, remplir, lire une page, faire des captures. Attention : peut envoyer des formulaires sur les sites ouverts.",
    "auteur": "Microsoft",
    "verifie": true,
    "categorie": "web",
@@ -2059,7 +2274,7 @@
    "id": "github",
    "type": "mcp",
    "nom": "GitHub",
-   "description": "Issues, pull requests, code et actions de tes dépôts GitHub.",
+   "description": "Issues, pull requests, code et actions de tes dépôts GitHub. Attention : service en ligne sans version épinglée ; il peut écrire et supprimer (fichiers, branches) selon le jeton : préfère un jeton en lecture seule.",
    "auteur": "GitHub",
    "verifie": true,
    "categorie": "code",
@@ -2172,9 +2387,9 @@
    "id": "elevenlabs",
    "type": "mcp",
    "nom": "Voix (ElevenLabs)",
-   "description": "Voix de personnages, narration et effets sonores avec ta clé ElevenLabs. Clé requise (quota gratuit limité, puis payant).",
+   "description": "Voix de personnages, narration et effets sonores avec ta clé ElevenLabs. Clé requise (quota gratuit limité, puis payant). Attention : serveur local archivé par ElevenLabs depuis août 2026 ; le remplaçant officiel est un service en ligne.",
    "auteur": "ElevenLabs",
-   "verifie": true,
+   "verifie": false,
    "categorie": "son",
    "essai": "Génère la voix du vieux marchand pour ces 3 répliques.",
    "config": {
@@ -2265,7 +2480,7 @@
    "id": "notion",
    "type": "mcp",
    "nom": "Notion",
-   "description": "Lire et mettre à jour tes pages et bases Notion, avec un jeton d'intégration. Le serveur local n'est plus maintenu par Notion : leur serveur hébergé est conseillé.",
+   "description": "Lire et mettre à jour tes pages et bases Notion, avec un jeton d'intégration. Le serveur local n'est plus maintenu par Notion : leur serveur hébergé est conseillé. Attention : peut mettre des pages à la corbeille.",
    "auteur": "Notion",
    "verifie": true,
    "categorie": "documents",
@@ -2550,7 +2765,7 @@
    "chemins": [
     "C:/Program Files/GIMP*/bin/gimp-*.exe"
    ],
-   "winget": "",
+   "winget": "GIMP.GIMP.3",
    "site": "https://www.gimp.org/downloads/",
    "logo": "gimp"
   },
@@ -2717,7 +2932,7 @@
     "C:/Program Files/LibreOffice/program/soffice.exe"
    ],
    "winget": "TheDocumentFoundation.LibreOffice",
-   "site": "https://fr.libreoffice.org/download/telecharger-libreoffice/",
+   "site": "https://www.libreoffice.org/download/download-libreoffice/",
    "logo": "libreoffice"
   },
   {
@@ -2802,7 +3017,7 @@
    "chemins": [
     "C:/Program Files/Blackmagic Design/DaVinci Resolve/Resolve.exe"
    ],
-   "winget": "BlackmagicDesign.DaVinciResolve",
+   "winget": "",
    "site": "https://www.blackmagicdesign.com/fr/products/davinciresolve",
    "logo": "davinci"
   },
@@ -3122,6 +3337,4798 @@
    ],
    "base": [
     "skill-creator"
+   ]
+  },
+  {
+   "id": "filesystem",
+   "type": "mcp",
+   "nom": "Fichiers du PC (dossier choisi)",
+   "description": "Les agents lisent, créent, modifient et déplacent des fichiers, uniquement dans le dossier que tu choisis. Aucun outil de suppression, mais l'écriture peut ÉCRASER un fichier existant : garde une sauvegarde. Demande Node.js 24 ou plus récent.",
+   "auteur": "Anthropic (référence MCP)",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Range les factures du dossier par mois et liste celles qui manquent.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-filesystem@2.1.0",
+     "${FILESYSTEM_ROOT}"
+    ]
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "FILESYSTEM_ROOT",
+     "libelle": "Dossier autorisé (chemin complet)",
+     "secret": false,
+     "aide": "Exemple : C:\\Users\\toi\\Documents\\Projet. Les agents ne voient rien en dehors."
+    }
+   ],
+   "licence": "MIT / Apache-2.0 (transition de licence du projet MCP, fichier LICENSE)",
+   "version": "2.1.0"
+  },
+  {
+   "id": "time",
+   "type": "mcp",
+   "nom": "Heure et fuseaux horaires",
+   "description": "Donne l'heure exacte et convertit entre fuseaux horaires (rendez-vous, voyages, équipes à distance). Lecture seule, sans réseau.",
+   "auteur": "Anthropic (référence MCP)",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Quelle heure sera-t-il à Montréal quand il est 15 h à Paris jeudi ?",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-time==2026.10.28"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "MIT",
+   "version": "2026.10.28"
+  },
+  {
+   "id": "markitdown",
+   "type": "mcp",
+   "nom": "Convertir des documents (MarkItDown)",
+   "description": "Les agents lisent des PDF, Word, Excel, PowerPoint, images et pages web en les convertissant en texte. Version préliminaire (alpha) : à tester avant un usage important. Peut lire des adresses web.",
+   "auteur": "Microsoft",
+   "verifie": true,
+   "categorie": "documents",
+   "essai": "Résume ce PDF de 40 pages et liste les dates importantes.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "markitdown-mcp==0.0.1a8"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "MIT",
+   "version": "0.0.1a8"
+  },
+  {
+   "id": "excel",
+   "type": "mcp",
+   "nom": "Classeurs Excel",
+   "description": "Les agents lisent et modifient des classeurs .xlsx (feuilles, formules, graphiques, tableaux croisés) sans Excel, dans le dossier que tu choisis. ATTENTION : peut SUPPRIMER feuilles, lignes, colonnes, graphiques et notes dans les classeurs ; travaille sur des copies. Écriture de macros désactivée par défaut.",
+   "auteur": "Communauté (haris-musa)",
+   "verifie": false,
+   "categorie": "documents",
+   "essai": "Ajoute un onglet de synthèse par mois à ce classeur de ventes.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "excel-mcp-server==2.2.2",
+     "stdio",
+     "--allow-dir",
+     "${EXCEL_FOLDER}"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [
+    {
+     "nom": "EXCEL_FOLDER",
+     "libelle": "Dossier des classeurs (chemin complet)",
+     "secret": false,
+     "aide": "Les agents ne touchent qu'aux classeurs de ce dossier."
+    }
+   ],
+   "licence": "MIT",
+   "version": "2.2.2"
+  },
+  {
+   "id": "chrome-devtools",
+   "type": "mcp",
+   "nom": "Chrome DevTools",
+   "description": "Les agents ouvrent Chrome, inspectent une page, mesurent les performances, lisent la console et le réseau pour déboguer un site. Demande Google Chrome. ATTENTION : peut exécuter du code dans la page, cliquer et ENVOYER des formulaires avec tes sessions ouvertes ; utilise un profil de test.",
+   "auteur": "Google (Chrome DevTools)",
+   "verifie": true,
+   "categorie": "web",
+   "essai": "Mesure les performances de la page d'accueil et explique ce qui la ralentit.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "chrome-devtools-mcp@1.12.0",
+     "--no-usage-statistics"
+    ]
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [],
+   "licence": "Apache-2.0",
+   "version": "1.12.0"
+  },
+  {
+   "id": "sentry",
+   "type": "mcp",
+   "nom": "Sentry (erreurs des applis)",
+   "description": "Les agents lisent les erreurs et plantages remontés par Sentry pour les trier et les corriger. Serveur local limité à la compétence « inspect » (consultation) : les compétences qui créent et SUPPRIMENT alertes et moniteurs ne sont pas activées. Jeton d'accès Sentry requis (offre gratuite limitée). Les recherches assistées par une IA du serveur restent coupées : aucune clé d'IA n'est fournie. Demande Node.js.",
+   "auteur": "Sentry",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Liste les 5 erreurs les plus fréquentes de la semaine et propose une correction.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@sentry/mcp-server@0.42.0",
+     "--skills=inspect"
+    ],
+    "env": {
+     "SENTRY_ACCESS_TOKEN": "${SENTRY_ACCESS_TOKEN}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "SENTRY_ACCESS_TOKEN",
+     "libelle": "Jeton d'accès Sentry",
+     "secret": true,
+     "aide": "sentry.io → Settings → User Auth Tokens (portées en lecture conseillées)"
+    }
+   ],
+   "licence": "FSL-1.1-ALv2",
+   "version": "0.42.0"
+  },
+  {
+   "id": "supabase",
+   "type": "mcp",
+   "nom": "Supabase (lecture seule)",
+   "description": "Les agents lisent le schéma, les tables et la documentation de ton projet Supabase (Postgres), en lecture seule. Jeton d'accès requis.",
+   "auteur": "Supabase",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Explique le schéma de la base et propose les index manquants.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@supabase/mcp-server-supabase@0.14.0",
+     "--read-only"
+    ],
+    "env": {
+     "SUPABASE_ACCESS_TOKEN": "${SUPABASE_ACCESS_TOKEN}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "SUPABASE_ACCESS_TOKEN",
+     "libelle": "Jeton d'accès Supabase",
+     "secret": true,
+     "aide": "supabase.com → Account → Access tokens"
+    }
+   ],
+   "licence": "Apache-2.0",
+   "version": "0.14.0"
+  },
+  {
+   "id": "mongodb",
+   "type": "mcp",
+   "nom": "MongoDB (lecture seule)",
+   "description": "Les agents explorent une base MongoDB (collections, requêtes, index) en lecture seule. Chaîne de connexion requise, gardée chiffrée.",
+   "auteur": "MongoDB",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Compte les commandes par mois dans la collection orders.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mongodb-mcp-server@3.2.2",
+     "--readOnly"
+    ],
+    "env": {
+     "MDB_MCP_CONNECTION_STRING": "${MDB_MCP_CONNECTION_STRING}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "MDB_MCP_CONNECTION_STRING",
+     "libelle": "Chaîne de connexion MongoDB",
+     "secret": true,
+     "aide": "Utilise un utilisateur en lecture seule."
+    }
+   ],
+   "licence": "Apache-2.0",
+   "version": "3.2.2"
+  },
+  {
+   "id": "aws-docs",
+   "type": "mcp",
+   "nom": "Docs AWS",
+   "description": "Recherche et lecture de la documentation officielle AWS pour les agents. Lecture seule, sans compte AWS.",
+   "auteur": "AWS Labs",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Quelle est la limite de taille d'un objet S3 ? Cite la doc.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "awslabs.aws-documentation-mcp-server==1.2.3"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "Apache-2.0",
+   "version": "1.2.3"
+  },
+  {
+   "id": "postman",
+   "type": "mcp",
+   "nom": "Postman (API)",
+   "description": "Les agents lisent et organisent tes collections, environnements et tests d'API Postman. Clé API Postman requise. ATTENTION : peut créer, modifier et SUPPRIMER collections, environnements, mocks et moniteurs (outils delete…).",
+   "auteur": "Postman",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Génère une collection de tests pour cette API et explique chaque requête.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@postman/postman-mcp-server@2.14.0"
+    ],
+    "env": {
+     "POSTMAN_API_KEY": "${POSTMAN_API_KEY}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "POSTMAN_API_KEY",
+     "libelle": "Clé API Postman",
+     "secret": true,
+     "aide": "postman.com → Settings → API keys"
+    }
+   ],
+   "licence": "Apache-2.0",
+   "version": "2.14.0"
+  },
+  {
+   "id": "grafana",
+   "type": "mcp",
+   "nom": "Grafana (supervision)",
+   "description": "Les agents consultent tableaux de bord, métriques, journaux et alertes Grafana pour diagnostiquer un incident. Utilise un compte de service au rôle Viewer : avec plus de droits, le serveur peut modifier tableaux et alertes et SUPPRIMER annotations et instantanés.",
+   "auteur": "Grafana Labs",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Que montrent les métriques du serveur web depuis 2 h ?",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "mcp-grafana==2.1.1"
+    ],
+    "env": {
+     "GRAFANA_URL": "${GRAFANA_URL}",
+     "GRAFANA_SERVICE_ACCOUNT_TOKEN": "${GRAFANA_SERVICE_ACCOUNT_TOKEN}"
+    }
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [
+    {
+     "nom": "GRAFANA_URL",
+     "libelle": "Adresse de Grafana",
+     "secret": false,
+     "aide": "Exemple : http://localhost:3000 ou https://monespace.grafana.net"
+    },
+    {
+     "nom": "GRAFANA_SERVICE_ACCOUNT_TOKEN",
+     "libelle": "Jeton de compte de service Grafana",
+     "secret": true,
+     "aide": "Grafana → Administration → Service accounts (rôle Viewer conseillé)"
+    }
+   ],
+   "licence": "Apache-2.0",
+   "version": "2.1.1"
+  },
+  {
+   "id": "unity-mcp",
+   "type": "mcp",
+   "nom": "Unity (MCP)",
+   "description": "Les agents pilotent l'éditeur Unity ouvert : scènes, objets, scripts C#, assets, tests, builds. Demande le paquet « MCP for Unity » dans le projet. ATTENTION : modifie le projet et peut SUPPRIMER objets, scripts et assets ; à n'activer que pour les projets Unity, avec Git.",
+   "auteur": "Communauté (Coplay)",
+   "verifie": false,
+   "categorie": "jeu",
+   "essai": "Crée une scène de test avec un sol, une lumière et un cube physique.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "--from",
+     "mcpforunityserver==10.3.0",
+     "mcp-for-unity"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "MIT",
+   "version": "10.3.0",
+   "logo": "unity"
+  },
+  {
+   "id": "freecad-mcp",
+   "type": "mcp",
+   "nom": "FreeCAD (MCP)",
+   "description": "Les agents pilotent FreeCAD ouvert : création et modification de pièces, captures de vues. Demande l'extension FreeCAD MCP dans FreeCAD. ATTENTION : exécute du code Python dans FreeCAD, qui peut modifier ou SUPPRIMER des fichiers.",
+   "auteur": "Communauté (neka-nat)",
+   "verifie": false,
+   "categorie": "ingenierie",
+   "essai": "Modélise une équerre de 40 × 40 mm, épaisseur 3 mm, avec deux trous de 4 mm.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "freecad-mcp==0.1.28"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "MIT",
+   "version": "0.1.28"
+  },
+  {
+   "id": "duckdb",
+   "type": "mcp",
+   "nom": "Analyse de fichiers (DuckDB)",
+   "description": "Les agents interrogent en SQL des fichiers CSV, Excel, Parquet ou JSON du PC, sans base à installer. ATTENTION : PAS de lecture seule avec cette configuration (base en mémoire). Une requête peut lire tout fichier accessible à ta session Windows, ÉCRIRE un fichier (un fichier existant est ÉCRASÉ sans avertissement), SUPPRIMER le contenu d'un dossier cible (option OVERWRITE) et lire des adresses web. Travaille sur des copies et garde une sauvegarde.",
+   "auteur": "MotherDuck",
+   "verifie": true,
+   "categorie": "donnees",
+   "essai": "Analyse ce CSV de ventes : total par mois et par produit.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-motherduck==1.1.0",
+     "--db-path",
+     ":memory:"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "MIT (dépôt)",
+   "version": "1.1.0"
+  },
+  {
+   "id": "jupyter",
+   "type": "mcp",
+   "nom": "Jupyter (notebooks)",
+   "description": "Les agents lisent, écrivent et exécutent les cellules d'un notebook Jupyter ouvert. ATTENTION : exécute du code Python, qui peut modifier ou SUPPRIMER des fichiers et utiliser le réseau ; à réserver aux projets de données. Prérequis (README v2.2.4), à installer AVANT dans l'environnement Python de JupyterLab : jupyterlab==4.6.4, jupyter-collaboration==5.0.4 (indispensable : le serveur passe par la collaboration en temps réel), jupyter-mcp-tools==0.1.8 et ipykernel==7.4.0. Puis lance JupyterLab sur le PC seulement (--ip 127.0.0.1, port 8888) avec le jeton enregistré dans le studio (JUPYTER_TOKEN). JupyterLab Desktop seul ne suffit pas sans ces modules.",
+   "auteur": "Communauté (Datalayer)",
+   "verifie": false,
+   "categorie": "donnees",
+   "essai": "Charge ce CSV dans le notebook et trace l'évolution mensuelle.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "jupyter-mcp-server==2.2.4"
+    ],
+    "env": {
+     "JUPYTER_URL": "${JUPYTER_URL}",
+     "JUPYTER_TOKEN": "${JUPYTER_TOKEN}"
+    }
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [
+    {
+     "nom": "JUPYTER_URL",
+     "libelle": "Adresse de JupyterLab",
+     "secret": false,
+     "aide": "Exemple : http://localhost:8888"
+    },
+    {
+     "nom": "JUPYTER_TOKEN",
+     "libelle": "Jeton de JupyterLab",
+     "secret": true,
+     "aide": "Le jeton choisi au lancement de JupyterLab"
+    }
+   ],
+   "licence": "BSD-3-Clause",
+   "version": "2.2.4"
+  },
+  {
+   "id": "arxiv",
+   "type": "mcp",
+   "nom": "Articles scientifiques (arXiv)",
+   "description": "Les agents cherchent, téléchargent et lisent des articles d'arXiv (physique, maths, informatique, biologie…). Les articles sont rangés dans ~/.arxiv-mcp-server/papers.",
+   "auteur": "Communauté (blazickjp)",
+   "verifie": false,
+   "categorie": "recherche",
+   "essai": "Trouve 5 articles récents sur la compression d'images et résume-les.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "arxiv-mcp-server==0.8.2"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "Apache-2.0",
+   "version": "0.8.2"
+  },
+  {
+   "id": "zotero",
+   "type": "mcp",
+   "nom": "Zotero (bibliographie)",
+   "description": "Les agents cherchent dans ta bibliothèque Zotero, lisent notes et annotations, et préparent des citations. Demande Zotero ouvert avec l'API locale activée.",
+   "auteur": "Communauté (54yyyu)",
+   "verifie": false,
+   "categorie": "recherche",
+   "essai": "Liste mes références sur l'éducation inclusive et prépare la bibliographie en APA.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "--from",
+     "zotero-mcp-server==0.15.1",
+     "zotero-mcp"
+    ],
+    "env": {
+     "ZOTERO_LOCAL": "true"
+    }
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "MIT AND AGPL-3.0-or-later",
+   "version": "0.15.1"
+  },
+  {
+   "id": "wikipedia",
+   "type": "mcp",
+   "nom": "Wikipédia",
+   "description": "Les agents cherchent et lisent des articles de Wikipédia (résumés, sections, liens). Lecture seule.",
+   "auteur": "Communauté (rudra-ravi)",
+   "verifie": false,
+   "categorie": "recherche",
+   "essai": "Résume l'article sur la Révolution industrielle pour une classe de 4e.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "wikipedia-mcp==2.0.1"
+    ]
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [],
+   "licence": "MIT",
+   "version": "2.0.1"
+  },
+  {
+   "id": "brave-search",
+   "type": "mcp",
+   "nom": "Recherche web (Brave)",
+   "description": "Recherche web, actualités, images et vidéos par l'index indépendant de Brave. Clé API Brave Search requise (offre gratuite limitée ou payante).",
+   "auteur": "Brave",
+   "verifie": true,
+   "categorie": "recherche",
+   "essai": "Quelles sont les nouveautés de la réforme de la facturation électronique ce mois-ci ?",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@brave/brave-search-mcp-server@2.1.4",
+     "--transport",
+     "stdio"
+    ],
+    "env": {
+     "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "BRAVE_API_KEY",
+     "libelle": "Clé API Brave Search",
+     "secret": true,
+     "aide": "brave.com/search/api"
+    }
+   ],
+   "licence": "MIT",
+   "version": "2.1.4"
+  },
+  {
+   "id": "deepl",
+   "type": "mcp",
+   "nom": "Traduction (DeepL)",
+   "description": "Traduction de textes et de documents, reformulation, glossaires, avec ta clé DeepL. Offre API gratuite limitée, puis payante. ATTENTION : les textes sont ENVOYÉS à DeepL ; l'outil de traduction de document lit n'importe quel fichier du PC dont l'agent donne le chemin, l'ENVOIE à DeepL et écrit la traduction dans un nouveau fichier sur le PC (un fichier existant n'est pas écrasé : l'outil échoue).",
+   "auteur": "DeepL",
+   "verifie": true,
+   "categorie": "ecriture",
+   "essai": "Traduis cette fiche produit en anglais et en allemand avec le glossaire de la marque.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "deepl-mcp-server@1.3.15"
+    ],
+    "env": {
+     "DEEPL_API_KEY": "${DEEPL_API_KEY}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "DEEPL_API_KEY",
+     "libelle": "Clé API DeepL",
+     "secret": true,
+     "aide": "deepl.com → Compte → Clé d'authentification API"
+    }
+   ],
+   "licence": "MIT",
+   "version": "1.3.15"
+  },
+  {
+   "id": "mapbox",
+   "type": "mcp",
+   "nom": "Cartes et itinéraires (Mapbox)",
+   "description": "Géocodage d'adresses, itinéraires, temps de trajet, zones accessibles en X minutes, cartes statiques. Jeton Mapbox requis (offre gratuite limitée).",
+   "auteur": "Mapbox",
+   "verifie": true,
+   "categorie": "vie-pratique",
+   "essai": "Quels quartiers sont à moins de 20 minutes à vélo du bureau ?",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mapbox/mcp-server@0.16.0"
+    ],
+    "env": {
+     "MAPBOX_ACCESS_TOKEN": "${MAPBOX_ACCESS_TOKEN}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "MAPBOX_ACCESS_TOKEN",
+     "libelle": "Jeton d'accès Mapbox",
+     "secret": true,
+     "aide": "account.mapbox.com → Access tokens (jeton public suffisant)"
+    }
+   ],
+   "licence": "MIT",
+   "version": "0.16.0"
+  },
+  {
+   "id": "xero",
+   "type": "mcp",
+   "nom": "Xero (comptabilité)",
+   "description": "Les agents lisent contacts, factures, comptes et rapports Xero. ATTENTION : peuvent aussi créer ou modifier factures, contacts et PAIEMENTS, et SUPPRIMER des feuilles de temps de paie. Connexion personnalisée Xero requise.",
+   "auteur": "Xero",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Liste les factures clients en retard et prépare les relances.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@xeroapi/xero-mcp-server@0.0.17"
+    ],
+    "env": {
+     "XERO_CLIENT_ID": "${XERO_CLIENT_ID}",
+     "XERO_CLIENT_SECRET": "${XERO_CLIENT_SECRET}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "XERO_CLIENT_ID",
+     "libelle": "Identifiant client Xero (connexion personnalisée)",
+     "secret": true,
+     "aide": "developer.xero.com → My Apps → Custom connection"
+    },
+    {
+     "nom": "XERO_CLIENT_SECRET",
+     "libelle": "Secret client Xero",
+     "secret": true,
+     "aide": "developer.xero.com → My Apps"
+    }
+   ],
+   "licence": "MIT",
+   "version": "0.0.17"
+  },
+  {
+   "id": "monday",
+   "type": "mcp",
+   "nom": "monday.com (projets)",
+   "description": "Les agents lisent tableaux, éléments, colonnes et formulaires monday.com. Lancé en lecture seule (--read-only) : sans cette option, il pourrait modifier et SUPPRIMER définitivement des éléments. Jeton d'API monday.com requis ; les appels comptent dans le quota du compte. Demande Node.js 20 ou plus récent.",
+   "auteur": "monday.com",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Résume l'avancement des éléments du tableau Lancement et ce qui est en retard.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mondaydotcomorg/monday-api-mcp@3.3.1",
+     "--read-only"
+    ],
+    "env": {
+     "MONDAY_TOKEN": "${MONDAY_TOKEN}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "MONDAY_TOKEN",
+     "libelle": "Jeton d'API monday.com",
+     "secret": true,
+     "aide": "monday.com → avatar → Developers → My access tokens"
+    }
+   ],
+   "licence": "MIT",
+   "version": "3.3.1"
+  },
+  {
+   "id": "todoist",
+   "type": "mcp",
+   "nom": "Todoist (tâches)",
+   "description": "Les agents lisent, ajoutent, terminent et replanifient tâches, projets et rappels Todoist. ATTENTION : peut aussi SUPPRIMER une tâche, un projet ou un commentaire (outil delete-object) et assigner des tâches à des collaborateurs. Clé API Todoist requise. Demande Node.js 24 ou plus récent.",
+   "auteur": "Doist",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Ajoute les actions de ce compte rendu dans mon projet Travail.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@doist/todoist-mcp@13.7.2"
+    ],
+    "env": {
+     "TODOIST_API_KEY": "${TODOIST_API_KEY}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "TODOIST_API_KEY",
+     "libelle": "Clé API Todoist",
+     "secret": true,
+     "aide": "todoist.com → Paramètres → Intégrations → Développeur"
+    }
+   ],
+   "licence": "MIT",
+   "version": "13.7.2"
+  },
+  {
+   "id": "airtable",
+   "type": "mcp",
+   "nom": "Airtable",
+   "description": "Les agents lisent et modifient bases, tables et enregistrements Airtable avec un jeton personnel. ATTENTION : peut SUPPRIMER des enregistrements (outil delete_records). Donne au jeton uniquement les bases et droits nécessaires (lecture seule si possible).",
+   "auteur": "Communauté (domdomegg)",
+   "verifie": false,
+   "categorie": "organisation",
+   "essai": "Liste les inscrits de l'atelier de samedi et ceux sans confirmation.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "airtable-mcp-server@1.14.0"
+    ],
+    "env": {
+     "AIRTABLE_API_KEY": "${AIRTABLE_API_KEY}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "AIRTABLE_API_KEY",
+     "libelle": "Jeton d'accès personnel Airtable",
+     "secret": true,
+     "aide": "airtable.com/create/tokens (portées et bases limitées)"
+    }
+   ],
+   "licence": "MIT",
+   "version": "1.14.0"
+  },
+  {
+   "id": "obsidian",
+   "type": "mcp",
+   "nom": "Obsidian (notes)",
+   "description": "Les agents cherchent, lisent et modifient les notes de ton coffre Obsidian. Demande Obsidian ouvert avec le module « Local REST API ». Peut supprimer des notes : garde une sauvegarde.",
+   "auteur": "Communauté (MarkusPfundstein)",
+   "verifie": false,
+   "categorie": "organisation",
+   "essai": "Rassemble mes notes sur le projet Jardin dans une note de synthèse.",
+   "config": {
+    "command": "uvx",
+    "args": [
+     "mcp-obsidian==0.2.3"
+    ],
+    "env": {
+     "OBSIDIAN_API_KEY": "${OBSIDIAN_API_KEY}"
+    }
+   },
+   "prerequis": [
+    "uv"
+   ],
+   "variables": [
+    {
+     "nom": "OBSIDIAN_API_KEY",
+     "libelle": "Clé du module Local REST API",
+     "secret": true,
+     "aide": "Obsidian → Réglages → Local REST API"
+    }
+   ],
+   "licence": "MIT (dépôt)",
+   "version": "0.2.3"
+  },
+  {
+   "id": "wordpress",
+   "type": "mcp",
+   "nom": "WordPress (site)",
+   "description": "Les agents lisent et modifient articles, pages et réglages de ton site WordPress (et WooCommerce). ATTENTION : peut PUBLIER, et SUPPRIMER si le site expose cette capacité ; donne au jeton un rôle limité (Contributeur). Demande l'extension « MCP Adapter » sur le site et un jeton d'accès.",
+   "auteur": "Automattic",
+   "verifie": true,
+   "categorie": "web",
+   "essai": "Prépare le brouillon d'un article à partir de ce texte, sans le publier.",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@automattic/mcp-wordpress-remote@0.5.4"
+    ],
+    "env": {
+     "WP_API_URL": "${WP_API_URL}",
+     "JWT_TOKEN": "${WP_JWT_TOKEN}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "WP_API_URL",
+     "libelle": "Adresse MCP du site",
+     "secret": false,
+     "aide": "https://ton-site/wp-json/mcp/mcp-adapter-default-server"
+    },
+    {
+     "nom": "WP_JWT_TOKEN",
+     "libelle": "Jeton JWT du site",
+     "secret": true,
+     "aide": "Généré par l'extension d'authentification du site"
+    }
+   ],
+   "licence": "MIT",
+   "version": "0.5.4"
+  },
+  {
+   "id": "dataforseo",
+   "type": "mcp",
+   "nom": "SEO (DataForSEO)",
+   "description": "Positions dans les moteurs, mots-clés, liens entrants, audit de pages, avec ton compte DataForSEO. Service payant à l'usage.",
+   "auteur": "DataForSEO",
+   "verifie": true,
+   "categorie": "marketing",
+   "essai": "Sur quels mots-clés mon site est-il entre la 5e et la 15e position ?",
+   "config": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "dataforseo-mcp-server@3.1.3"
+    ],
+    "env": {
+     "DATAFORSEO_LOGIN": "${DATAFORSEO_LOGIN}",
+     "DATAFORSEO_PASSWORD": "${DATAFORSEO_PASSWORD}"
+    }
+   },
+   "prerequis": [
+    "node"
+   ],
+   "variables": [
+    {
+     "nom": "DATAFORSEO_LOGIN",
+     "libelle": "Identifiant API DataForSEO",
+     "secret": true,
+     "aide": "app.dataforseo.com → API access"
+    },
+    {
+     "nom": "DATAFORSEO_PASSWORD",
+     "libelle": "Mot de passe API DataForSEO",
+     "secret": true,
+     "aide": "app.dataforseo.com → API access"
+    }
+   ],
+   "licence": "Apache-2.0",
+   "version": "3.1.3"
+  },
+  {
+   "id": "logiciel-kdenlive",
+   "type": "logiciel",
+   "nom": "Kdenlive",
+   "description": "Montage vidéo libre (multipiste, titres, sous-titres).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "video",
+   "executables": [
+    "kdenlive.exe",
+    "kdenlive"
+   ],
+   "chemins": [
+    "C:/Program Files/kdenlive/bin/kdenlive.exe"
+   ],
+   "winget": "KDE.Kdenlive",
+   "site": "https://kdenlive.org/download/",
+   "licence": "GPL-3.0",
+   "version": "26.08.2"
+  },
+  {
+   "id": "logiciel-shotcut",
+   "type": "logiciel",
+   "nom": "Shotcut",
+   "description": "Montage vidéo libre et simple.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "video",
+   "executables": [
+    "shotcut.exe",
+    "shotcut"
+   ],
+   "chemins": [
+    "C:/Program Files/Shotcut/shotcut.exe"
+   ],
+   "winget": "Meltytech.Shotcut",
+   "site": "https://shotcut.org/download/",
+   "licence": "GPL-3.0",
+   "version": "26.9.27"
+  },
+  {
+   "id": "logiciel-handbrake",
+   "type": "logiciel",
+   "nom": "HandBrake",
+   "description": "Convertir et compresser des vidéos.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "video",
+   "executables": [
+    "HandBrake.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/HandBrake/HandBrake.exe"
+   ],
+   "winget": "HandBrake.HandBrake",
+   "site": "https://handbrake.fr/downloads.php",
+   "licence": "GPL-2.0",
+   "version": "1.11.2"
+  },
+  {
+   "id": "logiciel-losslesscut",
+   "type": "logiciel",
+   "nom": "LosslessCut",
+   "description": "Couper et assembler des vidéos sans perte de qualité.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "video",
+   "executables": [
+    "LosslessCut.exe"
+   ],
+   "chemins": [],
+   "winget": "ch.LosslessCut",
+   "site": "https://github.com/mifi/lossless-cut/releases",
+   "licence": "GPL-2.0-only",
+   "version": "3.70.1"
+  },
+  {
+   "id": "logiciel-vlc",
+   "type": "logiciel",
+   "nom": "VLC",
+   "description": "Lire toutes les vidéos et musiques, convertir des fichiers.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "video",
+   "executables": [
+    "vlc.exe",
+    "vlc"
+   ],
+   "chemins": [
+    "C:/Program Files/VideoLAN/VLC/vlc.exe"
+   ],
+   "winget": "VideoLAN.VLC",
+   "site": "https://www.videolan.org/vlc/",
+   "licence": "GPL-2.0",
+   "version": "3.0.24"
+  },
+  {
+   "id": "logiciel-mediainfo",
+   "type": "logiciel",
+   "nom": "MediaInfo",
+   "description": "Voir les informations techniques d'un fichier vidéo ou audio.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "video",
+   "executables": [
+    "MediaInfo.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/MediaInfo/MediaInfo.exe"
+   ],
+   "winget": "MediaArea.MediaInfo.GUI",
+   "site": "https://mediaarea.net/fr/MediaInfo",
+   "licence": "BSD-2-Clause",
+   "version": "26.10"
+  },
+  {
+   "id": "logiciel-subtitle-edit",
+   "type": "logiciel",
+   "nom": "Subtitle Edit",
+   "description": "Créer, synchroniser et traduire des sous-titres.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ecriture",
+   "executables": [
+    "SubtitleEdit.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Subtitle Edit/SubtitleEdit.exe"
+   ],
+   "winget": "Nikse.SubtitleEdit",
+   "site": "https://www.nikse.dk/subtitleedit",
+   "licence": "MIT",
+   "version": "5.3.0.0"
+  },
+  {
+   "id": "logiciel-aegisub",
+   "type": "logiciel",
+   "nom": "Aegisub",
+   "description": "Sous-titres avancés (styles, karaoké, synchronisation fine).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ecriture",
+   "executables": [
+    "aegisub.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Aegisub/aegisub.exe"
+   ],
+   "winget": "Aegisub.Aegisub",
+   "site": "https://aegisub.org/downloads/",
+   "licence": "GPL-2.0",
+   "version": "3.5.1"
+  },
+  {
+   "id": "logiciel-darktable",
+   "type": "logiciel",
+   "nom": "darktable",
+   "description": "Développement de photos RAW et gestion de photothèque.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "design",
+   "executables": [
+    "darktable.exe",
+    "darktable"
+   ],
+   "chemins": [
+    "C:/Program Files/darktable/bin/darktable.exe"
+   ],
+   "winget": "darktable.darktable",
+   "site": "https://www.darktable.org/install/",
+   "licence": "GPL-3.0",
+   "version": "5.6.2"
+  },
+  {
+   "id": "logiciel-rawtherapee",
+   "type": "logiciel",
+   "nom": "RawTherapee",
+   "description": "Développement de photos RAW.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "design",
+   "executables": [
+    "rawtherapee.exe",
+    "rawtherapee"
+   ],
+   "chemins": [
+    "C:/Program Files/RawTherapee/*/rawtherapee.exe"
+   ],
+   "winget": "RawTherapee.RawTherapee",
+   "site": "https://www.rawtherapee.com/downloads/",
+   "licence": "GPL-3.0",
+   "version": "5.13"
+  },
+  {
+   "id": "logiciel-digikam",
+   "type": "logiciel",
+   "nom": "digiKam",
+   "description": "Classer, étiqueter et retrouver ses photos.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "design",
+   "executables": [
+    "digikam.exe",
+    "digikam"
+   ],
+   "chemins": [
+    "C:/Program Files/digiKam/digikam.exe"
+   ],
+   "winget": "KDE.digiKam",
+   "site": "https://www.digikam.org/download/",
+   "licence": "GPL-2.0-or-later",
+   "version": "9.1.0"
+  },
+  {
+   "id": "logiciel-imagemagick",
+   "type": "logiciel",
+   "nom": "ImageMagick",
+   "description": "Traiter des images par lot (redimensionner, convertir, filigraner).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "design",
+   "executables": [
+    "magick.exe",
+    "magick"
+   ],
+   "chemins": [
+    "C:/Program Files/ImageMagick-*/magick.exe"
+   ],
+   "winget": "ImageMagick.ImageMagick",
+   "site": "https://imagemagick.org/script/download.php",
+   "licence": "ImageMagick",
+   "version": "7.1.2.34"
+  },
+  {
+   "id": "logiciel-opentoonz",
+   "type": "logiciel",
+   "nom": "OpenToonz",
+   "description": "Animation 2D professionnelle (utilisée par des studios d'animation).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "3d",
+   "executables": [
+    "OpenToonz.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/OpenToonz/OpenToonz.exe"
+   ],
+   "winget": "DWANGO.OpenToonz",
+   "site": "https://opentoonz.github.io/e/",
+   "licence": "BSD-3",
+   "version": "1.8.0"
+  },
+  {
+   "id": "logiciel-hydrogen",
+   "type": "logiciel",
+   "nom": "Hydrogen",
+   "description": "Boîte à rythmes et séquenceur de batterie.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "son",
+   "executables": [
+    "hydrogen.exe",
+    "hydrogen"
+   ],
+   "chemins": [
+    "C:/Program Files/Hydrogen/hydrogen.exe"
+   ],
+   "winget": "Hydrogen-Music.Hydrogen",
+   "site": "http://hydrogen-music.org/downloads",
+   "licence": "GPL-2.0",
+   "version": "1.2.7"
+  },
+  {
+   "id": "logiciel-calibre",
+   "type": "logiciel",
+   "nom": "calibre",
+   "description": "Gérer, convertir et éditer des livres numériques.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ecriture",
+   "executables": [
+    "calibre.exe",
+    "calibre"
+   ],
+   "chemins": [
+    "C:/Program Files/Calibre2/calibre.exe"
+   ],
+   "winget": "calibre.calibre",
+   "site": "https://calibre-ebook.com/download",
+   "licence": "GPL-3.0",
+   "version": "9.17.0"
+  },
+  {
+   "id": "logiciel-sigil",
+   "type": "logiciel",
+   "nom": "Sigil",
+   "description": "Éditer et vérifier des livres EPUB.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ecriture",
+   "executables": [
+    "Sigil.exe",
+    "sigil"
+   ],
+   "chemins": [
+    "C:/Program Files/Sigil/Sigil.exe"
+   ],
+   "winget": "Sigil-Ebook.Sigil",
+   "site": "https://sigil-ebook.com/",
+   "licence": "GNU General Public License v3.0",
+   "version": "2.8.1"
+  },
+  {
+   "id": "logiciel-zettlr",
+   "type": "logiciel",
+   "nom": "Zettlr",
+   "description": "Écriture longue en Markdown avec citations Zotero.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ecriture",
+   "executables": [
+    "Zettlr.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Zettlr/Zettlr.exe",
+    "~/AppData/Local/Programs/Zettlr/Zettlr.exe"
+   ],
+   "winget": "Zettlr.Zettlr",
+   "site": "https://www.zettlr.com/download",
+   "licence": "GPL-3.0",
+   "version": "4.9.0"
+  },
+  {
+   "id": "logiciel-pandoc",
+   "type": "logiciel",
+   "nom": "Pandoc",
+   "description": "Convertir entre Word, Markdown, HTML, EPUB, PDF (avec LaTeX).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "documents",
+   "executables": [
+    "pandoc.exe",
+    "pandoc"
+   ],
+   "chemins": [
+    "~/AppData/Local/Pandoc/pandoc.exe",
+    "C:/Program Files/Pandoc/pandoc.exe"
+   ],
+   "winget": "JohnMacFarlane.Pandoc",
+   "site": "https://pandoc.org/installing.html",
+   "licence": "GPL-2.0",
+   "version": "3.13"
+  },
+  {
+   "id": "logiciel-thunderbird",
+   "type": "logiciel",
+   "nom": "Thunderbird",
+   "description": "Mails, agenda et contacts.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "thunderbird.exe",
+    "thunderbird"
+   ],
+   "chemins": [
+    "C:/Program Files/Mozilla Thunderbird/thunderbird.exe"
+   ],
+   "winget": "Mozilla.Thunderbird",
+   "site": "https://www.thunderbird.net/fr/",
+   "licence": "MPL-2.0",
+   "version": "159.0"
+  },
+  {
+   "id": "logiciel-obsidian",
+   "type": "logiciel",
+   "nom": "Obsidian",
+   "description": "Notes en Markdown reliées entre elles (gratuit pour un usage personnel). (gratuit (usage personnel) ; propriétaire).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "Obsidian.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Programs/Obsidian/Obsidian.exe"
+   ],
+   "winget": "Obsidian.Obsidian",
+   "site": "https://obsidian.md/download",
+   "licence": "Proprietary",
+   "version": "1.14.5"
+  },
+  {
+   "id": "logiciel-joplin",
+   "type": "logiciel",
+   "nom": "Joplin",
+   "description": "Notes et listes, synchronisées et chiffrables.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "Joplin.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Joplin/Joplin.exe",
+    "~/AppData/Local/Programs/Joplin/Joplin.exe"
+   ],
+   "winget": "Joplin.Joplin",
+   "site": "https://joplinapp.org/fr/download/",
+   "licence": "AGPL-3.0-or-later",
+   "version": "3.7.22"
+  },
+  {
+   "id": "logiciel-logseq",
+   "type": "logiciel",
+   "nom": "Logseq",
+   "description": "Notes en plan et journal quotidien.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "Logseq.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Logseq/Logseq.exe"
+   ],
+   "winget": "Logseq.Logseq",
+   "site": "https://logseq.com/downloads",
+   "licence": "AGPL-3.0",
+   "version": "2.0.2"
+  },
+  {
+   "id": "logiciel-pdfsam",
+   "type": "logiciel",
+   "nom": "PDFsam Basic",
+   "description": "Fusionner, découper, extraire et faire pivoter des PDF.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "documents",
+   "executables": [
+    "pdfsam.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/PDFsam Basic/pdfsam.exe"
+   ],
+   "winget": "PDFsam.PDFsam",
+   "site": "https://pdfsam.org/fr/download-pdfsam-basic/",
+   "licence": "AGPL-3.0",
+   "version": "6.0.6.0"
+  },
+  {
+   "id": "logiciel-naps2",
+   "type": "logiciel",
+   "nom": "NAPS2",
+   "description": "Numériser des documents en PDF avec reconnaissance de texte.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "documents",
+   "executables": [
+    "NAPS2.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/NAPS2/NAPS2.exe"
+   ],
+   "winget": "Cyanfish.NAPS2",
+   "site": "https://www.naps2.com/download",
+   "licence": "GPL-2.0",
+   "version": "8.6.0"
+  },
+  {
+   "id": "logiciel-okular",
+   "type": "logiciel",
+   "nom": "Okular",
+   "description": "Lire et annoter des PDF et livres numériques.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "documents",
+   "executables": [
+    "okular.exe",
+    "okular"
+   ],
+   "chemins": [
+    "C:/Program Files/Okular/bin/okular.exe"
+   ],
+   "winget": "KDE.Okular",
+   "site": "https://okular.kde.org/fr/download/",
+   "licence": "GPL-2.0-or-later",
+   "version": "26.08.1"
+  },
+  {
+   "id": "logiciel-onlyoffice",
+   "type": "logiciel",
+   "nom": "ONLYOFFICE",
+   "description": "Suite bureautique très compatible avec les fichiers Word, Excel et PowerPoint.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "documents",
+   "executables": [
+    "DesktopEditors.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/ONLYOFFICE/DesktopEditors/DesktopEditors.exe"
+   ],
+   "winget": "ONLYOFFICE.DesktopEditors",
+   "site": "https://www.onlyoffice.com/fr/download-desktop.aspx",
+   "licence": "AGPL-3.0",
+   "version": "10.0.0"
+  },
+  {
+   "id": "logiciel-notepadpp",
+   "type": "logiciel",
+   "nom": "Notepad++",
+   "description": "Éditeur de texte léger (fichiers texte, CSV, code).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "notepad++.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Notepad++/notepad++.exe"
+   ],
+   "winget": "Notepad++.Notepad++",
+   "site": "https://notepad-plus-plus.org/downloads/",
+   "licence": "GPL-3.0-or-later",
+   "version": "8.9.8.1"
+  },
+  {
+   "id": "logiciel-7zip",
+   "type": "logiciel",
+   "nom": "7-Zip",
+   "description": "Compresser et décompresser des archives.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "7z.exe",
+    "7z"
+   ],
+   "chemins": [
+    "C:/Program Files/7-Zip/7z.exe"
+   ],
+   "winget": "7zip.7zip",
+   "site": "https://www.7-zip.org/download.html",
+   "licence": "LGPL-2.1",
+   "version": "26.05"
+  },
+  {
+   "id": "logiciel-powertoys",
+   "type": "logiciel",
+   "nom": "PowerToys",
+   "description": "Outils Windows : renommage en masse, redimensionnement d'images, texte dans les captures.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "PowerToys.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/PowerToys/PowerToys.exe",
+    "~/AppData/Local/PowerToys/PowerToys.exe"
+   ],
+   "winget": "Microsoft.PowerToys",
+   "site": "https://learn.microsoft.com/fr-fr/windows/powertoys/install",
+   "licence": "MIT",
+   "version": "0.102.3001"
+  },
+  {
+   "id": "logiciel-sharex",
+   "type": "logiciel",
+   "nom": "ShareX",
+   "description": "Captures d'écran, enregistrements courts et annotations.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "ShareX.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/ShareX/ShareX.exe"
+   ],
+   "winget": "ShareX.ShareX",
+   "site": "https://getsharex.com/downloads",
+   "licence": "GPL-3.0",
+   "version": "21.0.0"
+  },
+  {
+   "id": "logiciel-nextcloud",
+   "type": "logiciel",
+   "nom": "Nextcloud (client)",
+   "description": "Synchroniser ses fichiers avec un serveur Nextcloud (hébergé ou associatif).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "nextcloud.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Nextcloud/nextcloud.exe"
+   ],
+   "winget": "Nextcloud.NextcloudDesktop",
+   "site": "https://nextcloud.com/fr/install/#desktop-files",
+   "licence": "GPL-2.0",
+   "version": "35.0.0"
+  },
+  {
+   "id": "logiciel-freeplane",
+   "type": "logiciel",
+   "nom": "Freeplane",
+   "description": "Cartes mentales et plans d'idées.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "freeplane.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Freeplane/freeplane.exe"
+   ],
+   "winget": "Freeplane.Freeplane",
+   "site": "https://docs.freeplane.org/",
+   "licence": "GPL-2.0",
+   "version": "1.13.3"
+  },
+  {
+   "id": "logiciel-drawio",
+   "type": "logiciel",
+   "nom": "draw.io",
+   "description": "Schémas, organigrammes, plans de processus, diagrammes.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "organisation",
+   "executables": [
+    "draw.io.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/draw.io/draw.io.exe"
+   ],
+   "winget": "JGraph.Draw",
+   "site": "https://github.com/jgraph/drawio-desktop/releases",
+   "licence": "GPL-3.0",
+   "version": "32.6.1"
+  },
+  {
+   "id": "logiciel-firefox",
+   "type": "logiciel",
+   "nom": "Firefox",
+   "description": "Navigateur web libre, avec outils de développement et d'accessibilité.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "web",
+   "executables": [
+    "firefox.exe",
+    "firefox"
+   ],
+   "chemins": [
+    "C:/Program Files/Mozilla Firefox/firefox.exe"
+   ],
+   "winget": "Mozilla.Firefox",
+   "site": "https://www.mozilla.org/fr/firefox/new/",
+   "licence": "MPL-2.0",
+   "version": "157.0.1"
+  },
+  {
+   "id": "logiciel-gnucash",
+   "type": "logiciel",
+   "nom": "GnuCash",
+   "description": "Comptabilité en partie double pour particuliers et petites structures.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "gestion",
+   "executables": [
+    "gnucash.exe"
+   ],
+   "chemins": [
+    "C:/Program Files*/gnucash/bin/gnucash.exe"
+   ],
+   "winget": "GnuCash.GnuCash",
+   "site": "https://www.gnucash.org/download.phtml",
+   "licence": "GPL-2.0-or-later",
+   "version": "5.17"
+  },
+  {
+   "id": "logiciel-homebank",
+   "type": "logiciel",
+   "nom": "HomeBank",
+   "description": "Suivi de comptes et budget personnel.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "vie-pratique",
+   "executables": [
+    "homebank.exe"
+   ],
+   "chemins": [
+    "C:/Program Files*/HomeBank/bin/homebank.exe"
+   ],
+   "winget": "HomeBank.HomeBank",
+   "site": "http://homebank.free.fr/fr/downloads.php",
+   "licence": "GPL-2.0-or-later",
+   "version": "5.10.3"
+  },
+  {
+   "id": "logiciel-dolibarr",
+   "type": "logiciel",
+   "nom": "Dolibarr",
+   "description": "ERP et CRM libre : devis, factures, stocks, clients, adhérents (installation locale ou hébergée).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "gestion",
+   "executables": [],
+   "chemins": [
+    "C:/dolibarr/*"
+   ],
+   "winget": "",
+   "site": "https://www.dolibarr.org/downloads.php",
+   "licence": "GPL-3.0",
+   "version": "24.0.1"
+  },
+  {
+   "id": "logiciel-r",
+   "type": "logiciel",
+   "nom": "R",
+   "description": "Langage de statistiques et de graphiques.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "R.exe",
+    "R"
+   ],
+   "chemins": [
+    "C:/Program Files/R/R-*/bin/R.exe"
+   ],
+   "winget": "RProject.R",
+   "site": "https://cran.r-project.org/bin/windows/base/",
+   "licence": "GPL-2.0-or-later",
+   "version": "4.6.1"
+  },
+  {
+   "id": "logiciel-rstudio",
+   "type": "logiciel",
+   "nom": "RStudio",
+   "description": "Environnement de travail pour R (et Python). Demande R installé AVANT (entrée « R » du catalogue) : RStudio ne l'inclut pas.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "rstudio.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/RStudio/rstudio.exe"
+   ],
+   "winget": "Posit.RStudio",
+   "site": "https://posit.co/download/rstudio-desktop/",
+   "licence": "AGPL-3.0",
+   "version": "2026.10.1+239"
+  },
+  {
+   "id": "logiciel-jasp",
+   "type": "logiciel",
+   "nom": "JASP",
+   "description": "Statistiques en quelques clics (tests, régressions, bayésien).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "JASP.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/JASP/JASP.exe"
+   ],
+   "winget": "JASP.JASP",
+   "site": "https://jasp-stats.org/download/",
+   "licence": "AGPL-3.0",
+   "version": "0.99.0.0"
+  },
+  {
+   "id": "logiciel-jamovi",
+   "type": "logiciel",
+   "nom": "jamovi",
+   "description": "Statistiques simples à prendre en main, sur la base de R.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "jamovi.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/jamovi */bin/jamovi.exe"
+   ],
+   "winget": "Jamovi.Desktop.Solid",
+   "site": "https://www.jamovi.org/download.html",
+   "licence": "AGPL-3.0",
+   "version": "2.7.41.0"
+  },
+  {
+   "id": "logiciel-knime",
+   "type": "logiciel",
+   "nom": "KNIME Analytics Platform",
+   "description": "Préparer et analyser des données en blocs visuels, sans coder.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "knime.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/KNIME/knime.exe"
+   ],
+   "winget": "KNIMEAG.KNIMEAnalyticsPlatform",
+   "site": "https://www.knime.com/downloads",
+   "licence": "General Public License (GPL), Version 3, and Additional Permissions",
+   "version": "5.12.0"
+  },
+  {
+   "id": "logiciel-qgis",
+   "type": "logiciel",
+   "nom": "QGIS",
+   "description": "Cartographie et analyse géographique (SIG).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "qgis-bin.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/QGIS */bin/qgis-bin.exe"
+   ],
+   "winget": "OSGeo.QGIS",
+   "site": "https://qgis.org/download/",
+   "licence": "GPL-2.0",
+   "version": "4.2.3"
+  },
+  {
+   "id": "logiciel-powerbi",
+   "type": "logiciel",
+   "nom": "Power BI Desktop",
+   "description": "Tableaux de bord et rapports (Windows ; gratuit en local, partage payant). (gratuit en local ; partage avec compte payant).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "PBIDesktop.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Microsoft Power BI Desktop/bin/PBIDesktop.exe"
+   ],
+   "winget": "Microsoft.PowerBI",
+   "site": "https://www.microsoft.com/fr-fr/power-platform/products/power-bi/desktop",
+   "licence": "Proprietary",
+   "version": "2.159.883.0"
+  },
+  {
+   "id": "logiciel-duckdb",
+   "type": "logiciel",
+   "nom": "DuckDB",
+   "description": "Base d'analyse en ligne de commande : SQL sur CSV, Excel et Parquet.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "duckdb.exe",
+    "duckdb"
+   ],
+   "chemins": [],
+   "winget": "DuckDB.cli",
+   "site": "https://duckdb.org/install/",
+   "licence": "MIT",
+   "version": "1.5.6"
+  },
+  {
+   "id": "logiciel-gephi",
+   "type": "logiciel",
+   "nom": "Gephi",
+   "description": "Visualiser et analyser des réseaux (graphes).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "gephi64.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Gephi-*/bin/gephi64.exe"
+   ],
+   "winget": "Gephi.Gephi",
+   "site": "https://gephi.org/users/download/",
+   "licence": "CDDL-1.0, GPL-3.0",
+   "version": "0.11.3"
+  },
+  {
+   "id": "logiciel-jupyterlab",
+   "type": "logiciel",
+   "nom": "JupyterLab Desktop",
+   "description": "Notebooks Python pour l'analyse de données et la science.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "donnees",
+   "executables": [
+    "jlab.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/JupyterLab/JupyterLab.exe",
+    "~/AppData/Local/Programs/jupyterlab-desktop/JupyterLab.exe"
+   ],
+   "winget": "ProjectJupyter.JupyterLab",
+   "site": "https://github.com/jupyterlab/jupyterlab-desktop/releases",
+   "licence": "BSD-3-Clause",
+   "version": "4.6.2-1"
+  },
+  {
+   "id": "logiciel-zotero",
+   "type": "logiciel",
+   "nom": "Zotero",
+   "description": "Gérer sa bibliographie, ses PDF et ses citations.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "recherche",
+   "executables": [
+    "zotero.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Zotero/zotero.exe"
+   ],
+   "winget": "DigitalScholar.Zotero",
+   "site": "https://www.zotero.org/download/",
+   "licence": "AGPL-3.0",
+   "version": "10.0.6"
+  },
+  {
+   "id": "logiciel-paraview",
+   "type": "logiciel",
+   "nom": "ParaView",
+   "description": "Visualisation scientifique de grands jeux de données (simulation, imagerie).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "recherche",
+   "executables": [
+    "paraview.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/ParaView */bin/paraview.exe"
+   ],
+   "winget": "Kitware.ParaView",
+   "site": "https://www.paraview.org/download/",
+   "licence": "BSD-3-Clause",
+   "version": "6.2.0"
+  },
+  {
+   "id": "logiciel-anki",
+   "type": "logiciel",
+   "nom": "Anki",
+   "description": "Cartes de révision à répétition espacée.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "enseignement",
+   "executables": [
+    "anki.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Programs/Anki/anki.exe",
+    "C:/Program Files/Anki/anki.exe"
+   ],
+   "winget": "Anki.Anki",
+   "site": "https://apps.ankiweb.net/",
+   "licence": "AGPL-3.0-or-later",
+   "version": "26.09.3"
+  },
+  {
+   "id": "logiciel-geogebra",
+   "type": "logiciel",
+   "nom": "GeoGebra Classic",
+   "description": "Mathématiques dynamiques : géométrie, fonctions, statistiques (gratuit pour l'enseignement). (gratuit (usage non commercial) ; propriétaire).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "enseignement",
+   "executables": [
+    "GeoGebra.exe"
+   ],
+   "chemins": [],
+   "winget": "GeoGebra.Classic",
+   "site": "https://www.geogebra.org/download",
+   "licence": "Proprietary",
+   "version": "6.0.934"
+  },
+  {
+   "id": "logiciel-scratch",
+   "type": "logiciel",
+   "nom": "Scratch 3",
+   "description": "Apprendre à programmer avec des blocs (enfants, débutants). (gratuit).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "enseignement",
+   "executables": [
+    "Scratch 3.exe"
+   ],
+   "chemins": [
+    "C:/Program Files*/Scratch 3/Scratch 3.exe"
+   ],
+   "winget": "MITMediaLab.Scratch.3",
+   "site": "https://scratch.mit.edu/download",
+   "licence": "Freeware",
+   "version": "3.32.1"
+  },
+  {
+   "id": "logiciel-xournalpp",
+   "type": "logiciel",
+   "nom": "Xournal++",
+   "description": "Prise de notes manuscrites et annotation de PDF (stylet, tableau interactif).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "enseignement",
+   "executables": [
+    "xournalpp.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Xournal++/bin/xournalpp.exe"
+   ],
+   "winget": "Xournal++.Xournal++",
+   "site": "https://xournalpp.github.io/installation/windows/",
+   "licence": "GPL-2.0",
+   "version": "1.3.8"
+  },
+  {
+   "id": "logiciel-freecad",
+   "type": "logiciel",
+   "nom": "FreeCAD",
+   "description": "CAO 3D paramétrique (pièces, assemblages, plans, architecture BIM).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "executables": [
+    "FreeCAD.exe",
+    "freecad"
+   ],
+   "chemins": [
+    "C:/Program Files/FreeCAD */bin/FreeCAD.exe"
+   ],
+   "winget": "FreeCAD.FreeCAD",
+   "site": "https://www.freecad.org/downloads.php",
+   "licence": "LGPL-2.0-or-later",
+   "version": "1.1.4"
+  },
+  {
+   "id": "logiciel-kicad",
+   "type": "logiciel",
+   "nom": "KiCad",
+   "description": "Conception électronique : schémas et circuits imprimés.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "executables": [
+    "kicad.exe",
+    "kicad"
+   ],
+   "chemins": [
+    "C:/Program Files/KiCad/*/bin/kicad.exe"
+   ],
+   "winget": "KiCad.KiCad",
+   "site": "https://www.kicad.org/download/windows/",
+   "licence": "GPL-3.0",
+   "version": "10.0.6"
+  },
+  {
+   "id": "logiciel-librecad",
+   "type": "logiciel",
+   "nom": "LibreCAD",
+   "description": "Dessin technique 2D (DXF).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "executables": [
+    "LibreCAD.exe",
+    "librecad"
+   ],
+   "chemins": [
+    "C:/Program Files/LibreCAD/LibreCAD.exe"
+   ],
+   "winget": "LibreCAD.LibreCAD",
+   "site": "https://librecad.org/",
+   "licence": "GPLv2",
+   "version": "2.2.1.6"
+  },
+  {
+   "id": "logiciel-prusaslicer",
+   "type": "logiciel",
+   "nom": "PrusaSlicer",
+   "description": "Préparer les impressions 3D (trancheur).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "executables": [
+    "prusa-slicer.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Prusa3D/PrusaSlicer/prusa-slicer.exe"
+   ],
+   "winget": "Prusa3D.PrusaSlicer",
+   "site": "https://www.prusa3d.com/fr/page/prusaslicer_424/",
+   "licence": "AGPL-3.0",
+   "version": "2.9.6"
+  },
+  {
+   "id": "logiciel-cura",
+   "type": "logiciel",
+   "nom": "UltiMaker Cura",
+   "description": "Trancheur d'impression 3D compatible avec de nombreuses imprimantes.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "executables": [
+    "UltiMaker-Cura.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/UltiMaker Cura */UltiMaker-Cura.exe"
+   ],
+   "winget": "Ultimaker.Cura",
+   "site": "https://ultimaker.com/software/ultimaker-cura/",
+   "licence": "LGPL-3.0",
+   "version": "5.13.0"
+  },
+  {
+   "id": "logiciel-orcaslicer",
+   "type": "logiciel",
+   "nom": "OrcaSlicer",
+   "description": "Trancheur d'impression 3D (Bambu, Prusa, Voron…).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "executables": [
+    "orca-slicer.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/OrcaSlicer/orca-slicer.exe"
+   ],
+   "winget": "SoftFever.OrcaSlicer",
+   "site": "https://github.com/SoftFever/OrcaSlicer/releases",
+   "licence": "AGPL-3.0",
+   "version": "2.4.2"
+  },
+  {
+   "id": "logiciel-arduino",
+   "type": "logiciel",
+   "nom": "Arduino IDE",
+   "description": "Programmer des cartes Arduino et compatibles.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "executables": [
+    "Arduino IDE.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Programs/Arduino IDE/Arduino IDE.exe",
+    "C:/Program Files/Arduino IDE/Arduino IDE.exe"
+   ],
+   "winget": "ArduinoSA.IDE.stable",
+   "site": "https://www.arduino.cc/en/software",
+   "licence": "AGPL-3.0",
+   "version": "2.3.10"
+  },
+  {
+   "id": "logiciel-nvda",
+   "type": "logiciel",
+   "nom": "NVDA",
+   "description": "Lecteur d'écran libre pour Windows : tester l'accessibilité d'un site ou d'un document.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "accessibilite",
+   "executables": [
+    "nvda.exe"
+   ],
+   "chemins": [
+    "C:/Program Files (x86)/NVDA/nvda.exe",
+    "C:/Program Files/NVDA/nvda.exe"
+   ],
+   "winget": "NVAccess.NVDA",
+   "site": "https://www.nvaccess.org/download/",
+   "licence": "GPL V2 with exceptions",
+   "version": "2026.2"
+  },
+  {
+   "id": "logiciel-android-studio",
+   "type": "logiciel",
+   "nom": "Android Studio",
+   "description": "Développer et tester des applis Android (émulateur inclus). (gratuit).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "studio64.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Android/Android Studio/bin/studio64.exe"
+   ],
+   "winget": "Google.AndroidStudio",
+   "site": "https://developer.android.com/studio",
+   "licence": "Android Software Development Kit License Agreement",
+   "version": "2026.2.2.8"
+  },
+  {
+   "id": "logiciel-bruno",
+   "type": "logiciel",
+   "nom": "Bruno",
+   "description": "Tester des API, collections enregistrées dans le projet (sans compte).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "Bruno.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Programs/bruno/Bruno.exe"
+   ],
+   "winget": "Bruno.Bruno",
+   "site": "https://www.usebruno.com/downloads",
+   "licence": "MIT",
+   "version": "4.3.0"
+  },
+  {
+   "id": "logiciel-postman",
+   "type": "logiciel",
+   "nom": "Postman",
+   "description": "Tester et documenter des API (compte demandé pour la plupart des fonctions). (gratuit limité ; compte requis ; propriétaire).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "Postman.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Postman/Postman.exe"
+   ],
+   "winget": "Postman.Postman",
+   "site": "https://www.postman.com/downloads/",
+   "licence": "Proprietary",
+   "version": "12.34.2"
+  },
+  {
+   "id": "logiciel-dbeaver",
+   "type": "logiciel",
+   "nom": "DBeaver Community",
+   "description": "Explorer et interroger toutes les bases de données.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "dbeaver.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/DBeaver/dbeaver.exe"
+   ],
+   "winget": "DBeaver.DBeaver.Community",
+   "site": "https://dbeaver.io/download/",
+   "licence": "Apache-2.0",
+   "version": "26.2.0"
+  },
+  {
+   "id": "logiciel-github-desktop",
+   "type": "logiciel",
+   "nom": "GitHub Desktop",
+   "description": "Git en mode visuel, simple pour débuter.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "GitHubDesktop.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/GitHubDesktop/GitHubDesktop.exe"
+   ],
+   "winget": "GitHub.GitHubDesktop",
+   "site": "https://desktop.github.com/download/",
+   "licence": "MIT",
+   "version": "3.6.10"
+  },
+  {
+   "id": "logiciel-gh",
+   "type": "logiciel",
+   "nom": "GitHub CLI",
+   "description": "GitHub en ligne de commande (issues, pull requests, actions).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "gh.exe",
+    "gh"
+   ],
+   "chemins": [
+    "C:/Program Files/GitHub CLI/gh.exe"
+   ],
+   "winget": "GitHub.cli",
+   "site": "https://cli.github.com/",
+   "licence": "MIT",
+   "version": "2.103.3"
+  },
+  {
+   "id": "logiciel-windows-terminal",
+   "type": "logiciel",
+   "nom": "Windows Terminal",
+   "description": "Terminal moderne pour PowerShell, invite de commandes et WSL.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "wt.exe"
+   ],
+   "chemins": [],
+   "winget": "Microsoft.WindowsTerminal",
+   "site": "https://learn.microsoft.com/fr-fr/windows/terminal/install",
+   "licence": "MIT",
+   "version": "1.25.2733.0"
+  },
+  {
+   "id": "logiciel-rustup",
+   "type": "logiciel",
+   "nom": "Rust (rustup)",
+   "description": "Installer et mettre à jour le langage Rust.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "rustup.exe",
+    "cargo.exe",
+    "rustup"
+   ],
+   "chemins": [
+    "~/.cargo/bin/rustup.exe"
+   ],
+   "winget": "Rustlang.Rustup",
+   "site": "https://rustup.rs/",
+   "licence": "Apache-2.0 or MIT",
+   "version": "1.29.1"
+  },
+  {
+   "id": "logiciel-temurin-jdk",
+   "type": "logiciel",
+   "nom": "Java (Eclipse Temurin 21)",
+   "description": "Java 21 (version longue durée) pour développer et lancer des applis Java.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "java.exe",
+    "java"
+   ],
+   "chemins": [
+    "C:/Program Files/Eclipse Adoptium/jdk-21*/bin/java.exe"
+   ],
+   "winget": "EclipseAdoptium.Temurin.21.JDK",
+   "site": "https://adoptium.net/fr/temurin/releases/",
+   "licence": "GPL-2.0 with Classpath Exception",
+   "version": "21.0.12.101"
+  },
+  {
+   "id": "logiciel-dotnet-sdk",
+   "type": "logiciel",
+   "nom": ".NET SDK 10",
+   "description": "Développer en C# et F# (applis, sites, jeux, outils).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "dotnet.exe",
+    "dotnet"
+   ],
+   "chemins": [
+    "C:/Program Files/dotnet/dotnet.exe"
+   ],
+   "winget": "Microsoft.DotNet.SDK.10",
+   "site": "https://dotnet.microsoft.com/fr-fr/download",
+   "licence": "MIT",
+   "version": "10.0.403"
+  },
+  {
+   "id": "logiciel-go",
+   "type": "logiciel",
+   "nom": "Go",
+   "description": "Langage Go pour serveurs et outils en ligne de commande.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "go.exe",
+    "go"
+   ],
+   "chemins": [
+    "C:/Program Files/Go/bin/go.exe"
+   ],
+   "winget": "GoLang.Go",
+   "site": "https://go.dev/dl/",
+   "licence": "BSD-3-Clause",
+   "version": "1.27.0"
+  },
+  {
+   "id": "logiciel-postgresql",
+   "type": "logiciel",
+   "nom": "PostgreSQL 17",
+   "description": "Base de données relationnelle libre (serveur local).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "psql.exe",
+    "psql"
+   ],
+   "chemins": [
+    "C:/Program Files/PostgreSQL/17/bin/psql.exe"
+   ],
+   "winget": "PostgreSQL.PostgreSQL.17",
+   "site": "https://www.postgresql.org/download/windows/",
+   "licence": "PostgreSQL",
+   "version": "17.11-5"
+  },
+  {
+   "id": "logiciel-podman-desktop",
+   "type": "logiciel",
+   "nom": "Podman Desktop",
+   "description": "Conteneurs sans compte ni abonnement (alternative à Docker Desktop). Demande Windows 10 (build 19043 ou plus) ou 11 en 64 bits, WSL 2 (ou Hyper-V sur les éditions Pro et Entreprise), 6 Go de mémoire pour la machine Podman et des droits administrateur.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "Podman Desktop.exe",
+    "podman.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Programs/podman-desktop/Podman Desktop.exe"
+   ],
+   "winget": "RedHat.Podman-Desktop",
+   "site": "https://podman-desktop.io/downloads",
+   "licence": "Apache License 2.0",
+   "version": "1.30.5"
+  },
+  {
+   "id": "logiciel-kubectl",
+   "type": "logiciel",
+   "nom": "kubectl",
+   "description": "Piloter un cluster Kubernetes en ligne de commande.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "kubectl.exe",
+    "kubectl"
+   ],
+   "chemins": [],
+   "winget": "Kubernetes.kubectl",
+   "site": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
+   "licence": "Apache-2.0",
+   "version": "1.37.2"
+  },
+  {
+   "id": "logiciel-terraform",
+   "type": "logiciel",
+   "nom": "Terraform",
+   "description": "Décrire et déployer une infrastructure cloud en code (licence BUSL, non libre). (gratuit ; licence BUSL-1.1 (source disponible, non libre)).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "terraform.exe",
+    "terraform"
+   ],
+   "chemins": [],
+   "winget": "Hashicorp.Terraform",
+   "site": "https://developer.hashicorp.com/terraform/install",
+   "licence": "BUSL-1.1",
+   "version": "1.16.6"
+  },
+  {
+   "id": "logiciel-aws-cli",
+   "type": "logiciel",
+   "nom": "AWS CLI",
+   "description": "Piloter Amazon Web Services en ligne de commande. (gratuit (compte AWS pour l'utiliser)).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "aws.exe",
+    "aws"
+   ],
+   "chemins": [
+    "C:/Program Files/Amazon/AWSCLIV2/aws.exe"
+   ],
+   "winget": "Amazon.AWSCLI",
+   "site": "https://aws.amazon.com/fr/cli/",
+   "licence": "Apache-2.0",
+   "version": "2.39.1"
+  },
+  {
+   "id": "logiciel-azure-cli",
+   "type": "logiciel",
+   "nom": "Azure CLI",
+   "description": "Piloter Microsoft Azure en ligne de commande. (gratuit (compte Azure pour l'utiliser)).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "code",
+   "executables": [
+    "az.cmd",
+    "az"
+   ],
+   "chemins": [
+    "C:/Program Files/Microsoft SDKs/Azure/CLI2/wbin/az.cmd"
+   ],
+   "winget": "Microsoft.AzureCLI",
+   "site": "https://learn.microsoft.com/fr-fr/cli/azure/install-azure-cli-windows",
+   "licence": "MIT",
+   "version": "2.91.0"
+  },
+  {
+   "id": "logiciel-gdevelop",
+   "type": "logiciel",
+   "nom": "GDevelop",
+   "description": "Créer des jeux 2D et 3D sans coder (blocs d'événements).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "jeu",
+   "executables": [
+    "GDevelop.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Programs/gdevelop/GDevelop.exe"
+   ],
+   "winget": "GDevelop.GDevelop",
+   "site": "https://gdevelop.io/fr-fr/download",
+   "licence": "MIT",
+   "version": "5.6.285"
+  },
+  {
+   "id": "logiciel-tiled",
+   "type": "logiciel",
+   "nom": "Tiled",
+   "description": "Éditeur de cartes et de niveaux en tuiles.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "jeu",
+   "executables": [
+    "tiled.exe"
+   ],
+   "chemins": [
+    "C:/Program Files/Tiled/tiled.exe"
+   ],
+   "winget": "Tiled.Tiled",
+   "site": "https://www.mapeditor.org/download.html",
+   "licence": "GPL 2.0 or later",
+   "version": "1.12.2"
+  },
+  {
+   "id": "logiciel-pixelorama",
+   "type": "logiciel",
+   "nom": "Pixelorama",
+   "description": "Pixel art et animations de sprites.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "jeu",
+   "executables": [
+    "Pixelorama.exe"
+   ],
+   "chemins": [],
+   "winget": "OramaInteractive.Pixelorama",
+   "site": "https://github.com/Orama-Interactive/Pixelorama/releases",
+   "licence": "MIT",
+   "version": "1.2.3"
+  },
+  {
+   "id": "logiciel-material-maker",
+   "type": "logiciel",
+   "nom": "Material Maker",
+   "description": "Créer des matériaux et textures procédurales pour la 3D et les jeux.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "3d",
+   "executables": [
+    "material_maker.exe"
+   ],
+   "chemins": [],
+   "winget": "RodZill4.MaterialMaker",
+   "site": "https://github.com/RodZill4/material-maker/releases",
+   "licence": "MIT",
+   "version": "1.7"
+  },
+  {
+   "id": "logiciel-blockbench",
+   "type": "logiciel",
+   "nom": "Blockbench",
+   "description": "Modèles 3D low-poly et pixel art pour jeux.",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "3d",
+   "executables": [
+    "Blockbench.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Programs/Blockbench/Blockbench.exe"
+   ],
+   "winget": "JannisX11.Blockbench",
+   "site": "https://www.blockbench.net/",
+   "licence": "GPL-3.0",
+   "version": "5.2.2"
+  },
+  {
+   "id": "logiciel-seo-spider",
+   "type": "logiciel",
+   "nom": "Screaming Frog SEO Spider",
+   "description": "Audit SEO technique d'un site (gratuit jusqu'à 500 adresses, licence payante au-delà). (gratuit limité ; licence payante ; propriétaire).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "marketing",
+   "executables": [
+    "ScreamingFrogSEOSpider.exe"
+   ],
+   "chemins": [
+    "C:/Program Files (x86)/Screaming Frog SEO Spider/ScreamingFrogSEOSpider.exe"
+   ],
+   "winget": "ScreamingFrog.SEOSpider",
+   "site": "https://www.screamingfrog.co.uk/seo-spider/",
+   "licence": "Proprietary",
+   "version": "24.3"
+  },
+  {
+   "id": "logiciel-canva",
+   "type": "logiciel",
+   "nom": "Canva",
+   "description": "Visuels, présentations et vidéos à partir de modèles (compte requis ; Pro payant). (compte requis ; gratuit limité ; Pro payant ; propriétaire).",
+   "auteur": "Éditeur officiel",
+   "verifie": true,
+   "categorie": "design",
+   "executables": [
+    "Canva.exe"
+   ],
+   "chemins": [
+    "~/AppData/Local/Programs/Canva/Canva.exe"
+   ],
+   "winget": "Canva.Canva",
+   "site": "https://www.canva.com/fr_fr/telecharger/",
+   "licence": "Proprietary",
+   "version": "1.126.2"
+  },
+  {
+   "id": "meeting-minutes",
+   "type": "skill",
+   "nom": "Compte rendu de réunion",
+   "description": "Décisions, actions avec responsable et échéance, points ouverts, à partir de notes ou d'une transcription.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Fais le compte rendu de la réunion d'équipe à partir de mes notes.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1686,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/meeting-minutes"
+   }
+  },
+  {
+   "id": "project-plan",
+   "type": "skill",
+   "nom": "Plan de projet",
+   "description": "Objectifs, livrables, tâches, planning, RACI, budget, risques et suivi.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Prépare le plan du projet de nouveau site, livraison en mars.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1706,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/project-plan"
+   }
+  },
+  {
+   "id": "workflow-automation",
+   "type": "skill",
+   "nom": "Concevoir une automatisation",
+   "description": "Décrire un flux (déclencheur, étapes, erreurs, contrôles) avant de choisir l'outil d'automatisation.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Automatise l'envoi des devis signés vers mon tableau de suivi.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1904,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/workflow-automation"
+   }
+  },
+  {
+   "id": "spreadsheet-builder",
+   "type": "skill",
+   "nom": "Construire un tableur",
+   "description": "Tableur clair et fiable : données, paramètres, synthèse, contrôles, graphiques.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "documents",
+   "essai": "Crée le tableur de suivi des heures par client.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1758,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/spreadsheet-builder"
+   }
+  },
+  {
+   "id": "inbox-triage",
+   "type": "skill",
+   "nom": "Trier ses mails",
+   "description": "Trier une boîte mail et préparer des brouillons de réponse, sans rien envoyer.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Trie ces 40 mails et prépare les réponses urgentes.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1659,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/inbox-triage"
+   }
+  },
+  {
+   "id": "invoice-preparation",
+   "type": "skill",
+   "nom": "Préparer une facture",
+   "description": "Mentions obligatoires, numérotation, TVA, avoirs, et préparation à la facturation électronique.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Vérifie que mon modèle de facture a toutes les mentions.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2469,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/invoice-preparation"
+   }
+  },
+  {
+   "id": "bookkeeping-prep",
+   "type": "skill",
+   "nom": "Préparer sa comptabilité",
+   "description": "Pièces nommées, opérations catégorisées, rapprochement bancaire, questions pour le comptable.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Prépare le dossier du mois pour mon comptable.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1714,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/bookkeeping-prep"
+   }
+  },
+  {
+   "id": "cash-flow-forecast",
+   "type": "skill",
+   "nom": "Plan de trésorerie",
+   "description": "Encaissements, décaissements et solde mois par mois, avec scénarios.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Fais mon plan de trésorerie sur 6 mois.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1608,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/cash-flow-forecast"
+   }
+  },
+  {
+   "id": "payroll-inputs",
+   "type": "skill",
+   "nom": "Préparer les variables de paie",
+   "description": "Heures, absences, primes, entrées et sorties à transmettre au gestionnaire de paie.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Prépare les variables de paie d'octobre pour 4 salariés.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1732,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/payroll-inputs"
+   }
+  },
+  {
+   "id": "tax-paperwork",
+   "type": "skill",
+   "nom": "Organiser ses démarches fiscales",
+   "description": "Calendrier, pièces à réunir et questions, d'après les sources officielles (sans conseil).",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Prépare la liste des pièces pour ma déclaration de revenus.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1679,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/tax-paperwork"
+   }
+  },
+  {
+   "id": "legal-templates",
+   "type": "skill",
+   "nom": "Documents juridiques courants",
+   "description": "Premiers jets de CGV, mentions légales, contrat simple, à faire relire (sans conseil).",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Prépare les mentions légales de mon site vitrine.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1940,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/legal-templates"
+   }
+  },
+  {
+   "id": "job-posting",
+   "type": "skill",
+   "nom": "Offre d'emploi",
+   "description": "Fiche de poste, annonce non discriminatoire, grille de tri et réponses aux candidats.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Rédige l'offre pour un poste de commis de cuisine.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1766,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/job-posting"
+   }
+  },
+  {
+   "id": "gdpr-records",
+   "type": "skill",
+   "nom": "Registre RGPD",
+   "description": "Registre des traitements, durées de conservation, mentions d'information, demandes d'accès.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Prépare le registre RGPD de l'association.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1988,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/gdpr-records"
+   }
+  },
+  {
+   "id": "quote-builder",
+   "type": "skill",
+   "nom": "Construire un devis",
+   "description": "Devis détaillé (métrés, fournitures, main-d'œuvre, options) avec calcul de marge.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "commerce",
+   "essai": "Chiffre la rénovation de cette salle de bain de 6 m².",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2258,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/quote-builder"
+   }
+  },
+  {
+   "id": "prospecting-plan",
+   "type": "skill",
+   "nom": "Plan de prospection",
+   "description": "Cible, liste de comptes de sources légitimes, messages et relances, dans les règles du RGPD.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vente",
+   "essai": "Prépare la prospection des agences immobilières de la ville.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2609,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/prospecting-plan"
+   }
+  },
+  {
+   "id": "sales-pipeline",
+   "type": "skill",
+   "nom": "Suivi commercial",
+   "description": "Étapes des affaires, prochaines actions, prévisions et analyse.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vente",
+   "essai": "Fais le point commercial de la semaine.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1561,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/sales-pipeline"
+   }
+  },
+  {
+   "id": "newsletter-campaign",
+   "type": "skill",
+   "nom": "Campagne d'emailing",
+   "description": "Objet, contenu, appel à l'action, tests et mesure, avec consentement.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "marketing",
+   "essai": "Prépare la newsletter de décembre de la boutique.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1677,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/newsletter-campaign"
+   }
+  },
+  {
+   "id": "ad-campaign-brief",
+   "type": "skill",
+   "nom": "Brief de campagne publicitaire",
+   "description": "Cible, message, annonces par format, budget, page d'arrivée, suivi.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "marketing",
+   "essai": "Prépare une campagne locale pour l'ouverture du restaurant.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1686,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/ad-campaign-brief"
+   }
+  },
+  {
+   "id": "product-listing",
+   "type": "skill",
+   "nom": "Fiches produits",
+   "description": "Titres, descriptions, caractéristiques, photos à prévoir et import en lot.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "marketing",
+   "essai": "Rédige les fiches de ces 20 produits à partir du tableur.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1752,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/product-listing"
+   }
+  },
+  {
+   "id": "lesson-plan",
+   "type": "skill",
+   "nom": "Préparer un cours",
+   "description": "Objectifs, déroulé minuté, activités, différenciation, évaluation.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "enseignement",
+   "essai": "Prépare une séance de 55 min sur les fractions en 6e.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1770,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/lesson-plan"
+   }
+  },
+  {
+   "id": "quiz-builder",
+   "type": "skill",
+   "nom": "Créer un quiz",
+   "description": "QCM et questions variées avec corrigé, barème et export Moodle (GIFT).",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "enseignement",
+   "essai": "Fais un quiz de 15 questions sur la photosynthèse.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1609,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/quiz-builder"
+   }
+  },
+  {
+   "id": "grading-rubric",
+   "type": "skill",
+   "nom": "Grille d'évaluation",
+   "description": "Critères, niveaux, descripteurs observables et appréciations.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "enseignement",
+   "essai": "Crée la grille d'évaluation de l'exposé oral.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1461,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/grading-rubric"
+   }
+  },
+  {
+   "id": "training-program",
+   "type": "skill",
+   "nom": "Programme de formation",
+   "description": "Objectifs opérationnels, modules, méthodes, évaluation, accessibilité, fiche programme.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "enseignement",
+   "essai": "Conçois une formation de 2 jours à la bureautique.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1756,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/training-program"
+   }
+  },
+  {
+   "id": "study-plan",
+   "type": "skill",
+   "nom": "Plan de révisions",
+   "description": "Planning, fiches, cartes de mémorisation et entraînement, sans faire le travail à la place.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "enseignement",
+   "essai": "Fais mon planning de révisions pour le bac dans 6 semaines.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1629,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/study-plan"
+   }
+  },
+  {
+   "id": "news-article",
+   "type": "skill",
+   "nom": "Article d'information",
+   "description": "Angle, faits sourcés, vérification, pyramide inversée, déontologie.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "ecriture",
+   "essai": "Écris l'article sur la fête du quartier à partir de mes notes.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1752,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/news-article"
+   }
+  },
+  {
+   "id": "translation-workflow",
+   "type": "skill",
+   "nom": "Traduction et localisation",
+   "description": "Glossaire, guide de style, traduction, relecture bilingue, contrôle qualité.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "ecriture",
+   "essai": "Traduis le site en anglais avec un glossaire.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1814,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/translation-workflow"
+   }
+  },
+  {
+   "id": "subtitles",
+   "type": "skill",
+   "nom": "Sous-titres",
+   "description": "Transcription, découpage, synchronisation, sous-titres SME, export SRT ou VTT.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "ecriture",
+   "essai": "Sous-titre cette vidéo de 3 minutes.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1924,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/subtitles"
+   }
+  },
+  {
+   "id": "manuscript-editing",
+   "type": "skill",
+   "nom": "Édition d'un manuscrit",
+   "description": "Lecture éditoriale, préparation de copie, typographie, épreuves, EPUB et PDF.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "ecriture",
+   "essai": "Prépare la feuille de style de mon roman.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1708,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/manuscript-editing"
+   }
+  },
+  {
+   "id": "podcast-production",
+   "type": "skill",
+   "nom": "Produire un podcast",
+   "description": "Conducteur, enregistrement, montage, niveaux, notes d'épisode, publication.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "son",
+   "essai": "Prépare le conducteur du premier épisode.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1741,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/podcast-production"
+   }
+  },
+  {
+   "id": "video-script",
+   "type": "skill",
+   "nom": "Script et découpage vidéo",
+   "description": "Accroche, structure, texte minuté, découpage plan par plan, liste de tournage.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "video",
+   "essai": "Écris le script d'un tutoriel de 2 minutes.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1494,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/video-script"
+   }
+  },
+  {
+   "id": "photo-workflow",
+   "type": "skill",
+   "nom": "Flux de travail photo",
+   "description": "Import, sauvegarde, tri, métadonnées, développement, export, archivage.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "design",
+   "essai": "Organise les 800 photos du mariage de samedi.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1786,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/photo-workflow"
+   }
+  },
+  {
+   "id": "font-pairing",
+   "type": "skill",
+   "nom": "Choisir ses polices",
+   "description": "Associer des polices lisibles et vérifier leurs licences.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "design",
+   "essai": "Propose deux polices pour la charte de la boulangerie.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1883,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/font-pairing"
+   }
+  },
+  {
+   "id": "music-release",
+   "type": "skill",
+   "nom": "Sortie musicale",
+   "description": "Fichiers maîtres, niveaux, métadonnées, ISRC, pochette, droits, calendrier.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "son",
+   "essai": "Prépare la sortie de mon single le mois prochain.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1857,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/music-release"
+   }
+  },
+  {
+   "id": "game-audio",
+   "type": "skill",
+   "nom": "Audio de jeu",
+   "description": "Liste des sons, nommage, musique adaptative, intégration, mixage, accessibilité.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "jeu",
+   "essai": "Prépare la liste des sons du niveau 1.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1943,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/game-audio"
+   }
+  },
+  {
+   "id": "playtest-report",
+   "type": "skill",
+   "nom": "Tests joueurs",
+   "description": "Protocole, questionnaire, observation, synthèse classée par gravité.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "jeu",
+   "essai": "Prépare le playtest de la démo de samedi.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1579,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/playtest-report"
+   }
+  },
+  {
+   "id": "3d-print-prep",
+   "type": "skill",
+   "nom": "Préparer une impression 3D",
+   "description": "Matière, conception, maillage, orientation, supports, réglages du trancheur.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "essai": "Prépare l'impression de ce support de téléphone en PETG.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1810,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/3d-print-prep"
+   }
+  },
+  {
+   "id": "bill-of-materials",
+   "type": "skill",
+   "nom": "Nomenclature (BOM)",
+   "description": "Références, quantités, fournisseurs, prix, alternatives et versions.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "essai": "Fais la nomenclature de cette carte électronique.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1641,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/bill-of-materials"
+   }
+  },
+  {
+   "id": "space-planning",
+   "type": "skill",
+   "nom": "Programme d'aménagement",
+   "description": "Besoins, surfaces, schéma de principe, accessibilité, budget et démarches.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "ingenierie",
+   "essai": "Prépare le réaménagement de ce local de 60 m² en boutique.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1934,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/space-planning"
+   }
+  },
+  {
+   "id": "mobile-release",
+   "type": "skill",
+   "nom": "Publier une appli mobile",
+   "description": "Version, signature, fiche boutique, confidentialité, tests et déploiement progressif.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Prépare la publication de la version 2.0 sur les stores.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1915,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/mobile-release"
+   }
+  },
+  {
+   "id": "database-design",
+   "type": "skill",
+   "nom": "Concevoir une base de données",
+   "description": "Modèle, schéma, contraintes, index, migrations, sauvegardes.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "code",
+   "essai": "Conçois la base de données des réservations.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1793,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/database-design"
+   }
+  },
+  {
+   "id": "survey-design",
+   "type": "skill",
+   "nom": "Questionnaire et enquête",
+   "description": "Questions neutres, échantillon, test, analyse et limites.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "donnees",
+   "essai": "Prépare l'enquête de satisfaction des adhérents.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1845,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/survey-design"
+   }
+  },
+  {
+   "id": "association-assembly",
+   "type": "skill",
+   "nom": "Assemblée générale",
+   "description": "Convocation, rapports, résolutions, quorum, procès-verbal, déclarations.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "associatif",
+   "essai": "Prépare l'AG annuelle de l'association.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1802,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/association-assembly"
+   }
+  },
+  {
+   "id": "grant-application",
+   "type": "skill",
+   "nom": "Demande de subvention",
+   "description": "Cahier des charges, projet, indicateurs, budget, formulaire et compte rendu.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "associatif",
+   "essai": "Monte le dossier de subvention pour l'atelier jeunesse.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1752,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/grant-application"
+   }
+  },
+  {
+   "id": "volunteer-schedule",
+   "type": "skill",
+   "nom": "Planning d'équipe et de bénévoles",
+   "description": "Créneaux, disponibilités, répartition équitable, remplacements, rappels.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "associatif",
+   "essai": "Organise le planning des bénévoles du festival.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1570,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/volunteer-schedule"
+   }
+  },
+  {
+   "id": "membership-management",
+   "type": "skill",
+   "nom": "Adhérents, cotisations et dons",
+   "description": "Fichier des membres, appels à cotisation, registre et reçus de dons, statistiques pour l'AG.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "associatif",
+   "essai": "Prépare l'appel à cotisation de septembre et le suivi des adhérents.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2013,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/membership-management"
+   }
+  },
+  {
+   "id": "practice-admin",
+   "type": "skill",
+   "nom": "Administratif santé et social",
+   "description": "Plannings, accueil, courriers et suivis administratifs, sans aucun contenu médical.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "associatif",
+   "essai": "Organise le planning du secrétariat du cabinet.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1843,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/practice-admin"
+   }
+  },
+  {
+   "id": "property-listing",
+   "type": "skill",
+   "nom": "Annonce immobilière",
+   "description": "Annonce complète et loyale, informations énergétiques, prix et honoraires, fiche de visite.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "commerce",
+   "essai": "Rédige l'annonce de location de ce T2.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1974,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/property-listing"
+   }
+  },
+  {
+   "id": "menu-costing",
+   "type": "skill",
+   "nom": "Fiches techniques et coût matière",
+   "description": "Grammages, coût par portion, prix de vente, 14 allergènes, carte.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "commerce",
+   "essai": "Calcule le coût matière de ces 8 plats.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1956,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/menu-costing"
+   }
+  },
+  {
+   "id": "stock-management",
+   "type": "skill",
+   "nom": "Gestion de stock",
+   "description": "Articles, mouvements, inventaire, seuils, analyse ABC, commandes.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "commerce",
+   "essai": "Mets en place le suivi de stock de la boutique.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1572,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/stock-management"
+   }
+  },
+  {
+   "id": "easy-to-read",
+   "type": "skill",
+   "nom": "Langage clair et FALC",
+   "description": "Réécrire un texte pour qu'il soit facile à lire et à comprendre.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "accessibilite",
+   "essai": "Réécris ce courrier en langage clair.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1778,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/easy-to-read"
+   }
+  },
+  {
+   "id": "alt-text",
+   "type": "skill",
+   "nom": "Textes alternatifs",
+   "description": "Décrire images, graphiques et boutons-images pour les rendre accessibles.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "accessibilite",
+   "essai": "Écris les textes alternatifs des images de cette page.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1682,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/alt-text"
+   }
+  },
+  {
+   "id": "accessible-documents",
+   "type": "skill",
+   "nom": "Documents accessibles",
+   "description": "Styles, ordre de lecture, contrastes, tableaux, PDF balisé, vérification.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "accessibilite",
+   "essai": "Rends ce rapport Word accessible et exporte-le en PDF.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1806,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/accessible-documents"
+   }
+  },
+  {
+   "id": "household-budget",
+   "type": "skill",
+   "nom": "Budget du foyer",
+   "description": "Revenus, dépenses, abonnements, épargne de précaution, suivi mensuel.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vie-pratique",
+   "essai": "Fais notre budget du mois à partir de ces relevés.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1670,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/household-budget"
+   }
+  },
+  {
+   "id": "trip-planning",
+   "type": "skill",
+   "nom": "Préparer un voyage",
+   "description": "Itinéraire, formalités officielles, budget, liste d'affaires, plan B.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vie-pratique",
+   "essai": "Prépare 5 jours à Lisbonne en famille en avril.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1587,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/trip-planning"
+   }
+  },
+  {
+   "id": "admin-procedures",
+   "type": "skill",
+   "nom": "Démarches administratives",
+   "description": "Démarche officielle, pièces, délais, préparation et suivi.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vie-pratique",
+   "essai": "Quelles démarches pour refaire une carte d'identité ?",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1610,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/admin-procedures"
+   }
+  },
+  {
+   "id": "formal-letter",
+   "type": "skill",
+   "nom": "Courrier formel",
+   "description": "Réclamation, résiliation, demande ou contestation, avec mode d'envoi conseillé.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vie-pratique",
+   "essai": "Écris la lettre de résiliation de mon abonnement internet.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1646,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/formal-letter"
+   }
+  },
+  {
+   "id": "support-ticket-handling",
+   "type": "skill",
+   "nom": "Traiter les demandes du support",
+   "description": "Tri par thème et urgence, doublons, brouillons de réponse et escalade documentée.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vente",
+   "essai": "Trie ces 30 demandes par urgence et prépare les réponses.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2197,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/support-ticket-handling"
+   }
+  },
+  {
+   "id": "help-center-article",
+   "type": "skill",
+   "nom": "Article de centre d'aide",
+   "description": "Question du client en titre, réponse courte, étapes, variantes et contact.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vente",
+   "essai": "Écris l'article d'aide « Comment modifier ma commande ? ».",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1716,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/help-center-article"
+   }
+  },
+  {
+   "id": "interview-guide",
+   "type": "skill",
+   "nom": "Guide d'entretien de recrutement",
+   "description": "Critères, questions identiques pour tous, mise en situation, grille de notation.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Prépare les entretiens pour le poste d'assistant commercial.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2117,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/interview-guide"
+   }
+  },
+  {
+   "id": "employee-onboarding",
+   "type": "skill",
+   "nom": "Accueillir un nouvel arrivant",
+   "description": "Avant l'arrivée, premier jour, livret d'accueil, objectifs et points d'étape.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "gestion",
+   "essai": "Prépare l'arrivée de la nouvelle vendeuse lundi.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2042,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/employee-onboarding"
+   }
+  },
+  {
+   "id": "bibliography-management",
+   "type": "skill",
+   "nom": "Gérer une bibliographie",
+   "description": "Sources reconnues, références vérifiées, fiches de lecture, citations au style demandé.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "recherche",
+   "essai": "Monte la bibliographie de mon mémoire au format APA.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2003,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/bibliography-management"
+   }
+  },
+  {
+   "id": "experiment-design",
+   "type": "skill",
+   "nom": "Concevoir une expérience",
+   "description": "Hypothèse, variables, groupes, échantillon, biais, protocole et plan d'analyse.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "recherche",
+   "essai": "Conçois l'essai de deux engrais sur 40 plants de tomates.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1799,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/experiment-design"
+   }
+  },
+  {
+   "id": "data-quality-check",
+   "type": "skill",
+   "nom": "Contrôler la qualité des données",
+   "description": "Structure, doublons, valeurs manquantes ou aberrantes, cohérence, journal des corrections.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "donnees",
+   "essai": "Contrôle cet export d'adhérents avant de faire les statistiques.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1851,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/data-quality-check"
+   }
+  },
+  {
+   "id": "progress-report",
+   "type": "skill",
+   "nom": "Point d'avancement",
+   "description": "État général, fait, à venir, risques, décisions attendues et indicateurs.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "organisation",
+   "essai": "Rédige le point d'avancement du projet pour le comité de jeudi.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1548,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/progress-report"
+   }
+  },
+  {
+   "id": "marketing-plan",
+   "type": "skill",
+   "nom": "Plan marketing",
+   "description": "Objectif chiffré, public, message, canaux, calendrier, budget et mesure.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "marketing",
+   "essai": "Fais le plan marketing de l'ouverture de la boutique en mars.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1803,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/marketing-plan"
+   }
+  },
+  {
+   "id": "social-media-calendar",
+   "type": "skill",
+   "nom": "Calendrier des réseaux sociaux",
+   "description": "Thèmes récurrents, temps forts, formats, textes et visuels, bilan mensuel.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "marketing",
+   "essai": "Prépare le calendrier Instagram de décembre de la librairie.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 1787,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/social-media-calendar"
+   }
+  },
+  {
+   "id": "customer-follow-up",
+   "type": "skill",
+   "nom": "Suivi et fidélisation des clients",
+   "description": "Fichier clients utile, relances, demandes d'avis, avis négatifs, satisfaction.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "vente",
+   "essai": "Prépare les relances et la demande d'avis pour les clients du mois.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2163,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/customer-follow-up"
+   }
+  },
+  {
+   "id": "local-business-listing",
+   "type": "skill",
+   "nom": "Fiche d'établissement local",
+   "description": "Informations cohérentes sur les cartes et annuaires, horaires, photos, mises à jour.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "commerce",
+   "essai": "Vérifie que les horaires de Noël de la boutique sont à jour partout.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2138,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/local-business-listing"
+   }
+  },
+  {
+   "id": "accessible-event",
+   "type": "skill",
+   "nom": "Événement accessible",
+   "description": "Lieu, information, supports, sous-titres, accueil et retour des participants.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "accessibilite",
+   "essai": "Prépare l'assemblée générale pour qu'elle soit accessible à tous.",
+   "licence": "CC0-1.0",
+   "version": "1.0.0",
+   "taille": 2306,
+   "source": {
+    "type": "studio-skill",
+    "dossier": "library/Skills/accessible-event"
+   }
+  },
+  {
+   "id": "job-freelance",
+   "type": "pack",
+   "nom": "Indépendant / freelance",
+   "description": "Devis, factures, trésorerie, prospection et organisation : l'essentiel pour travailler à son compte. À installer d'abord : Gestion freelance, Préparer une facture, Construire un devis, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "freelance-management",
+    "invoice-preparation",
+    "quote-builder",
+    "logiciel-libreoffice",
+    "cash-flow-forecast",
+    "bookkeeping-prep",
+    "prospecting-plan",
+    "sales-pipeline",
+    "customer-follow-up",
+    "project-plan",
+    "meeting-minutes",
+    "formal-letter",
+    "legal-templates",
+    "gdpr-records",
+    "filesystem",
+    "time",
+    "markitdown",
+    "logiciel-thunderbird",
+    "logiciel-pdfsam",
+    "logiciel-gnucash"
+   ],
+   "base": [
+    "freelance-management",
+    "invoice-preparation",
+    "quote-builder",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-accountant",
+   "type": "pack",
+   "nom": "Comptable / gestionnaire",
+   "description": "Préparer les pièces, rapprocher, analyser les écarts et suivre la trésorerie, avec des tableurs fiables. À installer d'abord : Préparer sa comptabilité, Construire un tableur, Classeurs Excel, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "bookkeeping-prep",
+    "spreadsheet-builder",
+    "excel",
+    "logiciel-libreoffice",
+    "data-quality-check",
+    "cash-flow-forecast",
+    "invoice-preparation",
+    "payroll-inputs",
+    "tax-paperwork",
+    "office-documents",
+    "data-analysis",
+    "duckdb",
+    "markitdown",
+    "xero",
+    "logiciel-gnucash",
+    "logiciel-dolibarr",
+    "logiciel-naps2",
+    "logiciel-pdfsam"
+   ],
+   "base": [
+    "bookkeeping-prep",
+    "spreadsheet-builder",
+    "excel",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-teacher",
+   "type": "pack",
+   "nom": "Enseignant",
+   "description": "Préparer ses cours, ses quiz et ses grilles d'évaluation, et rendre ses supports accessibles. À installer d'abord : Préparer un cours, Créer un quiz, Grille d'évaluation, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "lesson-plan",
+    "quiz-builder",
+    "grading-rubric",
+    "logiciel-libreoffice",
+    "easy-to-read",
+    "accessible-documents",
+    "alt-text",
+    "french-proofreading",
+    "wikipedia",
+    "markitdown",
+    "logiciel-geogebra",
+    "logiciel-anki",
+    "logiciel-scratch",
+    "logiciel-xournalpp",
+    "logiciel-obs"
+   ],
+   "base": [
+    "lesson-plan",
+    "quiz-builder",
+    "grading-rubric",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-trainer",
+   "type": "pack",
+   "nom": "Formateur",
+   "description": "Concevoir un programme, des évaluations et des supports de formation clairs. À installer d'abord : Programme de formation, Créer un quiz, Grille d'évaluation, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "training-program",
+    "quiz-builder",
+    "grading-rubric",
+    "logiciel-libreoffice",
+    "lesson-plan",
+    "accessible-documents",
+    "easy-to-read",
+    "survey-design",
+    "meeting-minutes",
+    "accessible-event",
+    "markitdown",
+    "filesystem",
+    "logiciel-obs",
+    "logiciel-xournalpp",
+    "logiciel-anki"
+   ],
+   "base": [
+    "training-program",
+    "quiz-builder",
+    "grading-rubric",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-student",
+   "type": "pack",
+   "nom": "Étudiant",
+   "description": "S'organiser, réviser, gérer sa bibliographie et rédiger, sans faire faire son travail. À installer d'abord : Plan de révisions, Gérer une bibliographie, Zotero, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "study-plan",
+    "bibliography-management",
+    "logiciel-zotero",
+    "logiciel-libreoffice",
+    "research-digest",
+    "french-proofreading",
+    "zotero",
+    "arxiv",
+    "wikipedia",
+    "logiciel-anki",
+    "logiciel-zettlr",
+    "logiciel-pandoc",
+    "logiciel-obsidian"
+   ],
+   "base": [
+    "study-plan",
+    "bibliography-management",
+    "logiciel-zotero",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-shopkeeper",
+   "type": "pack",
+   "nom": "Commerçant",
+   "description": "Stock, fiches produits, réseaux sociaux et caisse : la boutique au quotidien. À installer d'abord : Gestion de stock, Fiches produits, Réseaux sociaux, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "stock-management",
+    "product-listing",
+    "social-media",
+    "logiciel-libreoffice",
+    "newsletter-campaign",
+    "ad-campaign-brief",
+    "invoice-preparation",
+    "cash-flow-forecast",
+    "gdpr-records",
+    "social-media-calendar",
+    "customer-follow-up",
+    "local-business-listing",
+    "shopify-dev",
+    "excel",
+    "time",
+    "logiciel-canva",
+    "logiciel-dolibarr"
+   ],
+   "base": [
+    "stock-management",
+    "product-listing",
+    "social-media",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-craftsman",
+   "type": "pack",
+   "nom": "Artisan / BTP",
+   "description": "Devis détaillés, factures, planning de chantier et plans simples. À installer d'abord : Construire un devis, Préparer une facture, Plan de projet, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "quote-builder",
+    "invoice-preparation",
+    "project-plan",
+    "logiciel-libreoffice",
+    "cash-flow-forecast",
+    "space-planning",
+    "bill-of-materials",
+    "formal-letter",
+    "photo-workflow",
+    "customer-follow-up",
+    "local-business-listing",
+    "time",
+    "logiciel-librecad",
+    "logiciel-freecad",
+    "logiciel-naps2"
+   ],
+   "base": [
+    "quote-builder",
+    "invoice-preparation",
+    "project-plan",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-restaurant",
+   "type": "pack",
+   "nom": "Restaurateur",
+   "description": "Fiches techniques, coût matière, allergènes, stock, planning d'équipe et communication locale. À installer d'abord : Fiches techniques et coût matière, Gestion de stock, Planning d'équipe et de bénévoles, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "menu-costing",
+    "stock-management",
+    "volunteer-schedule",
+    "logiciel-libreoffice",
+    "social-media",
+    "ad-campaign-brief",
+    "job-posting",
+    "payroll-inputs",
+    "cash-flow-forecast",
+    "invoice-preparation",
+    "social-media-calendar",
+    "local-business-listing",
+    "excel",
+    "time",
+    "logiciel-canva"
+   ],
+   "base": [
+    "menu-costing",
+    "stock-management",
+    "volunteer-schedule",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-real-estate",
+   "type": "pack",
+   "nom": "Immobilier",
+   "description": "Annonces loyales, suivi des contacts, courriers et cartes des quartiers. À installer d'abord : Annonce immobilière, Suivi commercial, Courrier formel, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "property-listing",
+    "sales-pipeline",
+    "formal-letter",
+    "logiciel-libreoffice",
+    "photo-workflow",
+    "space-planning",
+    "prospecting-plan",
+    "gdpr-records",
+    "mapbox",
+    "logiciel-darktable",
+    "logiciel-qgis"
+   ],
+   "base": [
+    "property-listing",
+    "sales-pipeline",
+    "formal-letter",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-video-creator",
+   "type": "pack",
+   "nom": "Créateur vidéo",
+   "description": "Écrire, tourner, monter, sous-titrer et publier ses vidéos. À installer d'abord : Script et découpage vidéo, Montage vidéo (FFmpeg), Sous-titres, Kdenlive.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "video-script",
+    "video-editing-ffmpeg",
+    "subtitles",
+    "logiciel-kdenlive",
+    "social-media",
+    "social-media-calendar",
+    "podcast-production",
+    "filesystem",
+    "logiciel-ffmpeg",
+    "logiciel-obs",
+    "logiciel-davinci",
+    "logiciel-shotcut",
+    "logiciel-handbrake",
+    "logiciel-subtitle-edit",
+    "logiciel-audacity",
+    "logiciel-vlc",
+    "logiciel-losslesscut",
+    "logiciel-canva"
+   ],
+   "base": [
+    "video-script",
+    "video-editing-ffmpeg",
+    "subtitles",
+    "logiciel-kdenlive"
+   ]
+  },
+  {
+   "id": "job-podcaster",
+   "type": "pack",
+   "nom": "Podcasteur",
+   "description": "Préparer, enregistrer, monter et publier un podcast au bon niveau sonore. À installer d'abord : Produire un podcast, Sons et musique, Audacity.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "podcast-production",
+    "sound-and-music",
+    "logiciel-audacity",
+    "subtitles",
+    "social-media",
+    "newsletter-campaign",
+    "filesystem",
+    "markitdown",
+    "logiciel-reaper",
+    "logiciel-ffmpeg",
+    "logiciel-obs",
+    "logiciel-mediainfo"
+   ],
+   "base": [
+    "podcast-production",
+    "sound-and-music",
+    "logiciel-audacity"
+   ]
+  },
+  {
+   "id": "job-musician",
+   "type": "pack",
+   "nom": "Musicien",
+   "description": "Composer, produire et préparer la sortie de sa musique. À installer d'abord : Sons et musique, Sortie musicale, Audacity.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "sound-and-music",
+    "music-release",
+    "logiciel-audacity",
+    "social-media",
+    "newsletter-campaign",
+    "ableton",
+    "filesystem",
+    "logiciel-reaper",
+    "logiciel-lmms",
+    "logiciel-musescore",
+    "logiciel-hydrogen",
+    "logiciel-ableton",
+    "logiciel-ffmpeg"
+   ],
+   "base": [
+    "sound-and-music",
+    "music-release",
+    "logiciel-audacity"
+   ]
+  },
+  {
+   "id": "job-photographer",
+   "type": "pack",
+   "nom": "Photographe",
+   "description": "Trier, développer, retoucher, livrer et archiver ses photos. À installer d'abord : Flux de travail photo, darktable, digiKam.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "photo-workflow",
+    "logiciel-darktable",
+    "logiciel-digikam",
+    "quote-builder",
+    "invoice-preparation",
+    "social-media",
+    "filesystem",
+    "logiciel-rawtherapee",
+    "logiciel-gimp",
+    "logiciel-krita",
+    "logiciel-imagemagick"
+   ],
+   "base": [
+    "photo-workflow",
+    "logiciel-darktable",
+    "logiciel-digikam"
+   ]
+  },
+  {
+   "id": "job-graphic-designer",
+   "type": "pack",
+   "nom": "Graphiste / illustrateur",
+   "description": "Charte graphique, typographie, visuels, mise en page et concept art. À installer d'abord : Charte graphique, Choisir ses polices, Affiches et visuels, Inkscape.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "brand-guidelines",
+    "font-pairing",
+    "canvas-design",
+    "logiciel-inkscape",
+    "pack:concept-art",
+    "theme-factory",
+    "frontend-design",
+    "figma",
+    "logiciel-krita",
+    "logiciel-gimp",
+    "logiciel-figma",
+    "logiciel-canva",
+    "logiciel-imagemagick"
+   ],
+   "base": [
+    "brand-guidelines",
+    "font-pairing",
+    "canvas-design",
+    "logiciel-inkscape"
+   ]
+  },
+  {
+   "id": "job-web-developer",
+   "type": "pack",
+   "nom": "Développeur web",
+   "description": "Sites soignés, testés dans un vrai navigateur, rapides, accessibles et bien référencés. À installer d'abord : Design d'interface, Tester une appli web, Audit qualité d'un site, Navigateur (Playwright), Docs à jour (Context7), VS Code, Node.js, Git.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "frontend-design",
+    "webapp-testing",
+    "web-quality-audit",
+    "playwright",
+    "context7",
+    "logiciel-vscode",
+    "logiciel-node",
+    "logiciel-git",
+    "accessibility",
+    "core-web-vitals",
+    "seo-web-content",
+    "chrome-devtools",
+    "github",
+    "git",
+    "wordpress",
+    "logiciel-firefox",
+    "logiciel-bruno",
+    "logiciel-gh"
+   ],
+   "base": [
+    "frontend-design",
+    "webapp-testing",
+    "web-quality-audit",
+    "playwright",
+    "context7",
+    "logiciel-vscode",
+    "logiciel-node",
+    "logiciel-git"
+   ]
+  },
+  {
+   "id": "job-mobile-developer",
+   "type": "pack",
+   "nom": "Développeur mobile",
+   "description": "Applis Android et iOS : développement, tests, publication sur les stores. À installer d'abord : Publier une appli mobile, Tests automatisés, Docs à jour (Context7), Android Studio, Node.js, Git.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "mobile-release",
+    "automated-tests",
+    "context7",
+    "logiciel-android-studio",
+    "logiciel-node",
+    "logiciel-git",
+    "sentry",
+    "github",
+    "logiciel-vscode"
+   ],
+   "base": [
+    "mobile-release",
+    "automated-tests",
+    "context7",
+    "logiciel-android-studio",
+    "logiciel-node",
+    "logiciel-git"
+   ]
+  },
+  {
+   "id": "job-backend-devops",
+   "type": "pack",
+   "nom": "Back-end, DevOps et cloud",
+   "description": "API, bases de données, CI/CD, conteneurs, cloud et supervision. À installer d'abord : Concevoir une base de données, Git propre, Git, Docs à jour (Context7), Git, Podman Desktop.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "database-design",
+    "git-workflow-and-versioning",
+    "git",
+    "context7",
+    "logiciel-git",
+    "logiciel-podman-desktop",
+    "security-and-hardening",
+    "aws-docs",
+    "grafana",
+    "postman",
+    "mongodb",
+    "supabase",
+    "sentry",
+    "logiciel-docker",
+    "logiciel-postgresql",
+    "logiciel-dbeaver",
+    "logiciel-kubectl",
+    "logiciel-terraform",
+    "logiciel-aws-cli",
+    "logiciel-azure-cli",
+    "logiciel-go",
+    "logiciel-rustup",
+    "logiciel-dotnet-sdk",
+    "logiciel-temurin-jdk",
+    "logiciel-windows-terminal"
+   ],
+   "base": [
+    "database-design",
+    "git-workflow-and-versioning",
+    "git",
+    "context7",
+    "logiciel-git",
+    "logiciel-podman-desktop"
+   ]
+  },
+  {
+   "id": "job-game-studio",
+   "type": "pack",
+   "nom": "Studio de jeu",
+   "description": "Game design, niveaux, équilibrage, sons, tests joueurs et moteurs. À installer d'abord : Document de game design, Level design, Équilibrage de jeu, Tests joueurs, Git, Docs à jour (Context7).",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "game-design-document",
+    "level-design",
+    "game-balancing",
+    "playtest-report",
+    "git",
+    "context7",
+    "game-audio",
+    "quests-and-dialogues",
+    "3d-asset-pipeline",
+    "pack:unreal",
+    "unity-mcp",
+    "blender-mcp",
+    "logiciel-godot",
+    "logiciel-unreal",
+    "logiciel-unity",
+    "logiciel-blender",
+    "logiciel-gdevelop",
+    "logiciel-tiled",
+    "logiciel-pixelorama",
+    "logiciel-krita",
+    "logiciel-audacity",
+    "logiciel-material-maker",
+    "logiciel-blockbench"
+   ],
+   "base": [
+    "game-design-document",
+    "level-design",
+    "game-balancing",
+    "playtest-report",
+    "git",
+    "context7"
+   ]
+  },
+  {
+   "id": "job-writer",
+   "type": "pack",
+   "nom": "Rédacteur / auteur",
+   "description": "Écrire, relire, éditer et publier des textes, des livres et des articles. À installer d'abord : Relecture en français, Coécriture de documents, Édition d'un manuscrit, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "french-proofreading",
+    "doc-coauthoring",
+    "manuscript-editing",
+    "logiciel-libreoffice",
+    "news-article",
+    "easy-to-read",
+    "translation-workflow",
+    "deepl",
+    "logiciel-calibre",
+    "logiciel-sigil",
+    "logiciel-zettlr",
+    "logiciel-pandoc"
+   ],
+   "base": [
+    "french-proofreading",
+    "doc-coauthoring",
+    "manuscript-editing",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-journalist",
+   "type": "pack",
+   "nom": "Journaliste",
+   "description": "Recherche, vérification, rédaction et sous-titrage, avec des sources datées. À installer d'abord : Article d'information, Veille et synthèse, Lire des pages web, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "news-article",
+    "research-digest",
+    "fetch",
+    "logiciel-libreoffice",
+    "french-proofreading",
+    "subtitles",
+    "brave-search",
+    "wikipedia",
+    "markitdown",
+    "logiciel-zotero",
+    "logiciel-subtitle-edit",
+    "logiciel-audacity"
+   ],
+   "base": [
+    "news-article",
+    "research-digest",
+    "fetch",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-translator",
+   "type": "pack",
+   "nom": "Traducteur / sous-titreur",
+   "description": "Glossaires, traduction relue, localisation et sous-titres. À installer d'abord : Traduction et localisation, Sous-titres, Relecture en français, Subtitle Edit.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "translation-workflow",
+    "subtitles",
+    "french-proofreading",
+    "logiciel-subtitle-edit",
+    "easy-to-read",
+    "deepl",
+    "markitdown",
+    "logiciel-aegisub",
+    "logiciel-libreoffice",
+    "logiciel-calibre",
+    "logiciel-ffmpeg"
+   ],
+   "base": [
+    "translation-workflow",
+    "subtitles",
+    "french-proofreading",
+    "logiciel-subtitle-edit"
+   ]
+  },
+  {
+   "id": "job-marketer",
+   "type": "pack",
+   "nom": "Marketing / community manager",
+   "description": "Réseaux sociaux, campagnes, e-mails, SEO et mesure des résultats. À installer d'abord : Réseaux sociaux, Plan marketing, SEO et contenus web, Canva.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "social-media",
+    "marketing-plan",
+    "seo-web-content",
+    "logiciel-canva",
+    "social-media-calendar",
+    "newsletter-campaign",
+    "ad-campaign-brief",
+    "dataforseo",
+    "logiciel-seo-spider",
+    "logiciel-libreoffice"
+   ],
+   "base": [
+    "social-media",
+    "marketing-plan",
+    "seo-web-content",
+    "logiciel-canva"
+   ]
+  },
+  {
+   "id": "job-ecommerce",
+   "type": "pack",
+   "nom": "E-commerçant",
+   "description": "Fiches produits, boutique, stock, e-mails et paiements. À installer d'abord : Fiches produits, Gestion de stock, Campagne d'emailing, Shopify (développeurs).",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "product-listing",
+    "stock-management",
+    "newsletter-campaign",
+    "shopify-dev",
+    "marketing-plan",
+    "invoice-preparation",
+    "legal-templates",
+    "gdpr-records",
+    "wordpress",
+    "logiciel-canva",
+    "logiciel-imagemagick"
+   ],
+   "base": [
+    "product-listing",
+    "stock-management",
+    "newsletter-campaign",
+    "shopify-dev"
+   ]
+  },
+  {
+   "id": "job-sales",
+   "type": "pack",
+   "nom": "Commercial",
+   "description": "Prospection respectueuse, suivi des affaires et devis. À installer d'abord : Plan de prospection, Suivi commercial, Construire un devis, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "prospecting-plan",
+    "sales-pipeline",
+    "quote-builder",
+    "logiciel-libreoffice",
+    "customer-follow-up",
+    "meeting-minutes",
+    "progress-report",
+    "airtable",
+    "markitdown",
+    "logiciel-thunderbird"
+   ],
+   "base": [
+    "prospecting-plan",
+    "sales-pipeline",
+    "quote-builder",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-customer-support",
+   "type": "pack",
+   "nom": "Support client",
+   "description": "Trier les demandes, répondre, escalader et nourrir le centre d'aide. À installer d'abord : Traiter les demandes du support, Article de centre d'aide, Convertir des documents (MarkItDown), Thunderbird.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "support-ticket-handling",
+    "help-center-article",
+    "markitdown",
+    "logiciel-thunderbird",
+    "easy-to-read",
+    "filesystem",
+    "logiciel-libreoffice"
+   ],
+   "base": [
+    "support-ticket-handling",
+    "help-center-article",
+    "markitdown",
+    "logiciel-thunderbird"
+   ]
+  },
+  {
+   "id": "job-hr",
+   "type": "pack",
+   "nom": "RH / recrutement",
+   "description": "Recruter sans discrimination, accueillir et préparer la paie. À installer d'abord : Offre d'emploi, Guide d'entretien de recrutement, Accueillir un nouvel arrivant, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "job-posting",
+    "interview-guide",
+    "employee-onboarding",
+    "logiciel-libreoffice",
+    "payroll-inputs",
+    "gdpr-records",
+    "survey-design",
+    "markitdown",
+    "excel",
+    "filesystem"
+   ],
+   "base": [
+    "job-posting",
+    "interview-guide",
+    "employee-onboarding",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-small-business",
+   "type": "pack",
+   "nom": "Gérant de petite entreprise",
+   "description": "Trésorerie, devis et factures, équipe, conformité et organisation. À installer d'abord : Plan de trésorerie, Préparer une facture, Plan de projet, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "cash-flow-forecast",
+    "invoice-preparation",
+    "project-plan",
+    "logiciel-libreoffice",
+    "quote-builder",
+    "bookkeeping-prep",
+    "payroll-inputs",
+    "job-posting",
+    "gdpr-records",
+    "legal-templates",
+    "meeting-minutes",
+    "workflow-automation",
+    "progress-report",
+    "excel",
+    "filesystem",
+    "time",
+    "logiciel-dolibarr",
+    "logiciel-thunderbird",
+    "logiciel-nextcloud"
+   ],
+   "base": [
+    "cash-flow-forecast",
+    "invoice-preparation",
+    "project-plan",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-association",
+   "type": "pack",
+   "nom": "Association",
+   "description": "AG, subventions, bénévoles, budget, adhérents et communication. À installer d'abord : Assemblée générale, Demande de subvention, Planning d'équipe et de bénévoles, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "association-assembly",
+    "grant-application",
+    "volunteer-schedule",
+    "logiciel-libreoffice",
+    "membership-management",
+    "meeting-minutes",
+    "gdpr-records",
+    "newsletter-campaign",
+    "social-media",
+    "cash-flow-forecast",
+    "easy-to-read",
+    "survey-design",
+    "social-media-calendar",
+    "accessible-event",
+    "airtable",
+    "excel",
+    "logiciel-gnucash",
+    "logiciel-dolibarr",
+    "logiciel-nextcloud",
+    "logiciel-thunderbird"
+   ],
+   "base": [
+    "association-assembly",
+    "grant-application",
+    "volunteer-schedule",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-health-social-admin",
+   "type": "pack",
+   "nom": "Cabinet santé / social (administratif)",
+   "description": "Plannings, accueil, courriers et conformité ; aucun contenu médical. À installer d'abord : Administratif santé et social, Registre RGPD, Planning d'équipe et de bénévoles, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "practice-admin",
+    "gdpr-records",
+    "volunteer-schedule",
+    "logiciel-libreoffice",
+    "meeting-minutes",
+    "easy-to-read",
+    "formal-letter",
+    "time",
+    "filesystem",
+    "logiciel-thunderbird",
+    "logiciel-naps2"
+   ],
+   "base": [
+    "practice-admin",
+    "gdpr-records",
+    "volunteer-schedule",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-researcher",
+   "type": "pack",
+   "nom": "Chercheur / scientifique",
+   "description": "Bibliographie, plans d'expérience, statistiques, figures et rédaction. Ensuite, installe R avant RStudio, et les modules Python de JupyterLab avant le MCP Jupyter. À installer d'abord : Gérer une bibliographie, Concevoir une expérience, Analyse de données, Zotero (bibliographie), Zotero.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "bibliography-management",
+    "experiment-design",
+    "data-analysis",
+    "zotero",
+    "logiciel-zotero",
+    "data-quality-check",
+    "research-digest",
+    "arxiv",
+    "logiciel-r",
+    "logiciel-rstudio",
+    "logiciel-jasp",
+    "logiciel-python",
+    "logiciel-jupyterlab",
+    "jupyter",
+    "duckdb",
+    "logiciel-paraview"
+   ],
+   "base": [
+    "bibliography-management",
+    "experiment-design",
+    "data-analysis",
+    "zotero",
+    "logiciel-zotero"
+   ]
+  },
+  {
+   "id": "job-data-analyst",
+   "type": "pack",
+   "nom": "Analyste de données / BI",
+   "description": "Contrôler, analyser, visualiser et présenter des données. À installer d'abord : Contrôler la qualité des données, Analyse de données, Analyse de fichiers (DuckDB), DuckDB.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "data-quality-check",
+    "data-analysis",
+    "duckdb",
+    "logiciel-duckdb",
+    "logiciel-python",
+    "survey-design",
+    "jupyter",
+    "logiciel-knime",
+    "logiciel-powerbi",
+    "logiciel-qgis",
+    "logiciel-dbeaver",
+    "logiciel-libreoffice"
+   ],
+   "base": [
+    "data-quality-check",
+    "data-analysis",
+    "duckdb",
+    "logiciel-duckdb"
+   ]
+  },
+  {
+   "id": "job-engineer-maker",
+   "type": "pack",
+   "nom": "Ingénieur, CAO et makers",
+   "description": "CAO, électronique, impression 3D et nomenclatures. À installer d'abord : Préparer une impression 3D, Nomenclature (BOM), FreeCAD.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "3d-print-prep",
+    "bill-of-materials",
+    "logiciel-freecad",
+    "project-plan",
+    "freecad-mcp",
+    "logiciel-kicad",
+    "logiciel-librecad",
+    "logiciel-prusaslicer",
+    "logiciel-cura",
+    "logiciel-orcaslicer",
+    "logiciel-arduino",
+    "logiciel-blender"
+   ],
+   "base": [
+    "3d-print-prep",
+    "bill-of-materials",
+    "logiciel-freecad"
+   ]
+  },
+  {
+   "id": "job-architect",
+   "type": "pack",
+   "nom": "Architecture et aménagement",
+   "description": "Programme, plans, surfaces, accessibilité et démarches. À installer d'abord : Programme d'aménagement, Plan de projet, FreeCAD.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "space-planning",
+    "project-plan",
+    "logiciel-freecad",
+    "quote-builder",
+    "bill-of-materials",
+    "accessible-documents",
+    "freecad-mcp",
+    "filesystem",
+    "logiciel-librecad",
+    "logiciel-qgis",
+    "logiciel-blender",
+    "logiciel-libreoffice"
+   ],
+   "base": [
+    "space-planning",
+    "project-plan",
+    "logiciel-freecad"
+   ]
+  },
+  {
+   "id": "job-accessibility",
+   "type": "pack",
+   "nom": "Référent accessibilité",
+   "description": "Sites, documents et textes accessibles, testés avec un lecteur d'écran. À installer d'abord : Accessibilité web (WCAG 2.2), Documents accessibles, Langage clair et FALC, NVDA.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "accessibility",
+    "accessible-documents",
+    "easy-to-read",
+    "logiciel-nvda",
+    "alt-text",
+    "accessible-event",
+    "web-quality-audit",
+    "subtitles",
+    "playwright",
+    "chrome-devtools",
+    "logiciel-firefox",
+    "logiciel-libreoffice"
+   ],
+   "base": [
+    "accessibility",
+    "accessible-documents",
+    "easy-to-read",
+    "logiciel-nvda"
+   ]
+  },
+  {
+   "id": "job-project-manager",
+   "type": "pack",
+   "nom": "Chef de projet / assistant",
+   "description": "Plans, comptes rendus, points d'avancement, risques et outils d'équipe. À installer d'abord : Plan de projet, Compte rendu de réunion, Point d'avancement, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "project-plan",
+    "meeting-minutes",
+    "progress-report",
+    "logiciel-libreoffice",
+    "inbox-triage",
+    "workflow-automation",
+    "monday",
+    "todoist",
+    "logiciel-freeplane",
+    "logiciel-drawio",
+    "logiciel-thunderbird"
+   ],
+   "base": [
+    "project-plan",
+    "meeting-minutes",
+    "progress-report",
+    "logiciel-libreoffice"
+   ]
+  },
+  {
+   "id": "job-everyday",
+   "type": "pack",
+   "nom": "Particulier / vie pratique",
+   "description": "Budget, démarches, courriers, voyages et papiers bien rangés. À installer d'abord : Budget du foyer, Démarches administratives, Courrier formel, LibreOffice.",
+   "auteur": "Le studio",
+   "verifie": true,
+   "categorie": "metiers",
+   "membres": [
+    "household-budget",
+    "admin-procedures",
+    "formal-letter",
+    "logiciel-libreoffice",
+    "trip-planning",
+    "inbox-triage",
+    "easy-to-read",
+    "time",
+    "mapbox",
+    "logiciel-homebank",
+    "logiciel-naps2",
+    "logiciel-pdfsam",
+    "logiciel-thunderbird",
+    "logiciel-7zip"
+   ],
+   "base": [
+    "household-budget",
+    "admin-procedures",
+    "formal-letter",
+    "logiciel-libreoffice"
    ]
   }
  ]
