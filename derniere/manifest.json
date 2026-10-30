@@ -1,7 +1,7 @@
 {
- "version": "0.4.41",
+ "version": "0.4.42",
  "mineure": true,
- "notes": "0.4.41 : affichage réparé, IA choisie par tâche, IA locale fiable, effort réglable pour toutes les IA.\nPremier lancement guidé en 4 écrans (assistant, ton IA, ton projet, studio prêt), en français et en anglais.\nTokens : consommation par tâche et par étape, bilans plus légers, arrêt des boucles qui n'avancent plus.\nSécurité : commandes de fiche validées avant lancement, secrets refusés dans les MCP, agents sans variables secrètes.\nExtensions : MCP déjà configurés détectés ; le travail du Superviseur devient une tâche terminée du projet.",
- "fichier": "programme-0.4.41.zip",
- "sha256": "cadfa1cb19bf78bbaf07716430833d5f52c2ae72aa281d84088f42d47ddb85a4"
+ "notes": "Correctifs d'ergonomie : Local/Cloud, serveur local d'un clic et sans console, tâches de nuit, téléphone, fenêtre native avec repli simple, sélection du texte.",
+ "fichier": "programme-0.4.42.zip",
+ "sha256": "95fc93545f8dc6b55edca40de765210fb7b90e457ee8667056ff647135f47ee9"
 }
